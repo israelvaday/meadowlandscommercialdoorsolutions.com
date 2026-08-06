@@ -72,6 +72,20 @@ try {
   }
 
   writeFileSync(join(ROOT, "out", ".nojekyll"), "");
+
+  for (const step of ["inline-css-out.mjs"]) {
+    const script = join(ROOT, "scripts", step);
+    if (!existsSync(script)) continue;
+    const post = spawnSync(process.execPath, [script], {
+      cwd: ROOT,
+      env: { ...process.env, NEXT_EXPORT: "1" },
+      stdio: "inherit",
+    });
+    if (post.error) throw post.error;
+    if (post.status !== 0) {
+      throw new Error(`Post-build ${step} exited with ${post.status}`);
+    }
+  }
 } finally {
   if (movedApi && existsSync(STASHED_API)) {
     renameSync(STASHED_API, API_DIR);

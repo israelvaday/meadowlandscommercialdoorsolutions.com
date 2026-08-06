@@ -204,7 +204,7 @@ const BRAND_IMAGES = [
     logo: true,
     aspectRatio: "1:1",
     prompt:
-      "Professional navy and warm gold brand logo, centered HD monogram integrated with a clean door silhouette, premium geometric vector mark, strong contrast, plain background, no words beyond the HD monogram, no watermark",
+      "Professional navy and warm gold vector logo for Hillman Door Supply, centered stylized door panel with subtle HD monogram, premium geometric mark for NYC door company, strong contrast, plain background, no extra words, no watermark",
   },
   {
     path: "public/photos/branding-generated--hero-hillman-door-nyc.png",
@@ -520,7 +520,7 @@ async function main() {
       cwd: ROOT,
       stdio: "inherit",
     });
-    execFileSync(process.execPath, [absolutePath("scripts/finalize-painting-assets.mjs")], {
+    execFileSync(process.execPath, [absolutePath("scripts/finalize-door-assets.mjs")], {
       cwd: ROOT,
       stdio: "inherit",
     });
