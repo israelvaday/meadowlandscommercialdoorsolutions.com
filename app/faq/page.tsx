@@ -10,79 +10,79 @@ const FAQ_SECTIONS = [
     id: "scope",
     emoji: "📋",
     title: "Estimates & scope",
-    description: "How painting projects are defined before work begins.",
+    description: "How door projects are defined before work begins.",
     items: [
       {
         q: "What information helps you prepare an estimate?",
-        a: "The property address, surfaces, approximate dimensions, current condition, desired colors, access, occupancy, and preferred timing are useful. Photos can help clarify the request, but some projects still require an on-site review.",
+        a: "The property address, door type, opening dimensions, current condition, hardware needs, building access, occupancy, and preferred timing are useful. Photos can help clarify the request, but some projects still require an on-site review.",
       },
       {
-        q: "What should a painting scope include?",
-        a: "It should identify included and excluded surfaces, preparation, primer where needed, paint products, colors, sheen, planned coats or finished-appearance expectations, protection, access, cleanup, and change-order handling.",
+        q: "What should a door scope include?",
+        a: "It should identify the slab, frame, hardware, weatherstripping, fire rating, framing adjustments, protection, access, cleanup, and change-order handling.",
       },
       {
         q: "Do you work on homes, businesses, and rentals?",
-        a: "Yes. The service menu includes residential interiors and exteriors, cabinets, trim, ceilings, commercial spaces, rental turnovers, decks and fences, wallpaper removal, and color consultation.",
+        a: "Yes. The service menu includes residential and commercial installation, custom fabrication, hardware supply, structural repair, fire-rated doors, storefront systems, emergency repair, and security upgrades.",
       },
     ],
   },
   {
-    id: "finish",
-    emoji: "🎨",
-    title: "Paint & finish",
-    description: "Primer, colors, sheen, coats, and samples.",
+    id: "hardware",
+    emoji: "🔐",
+    title: "Doors & hardware",
+    description: "Fire ratings, hardware, sizing, and code compliance.",
     items: [
       {
-        q: "Does every surface need primer?",
-        a: "No. Primer is selected for the substrate and condition. Bare areas, repairs, stains, adhesion concerns, and major color changes are common reasons to use it, while sound previously painted surfaces may only need spot primer.",
+        q: "When is a fire-rated door required?",
+        a: "Multifamily, commercial, and mixed-use buildings in NYC often require UL-listed fire door assemblies in corridors, stairwells, and certain tenant separations. The scope should identify the required label and self-closing hardware.",
       },
       {
-        q: "How many coats will I need?",
-        a: "Coverage depends on the existing color, new color, product, surface porosity, and application method. The coating system should be defined for your project instead of relying on a universal coat count.",
+        q: "Can a door be repaired instead of replaced?",
+        a: "Many binding, sagging, or latch problems stem from jamb settlement, hinge wear, or strike misalignment. Structural repair can restore operation while preserving original materials when possible.",
       },
       {
-        q: "How do I choose a sheen?",
-        a: "Consider washability, reflected light, surface condition, and room use. Flat and matte reduce reflection; eggshell and satin add washability; semi-gloss is often considered for trim, doors, and selected moisture-prone areas.",
+        q: "How do I choose hardware?",
+        a: "Consider door weight, traffic, security goals, and ADA requirements. Locksets, closers, hinges, and panic hardware should be matched to the door and building use.",
       },
       {
-        q: "How should I approve a color?",
-        a: "Review a physical sample in the actual space or exterior area at different times of day. Record the manufacturer, color name and number, product, and sheen before materials are ordered.",
+        q: "How should I measure for a new door?",
+        a: "Accurate on-site measurement accounts for jamb width, header height, floor clearance, swing direction, and existing casing. Pre-war and masonry buildings often need field verification before ordering.",
       },
     ],
   },
   {
     id: "process",
-    emoji: "🖌️",
-    title: "Preparation & process",
-    description: "What happens before and during painting.",
+    emoji: "🚪",
+    title: "Installation & process",
+    description: "What happens before and during door work.",
     items: [
       {
-        q: "What surface preparation may be needed?",
-        a: "Depending on condition, preparation may include washing, scraping loose coating, sanding glossy areas, filling minor defects, caulking selected gaps, and spot priming. Repairs outside painting should be identified separately.",
+        q: "What framing prep may be needed?",
+        a: "Depending on condition, prep may include jamb straightening, header adjustments, threshold replacement, masonry or drywall repairs, and hinge reinforcement. Structural work outside the door scope should be identified separately.",
       },
       {
-        q: "How are floors, furniture, and landscaping protected?",
-        a: "The protection plan depends on the project. It may include moving or covering furnishings, masking fixtures, protecting flooring, and planning for nearby landscaping and hardscape.",
+        q: "How are floors and common areas protected?",
+        a: "The protection plan depends on the project. It may include covering flooring, planning for occupied hallways, and coordinating access in multifamily and commercial buildings.",
       },
       {
-        q: "Can exterior dates change because of weather?",
-        a: "Yes. Temperature, moisture, rain, wind, direct sun, and the selected product's application requirements can affect exterior scheduling.",
+        q: "Can install dates change because of hardware lead times?",
+        a: "Yes. Custom slabs, fire-rated assemblies, and specialty hardware may require ordering lead time. Emergency repairs may use temporary measures while permanent parts are sourced.",
       },
     ],
   },
   {
     id: "closeout",
     emoji: "✨",
-    title: "Cleanup & closeout",
+    title: "Testing & closeout",
     description: "How the completed scope is reviewed.",
     items: [
       {
         q: "What happens during the final walkthrough?",
-        a: "The completed work is reviewed against the agreed scope. Any agreed touch-ups or punch-list items should be documented before closeout.",
+        a: "The completed work is reviewed against the agreed scope. Latch alignment, closer operation, and hardware function are tested. Any agreed adjustments should be documented before closeout.",
       },
       {
-        q: "What happens to leftover paint?",
-        a: "If usable touch-up paint remains, confirm whether it will be labeled and left at the property. Storage and disposal should follow the product label and local requirements.",
+        q: "Do you haul away old doors?",
+        a: "Old door removal and debris haul-away can be included in the written scope when requested. Confirm disposal expectations before work begins.",
       },
       {
         q: "What are your business hours?",
@@ -95,8 +95,8 @@ const FAQ_SECTIONS = [
 const ALL_FAQ_ITEMS = FAQ_SECTIONS.flatMap((section) => section.items);
 
 export const metadata: Metadata = {
-  title: "Painting FAQ — Metro Detroit",
-  description: `Answers from ${BIZ.name} about painting estimates, surface preparation, primer, sheen, coats, color, exterior weather, and cleanup.`,
+  title: "Door FAQ — Brooklyn & NYC",
+  description: `Answers from ${BIZ.name} about door estimates, hardware, fire ratings, installation, structural repair, and closeout.`,
   alternates: { canonical: `${BIZ.url}/faq` },
 };
 
@@ -124,16 +124,16 @@ export default function FAQPage() {
           <div className="text-center md:text-left">
             <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">FAQ</p>
             <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-              Practical answers about <span className="text-brass-gradient">painting</span>.
+              Practical answers about <span className="text-brass-gradient">doors</span>.
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-ink-200 md:mx-0">
-              Scope, preparation, primer, products, color, sheen, coats, weather, protection, and cleanup.
+              Scope, hardware, fire ratings, installation, structural repair, access, and closeout.
             </p>
           </div>
           <div className="relative aspect-[5/4] overflow-hidden rounded-3xl border border-brass-500/30">
             <Image
-              src={`${base}/photos/branding-generated--hero-painting-metro-detroit.png`}
-              alt="Metro Detroit painting project inspiration"
+              src={`${base}/photos/branding-generated--hero-hillman-door-nyc.png`}
+              alt="NYC door supply and installation project inspiration"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
@@ -178,7 +178,7 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="NYC Door Services" kind="service" />
       <FinalCTA />
     </>
   );

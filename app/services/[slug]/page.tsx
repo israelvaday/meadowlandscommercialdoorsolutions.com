@@ -51,13 +51,13 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           <div className="flex flex-wrap items-center gap-2">
             <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-ink-950/70 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brass-300 backdrop-blur">
               <LogoMark className="h-4 w-4" />
-              {BIZ.name} · Metro Detroit painting
+              {BIZ.name} · NYC door services
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300 backdrop-blur">
               <Clock className="h-3.5 w-3.5" /> Mon–Sat service
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-950/60 px-3 py-1.5 text-xs font-semibold text-ink-200 backdrop-blur">
-              <MapPin className="h-3.5 w-3.5 text-brass-400" /> All of Metro Detroit
+              <MapPin className="h-3.5 w-3.5 text-brass-400" /> Brooklyn, Manhattan &amp; Queens
             </span>
           </div>
           <div className="mt-5 flex items-center gap-3">
@@ -114,16 +114,16 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <div className="rounded-3xl border border-brass-500/30 bg-brass-500/5 p-5">
               <div className="flex items-center gap-2 text-brass-300">
                 <ShieldCheck className="h-5 w-5" />
-                <span className="text-sm font-semibold uppercase tracking-wider">Scope &amp; protection</span>
+                <span className="text-sm font-semibold uppercase tracking-wider">Scope &amp; code compliance</span>
               </div>
               <p className="mt-2 text-sm text-ink-200">
-                We discuss surface preparation, adjacent-area protection, products, colors, coats, access, and cleanup
-                before work begins. Insurance information is available on request.
+                We discuss door type, hardware, framing adjustments, fire ratings, access, and cleanup before work
+                begins. Insurance information is available on request.
               </p>
             </div>
             <div className="rounded-3xl border border-ink-800 bg-ink-900/50 p-5">
               <h3 className="font-display text-lg font-bold">Request this service</h3>
-              <p className="mt-1 text-sm text-ink-300">Share your property, surfaces, and preferred timing.</p>
+              <p className="mt-1 text-sm text-ink-300">Share your property, opening, and preferred timing.</p>
               <div className="mt-4">
                 <ContactCTA size="md" />
               </div>
@@ -146,10 +146,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <div>
                 <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Service area</p>
                 <h2 className="mt-2 font-display text-2xl font-bold md:text-3xl">
-                  {s.shortName} service across Metro Detroit
+                  {s.shortName} service across NYC
                 </h2>
                 <p className="mt-2 max-w-2xl text-ink-300">
-                  Painting service across Wayne, Oakland &amp; Macomb counties during posted business hours.
+                  Door service across Brooklyn, Manhattan &amp; Queens during posted business hours.
                 </p>
               </div>
               <Link href="/service-areas" className="hidden text-sm font-semibold text-brass-400 hover:text-brass-300 md:inline-flex">
@@ -162,7 +162,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               lat={BIZ.geo.lat}
               lng={BIZ.geo.lng}
               zoom={BIZ.metroMap.zoom}
-              title={`${s.shortName} — Metro Detroit, MI`}
+              title={`${s.shortName} — Brooklyn, Manhattan & Queens, NY`}
               height={420}
             />
           </Reveal>
@@ -172,25 +172,26 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <section className="border-t border-ink-800 py-16">
         <div className="mx-auto max-w-3xl space-y-5 px-4 text-sm text-ink-200 md:px-6 md:text-base">
           <h2 className="font-display text-2xl font-bold text-white md:text-3xl">
-            More about {s.shortName.toLowerCase()} in Metro Detroit
+            More about {s.shortName.toLowerCase()} in NYC
           </h2>
           <p>
-            {s.description} For each {s.shortName.toLowerCase()} request, {BIZ.name} considers the substrate,
-            preparation, property use, desired appearance, access, and cleanup requirements before finalizing scope.
+            {s.description} For each {s.shortName.toLowerCase()} request, {BIZ.name} considers the opening condition,
+            building type, hardware requirements, code compliance, access, and cleanup before finalizing scope.
           </p>
           <p>
-            We serve all of Metro Detroit for {s.shortName.toLowerCase()} — Detroit, Dearborn, Warren, Sterling Heights, Troy, Livonia, Royal Oak, Farmington Hills, Pontiac, Southfield, Westland, Taylor, and every city in our{" "}
+            We serve Brooklyn, Manhattan &amp; Queens for {s.shortName.toLowerCase()} — Park Slope, Williamsburg, DUMBO,
+            Midtown, Long Island City, Astoria, and every neighborhood in our{" "}
             <a href="/service-areas" className="text-brass-300 underline-offset-2 hover:underline">coverage map</a>.
             Project dates are discussed after we understand the scope and current schedule.
           </p>
           <p>
-            Pricing for {s.shortName.toLowerCase()} depends on the included surfaces, preparation, product selection,
-            access, protection, and timing. The estimate should identify assumptions and exclusions; proposed scope
-            changes should be discussed and documented before added work proceeds.
+            Pricing for {s.shortName.toLowerCase()} depends on door type, hardware, framing adjustments, access,
+            and timing. The estimate should identify assumptions and exclusions; proposed scope changes should be
+            discussed and documented before added work proceeds.
           </p>
           <p>
-            We document the agreed preparation, primer where needed, paint products, colors, sheen, surfaces, and
-            closeout expectations so everyone is working from the same finish plan.
+            We document the agreed door specifications, hardware, framing work, and closeout expectations so everyone
+            is working from the same plan.
           </p>
         </div>
       </section>
@@ -203,7 +204,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <h2 className="font-display text-3xl font-extrabold md:text-4xl">
               Planning a {s.shortName.toLowerCase()} project?
             </h2>
-            <p className="mt-3 text-ink-200">Tell {BIZ.name} about the surfaces and finish you have in mind.</p>
+            <p className="mt-3 text-ink-200">Tell {BIZ.name} about the opening and door type you have in mind.</p>
             <div className="mt-6 flex justify-center">
               <ContactCTA size="lg" />
             </div>

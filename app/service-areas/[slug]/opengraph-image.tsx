@@ -11,7 +11,7 @@ export async function generateImageMetadata({ params }: { params: Promise<{ slug
   const a = AREAS_BY_SLUG[slug];
   return [{
     id: slug,
-    alt: a ? `${a.name} painting services — ${BIZ.name}` : `${BIZ.name} Service Area`,
+    alt: a ? `${a.name} door services — ${BIZ.name}` : `${BIZ.name} Service Area`,
     size,
     contentType,
   }];
@@ -24,9 +24,9 @@ export function generateStaticParams() {
 export default async function AreaOg({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const a = AREAS_BY_SLUG[slug];
-  const name = a?.name ?? "Metro Detroit";
-  const city = a?.city ?? "Metro Detroit";
-  const sub = a && a.kind !== "city" ? `${city}, MI` : "Metro Detroit, MI";
+  const name = a?.name ?? "NYC";
+  const city = a?.city ?? "Brooklyn";
+  const sub = a && a.kind !== "city" ? `${city}, NY` : "Brooklyn, Manhattan & Queens, NY";
 
   return new ImageResponse(
     (
@@ -72,14 +72,14 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
               fontSize: 36,
             }}
           >
-            🎨
+            🚪
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ fontSize: 26, fontWeight: 800, letterSpacing: -0.5, lineHeight: 1 }}>
               {BIZ.name.toUpperCase()}
             </div>
             <div style={{ fontSize: 15, color: "#C9A24A", marginTop: 4, letterSpacing: 2, fontWeight: 700 }}>
-              PAINTING SERVICES · METRO DETROIT
+              DOOR SERVICES · BROOKLYN & NYC
             </div>
           </div>
         </div>
@@ -106,16 +106,16 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
             {name}
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", display: "flex" }}>
-            Interior, exterior, cabinet, and commercial painting serving {sub}
+            Door supply, installation, and repair serving {sub}
           </div>
         </div>
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16 }}>
           <div style={{ display: "flex", gap: 12 }}>
-            <Chip>INTERIOR</Chip>
-            <Chip>EXTERIOR</Chip>
+            <Chip>RESIDENTIAL</Chip>
             <Chip>COMMERCIAL</Chip>
-            <Chip>CABINETS</Chip>
+            <Chip>FIRE-RATED</Chip>
+            <Chip>EMERGENCY</Chip>
           </div>
           <div
             style={{

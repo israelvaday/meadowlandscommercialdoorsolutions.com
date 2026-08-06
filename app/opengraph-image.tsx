@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { BIZ } from "@/lib/business";
 
 export const dynamic = "force-static";
-export const alt = `${BIZ.name} — Metro Detroit painting company`;
+export const alt = `${BIZ.name} — Brooklyn & NYC door supply and repair`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -52,14 +52,14 @@ export default async function OgImage() {
               boxShadow: "0 10px 30px rgba(201,162,74,0.35)",
             }}
           >
-            🎨
+            🚪
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ fontSize: 28, fontWeight: 800, letterSpacing: -0.5, lineHeight: 1.1 }}>
               {BIZ.name.toUpperCase()}
             </div>
             <div style={{ fontSize: 18, color: "#C9A24A", marginTop: 6, letterSpacing: 2, fontWeight: 700 }}>
-              METRO DETROIT PAINTING
+              BROOKLYN · NYC DOOR SERVICES
             </div>
           </div>
         </div>
@@ -77,10 +77,10 @@ export default async function OgImage() {
               display: "flex",
             }}
           >
-            Interior · Exterior · Cabinets · Commercial
+            Supply · Install · Repair · Hardware
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", maxWidth: 980, display: "flex" }}>
-            Painting for homes, businesses, rentals, trim, ceilings, decks, and fences. Free estimates.
+            Door supply, installation, and structural repair for homes and businesses. Free estimates.
           </div>
         </div>
 
@@ -89,7 +89,7 @@ export default async function OgImage() {
           <Chip>{BIZ.phone}</Chip>
           <Chip>{BIZ.url.replace(/^https?:\/\//, "")}</Chip>
           <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 10, fontSize: 22, color: "#C8C4BB" }}>
-            Wayne · Oakland · Macomb
+            Brooklyn · Manhattan · Queens
           </div>
         </div>
       </div>

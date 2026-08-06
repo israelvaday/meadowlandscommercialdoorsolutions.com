@@ -16,9 +16,9 @@ import { BuyersGuide } from "@/components/site/BuyersGuide";
 import { PaintingGlossary } from "@/components/site/PaintingGlossary";
 
 export const metadata: Metadata = {
-  title: "Painting Company — Interior, Exterior & Commercial",
+  title: "Door Supply, Installation & Repair — Brooklyn & NYC",
   description:
-    `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Metro Detroit. Request a free estimate.`,
+    `${BIZ.name} provides residential and commercial door supply, installation, structural repair, fire-rated doors, hardware, and emergency service across Brooklyn, Manhattan & Queens. Request a free estimate.`,
   alternates: { canonical: "/" },
 };
 
@@ -47,7 +47,7 @@ export default function HomePage() {
             <div className="mb-6">
               <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Coverage</p>
               <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-4xl">
-                All of Metro Detroit — service coverage map.
+                Brooklyn, Manhattan &amp; Queens — service coverage map.
               </h2>
             </div>
           </Reveal>
@@ -57,7 +57,7 @@ export default function HomePage() {
                 lat={BIZ.metroMap.lat}
                 lng={BIZ.metroMap.lng}
                 zoom={BIZ.metroMap.zoom}
-                title="Metro Detroit, MI"
+                title="Brooklyn, Manhattan & Queens, NY"
                 height={420}
               />
             </Reveal>
@@ -67,7 +67,7 @@ export default function HomePage() {
       <Reveal variant="bounce">
         <CustomerExperience />
       </Reveal>
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="NYC Door Services" kind="service" />
       <BuyersGuide />
       <PaintingGlossary />
       <Reveal variant="zoom">

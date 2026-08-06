@@ -33,9 +33,9 @@ function CollapsibleQ({ q, children }: { q: string; children: ReactNode }) {
 }
 
 export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" | "service" }) {
-  const place = kind === "area" ? subject : "Metro Detroit";
+  const place = kind === "area" ? subject : "Brooklyn, Manhattan & Queens";
   const topic =
-    kind === "area" ? `painting in ${subject}` : `${subject.toLowerCase()} across Metro Detroit`;
+    kind === "area" ? `door work in ${subject}` : `${subject.toLowerCase()} across NYC`;
 
   return (
     <section className="border-t border-ink-800 py-16">
@@ -46,64 +46,63 @@ export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" |
             Questions about {topic}
           </h2>
           <p className="mt-3 text-sm text-ink-200 md:text-base">
-            Practical answers from {BIZ.name} to help you compare painting scopes in {place}. Tap a question to expand.
+            Practical answers from {BIZ.name} to help you compare door scopes in {place}. Tap a question to expand.
           </p>
         </header>
 
-        <CollapsibleQ q="What surface preparation should be included?">
+        <CollapsibleQ q="What should a door scope include?">
           <p>
-            Preparation depends on the surface and its condition. A clear scope may include washing, scraping loose
-            coating, sanding glossy areas, filling minor holes, caulking selected gaps, and protecting adjacent
-            finishes. Existing damage or repairs outside the painting scope should be identified before work begins.
+            A clear scope identifies the door slab, frame, hardware, weatherstripping, fire rating, and any framing
+            adjustments. Existing damage or structural repairs outside the door scope should be identified before work
+            begins.
           </p>
         </CollapsibleQ>
 
-        <CollapsibleQ q="When is primer needed?">
+        <CollapsibleQ q="When is a fire-rated door required?">
           <p>
-            Primer is commonly used on bare or repaired surfaces, difficult stains, major color changes, and areas
-            where adhesion needs help. A previously painted surface in sound condition may only need spot primer.
-            The written scope should identify where primer is planned and why.
+            Multifamily, commercial, and mixed-use buildings in NYC often require UL-listed fire door assemblies in
+            corridors, stairwells, and certain tenant separations. The written scope should identify the required label,
+            self-closing hardware, and smoke-seal components.
           </p>
         </CollapsibleQ>
 
-        <CollapsibleQ q="Which paint sheen should I choose?">
+        <CollapsibleQ q="What hardware should I specify?">
           <p>
-            Flat and matte finishes reduce reflection but can be less washable. Eggshell and satin add washability and
-            highlight more surface variation. Semi-gloss is often considered for trim, doors, and moisture-prone
-            areas. Product-specific performance matters, so sheen should be selected with the room and substrate in
-            mind.
+            Hardware selection depends on door weight, traffic, security goals, and ADA requirements. Locksets, closers,
+            hinges, panic hardware, and access-control prep should be matched to the door and building use rather than
+            treated as interchangeable.
           </p>
         </CollapsibleQ>
 
-        <CollapsibleQ q="How many coats will my project need?">
+        <CollapsibleQ q="Can a door be repaired instead of replaced?">
           <p>
-            Coat count depends on the existing color, new color, paint product, application method, and surface
-            porosity. Strong color changes may require primer or additional finish coats. We recommend defining the
-            planned coating system and the expected finished appearance instead of relying on a blanket promise.
+            Many binding, sagging, or latch problems stem from jamb settlement, hinge wear, or strike misalignment —
+            not a failed slab. Structural repair can restore smooth operation and secure closure while preserving
+            original materials when possible.
           </p>
         </CollapsibleQ>
 
-        <CollapsibleQ q="How should I confirm a color?">
+        <CollapsibleQ q="How should I measure for a new door?">
           <p>
-            Review a physical sample in the actual room or exterior area at different times of day. Light, surrounding
-            finishes, and sheen all affect perception. Record the manufacturer, color name, color number, product, and
-            sheen before materials are ordered.
+            Accurate on-site measurement accounts for jamb width, header height, floor clearance, swing direction, and
+            existing casing. Pre-war and masonry buildings often need field verification before ordering a slab or
+            custom fabrication.
           </p>
         </CollapsibleQ>
 
-        <CollapsibleQ q="How does Metro Detroit weather affect exterior painting?">
+        <CollapsibleQ q="How do NYC building conditions affect door work?">
           <p>
-            Temperature, surface moisture, rain, wind, and direct sun can change application and drying conditions.
-            Exterior dates may move when conditions fall outside the selected product&apos;s requirements. A responsible
-            schedule protects the coating system instead of promising work in unsuitable weather.
+            Settlement, humidity swings, masonry movement, and high-traffic use can affect how doors hang and latch.
+            A responsible scope accounts for the building type — brownstone, loft, multifamily, or storefront — instead
+            of assuming a standard rough opening.
           </p>
         </CollapsibleQ>
 
         <CollapsibleQ q="What should cleanup and the final walkthrough include?">
           <p>
-            The closeout plan should cover removal of masking and project debris, orderly storage or removal of labeled
-            touch-up paint, and a walkthrough against the written scope. Any agreed touch-ups should be documented
-            before the project is considered complete. Call {BIZ.phone} to discuss your project in {place}.
+            The closeout plan should cover removal of old doors and debris, hardware testing, latch alignment, and a
+            walkthrough against the written scope. Any agreed adjustments should be documented before the project is
+            considered complete. Call {BIZ.phone} to discuss your project in {place}.
           </p>
         </CollapsibleQ>
       </div>

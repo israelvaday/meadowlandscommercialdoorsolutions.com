@@ -32,7 +32,7 @@ jobs:
         env:
           NEXT_EXPORT: "1"
           NEXT_PUBLIC_GH_PAGES: "1"
-          NEXT_PUBLIC_SITE_URL: https://bhpaintingmetrodetroit.com
+          NEXT_PUBLIC_SITE_URL: https://hillmandoorsupplyanddoorrepair.com
           NEXT_PUBLIC_QUOTE_API_URL: ${{ vars.QUOTE_API_URL }}
         run: npm run build:pages
 

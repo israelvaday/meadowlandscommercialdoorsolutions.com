@@ -1,5 +1,5 @@
 /**
- * Rebuild content/photos.json from the current painting asset set only.
+ * Rebuild content/photos.json from the current door asset set only.
  */
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -7,136 +7,106 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUTPUT = join(ROOT, "content/photos.json");
-const BUSINESS_NAME = "BH Painting Metro Detroit";
-const REGION = "Metro Detroit, MI";
+const BUSINESS_NAME = "Hillman Door Supply and Door Repair";
+const REGION = "Brooklyn, Manhattan & Queens, NY";
 
 const SERVICES = [
-  {
-    slug: "interior-painting",
-    label: "Interior painting",
-  },
-  {
-    slug: "exterior-painting",
-    label: "Exterior painting",
-  },
-  {
-    slug: "cabinet-painting",
-    label: "Cabinet painting",
-  },
-  {
-    slug: "commercial-painting",
-    label: "Commercial painting",
-  },
-  {
-    slug: "deck-fence-staining",
-    label: "Deck and fence staining",
-  },
-  {
-    slug: "trim-door-painting",
-    label: "Trim and door painting",
-  },
-  {
-    slug: "ceiling-painting",
-    label: "Ceiling painting",
-  },
-  {
-    slug: "rental-turnover-painting",
-    label: "Rental turnover painting",
-  },
-  {
-    slug: "wallpaper-removal",
-    label: "Wallpaper removal",
-  },
-  {
-    slug: "color-consultation",
-    label: "Color consultation",
-  },
+  { slug: "residential-door-installation", label: "Residential door installation" },
+  { slug: "commercial-door-installation", label: "Commercial door installation" },
+  { slug: "custom-door-fabrication", label: "Custom door fabrication" },
+  { slug: "door-hardware-supply", label: "Door hardware supply" },
+  { slug: "structural-door-repair", label: "Structural door repair" },
+  { slug: "fire-rated-doors", label: "Fire-rated doors" },
+  { slug: "storefront-glass-doors", label: "Storefront and glass doors" },
+  { slug: "emergency-door-repair", label: "Emergency door repair" },
+  { slug: "door-frame-jamb-repair", label: "Door frame and jamb repair" },
+  { slug: "security-access-doors", label: "Security and access doors" },
 ];
 
 const GALLERY = [
   {
-    file: "painting-gallery--interior-living-room.png",
-    category: "interior",
-    services: ["interior-painting"],
-    alt: "Professional painter finishing a protected Metro Detroit living room",
+    file: "door-gallery--brooklyn-entry.png",
+    category: "residential",
+    services: ["residential-door-installation", "custom-door-fabrication"],
+    alt: "Premium entry door installation on a Brooklyn townhouse",
   },
   {
-    file: "painting-gallery--exterior-brick-home.png",
-    category: "exterior",
-    services: ["exterior-painting", "trim-door-painting"],
-    alt: "Exterior trim painting on a brick Michigan home",
-  },
-  {
-    file: "painting-gallery--cabinet-finish.png",
-    category: "cabinets",
-    services: ["cabinet-painting"],
-    alt: "Smooth cabinet-grade finish applied in a controlled work area",
-  },
-  {
-    file: "painting-gallery--commercial-office.png",
+    file: "door-gallery--commercial-corridor.png",
     category: "commercial",
-    services: ["commercial-painting"],
-    alt: "Protected Metro Detroit office during professional painting",
+    services: ["commercial-door-installation"],
+    alt: "Commercial hollow metal doors in a NYC office corridor",
   },
   {
-    file: "painting-gallery--deck-staining.png",
-    category: "wood-staining",
-    services: ["deck-fence-staining"],
-    alt: "Semi-transparent stain applied to clean Michigan deck boards",
+    file: "door-gallery--custom-wood-door.png",
+    category: "custom",
+    services: ["custom-door-fabrication"],
+    alt: "Custom solid wood panel door in a NYC residential entry",
   },
   {
-    file: "painting-gallery--trim-detail.png",
-    category: "trim-doors",
-    services: ["trim-door-painting", "interior-painting"],
-    alt: "Crisp professional finish on interior window trim and baseboard",
+    file: "door-gallery--storefront-glass.png",
+    category: "storefront",
+    services: ["storefront-glass-doors"],
+    alt: "Aluminum storefront glass entrance doors on NYC retail",
   },
   {
-    file: "painting-gallery--ceiling-rolling.png",
-    category: "ceilings",
-    services: ["ceiling-painting", "interior-painting"],
-    alt: "Professional ceiling painting above a fully protected room",
+    file: "door-gallery--fire-rated-hallway.png",
+    category: "fire-rated",
+    services: ["fire-rated-doors"],
+    alt: "Fire-rated corridor doors in a NYC multifamily building",
   },
   {
-    file: "painting-gallery--rental-turnover.png",
-    category: "rental-turnover",
-    services: ["rental-turnover-painting", "interior-painting"],
-    alt: "Vacant Metro Detroit apartment prepared for new residents",
+    file: "door-gallery--interior-slabs.png",
+    category: "residential",
+    services: ["residential-door-installation"],
+    alt: "Solid-core interior door installation in a NYC apartment",
   },
   {
-    file: "painting-gallery--wallpaper-removal.png",
-    category: "wallpaper",
-    services: ["wallpaper-removal", "interior-painting"],
-    alt: "Careful wallpaper removal with floor protection",
+    file: "door-gallery--hardware-detail.png",
+    category: "hardware",
+    services: ["door-hardware-supply"],
+    alt: "Premium door hardware including lockset and closer",
   },
   {
-    file: "painting-gallery--color-sampling.png",
-    category: "color",
-    services: ["color-consultation", "interior-painting"],
-    alt: "Interior color samples reviewed beside permanent finishes",
+    file: "door-gallery--jamb-repair.png",
+    category: "repair",
+    services: ["door-frame-jamb-repair", "structural-door-repair"],
+    alt: "Door frame jamb repair on a pre-war NYC opening",
   },
   {
-    file: "painting-gallery--exterior-siding.png",
-    category: "exterior",
-    services: ["exterior-painting"],
-    alt: "Durable exterior finish applied to prepared Michigan siding",
+    file: "door-gallery--security-entry.png",
+    category: "security",
+    services: ["security-access-doors"],
+    alt: "Reinforced security entry door on a NYC building lobby",
   },
   {
-    file: "painting-gallery--occupied-office.png",
+    file: "door-gallery--warehouse-supply.png",
+    category: "supply",
+    services: ["door-hardware-supply"],
+    alt: "Organized door supply warehouse with slabs and hardware",
+  },
+  {
+    file: "door-gallery--double-entry.png",
     category: "commercial",
-    services: ["commercial-painting"],
-    alt: "After-hours office painting with desks and floors protected",
+    services: ["commercial-door-installation"],
+    alt: "Double entry door installation on a Brooklyn commercial building",
   },
   {
-    file: "painting-gallery--front-door.png",
-    category: "trim-doors",
-    services: ["trim-door-painting", "exterior-painting"],
-    alt: "Deep navy finish on a Metro Detroit home's front door",
+    file: "door-gallery--apartment-interior.png",
+    category: "residential",
+    services: ["residential-door-installation"],
+    alt: "Interior door replacement in a NYC apartment hallway",
   },
   {
-    file: "painting-gallery--multifamily-hallway.png",
-    category: "commercial",
-    services: ["commercial-painting", "rental-turnover-painting"],
-    alt: "Apartment hallway repainted in carefully planned sections",
+    file: "door-gallery--emergency-repair.png",
+    category: "emergency",
+    services: ["emergency-door-repair"],
+    alt: "Emergency door repair on a damaged NYC storefront",
+  },
+  {
+    file: "door-gallery--historic-restoration.png",
+    category: "custom",
+    services: ["custom-door-fabrication", "structural-door-repair"],
+    alt: "Historic door profile restoration on a Brooklyn brownstone",
   },
 ];
 
@@ -163,8 +133,7 @@ function imageMeta(src) {
     width,
     height,
     ratio: Number((width / height).toFixed(3)),
-    orientation:
-      width === height ? "square" : width > height ? "landscape" : "portrait",
+    orientation: width === height ? "square" : width > height ? "landscape" : "portrait",
     bytes: buffer.length,
     source: "openrouter-generated",
   };
@@ -176,17 +145,14 @@ function catalogAsset(asset) {
     console.warn("Missing asset, not catalogued:", asset.src);
     return null;
   }
-  return {
-    ...asset,
-    ...imageMeta(asset.src),
-  };
+  return { ...asset, ...imageMeta(asset.src) };
 }
 
 const expectedAssets = [
   {
     id: "logo-master-on-navy",
     src: "/logo.png",
-    alt: `${BUSINESS_NAME} navy and gold paint roller logo`,
+    alt: `${BUSINESS_NAME} navy and gold HD door logo`,
     category: "brand",
     kind: "brand",
     services: ["brand"],
@@ -194,7 +160,7 @@ const expectedAssets = [
   {
     id: "logo-icon-square",
     src: "/logo-256.png",
-    alt: `${BUSINESS_NAME} BH logo icon`,
+    alt: `${BUSINESS_NAME} HD logo icon`,
     category: "brand",
     kind: "brand",
     services: ["brand"],
@@ -202,22 +168,22 @@ const expectedAssets = [
   {
     id: "logo-large-square",
     src: "/logo-512.png",
-    alt: `${BUSINESS_NAME} large BH logo`,
+    alt: `${BUSINESS_NAME} large HD logo`,
     category: "brand",
     kind: "brand",
     services: ["brand"],
   },
   {
-    id: "branding-hero-metro",
-    src: "/photos/branding-generated--hero-painting-metro-detroit.png",
-    alt: `${BUSINESS_NAME} professional painter working in a protected Michigan home`,
+    id: "branding-hero-nyc",
+    src: "/photos/branding-generated--hero-hillman-door-nyc.png",
+    alt: `${BUSINESS_NAME} professional door installation in Brooklyn`,
     category: "branding-generated",
     kind: "hero",
     services: SERVICES.map(({ slug }) => slug),
   },
   {
-    id: "branding-map-metro",
-    src: "/photos/branding-generated--metro-detroit-map.png",
+    id: "branding-map-nyc",
+    src: "/photos/branding-generated--nyc-service-map.png",
     alt: `${BUSINESS_NAME} service area across ${REGION}`,
     category: "branding-generated",
     kind: "brand",
@@ -243,6 +209,4 @@ const expectedAssets = [
 
 const photos = expectedAssets.map(catalogAsset).filter(Boolean);
 writeFileSync(OUTPUT, `${JSON.stringify(photos, null, 2)}\n`);
-console.log(
-  `Wrote ${photos.length}/${expectedAssets.length} current painting assets to content/photos.json`
-);
+console.log(`Wrote ${photos.length}/${expectedAssets.length} door assets to content/photos.json`);

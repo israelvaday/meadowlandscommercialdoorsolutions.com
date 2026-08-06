@@ -1,5 +1,5 @@
 /**
- * Generate BH Painting Metro Detroit image assets and local painting insights.
+ * Generate Hillman Door Supply image assets and local door-service insights.
  *
  * Usage:
  *   node scripts/openrouter-generate-site.mjs --test [--force]
@@ -23,181 +23,155 @@ import {
 } from "./openrouter-lib.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
-const BUSINESS_NAME = "BH Painting Metro Detroit";
-const PHONE = "(313) 236-4558";
+const BUSINESS_NAME = "Hillman Door Supply and Door Repair";
+const PHONE = "(718) 638-4271";
 const PHOTO_STYLE =
-  "Photorealistic professional painting project photographed on a full-frame camera, authentic Metro Detroit property, realistic materials and tools, natural Michigan light, balanced editorial composition";
+  "Photorealistic professional door installation photographed on a full-frame camera, authentic NYC Brooklyn property, realistic materials and hardware, natural New York light, balanced editorial composition";
 const NO_TEXT =
   "No visible words, letters, labels, signs, logos, watermarks, captions, UI, or artificial CGI styling";
 
 const SERVICE_HEROES = [
   {
-    slug: "interior-painting",
+    slug: "residential-door-installation",
     prompt:
-      "Insured professional painter rolling a warm neutral finish in a bright occupied living room, floors and furniture carefully protected",
+      "Professional door installer fitting a premium solid wood entry door in a Brooklyn brownstone, precise hinge alignment and clean job site",
   },
   {
-    slug: "exterior-painting",
+    slug: "commercial-door-installation",
     prompt:
-      "Professional painter applying an exterior coating to a well-kept Michigan colonial home, safe ladder setup and prepared siding",
+      "Professional crew installing a commercial hollow metal door in a modern NYC office corridor, organized tools and level frame",
   },
   {
-    slug: "cabinet-painting",
+    slug: "custom-door-fabrication",
     prompt:
-      "Professional cabinet painter finishing labeled kitchen doors in a clean controlled work area, refined navy coating",
+      "Craftsman finishing a custom panel entry door in a workshop, rich wood grain and precision mortise hardware prep",
   },
   {
-    slug: "commercial-painting",
+    slug: "door-hardware-supply",
     prompt:
-      "Professional painting crew refreshing a modern occupied office after business hours, organized protected work zone",
+      "Close professional detail of commercial-grade lockset, hinges, and door closer arranged beside an installed NYC office door",
   },
   {
-    slug: "deck-fence-staining",
+    slug: "structural-door-repair",
     prompt:
-      "Professional painter staining clean dry deck boards behind a Michigan home, rich natural wood tone and careful application",
+      "Professional technician rebuilding a damaged door jamb in a pre-war NYC apartment, shims and level visible",
   },
   {
-    slug: "trim-door-painting",
+    slug: "fire-rated-doors",
     prompt:
-      "Close professional painting detail of crisp white trim and an interior paneled door, careful brushwork and floor protection",
+      "UL-labeled fire-rated corridor door installed in a NYC apartment building hallway with self-closing hardware",
   },
   {
-    slug: "ceiling-painting",
+    slug: "storefront-glass-doors",
     prompt:
-      "Professional painter rolling a bright flat ceiling in a furnished Metro Detroit room with complete masking below",
+      "Aluminum and glass storefront entrance door on a NYC retail shop, clean floor closer and polished hardware",
   },
   {
-    slug: "rental-turnover-painting",
+    slug: "emergency-door-repair",
     prompt:
-      "Professional painting crew refreshing a vacant Metro Detroit apartment between residents, clean efficient room setup",
+      "Emergency door technician securing a damaged entry door after break-in on a Brooklyn building, professional tools",
   },
   {
-    slug: "wallpaper-removal",
+    slug: "door-frame-jamb-repair",
     prompt:
-      "Professional painter carefully removing wallpaper in controlled sections and cleaning the exposed interior surface",
+      "Professional carpenter replacing a rotted door jamb in a NYC masonry opening, new casing and square frame",
   },
   {
-    slug: "color-consultation",
+    slug: "security-access-doors",
     prompt:
-      "Professional painter and homeowner comparing unlabeled color swatches beside flooring and wood trim in natural daylight",
+      "Reinforced security entry door with multi-point lock installed on a NYC multifamily lobby entrance",
   },
 ];
 
 const BLOG_IMAGES = [
   {
-    slug: "interior-paint-colors-metro-detroit",
-    hero:
-      "Homeowner comparing several unlabeled warm neutral paint samples in a bright Metro Detroit living room",
-    secondary:
-      "Professional painter applying a generous color sample beside stained wood trim under natural window light",
+    slug: "choosing-entry-door-brooklyn-brownstone",
+    hero: "Premium solid wood entry door on a classic Brooklyn brownstone facade, warm natural light",
+    secondary: "Door technician measuring a historic Brooklyn entry opening with professional tools",
   },
   {
-    slug: "exterior-paint-michigan-weather",
-    hero:
-      "Professional painter coating prepared siding on a Michigan home during mild clear weather",
-    secondary:
-      "Painter checking clean dry exterior wood before applying primer, authentic close job detail",
+    slug: "fire-rated-doors-nyc-multifamily",
+    hero: "Fire-rated corridor door with visible UL label in a NYC apartment building hallway",
+    secondary: "Self-closing door closer hardware on a fire-rated door assembly",
   },
   {
-    slug: "cabinet-painting-vs-replacement",
-    hero:
-      "Finished Metro Detroit kitchen with professionally painted navy cabinets and subtle brass hardware",
-    secondary:
-      "Professional painter applying a smooth cabinet-grade finish to organized labeled cabinet doors",
+    slug: "storefront-door-repair-nyc-retail",
+    hero: "Aluminum and glass storefront entrance door on a NYC retail shop at street level",
+    secondary: "Technician adjusting floor closer on a commercial glass entrance door",
   },
   {
-    slug: "hire-painting-contractor-michigan",
-    hero:
-      "Homeowner reviewing an unbranded written painting scope with an insured professional painter at a kitchen island",
-    secondary:
-      "Organized professional painters protecting floors and furnishings before an interior project",
+    slug: "interior-door-replacement-nyc-apartment",
+    hero: "New solid-core interior door installed in a renovated NYC apartment with clean white trim",
+    secondary: "Stack of pre-hung interior doors ready for apartment installation in Brooklyn",
   },
   {
-    slug: "commercial-painting-minimal-downtime",
-    hero:
-      "Professional painters refreshing a modern Metro Detroit office during quiet after-hours",
-    secondary:
-      "Commercial corridor divided into neat protected painting zones with clear open walking space",
+    slug: "door-hardware-guide-nyc-buildings",
+    hero: "Commercial-grade lockset and door closer installed on a modern NYC office door",
+    secondary: "Assortment of heavy-duty hinges and locksets for door hardware upgrade",
   },
   {
-    slug: "deck-staining-michigan-climate",
-    hero:
-      "Freshly stained wood deck behind a Metro Detroit home during mild summer weather",
-    secondary:
-      "Professional painter checking clean dry deck boards before applying semi-transparent stain",
+    slug: "structural-door-repair-vs-replacement",
+    hero: "Technician repairing a damaged door jamb and strike plate in a NYC building",
+    secondary: "Realigned door frame with fresh hardware and smooth door swing",
   },
 ];
 
 const GALLERY_IMAGES = [
   {
-    file: "painting-gallery--interior-living-room.png",
-    prompt:
-      "Professional painter rolling an even warm-white finish in a sunlit Metro Detroit living room with meticulous floor protection",
+    file: "door-gallery--brooklyn-entry.png",
+    prompt: "Premium entry door installation on a Brooklyn townhouse with brass hardware and clean casing",
   },
   {
-    file: "painting-gallery--exterior-brick-home.png",
-    prompt:
-      "Professional painter coating prepared trim on a classic brick Michigan home with a safe organized setup",
+    file: "door-gallery--commercial-corridor.png",
+    prompt: "Commercial hollow metal doors installed in a bright NYC office corridor",
   },
   {
-    file: "painting-gallery--cabinet-finish.png",
-    prompt:
-      "Close view of a professional painter applying a smooth durable finish to kitchen cabinet doors in a controlled area",
+    file: "door-gallery--custom-wood-door.png",
+    prompt: "Custom solid wood panel door with rich stain finish in a NYC residential entry",
   },
   {
-    file: "painting-gallery--commercial-office.png",
-    prompt:
-      "Painting crew refreshing a modern Metro Detroit office with protected carpet and organized work zones",
+    file: "door-gallery--storefront-glass.png",
+    prompt: "Aluminum storefront glass entrance doors on a NYC ground-floor retail space",
   },
   {
-    file: "painting-gallery--deck-staining.png",
-    prompt:
-      "Professional staining of clean dry deck boards with rich semi-transparent color at a Michigan home",
+    file: "door-gallery--fire-rated-hallway.png",
+    prompt: "Fire-rated apartment corridor doors with closers in a NYC multifamily building",
   },
   {
-    file: "painting-gallery--trim-detail.png",
-    prompt:
-      "Detailed professional brush application on crisp interior baseboard and window trim",
+    file: "door-gallery--interior-slabs.png",
+    prompt: "Professional installation of white solid-core interior doors in a renovated NYC apartment",
   },
   {
-    file: "painting-gallery--ceiling-rolling.png",
-    prompt:
-      "Professional painter rolling a high ceiling above a fully protected furnished room",
+    file: "door-gallery--hardware-detail.png",
+    prompt: "Close detail of premium door hardware including lockset, hinges, and closer on installed door",
   },
   {
-    file: "painting-gallery--rental-turnover.png",
-    prompt:
-      "Efficient professional repaint of a clean vacant apartment between residents in Metro Detroit",
+    file: "door-gallery--jamb-repair.png",
+    prompt: "Door frame jamb repair in progress on a pre-war NYC masonry opening",
   },
   {
-    file: "painting-gallery--wallpaper-removal.png",
-    prompt:
-      "Careful wallpaper removal in controlled strips with protected floor and organized tools",
+    file: "door-gallery--security-entry.png",
+    prompt: "Reinforced security entry door with multi-point lock on a NYC building lobby",
   },
   {
-    file: "painting-gallery--color-sampling.png",
-    prompt:
-      "Painter placing several generous unlabeled color samples beside permanent wood and stone finishes",
+    file: "door-gallery--warehouse-supply.png",
+    prompt: "Organized door supply warehouse with stacked door slabs and hardware racks, professional lighting",
   },
   {
-    file: "painting-gallery--exterior-siding.png",
-    prompt:
-      "Professional exterior painter applying a durable finish to prepared lap siding in mild Michigan weather",
+    file: "door-gallery--double-entry.png",
+    prompt: "Double entry door installation on a Brooklyn commercial building with ADA hardware",
   },
   {
-    file: "painting-gallery--occupied-office.png",
-    prompt:
-      "After-hours office painting with desks protected and a clean open path through the space",
+    file: "door-gallery--apartment-interior.png",
+    prompt: "Interior door replacement in a NYC apartment hallway with multiple new pre-hung doors",
   },
   {
-    file: "painting-gallery--front-door.png",
-    prompt:
-      "Professional painter finishing a deep navy front door on a well-kept Metro Detroit home",
+    file: "door-gallery--emergency-repair.png",
+    prompt: "Emergency door repair technician securing a damaged storefront door in NYC after hours",
   },
   {
-    file: "painting-gallery--multifamily-hallway.png",
-    prompt:
-      "Professional crew repainting a bright apartment hallway in carefully phased sections",
+    file: "door-gallery--historic-restoration.png",
+    prompt: "Historic door profile restoration on a Brooklyn brownstone with matching original casing",
   },
 ];
 
@@ -208,23 +182,19 @@ const QUOTE_IMAGES = [
   })),
   {
     file: "property-home.png",
-    prompt:
-      "Square view of a welcoming Michigan home interior being professionally painted with furnishings protected",
+    prompt: "Square view of a premium residential entry door installation on a Brooklyn home",
   },
   {
     file: "property-business.png",
-    prompt:
-      "Square view of a Metro Detroit business interior receiving a professional organized repaint",
+    prompt: "Square view of commercial door installation in a NYC office or retail space",
   },
   {
     file: "property-multifamily.png",
-    prompt:
-      "Square view of a clean apartment common area being professionally repainted in phases",
+    prompt: "Square view of fire-rated corridor door replacement in a NYC apartment building",
   },
   {
     file: "property-other.png",
-    prompt:
-      "Square view of a detached garage studio interior receiving a careful professional repaint",
+    prompt: "Square view of custom door fabrication and installation in a unique NYC opening",
   },
 ];
 
@@ -234,31 +204,31 @@ const BRAND_IMAGES = [
     logo: true,
     aspectRatio: "1:1",
     prompt:
-      "Professional navy and warm gold brand logo, centered BH monogram integrated with a clean paint roller silhouette, premium geometric vector mark, strong contrast, transparent or plain background, no words beyond the BH monogram, no watermark",
+      "Professional navy and warm gold brand logo, centered HD monogram integrated with a clean door silhouette, premium geometric vector mark, strong contrast, plain background, no words beyond the HD monogram, no watermark",
   },
   {
-    path: "public/photos/branding-generated--hero-painting-metro-detroit.png",
+    path: "public/photos/branding-generated--hero-hillman-door-nyc.png",
     aspectRatio: "16:9",
     prompt:
-      "Wide cinematic website hero of a professional painter rolling a sophisticated navy accent wall in a bright Metro Detroit home, protected room, open composition for page overlay",
+      "Wide cinematic website hero of a professional door installer fitting a premium entry door in a Brooklyn brownstone, organized job site, open composition for page overlay",
   },
   {
-    path: "public/photos/branding-generated--metro-detroit-map.png",
+    path: "public/photos/branding-generated--nyc-service-map.png",
     aspectRatio: "16:9",
     prompt:
-      "Photorealistic tabletop service-area map visual showing the recognizable tri-county Metro Detroit region through unlabeled navy and gold location markers, painting swatches and roller nearby",
+      "Photorealistic tabletop service-area map visual showing Brooklyn Manhattan and Queens through unlabeled navy and gold location markers, door hardware samples nearby",
   },
   {
     path: "public/about/about-hero.png",
     aspectRatio: "16:9",
     prompt:
-      "Wide editorial portrait of an insured professional painting team preparing rollers and drop cloths inside a bright Metro Detroit home",
+      "Wide editorial portrait of professional door installation team at work inside a bright Brooklyn property with door slabs and tools",
   },
   {
     path: "public/about/about-workshop.png",
     aspectRatio: "16:9",
     prompt:
-      "Professional painting team organizing clean brushes, rollers, sprayer equipment and sealed unbranded coating cans in a tidy workshop",
+      "Professional door supply workshop with organized door slabs, hardware racks, and installation tools in a clean Brooklyn warehouse",
   },
 ];
 
@@ -272,8 +242,8 @@ function writeBuffer(outPath, buffer) {
   console.log("Wrote", outPath.replace(ROOT, ""));
 }
 
-function paintingPrompt(prompt) {
-  return `${prompt}. Brand context: ${BUSINESS_NAME}, serving Metro Detroit, Michigan. ${PHOTO_STYLE}. ${NO_TEXT}.`;
+function doorPrompt(prompt) {
+  return `${prompt}. Brand context: ${BUSINESS_NAME}, headquartered at 281 Flatbush Ave Brooklyn NY, serving NYC. ${PHOTO_STYLE}. ${NO_TEXT}.`;
 }
 
 async function generateAsset(key, imageModel, job, force) {
@@ -283,7 +253,7 @@ async function generateAsset(key, imageModel, job, force) {
     return false;
   }
 
-  const prompt = job.logo ? job.prompt : paintingPrompt(job.prompt);
+  const prompt = job.logo ? job.prompt : doorPrompt(job.prompt);
   const buffer = await generateImage(key, prompt, {
     model: imageModel,
     aspect_ratio: job.aspectRatio ?? "16:9",
@@ -307,16 +277,8 @@ async function runAssetJobs(key, imageModel, jobs, force) {
 
 async function generateBlogImages(key, imageModel, force) {
   const jobs = BLOG_IMAGES.flatMap(({ slug, hero, secondary }) => [
-    {
-      path: `public/blog/${slug}-hero.png`,
-      prompt: hero,
-      aspectRatio: "16:9",
-    },
-    {
-      path: `public/blog/${slug}-secondary.png`,
-      prompt: secondary,
-      aspectRatio: "16:9",
-    },
+    { path: `public/blog/${slug}-hero.png`, prompt: hero, aspectRatio: "16:9" },
+    { path: `public/blog/${slug}-secondary.png`, prompt: secondary, aspectRatio: "16:9" },
   ]);
   await runAssetJobs(key, imageModel, jobs, force);
 }
@@ -383,8 +345,7 @@ async function generateTestImage(key, imageModel, force) {
     [
       {
         path: "public/photos/openrouter-test.png",
-        prompt:
-          "Close professional painting detail of a clean navy paint roller applying one even stripe on a prepared interior surface",
+        prompt: "Close professional detail of premium door hardware being installed on a solid wood door",
         aspectRatio: "1:1",
       },
     ],
@@ -408,17 +369,14 @@ function stringList(value, maxItems = Number.MAX_SAFE_INTEGER) {
 function normalizeAreaInsight(area, candidate, previous) {
   const priorLandmarks = stringList(previous?.landmarks);
   const generatedLandmarks = stringList(candidate?.landmarks, 3);
-  const tagline =
-    typeof candidate?.tagline === "string" ? candidate.tagline.trim() : "";
+  const tagline = typeof candidate?.tagline === "string" ? candidate.tagline.trim() : "";
   let neighborhoodNotes =
-    typeof candidate?.neighborhood_notes === "string"
-      ? candidate.neighborhood_notes.trim()
-      : "";
+    typeof candidate?.neighborhood_notes === "string" ? candidate.neighborhood_notes.trim() : "";
 
   const exactName = area.name;
   const combined = `${tagline} ${neighborhoodNotes}`.toLocaleLowerCase();
   if (exactName && !combined.includes(exactName.toLocaleLowerCase())) {
-    neighborhoodNotes = `${exactName} painting projects benefit from preparation suited to the property's age, materials, and exposure. ${neighborhoodNotes}`.trim();
+    neighborhoodNotes = `${exactName} door projects benefit from measurement suited to the property's age, frame condition, and code requirements. ${neighborhoodNotes}`.trim();
   }
 
   return {
@@ -426,9 +384,7 @@ function normalizeAreaInsight(area, candidate, previous) {
     landmarks: priorLandmarks.length ? priorLandmarks : generatedLandmarks,
     common_calls: stringList(candidate?.common_calls, 3),
     neighborhood_notes: neighborhoodNotes,
-    keywords: stringList(candidate?.keywords, 7).map((keyword) =>
-      keyword.toLocaleLowerCase()
-    ),
+    keywords: stringList(candidate?.keywords, 7).map((keyword) => keyword.toLocaleLowerCase()),
   };
 }
 
@@ -448,7 +404,7 @@ async function refreshAreaInsights(key, chatModel, force) {
     console.log("Started area insights from a clean output");
   }
 
-  const system = `Write original local SEO data for ${BUSINESS_NAME}, an insured professional painting business serving Metro Detroit, Michigan. Return only a JSON object keyed by the supplied slug. Each value must contain: tagline (14 words maximum), landmarks (exactly the supplied landmarks in the same order; only generate three accurate landmarks when none are supplied), common_calls (three concise painting requests), neighborhood_notes (two or three useful sentences about local property styles, surfaces, color, weather, or maintenance), and keywords (six or seven lowercase local painting search phrases). Keep every supplied place name exact. Do not claim ratings, awards, or licensing. Discuss painting only and do not mention unrelated construction trades.`;
+  const system = `Write original local SEO data for ${BUSINESS_NAME}, a door supply, installation, and repair business headquartered at 281 Flatbush Ave Brooklyn NY serving Brooklyn, Manhattan, and Queens. Return only a JSON object keyed by the supplied slug. Each value must contain: tagline (14 words maximum), landmarks (exactly the supplied landmarks in the same order; only generate three accurate landmarks when none are supplied), common_calls (three concise door service requests), neighborhood_notes (two or three useful sentences about local building types, door conditions, hardware, or code requirements), and keywords (six or seven lowercase local door search phrases). Keep every supplied place name exact. Do not claim ratings, awards, or licensing. Discuss doors only.`;
   const batchSize = 8;
 
   for (let index = 0; index < areas.length; index += batchSize) {
@@ -467,7 +423,7 @@ async function refreshAreaInsights(key, chatModel, force) {
         key,
         chatModel,
         system,
-        `Create painting insights for this exact JSON input:\n${JSON.stringify(request, null, 2)}`,
+        `Create door service insights for this exact JSON input:\n${JSON.stringify(request, null, 2)}`,
         0.55
       );
 
@@ -477,11 +433,7 @@ async function refreshAreaInsights(key, chatModel, force) {
           console.error(`Missing generated insight for ${area.slug}`);
           continue;
         }
-        output[area.slug] = normalizeAreaInsight(
-          area,
-          candidate,
-          previous[area.slug]
-        );
+        output[area.slug] = normalizeAreaInsight(area, candidate, previous[area.slug]);
       }
 
       writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
@@ -534,10 +486,9 @@ async function main() {
 
   const force = args.includes("--force");
   const all = args.includes("--all");
-  const chatModel =
-    process.env.OPENROUTER_CHAT_MODEL || "google/gemini-2.5-flash";
+  const chatModel = process.env.OPENROUTER_CHAT_MODEL || "google/gemini-2.5-flash";
   const imageModel =
-    process.env.OPENROUTER_IMAGE_MODEL || "google/gemini-3-pro-image-preview";
+    process.env.OPENROUTER_IMAGE_MODEL || "google/gemini-2.5-flash-image-preview";
   let productionImagesChanged = false;
 
   if (args.includes("--test")) {
@@ -564,12 +515,15 @@ async function main() {
   }
 
   if (productionImagesChanged) {
-    console.log("Rebuilding painting photo catalog");
-    execFileSync(
-      process.execPath,
-      [absolutePath("scripts/rebuild-photos-gallery.mjs")],
-      { cwd: ROOT, stdio: "inherit" }
-    );
+    console.log("Rebuilding door photo catalog");
+    execFileSync(process.execPath, [absolutePath("scripts/rebuild-photos-gallery.mjs")], {
+      cwd: ROOT,
+      stdio: "inherit",
+    });
+    execFileSync(process.execPath, [absolutePath("scripts/finalize-painting-assets.mjs")], {
+      cwd: ROOT,
+      stdio: "inherit",
+    });
   }
 }
 

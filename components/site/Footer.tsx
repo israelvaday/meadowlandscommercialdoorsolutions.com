@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Paintbrush, Clock, Instagram, ChevronDown } from "lucide-react";
+import { DoorOpen, Clock, Instagram, ChevronDown } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { MAIN_AREAS } from "@/lib/areas";
 import { SERVICES } from "@/content/services";
@@ -10,16 +10,15 @@ export function Footer() {
   return (
     <footer className="border-t border-ink-800 bg-ink-950 pb-28 pt-12 md:pb-12 md:pt-16">
       <div className="mx-auto grid max-w-7xl gap-8 px-4 md:grid-cols-4 md:gap-10 md:px-6">
-        {/* Brand column — centered on mobile, left-aligned on desktop */}
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
           <Logo size="md" />
           <p className="mt-4 max-w-xs text-sm text-ink-300">
-            Metro Detroit painting for interiors, exteriors, cabinets, trim, commercial spaces, and wood surfaces
-            across Wayne, Oakland &amp; Macomb counties.
+            Door supply, installation, and structural repair for residential and commercial properties across
+            Brooklyn, Manhattan &amp; Queens — from our shop at {BIZ.address.street}.
           </p>
           <div className="mt-3 flex flex-wrap justify-center gap-2 md:justify-start">
             <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/30 bg-brass-500/10 px-3 py-1.5 text-xs font-semibold text-brass-300">
-              <Paintbrush className="h-3.5 w-3.5" /> Written scopes
+              <DoorOpen className="h-3.5 w-3.5" /> Written scopes
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300">
               <Clock className="h-3.5 w-3.5" /> Mon–Sat service
@@ -38,7 +37,6 @@ export function Footer() {
           ) : null}
         </div>
 
-        {/* Services — accordion on mobile, plain list on desktop */}
         <details className="group border-b border-ink-800 md:border-0" open>
           <summary className="flex cursor-pointer list-none items-center justify-between py-3 md:cursor-default md:py-0">
             <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Services</h2>
@@ -55,10 +53,9 @@ export function Footer() {
           </ul>
         </details>
 
-        {/* Top Cities — accordion on mobile */}
         <details className="group border-b border-ink-800 md:border-0" open>
           <summary className="flex cursor-pointer list-none items-center justify-between py-3 md:cursor-default md:py-0">
-            <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Top Cities</h2>
+            <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Top Areas</h2>
             <ChevronDown className="h-4 w-4 text-ink-400 transition-transform group-open:rotate-180 md:hidden" />
           </summary>
           <div className="pb-4 md:mt-3 md:pb-0">
@@ -80,11 +77,10 @@ export function Footer() {
           </div>
         </details>
 
-        {/* CTA column */}
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
-          <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Plan a painting project</h2>
+          <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Plan a door project</h2>
           <p className="mt-3 max-w-xs text-sm text-ink-300">
-            Share your surfaces, property, colors, and timing for a project-specific follow-up.
+            Share your opening, door type, hardware needs, property, and timing for a project-specific follow-up.
           </p>
           <div className="mt-4">
             <ContactCTA size="sm" showLabels />
@@ -92,7 +88,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-8 max-w-7xl px-4 text-center text-xs text-ink-300 md:mt-10 md:px-6 md:text-left">
-        © {new Date().getFullYear()} {BIZ.name}. All rights reserved. Serving Metro Detroit, Michigan.
+        © {new Date().getFullYear()} {BIZ.name}. All rights reserved. Serving Brooklyn, Manhattan &amp; Queens, New York.
       </div>
     </footer>
   );

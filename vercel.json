@@ -2,14 +2,14 @@
   "redirects": [
     {
       "source": "/",
-      "has": [{ "type": "host", "value": "www.bhpaintingmetrodetroit.com" }],
-      "destination": "https://bhpaintingmetrodetroit.com/",
+      "has": [{ "type": "host", "value": "www.hillmandoorsupplyanddoorrepair.com" }],
+      "destination": "https://hillmandoorsupplyanddoorrepair.com/",
       "permanent": true
     },
     {
       "source": "/:path+",
-      "has": [{ "type": "host", "value": "www.bhpaintingmetrodetroit.com" }],
-      "destination": "https://bhpaintingmetrodetroit.com/:path+",
+      "has": [{ "type": "host", "value": "www.hillmandoorsupplyanddoorrepair.com" }],
+      "destination": "https://hillmandoorsupplyanddoorrepair.com/:path+",
       "permanent": true
     }
   ]

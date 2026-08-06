@@ -8,131 +8,129 @@ export type FAQSection = {
   items: FAQ[];
 };
 
-export const FAQ_HERO_IMAGE = "/photos/branding-generated--hero-painting-metro-detroit.png";
+export const FAQ_HERO_IMAGE = "/photos/branding-generated--hero-hillman-door-nyc.png";
 export const FAQ_HERO_ALT =
-  "BH Painting Metro Detroit painter reviewing an interior color sample with a homeowner";
+  "Hillman Door Supply technician installing a premium entry door in a Brooklyn townhouse";
 
 export const FAQ_SECTIONS: FAQSection[] = [
   {
     id: "pricing",
     title: "Pricing & estimates",
     emoji: "💰",
-    description: "How painting scopes, materials, and written estimates are prepared.",
+    description: "How door scopes, materials, and written estimates are prepared.",
     items: [
       {
-        q: "How much does professional painting cost in Metro Detroit?",
-        a: "Pricing depends on surface area, condition, ceiling height, access, color changes, coating system, and the amount of protection and preparation required. We provide a written estimate after reviewing the property so the scope is based on the actual project rather than an unreliable one-size-fits-all rate.",
+        q: "How much does professional door installation cost in NYC?",
+        a: "Pricing depends on door type, frame condition, hardware, fire-rating requirements, access, and whether structural frame work is needed. We provide a written estimate after measuring the opening so the scope reflects the actual job — not a generic per-door rate.",
       },
       {
-        q: "Do you provide free painting estimates?",
-        a: "Yes. We provide free estimates for residential and commercial painting in Wayne, Oakland, and Macomb counties. Photos can help us understand the project, but larger or more detailed scopes may require an on-site walkthrough before final pricing.",
+        q: "Do you provide free door estimates?",
+        a: "Yes. Hillman Door Supply and Door Repair provides free estimates for residential and commercial door work across Brooklyn, Manhattan, and Queens. Photos help for initial review; most projects require an on-site measurement before final pricing.",
       },
       {
-        q: "Are paint and supplies included in the estimate?",
-        a: "The proposal identifies whether coatings and standard supplies are included, along with the planned product type, finish, and number of coats. Specialty products, major color changes, or added work are listed clearly so comparisons between bids are meaningful.",
+        q: "Are doors and hardware included in the estimate?",
+        a: "The proposal identifies whether the door slab, frame, hardware, and standard installation are included, along with fire labels, closers, and any structural repairs. Upgrades and added openings are listed clearly so comparisons between bids are meaningful.",
       },
       {
         q: "How are changes handled after work begins?",
-        a: "If you request another room, a different coating, or work outside the original scope, we document the price and schedule impact before proceeding. We do not rely on surprise extras at the end of a project.",
+        a: "If you add another door, upgrade hardware, or need frame repair outside the original scope, we document the price and schedule impact before proceeding. We do not rely on surprise extras at the end of a project.",
       },
     ],
   },
   {
     id: "process",
-    title: "Painting process",
-    emoji: "🖌️",
-    description: "What happens from the first walkthrough through the final inspection.",
+    title: "Installation process",
+    emoji: "🚪",
+    description: "What happens from the first site visit through final inspection.",
     items: [
       {
-        q: "What does your painting process include?",
-        a: "A typical project includes a scope review, color and finish confirmation, room protection, surface preparation, primer where needed, finish coats, cleanup, and a final walkthrough. The exact sequence is written into the proposal for your property.",
+        q: "What does your door installation process include?",
+        a: "A typical project includes site measurement, product selection, old door removal when applicable, frame assessment, installation, hardware mounting, alignment tuning, weather sealing, cleanup, and a final operation check. The exact sequence is written into the proposal.",
       },
       {
-        q: "How long will my painting project take?",
-        a: "A single room may be completed quickly, while whole-home, cabinet, exterior, and commercial projects require more time for preparation and curing. We provide an estimated start window and duration after seeing the scope, then communicate if weather or discovered conditions affect the schedule.",
+        q: "How long will my door project take?",
+        a: "A single interior door may be completed in hours, while multiple commercial openings, fire-rated assemblies, or custom fabrication require more time. We provide an estimated start window and duration after seeing the scope.",
       },
       {
-        q: "Can you paint while we live or work in the property?",
-        a: "Yes. We can phase many occupied home and business projects by room or zone. We discuss access, ventilation, drying time, children, pets, customer traffic, and daily cleanup before scheduling so the plan fits normal operations.",
+        q: "Can you work while tenants or customers are on-site?",
+        a: "Yes. We phase many occupied building projects by floor, suite, or zone. We discuss access, noise, security, and daily cleanup before scheduling so the plan fits normal operations.",
       },
       {
         q: "Who will perform the work?",
-        a: "BH Painting Metro Detroit provides insured professional painters and direct project communication. The written scope identifies the work being performed, and you can raise questions with our team throughout the project.",
+        a: "Hillman Door Supply and Door Repair provides insured professional door technicians and direct project communication from our Brooklyn headquarters at 281 Flatbush Ave.",
       },
     ],
   },
   {
     id: "products",
-    title: "Paints & finishes",
-    emoji: "🎨",
-    description: "How primers, coatings, colors, and sheens are selected.",
+    title: "Doors & hardware",
+    emoji: "🔧",
+    description: "How door types, ratings, and hardware are selected.",
     items: [
       {
-        q: "Which paint brands do you use?",
-        a: "We select professional coating lines based on the surface, environment, performance requirements, availability, and customer preference. Product line matters as much as the brand name, so the proposal specifies the intended system instead of promising one product for every situation.",
+        q: "What types of doors do you supply and install?",
+        a: "We supply and install residential entry and interior doors, commercial hollow metal and aluminum storefront doors, fire-rated assemblies, custom wood doors, and security-reinforced entry systems matched to your opening and code requirements.",
       },
       {
-        q: "How do I choose the right paint sheen?",
-        a: "Lower sheens help soften surface variation, while higher sheens generally improve washability but reflect more light. We recommend finishes by room use, moisture, traffic, desired appearance, and the condition of the surface.",
+        q: "How do I choose the right door hardware?",
+        a: "Hardware selection depends on door weight, fire rating, traffic level, ADA requirements, and security goals. We recommend locksets, closers, hinges, and panic hardware suited to the specific opening rather than one generic package.",
       },
       {
-        q: "Do you offer low-odor or low-VOC options?",
-        a: "Yes. Low-odor and low-VOC products are available for many occupied homes, offices, and rental turnovers. Ventilation and cure time still matter, so we review product guidance and occupancy needs before work begins.",
+        q: "Do you install fire-rated doors?",
+        a: "Yes. We supply and install UL-listed fire-rated door and frame assemblies with correct labels, self-closing hardware, and smoke-seal components for multifamily, commercial, and mixed-use buildings across NYC.",
       },
       {
-        q: "When is primer necessary?",
-        a: "Primer may be needed over bare material, glossy surfaces, difficult stains, strong color changes, or areas with adhesion concerns. We choose a primer for the specific condition rather than adding or skipping it automatically.",
+        q: "When is frame repair necessary instead of door replacement?",
+        a: "Frame repair or replacement may be needed when jambs are rotted, settled, or impact-damaged, when strikes no longer align, or when the opening has shifted. We assess structural condition before recommending a new slab alone.",
       },
     ],
   },
   {
     id: "preparation",
-    title: "Preparation & protection",
+    title: "Site preparation",
     emoji: "🧰",
-    description: "How the property and each surface are readied for a lasting finish.",
+    description: "How openings and work areas are readied for installation.",
     items: [
       {
-        q: "What should I do before the painters arrive?",
-        a: "Remove small valuables, wall decorations, and fragile items, and provide a clear path into the work area. We will confirm whether larger furniture should be moved, centered, or handled as part of the scope before the start date.",
+        q: "What should I do before the installers arrive?",
+        a: "Clear the path to the door, remove wall decorations near the opening, and ensure access to both sides of the door when possible. We confirm whether furniture, rugs, or fixtures need to be moved before the start date.",
       },
       {
-        q: "How do you protect floors, furniture, and fixtures?",
-        a: "We use appropriate floor coverings, plastic, masking materials, and controlled work zones based on the room and application method. Fixtures and hardware are removed or protected as the scope requires, and work areas are cleaned at agreed milestones.",
+        q: "How do you protect floors and adjacent finishes?",
+        a: "We use drop cloths, floor coverings, and controlled work zones based on the opening location. Dust from cutting or mortising is contained, and work areas are cleaned at agreed milestones.",
       },
       {
-        q: "What surface preparation is included?",
-        a: "Preparation may include cleaning, light sanding, caulking paintable gaps, stabilizing minor imperfections, dulling glossy finishes, and spot priming. The estimate states the preparation level because a durable finish depends on what happens before the first finish coat.",
+        q: "What frame preparation is included?",
+        a: "Preparation may include shimming, jamb plumb and square checks, strike alignment, threshold leveling, rot remediation, and masonry or drywall adjustments. The estimate states the preparation level because door performance depends on frame condition.",
       },
       {
-        q: "How are cabinets and wallpaper handled before painting?",
-        a: "Cabinets require labeling, degreasing, sanding, bonding primer, and suitable cabinet-grade coatings. Wallpaper removal begins with a test area, followed by controlled removal, adhesive cleanup, surface preparation, and primer selection before repainting.",
+        q: "How are custom doors measured?",
+        a: "Custom doors require precise field measurements of width, height, jamb depth, swing, hardware locations, and wall substrate. We verify rough opening dimensions and note irregularities before fabrication begins.",
       },
     ],
   },
   {
-    id: "weather",
-    title: "Michigan weather",
-    emoji: "🌦️",
-    description: "How temperature, moisture, rain, and seasonal conditions affect painting.",
+    id: "nyc-buildings",
+    title: "NYC buildings & codes",
+    emoji: "🏙️",
+    description: "How NYC building types and code requirements affect door work.",
     items: [
       {
-        q: "When is the best season for exterior painting in Metro Detroit?",
-        a: "Exterior work is best scheduled when surface temperature, air temperature, moisture, and the forecast stay within the coating manufacturer's limits. The practical season often runs from spring through fall, but daily conditions determine whether application should proceed.",
+        q: "Do you work in pre-war Brooklyn brownstones?",
+        a: "Yes. Pre-war buildings often have settled frames, non-standard openings, and historic profiles. We measure carefully, fabricate custom doors when needed, and preserve original casings when repair is the durable path.",
       },
       {
-        q: "Can you paint an exterior after rain?",
-        a: "Only after the surface has dried sufficiently and the upcoming weather provides a safe application and cure window. We check conditions rather than relying only on how dry a surface looks from a distance.",
+        q: "Can you coordinate with building supers and property managers?",
+        a: "Yes. We provide written scopes, fire-label documentation, and schedule coordination for multifamily and commercial properties. After-hours and phased installation is available when arranged.",
       },
       {
-        q: "How do humidity and temperature affect paint?",
-        a: "High humidity and low temperatures can slow drying and curing, while excessive heat or direct sun can make a coating set too quickly. We adjust timing, sequence, and product selection to the manufacturer's published conditions.",
+        q: "Do you offer emergency door repair?",
+        a: "Yes. We respond to break-in damage, failed locks, bent frames, and storefront failures across Brooklyn, Manhattan, and Queens. We stabilize the opening and restore security hardware, with permanent repairs scheduled when needed.",
       },
       {
-        q: "Can interior painting be done during a Michigan winter?",
-        a: "Yes. Interior painting can be completed year-round when the space is heated, ventilated, and kept within product requirements. Winter projects benefit from a clear ventilation plan that balances fresh air with stable indoor temperature.",
+        q: "What areas do you serve from your Brooklyn location?",
+        a: "Hillman Door Supply and Door Repair serves 100 neighborhoods across Brooklyn, Manhattan, and Queens from our headquarters at 281 Flatbush Ave, Brooklyn, NY 11217. See our service areas page for the full coverage map.",
       },
     ],
   },
 ];
-
-export const ALL_FAQ_ITEMS = FAQ_SECTIONS.flatMap((section) => section.items);

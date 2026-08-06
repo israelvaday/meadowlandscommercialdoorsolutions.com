@@ -20,7 +20,7 @@ export default function ThankYouPage() {
           Got it — we&apos;ll be in touch.
         </h1>
         <p className="mx-auto mt-4 max-w-md text-ink-200">
-          We received your painting quote request. {BIZ.name} will review the project details and follow up using the
+          We received your door quote request. {BIZ.name} will review the project details and follow up using the
           contact information you provided.
         </p>
         <div className="mt-7 flex flex-col items-center gap-4">

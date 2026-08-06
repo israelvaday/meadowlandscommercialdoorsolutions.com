@@ -1,5 +1,5 @@
 /**
- * Shared OpenRouter client for BH Painting Metro Detroit site generation.
+ * Shared OpenRouter client for Hillman Door Supply site generation.
  */
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -7,8 +7,8 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ENV_PATH = join(__dirname, "../.env.local");
-const SITE = "https://bhpaintingmetrodetroit.com";
-const APP_TITLE = "BH Painting Metro Detroit";
+const SITE = "https://hillmandoorsupplyanddoorrepair.com";
+const APP_TITLE = "Hillman Door Supply and Door Repair";
 
 export function loadEnvLocal() {
   if (!existsSync(ENV_PATH)) return;

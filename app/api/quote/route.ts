@@ -128,7 +128,7 @@ export async function POST(req: Request) {
       body: JSON.stringify({
         from,
         to,
-        subject: `Painting quote — ${fields.service} — ${fields.name}${fields.urgency ? " (" + fields.urgency + ")" : ""}`,
+        subject: `Door quote — ${fields.service} — ${fields.name}${fields.urgency ? " (" + fields.urgency + ")" : ""}`,
         html,
         text,
         reply_to: fields.email || undefined,
@@ -165,7 +165,7 @@ function quoteRecipients(): string[] {
 
 function renderQuoteText(f: QuoteFields, count: number): string {
   return [
-    `New painting quote request — ${BIZ.name}`,
+    `New door quote request — ${BIZ.name}`,
     "",
     `Name:     ${f.name}`,
     `Phone:    ${f.phone}`,
@@ -203,7 +203,7 @@ function renderQuoteEmail(f: QuoteFields, attachmentCount: number): string {
   const message = escapeHtml(f.message || "—").replace(/\n/g, "<br>");
   const urgencyColor = timingTone(f.urgency);
   const submittedAt = new Date().toLocaleString("en-US", {
-    timeZone: "America/Detroit",
+    timeZone: "America/New_York",
     dateStyle: "medium",
     timeStyle: "short",
   });
@@ -233,7 +233,7 @@ function renderQuoteEmail(f: QuoteFields, attachmentCount: number): string {
                     <div style="display:inline-block;background:#0b1220;border:1.5px solid #b58a3a;border-radius:14px;padding:8px 14px;">
                       <span style="font-family:Georgia,serif;font-size:15px;font-weight:bold;color:#e6c266;letter-spacing:0.5px">${escapeHtml(BIZ.name)}</span>
                       <span style="display:inline-block;width:6px;height:6px;background:#e6c266;border-radius:50%;margin:0 8px;vertical-align:middle"></span>
-                      <span style="font-family:Georgia,serif;font-size:12px;font-weight:bold;color:#e6c266;letter-spacing:1.2px">METRO DETROIT</span>
+                      <span style="font-family:Georgia,serif;font-size:12px;font-weight:bold;color:#e6c266;letter-spacing:1.2px">BROOKLYN · NYC</span>
                     </div>
                   </td>
                   <td align="right" style="vertical-align:middle">
@@ -241,8 +241,8 @@ function renderQuoteEmail(f: QuoteFields, attachmentCount: number): string {
                   </td>
                 </tr>
               </table>
-              <h1 style="margin:18px 0 4px 0;font-size:24px;line-height:1.25;color:#ffffff;font-weight:800;letter-spacing:-0.3px">New painting quote request</h1>
-              <p style="margin:0;color:#9aa6c1;font-size:13px;">Submitted ${submittedAt} • Metro Detroit, MI</p>
+              <h1 style="margin:18px 0 4px 0;font-size:24px;line-height:1.25;color:#ffffff;font-weight:800;letter-spacing:-0.3px">New door quote request</h1>
+              <p style="margin:0;color:#9aa6c1;font-size:13px;">Submitted ${submittedAt} • Brooklyn, NY</p>
             </td>
           </tr>
 
@@ -327,7 +327,7 @@ function renderQuoteEmail(f: QuoteFields, attachmentCount: number): string {
                   ${
                     email
                       ? `<td style="padding:0 6px">
-                          <a href="mailto:${email}?subject=${encodeURIComponent(`Re: Your ${BIZ.name} painting quote`)}" style="display:inline-block;background:transparent;color:#e6c266;text-decoration:none;font-weight:700;font-size:14px;padding:13px 20px;border-radius:12px;border:1.5px solid #e6c266">✉ Reply</a>
+                          <a href="mailto:${email}?subject=${encodeURIComponent(`Re: Your ${BIZ.name} door quote`)}" style="display:inline-block;background:transparent;color:#e6c266;text-decoration:none;font-weight:700;font-size:14px;padding:13px 20px;border-radius:12px;border:1.5px solid #e6c266">✉ Reply</a>
                         </td>`
                       : ""
                   }
@@ -343,7 +343,7 @@ function renderQuoteEmail(f: QuoteFields, attachmentCount: number): string {
                 <tr>
                   <td style="font-size:11px;color:#6b7794;line-height:1.6">
                     <b style="color:#9aa6c1">${escapeHtml(BIZ.name)}</b><br>
-                    Painting services • Metro Detroit, MI<br>
+                    Door services • Brooklyn, Manhattan & Queens, NY<br>
                     <a href="${escapeHtml(BIZ.url)}" style="color:#b58a3a;text-decoration:none">${escapeHtml(BIZ.url.replace(/^https?:\/\//, ""))}</a>
                   </td>
                 </tr>

@@ -15,7 +15,7 @@ export type AvailabilityService = {
   bullets?: string[];
 };
 
-function isInsideMetroDetroit(lat: number, lng: number) {
+function isInsideNycServiceArea(lat: number, lng: number) {
   const bounds = BIZ.metroBounds;
   return (
     lat >= bounds.minLat &&
@@ -27,7 +27,7 @@ function isInsideMetroDetroit(lat: number, lng: number) {
 
 export function AvailabilityChecker({ service }: { service?: AvailabilityService } = {}) {
   const [phase, setPhase] = useState<Phase>("idle");
-  const serviceLabel = service?.shortName ?? "painting";
+  const serviceLabel = service?.shortName ?? "door";
 
   function checkLocation() {
     if (phase === "locating") return;
@@ -38,7 +38,7 @@ export function AvailabilityChecker({ service }: { service?: AvailabilityService
     }
     navigator.geolocation.getCurrentPosition(
       ({ coords }) => {
-        setPhase(isInsideMetroDetroit(coords.latitude, coords.longitude) ? "inside" : "outside");
+        setPhase(isInsideNycServiceArea(coords.latitude, coords.longitude) ? "inside" : "outside");
       },
       () => setPhase("denied"),
       { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 }
@@ -60,7 +60,7 @@ export function AvailabilityChecker({ service }: { service?: AvailabilityService
       <div className="relative flex flex-wrap items-center gap-3">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-brass-500/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-brass-300">
           <MapPin className="h-3 w-3" />
-          Metro Detroit service check
+          NYC service check
         </span>
       </div>
 
@@ -68,8 +68,8 @@ export function AvailabilityChecker({ service }: { service?: AvailabilityService
         Is your {serviceLabel.toLowerCase()} project in our service area?
       </h2>
       <p className="relative mt-2 text-sm text-ink-300 md:text-base">
-        Location access only checks whether you appear to be within our Metro Detroit coverage bounds. It does not
-        promise project availability, a start date, or an arrival time.
+        Location access only checks whether you appear to be within our Brooklyn, Manhattan &amp; Queens coverage bounds.
+        It does not promise project availability, a start date, or an arrival time.
       </p>
 
       {(phase === "idle" || phase === "denied") && (
@@ -80,7 +80,7 @@ export function AvailabilityChecker({ service }: { service?: AvailabilityService
                 <AlertTriangle className="h-4 w-4" /> Location was unavailable
               </div>
               <p className="mt-1 text-xs text-ink-300">
-                You can still request a quote with your city or ZIP, or call to confirm coverage.
+                You can still request a quote with your neighborhood or ZIP, or call to confirm coverage.
               </p>
             </div>
           )}
@@ -96,14 +96,14 @@ export function AvailabilityChecker({ service }: { service?: AvailabilityService
 
       {phase === "locating" && (
         <div className="relative mt-5 flex items-center gap-2 text-sm font-semibold text-brass-300">
-          <Loader2 className="h-4 w-4 animate-spin" /> Checking your position against Metro Detroit coverage…
+          <Loader2 className="h-4 w-4 animate-spin" /> Checking your position against NYC coverage…
         </div>
       )}
 
       {phase === "inside" && (
         <div className="relative mt-5 rounded-2xl border border-emerald-500/30 bg-emerald-500/5 p-5">
           <div className="flex items-center gap-2 font-bold text-emerald-300">
-            <CheckCircle2 className="h-5 w-5" /> You appear to be inside our Metro Detroit service area
+            <CheckCircle2 className="h-5 w-5" /> You appear to be inside our NYC service area
           </div>
           <p className="mt-2 text-sm text-ink-300">
             Send the project address and scope so {BIZ.name} can confirm coverage and discuss scheduling.
@@ -115,7 +115,7 @@ export function AvailabilityChecker({ service }: { service?: AvailabilityService
       {phase === "outside" && (
         <div className="relative mt-5 rounded-2xl border border-amber-500/30 bg-amber-500/5 p-5">
           <div className="flex items-center gap-2 font-bold text-amber-300">
-            <AlertTriangle className="h-5 w-5" /> You appear to be outside our standard Metro Detroit bounds
+            <AlertTriangle className="h-5 w-5" /> You appear to be outside our standard NYC bounds
           </div>
           <p className="mt-2 text-sm text-ink-300">
             The location check is approximate. Call with the project address if you would like us to confirm coverage.

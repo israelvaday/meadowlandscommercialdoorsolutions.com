@@ -5,7 +5,7 @@ import { SERVICES } from "@/content/services";
 export function localBusinessJsonLd() {
   return {
     "@context": "https://schema.org",
-    "@type": "HousePainter",
+    "@type": "HomeAndConstructionBusiness",
     "@id": `${BIZ.url}/#business`,
     name: BIZ.name,
     image: `${BIZ.url}/opengraph-image.png`,
@@ -43,7 +43,7 @@ export function localBusinessJsonLd() {
     hasCredential: {
       "@type": "EducationalOccupationalCredential",
       credentialCategory: "Insurance documentation",
-      name: "Insured professional painting business",
+      name: "Insured door supply and installation business",
     },
     sameAs: Object.values(BIZ.social).filter(Boolean),
   };
@@ -58,7 +58,7 @@ export function serviceJsonLd(slug: string) {
     serviceType: s.name,
     description: s.description,
     provider: { "@id": `${BIZ.url}/#business` },
-    areaServed: { "@type": "AdministrativeArea", name: "Metro Detroit, MI" },
+    areaServed: { "@type": "AdministrativeArea", name: "Brooklyn, Manhattan & Queens, NY" },
     url: `${BIZ.url}/services/${s.slug}`,
   };
 }

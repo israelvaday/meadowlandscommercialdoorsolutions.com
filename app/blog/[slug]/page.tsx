@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Calendar, Clock, Paintbrush } from "lucide-react";
+import { ArrowLeft, Calendar, Clock, DoorOpen } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { BLOG_POSTS, findPost } from "@/content/blog";
 import { ContactCTA } from "@/components/site/ContactCTA";
@@ -221,7 +221,7 @@ export default async function BlogPostPage(
                   <Clock className="h-4 w-4" /> {post.readMinutes} min read
                 </span>
                 <span className="inline-flex items-center gap-1.5">
-                  <Paintbrush className="h-4 w-4 text-brass-400" /> Metro Detroit painting guide
+                  <DoorOpen className="h-4 w-4 text-brass-400" /> NYC door guide
                 </span>
               </div>
             </div>
@@ -239,11 +239,11 @@ export default async function BlogPostPage(
           {/* Inline CTA */}
           <div className="mt-12 rounded-3xl border border-brass-500/30 bg-gradient-to-br from-brass-500/10 to-ink-900/40 p-6 text-center md:p-8">
             <h3 className="font-display text-xl font-extrabold md:text-2xl">
-              Planning a painting project in Metro Detroit?
+              Planning a door project in NYC?
             </h3>
             <p className="mx-auto mt-2 max-w-xl text-sm text-ink-200 md:text-base">
-              Share the property, surfaces, colors, condition, and timing with {BIZ.name} for a project-specific
-              follow-up across Wayne, Oakland &amp; Macomb counties.
+              Share the property, opening, door type, hardware needs, and timing with {BIZ.name} for a project-specific
+              follow-up across Brooklyn, Manhattan &amp; Queens.
             </p>
             <div className="mt-5 flex justify-center">
               <ContactCTA size="lg" />
@@ -283,7 +283,7 @@ export default async function BlogPostPage(
         </section>
       )}
 
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="NYC Door Services" kind="service" />
 
       <FinalCTA />
     </>

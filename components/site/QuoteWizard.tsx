@@ -5,44 +5,28 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   ArrowLeft, ArrowRight, Check, Send, Upload, X, Image as ImageIcon,
-  Zap, CalendarClock, Calendar, Phone, Paintbrush, FileText,
+  Zap, CalendarClock, Calendar, Phone, DoorOpen, FileText,
 } from "lucide-react";
 import { toast } from "sonner";
 import { BIZ } from "@/lib/business";
+import { SERVICES as DOOR_SERVICES } from "@/content/services";
 import { Button } from "@/components/ui/Button";
 
-type ServiceKey =
-  | "interior-painting"
-  | "exterior-painting"
-  | "cabinet-painting"
-  | "commercial-painting"
-  | "deck-fence-staining"
-  | "trim-door-painting"
-  | "ceiling-painting"
-  | "rental-turnover-painting"
-  | "wallpaper-removal"
-  | "color-consultation";
+type ServiceKey = (typeof DOOR_SERVICES)[number]["slug"];
 
 type PropertyKey = "property-home" | "property-business" | "property-multifamily" | "property-other";
 
 type Urgency = "asap" | "one-two-weeks" | "this-month" | "planning";
 
-const SERVICES: { key: ServiceKey; label: string; sub: string }[] = [
-  { key: "interior-painting", label: "Interior painting", sub: "Walls, rooms, and living spaces" },
-  { key: "exterior-painting", label: "Exterior painting", sub: "Siding, masonry, and exterior details" },
-  { key: "cabinet-painting", label: "Cabinet painting", sub: "Kitchen and built-in cabinetry" },
-  { key: "commercial-painting", label: "Commercial painting", sub: "Offices, retail, and facilities" },
-  { key: "deck-fence-staining", label: "Deck & fence staining", sub: "Wood protection and color" },
-  { key: "trim-door-painting", label: "Trim & door painting", sub: "Baseboards, casing, and doors" },
-  { key: "ceiling-painting", label: "Ceiling painting", sub: "Flat, vaulted, and detailed ceilings" },
-  { key: "rental-turnover-painting", label: "Rental turnover painting", sub: "Apartments and move-ready refreshes" },
-  { key: "wallpaper-removal", label: "Wallpaper removal", sub: "Removal and paint-ready preparation" },
-  { key: "color-consultation", label: "Color consultation", sub: "Palette and sheen guidance" },
-];
+const SERVICES = DOOR_SERVICES.map((s) => ({
+  key: s.slug as ServiceKey,
+  label: s.name,
+  sub: s.tagline.split(".")[0] ?? s.tagline,
+}));
 
 const PROPERTIES: { key: PropertyKey; label: string; sub: string }[] = [
-  { key: "property-home",     label: "Home",     sub: "House, condo, townhouse" },
-  { key: "property-business", label: "Business", sub: "Office, retail, industrial" },
+  { key: "property-home",     label: "Home",     sub: "House, condo, brownstone" },
+  { key: "property-business", label: "Business", sub: "Office, retail, storefront" },
   { key: "property-multifamily", label: "Multi-family", sub: "Apartments, HOA, common areas" },
   { key: "property-other",    label: "Other",    sub: "Outbuilding or specialty property" },
 ];
@@ -93,8 +77,8 @@ export function QuoteWizard() {
       case 0: return !!service;
       case 1: return !!property;
       case 2: return !!urgency;
-      case 3: return true; // optional message
-      case 4: return true; // optional files
+      case 3: return true;
+      case 4: return true;
       case 5: return !!name && !!phone && !!location;
       default: return false;
     }
@@ -175,7 +159,7 @@ export function QuoteWizard() {
         ]
           .filter(Boolean)
           .join("\n");
-        window.location.href = `mailto:${BIZ.email}?subject=${encodeURIComponent("Painting quote request — " + location)}&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:${BIZ.email}?subject=${encodeURIComponent("Door quote request — " + location)}&body=${encodeURIComponent(body)}`;
         return;
       }
 
@@ -195,10 +179,9 @@ export function QuoteWizard() {
       <div aria-hidden className="pointer-events-none absolute inset-0 opacity-[0.06]"
         style={{ backgroundImage: "linear-gradient(rgba(201,162,74,.6) 1px, transparent 1px), linear-gradient(90deg, rgba(201,162,74,.6) 1px, transparent 1px)", backgroundSize: "28px 28px" }} />
 
-      {/* Header / progress */}
       <div className="relative flex flex-wrap items-center gap-3">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-ink-950/70 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-brass-300">
-          <Paintbrush className="h-3 w-3" /> Painting project quote
+          <DoorOpen className="h-3 w-3" /> Door project quote
         </span>
         <span className="text-[11px] font-bold uppercase tracking-wider text-ink-400">
           Step {step + 1} of {STEP_LABELS.length} — {STEP_LABELS[step]}
@@ -214,7 +197,6 @@ export function QuoteWizard() {
         />
       </div>
 
-      {/* Step body */}
       <div className="relative mt-6 min-h-[24rem]">
         <AnimatePresence mode="wait">
           <motion.div
@@ -331,13 +313,13 @@ export function QuoteWizard() {
             {step === 3 && (
               <>
                 <h2 className="font-display text-2xl font-extrabold md:text-3xl">Anything we should know?</h2>
-                <p className="mt-1 text-sm text-ink-300">Surfaces, approximate size, colors, condition, and access notes are helpful.</p>
+                <p className="mt-1 text-sm text-ink-300">Opening size, door type, hardware, condition, and access notes are helpful.</p>
                 <textarea
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   rows={6}
                   className="mt-5 w-full rounded-xl border border-ink-800 bg-ink-950 p-4 outline-none focus:border-brass-500"
-                  placeholder="e.g. Paint walls and trim in three occupied rooms, light neutral over a darker color, in Livonia."
+                  placeholder="e.g. Replace a pre-war entry door in Park Slope — sagging jamb, need fire-rated hardware coordination."
                 />
               </>
             )}
@@ -346,7 +328,7 @@ export function QuoteWizard() {
               <>
                 <h2 className="font-display text-2xl font-extrabold md:text-3xl">Got a picture or document?</h2>
                 <p className="mt-1 text-sm text-ink-300">
-                  Upload wide shots and close-ups of surfaces, existing damage, colors, or plans. Optional (max {MAX_FILES} files, 8 MB each).
+                  Upload wide shots and close-ups of the opening, existing door, damage, hardware, or plans. Optional (max {MAX_FILES} files, 8 MB each).
                 </p>
                 <label className="mt-5 flex cursor-pointer flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-brass-500/40 bg-ink-950/50 p-8 text-center hover:border-brass-400">
                   <Upload className="h-7 w-7 text-brass-300" />
@@ -390,7 +372,7 @@ export function QuoteWizard() {
                   <Field label="Name" value={name} onChange={setName} required />
                   <Field label="Phone" value={phone} onChange={setPhone} required type="tel" />
                   <Field label="Email (optional)" value={email} onChange={setEmail} type="email" />
-                  <Field label="City / ZIP" value={location} onChange={setLocation} required placeholder="Warren, 48089" />
+                  <Field label="Neighborhood / ZIP" value={location} onChange={setLocation} required placeholder="Park Slope, 11215" />
                 </div>
 
                 <div className="mt-6 rounded-2xl border border-ink-800 bg-ink-950/60 p-4">
@@ -408,7 +390,6 @@ export function QuoteWizard() {
         </AnimatePresence>
       </div>
 
-      {/* Nav */}
       <div className="relative mt-6 flex flex-wrap items-center gap-3">
         <Button
           type="button"

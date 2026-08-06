@@ -2,7 +2,7 @@
   {
     "id": "logo-master-on-navy",
     "src": "/logo.png",
-    "alt": "BH Painting Metro Detroit navy and gold paint roller logo",
+    "alt": "Hillman Door Supply and Door Repair navy and gold HD door logo",
     "category": "brand",
     "kind": "brand",
     "services": [
@@ -18,7 +18,7 @@
   {
     "id": "logo-icon-square",
     "src": "/logo-256.png",
-    "alt": "BH Painting Metro Detroit BH logo icon",
+    "alt": "Hillman Door Supply and Door Repair HD logo icon",
     "category": "brand",
     "kind": "brand",
     "services": [
@@ -34,7 +34,7 @@
   {
     "id": "logo-large-square",
     "src": "/logo-512.png",
-    "alt": "BH Painting Metro Detroit large BH logo",
+    "alt": "Hillman Door Supply and Door Repair large HD logo",
     "category": "brand",
     "kind": "brand",
     "services": [
@@ -48,34 +48,34 @@
     "source": "openrouter-generated"
   },
   {
-    "id": "branding-hero-metro",
-    "src": "/photos/branding-generated--hero-painting-metro-detroit.png",
-    "alt": "BH Painting Metro Detroit professional painter working in a protected Michigan home",
+    "id": "branding-hero-nyc",
+    "src": "/photos/branding-generated--hero-hillman-door-nyc.png",
+    "alt": "Hillman Door Supply and Door Repair professional door installation in Brooklyn",
     "category": "branding-generated",
     "kind": "hero",
     "services": [
-      "interior-painting",
-      "exterior-painting",
-      "cabinet-painting",
-      "commercial-painting",
-      "deck-fence-staining",
-      "trim-door-painting",
-      "ceiling-painting",
-      "rental-turnover-painting",
-      "wallpaper-removal",
-      "color-consultation"
+      "residential-door-installation",
+      "commercial-door-installation",
+      "custom-door-fabrication",
+      "door-hardware-supply",
+      "structural-door-repair",
+      "fire-rated-doors",
+      "storefront-glass-doors",
+      "emergency-door-repair",
+      "door-frame-jamb-repair",
+      "security-access-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 763231,
+    "bytes": 953974,
     "source": "openrouter-generated"
   },
   {
-    "id": "branding-map-metro",
-    "src": "/photos/branding-generated--metro-detroit-map.png",
-    "alt": "BH Painting Metro Detroit service area across Metro Detroit, MI",
+    "id": "branding-map-nyc",
+    "src": "/photos/branding-generated--nyc-service-map.png",
+    "alt": "Hillman Door Supply and Door Repair service area across Brooklyn, Manhattan & Queens, NY",
     "category": "branding-generated",
     "kind": "brand",
     "services": [
@@ -85,399 +85,394 @@
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 849055,
+    "bytes": 766324,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-interior-painting",
-    "src": "/photos/service-hero-interior-painting.png",
-    "alt": "Interior painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-residential-door-installation",
+    "src": "/photos/service-hero-residential-door-installation.png",
+    "alt": "Residential door installation by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "interior-painting"
+      "residential-door-installation"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 735375,
+    "bytes": 1079501,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-exterior-painting",
-    "src": "/photos/service-hero-exterior-painting.png",
-    "alt": "Exterior painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-commercial-door-installation",
+    "src": "/photos/service-hero-commercial-door-installation.png",
+    "alt": "Commercial door installation by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "exterior-painting"
+      "commercial-door-installation"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 1123659,
+    "bytes": 854775,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-cabinet-painting",
-    "src": "/photos/service-hero-cabinet-painting.png",
-    "alt": "Cabinet painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-custom-door-fabrication",
+    "src": "/photos/service-hero-custom-door-fabrication.png",
+    "alt": "Custom door fabrication by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "cabinet-painting"
+      "custom-door-fabrication"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 726042,
+    "bytes": 863273,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-commercial-painting",
-    "src": "/photos/service-hero-commercial-painting.png",
-    "alt": "Commercial painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-door-hardware-supply",
+    "src": "/photos/service-hero-door-hardware-supply.png",
+    "alt": "Door hardware supply by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "commercial-painting"
+      "door-hardware-supply"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 863736,
+    "bytes": 875361,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-deck-fence-staining",
-    "src": "/photos/service-hero-deck-fence-staining.png",
-    "alt": "Deck and fence staining by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-structural-door-repair",
+    "src": "/photos/service-hero-structural-door-repair.png",
+    "alt": "Structural door repair by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "deck-fence-staining"
+      "structural-door-repair"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 1106123,
+    "bytes": 708247,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-trim-door-painting",
-    "src": "/photos/service-hero-trim-door-painting.png",
-    "alt": "Trim and door painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-fire-rated-doors",
+    "src": "/photos/service-hero-fire-rated-doors.png",
+    "alt": "Fire-rated doors by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "trim-door-painting"
+      "fire-rated-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 648810,
+    "bytes": 797854,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-ceiling-painting",
-    "src": "/photos/service-hero-ceiling-painting.png",
-    "alt": "Ceiling painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-storefront-glass-doors",
+    "src": "/photos/service-hero-storefront-glass-doors.png",
+    "alt": "Storefront and glass doors by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "ceiling-painting"
+      "storefront-glass-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 736245,
+    "bytes": 806566,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-rental-turnover-painting",
-    "src": "/photos/service-hero-rental-turnover-painting.png",
-    "alt": "Rental turnover painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-emergency-door-repair",
+    "src": "/photos/service-hero-emergency-door-repair.png",
+    "alt": "Emergency door repair by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "rental-turnover-painting"
+      "emergency-door-repair"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 722862,
+    "bytes": 960409,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-wallpaper-removal",
-    "src": "/photos/service-hero-wallpaper-removal.png",
-    "alt": "Wallpaper removal by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-door-frame-jamb-repair",
+    "src": "/photos/service-hero-door-frame-jamb-repair.png",
+    "alt": "Door frame and jamb repair by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "wallpaper-removal"
+      "door-frame-jamb-repair"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 759247,
+    "bytes": 866900,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-color-consultation",
-    "src": "/photos/service-hero-color-consultation.png",
-    "alt": "Color consultation by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-security-access-doors",
+    "src": "/photos/service-hero-security-access-doors.png",
+    "alt": "Security and access doors by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "color-consultation"
+      "security-access-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 710665,
+    "bytes": 893318,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--interior-living-room",
-    "src": "/photos/painting-gallery--interior-living-room.png",
-    "alt": "Professional painter finishing a protected Metro Detroit living room — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "interior",
+    "id": "door-gallery--brooklyn-entry",
+    "src": "/photos/door-gallery--brooklyn-entry.png",
+    "alt": "Premium entry door installation on a Brooklyn townhouse — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "residential",
     "kind": "work",
     "services": [
-      "interior-painting"
+      "residential-door-installation",
+      "custom-door-fabrication"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 716576,
+    "bytes": 839718,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--exterior-brick-home",
-    "src": "/photos/painting-gallery--exterior-brick-home.png",
-    "alt": "Exterior trim painting on a brick Michigan home — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "exterior",
-    "kind": "work",
-    "services": [
-      "exterior-painting",
-      "trim-door-painting"
-    ],
-    "width": 1600,
-    "height": 900,
-    "ratio": 1.778,
-    "orientation": "landscape",
-    "bytes": 1094607,
-    "source": "openrouter-generated"
-  },
-  {
-    "id": "painting-gallery--cabinet-finish",
-    "src": "/photos/painting-gallery--cabinet-finish.png",
-    "alt": "Smooth cabinet-grade finish applied in a controlled work area — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "cabinets",
-    "kind": "work",
-    "services": [
-      "cabinet-painting"
-    ],
-    "width": 1600,
-    "height": 900,
-    "ratio": 1.778,
-    "orientation": "landscape",
-    "bytes": 680684,
-    "source": "openrouter-generated"
-  },
-  {
-    "id": "painting-gallery--commercial-office",
-    "src": "/photos/painting-gallery--commercial-office.png",
-    "alt": "Protected Metro Detroit office during professional painting — BH Painting Metro Detroit, Metro Detroit, MI",
+    "id": "door-gallery--commercial-corridor",
+    "src": "/photos/door-gallery--commercial-corridor.png",
+    "alt": "Commercial hollow metal doors in a NYC office corridor — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
     "category": "commercial",
     "kind": "work",
     "services": [
-      "commercial-painting"
+      "commercial-door-installation"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 725292,
+    "bytes": 714756,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--deck-staining",
-    "src": "/photos/painting-gallery--deck-staining.png",
-    "alt": "Semi-transparent stain applied to clean Michigan deck boards — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "wood-staining",
+    "id": "door-gallery--custom-wood-door",
+    "src": "/photos/door-gallery--custom-wood-door.png",
+    "alt": "Custom solid wood panel door in a NYC residential entry — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "custom",
     "kind": "work",
     "services": [
-      "deck-fence-staining"
+      "custom-door-fabrication"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 882438,
+    "bytes": 870297,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--trim-detail",
-    "src": "/photos/painting-gallery--trim-detail.png",
-    "alt": "Crisp professional finish on interior window trim and baseboard — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "trim-doors",
+    "id": "door-gallery--storefront-glass",
+    "src": "/photos/door-gallery--storefront-glass.png",
+    "alt": "Aluminum storefront glass entrance doors on NYC retail — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "storefront",
     "kind": "work",
     "services": [
-      "trim-door-painting",
-      "interior-painting"
+      "storefront-glass-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 641111,
+    "bytes": 864135,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--ceiling-rolling",
-    "src": "/photos/painting-gallery--ceiling-rolling.png",
-    "alt": "Professional ceiling painting above a fully protected room — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "ceilings",
+    "id": "door-gallery--fire-rated-hallway",
+    "src": "/photos/door-gallery--fire-rated-hallway.png",
+    "alt": "Fire-rated corridor doors in a NYC multifamily building — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "fire-rated",
     "kind": "work",
     "services": [
-      "ceiling-painting",
-      "interior-painting"
+      "fire-rated-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 763121,
+    "bytes": 741348,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--rental-turnover",
-    "src": "/photos/painting-gallery--rental-turnover.png",
-    "alt": "Vacant Metro Detroit apartment prepared for new residents — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "rental-turnover",
+    "id": "door-gallery--interior-slabs",
+    "src": "/photos/door-gallery--interior-slabs.png",
+    "alt": "Solid-core interior door installation in a NYC apartment — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "residential",
     "kind": "work",
     "services": [
-      "rental-turnover-painting",
-      "interior-painting"
+      "residential-door-installation"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 721795,
+    "bytes": 823081,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--wallpaper-removal",
-    "src": "/photos/painting-gallery--wallpaper-removal.png",
-    "alt": "Careful wallpaper removal with floor protection — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "wallpaper",
+    "id": "door-gallery--hardware-detail",
+    "src": "/photos/door-gallery--hardware-detail.png",
+    "alt": "Premium door hardware including lockset and closer — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "hardware",
     "kind": "work",
     "services": [
-      "wallpaper-removal",
-      "interior-painting"
+      "door-hardware-supply"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 759247,
+    "bytes": 801641,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--color-sampling",
-    "src": "/photos/painting-gallery--color-sampling.png",
-    "alt": "Interior color samples reviewed beside permanent finishes — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "color",
+    "id": "door-gallery--jamb-repair",
+    "src": "/photos/door-gallery--jamb-repair.png",
+    "alt": "Door frame jamb repair on a pre-war NYC opening — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "repair",
     "kind": "work",
     "services": [
-      "color-consultation",
-      "interior-painting"
+      "door-frame-jamb-repair",
+      "structural-door-repair"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 756729,
+    "bytes": 1006465,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--exterior-siding",
-    "src": "/photos/painting-gallery--exterior-siding.png",
-    "alt": "Durable exterior finish applied to prepared Michigan siding — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "exterior",
+    "id": "door-gallery--security-entry",
+    "src": "/photos/door-gallery--security-entry.png",
+    "alt": "Reinforced security entry door on a NYC building lobby — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "security",
     "kind": "work",
     "services": [
-      "exterior-painting"
+      "security-access-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 951455,
+    "bytes": 970756,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--occupied-office",
-    "src": "/photos/painting-gallery--occupied-office.png",
-    "alt": "After-hours office painting with desks and floors protected — BH Painting Metro Detroit, Metro Detroit, MI",
+    "id": "door-gallery--warehouse-supply",
+    "src": "/photos/door-gallery--warehouse-supply.png",
+    "alt": "Organized door supply warehouse with slabs and hardware — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "supply",
+    "kind": "work",
+    "services": [
+      "door-hardware-supply"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 1040123,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "door-gallery--double-entry",
+    "src": "/photos/door-gallery--double-entry.png",
+    "alt": "Double entry door installation on a Brooklyn commercial building — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
     "category": "commercial",
     "kind": "work",
     "services": [
-      "commercial-painting"
+      "commercial-door-installation"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 788852,
+    "bytes": 921871,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--front-door",
-    "src": "/photos/painting-gallery--front-door.png",
-    "alt": "Deep navy finish on a Metro Detroit home's front door — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "trim-doors",
+    "id": "door-gallery--apartment-interior",
+    "src": "/photos/door-gallery--apartment-interior.png",
+    "alt": "Interior door replacement in a NYC apartment hallway — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "residential",
     "kind": "work",
     "services": [
-      "trim-door-painting",
-      "exterior-painting"
+      "residential-door-installation"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 1101866,
+    "bytes": 755758,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--multifamily-hallway",
-    "src": "/photos/painting-gallery--multifamily-hallway.png",
-    "alt": "Apartment hallway repainted in carefully planned sections — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "commercial",
+    "id": "door-gallery--emergency-repair",
+    "src": "/photos/door-gallery--emergency-repair.png",
+    "alt": "Emergency door repair on a damaged NYC storefront — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "emergency",
     "kind": "work",
     "services": [
-      "commercial-painting",
-      "rental-turnover-painting"
+      "emergency-door-repair"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 690143,
+    "bytes": 989995,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "door-gallery--historic-restoration",
+    "src": "/photos/door-gallery--historic-restoration.png",
+    "alt": "Historic door profile restoration on a Brooklyn brownstone — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "category": "custom",
+    "kind": "work",
+    "services": [
+      "custom-door-fabrication",
+      "structural-door-repair"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 911631,
     "source": "openrouter-generated"
   }
 ]

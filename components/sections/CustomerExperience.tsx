@@ -5,7 +5,7 @@ const COMMITMENTS = [
   {
     Icon: ClipboardCheck,
     title: "A written scope",
-    body: "We define the surfaces, preparation, products, colors, coats, and exclusions before work begins.",
+    body: "We define the door type, hardware, framing adjustments, code requirements, and exclusions before work begins.",
   },
   {
     Icon: MessageSquareText,
@@ -15,7 +15,7 @@ const COMMITMENTS = [
   {
     Icon: ShieldCheck,
     title: "Respect for the property",
-    body: "We plan protection for floors, furnishings, landscaping, fixtures, and occupied areas before painting.",
+    body: "We plan protection for floors, furnishings, occupied areas, and common spaces before installation or repair.",
   },
   {
     Icon: Sparkles,

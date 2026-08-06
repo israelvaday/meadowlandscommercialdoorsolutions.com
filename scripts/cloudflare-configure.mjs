@@ -10,7 +10,7 @@ import { loadEnvLocal } from "./openrouter-lib.mjs";
 
 loadEnvLocal();
 
-const DOMAIN = "bhpaintingmetrodetroit.com";
+const DOMAIN = "hillmandoorsupplyanddoorrepair.com";
 const INFO_ADDRESS = `info@${DOMAIN}`;
 const QUOTES_ADDRESS = `quotes@${DOMAIN}`;
 const FORWARD_TO = ["israelvaday97@gmail.com", "oren.siyonov@gmail.com"];
@@ -145,7 +145,7 @@ async function createDnsRecord(type, name, content) {
       content,
       ttl: 1,
       proxied: PROXY_WEB,
-      comment: "BH Painting Metro Detroit GitHub Pages",
+      comment: "Hillman Door Supply GitHub Pages",
     }),
   });
 }

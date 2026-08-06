@@ -7,8 +7,8 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BuyersGuide } from "@/components/site/BuyersGuide";
 
 export const metadata: Metadata = {
-  title: "Service Areas — Metro Detroit Painting",
-  description: `${BIZ.name} serves ${AREAS.length} Metro Detroit cities, communities, and neighborhoods. Search your area and request a painting quote.`,
+  title: "Service Areas — Brooklyn & NYC Door Services",
+  description: `${BIZ.name} serves ${AREAS.length} NYC neighborhoods and communities. Search your area and request a door quote.`,
   alternates: { canonical: `${BIZ.url}/service-areas` },
 };
 
@@ -20,10 +20,10 @@ export default function AreasPage() {
         <div className="relative mx-auto max-w-5xl px-4 text-center md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Service Areas</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            Every corner of <span className="text-brass-gradient">Metro Detroit</span>.
+            Every corner of <span className="text-brass-gradient">Brooklyn, Manhattan & Queens</span>.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            We cover {AREAS.length} cities, communities, and neighborhoods — from {CITIES[0]?.name} to {CITIES[CITIES.length - 1]?.name}.
+            We cover {AREAS.length} neighborhoods and communities — from {CITIES[0]?.name} to {CITIES[CITIES.length - 1]?.name}.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function AreasPage() {
           <AreaSearch areas={AREAS} />
         </div>
       </section>
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="NYC Door Services" kind="service" />
       <BuyersGuide />
       <FinalCTA />
     </>

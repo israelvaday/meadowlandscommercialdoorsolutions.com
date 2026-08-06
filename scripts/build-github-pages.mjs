@@ -49,7 +49,7 @@ try {
       NEXT_PUBLIC_GH_PAGES: "1",
       NEXT_PUBLIC_SITE_URL:
         process.env.NEXT_PUBLIC_SITE_URL ||
-        "https://bhpaintingmetrodetroit.com",
+        "https://hillmandoorsupplyanddoorrepair.com",
     },
     stdio: "inherit",
     shell: false,

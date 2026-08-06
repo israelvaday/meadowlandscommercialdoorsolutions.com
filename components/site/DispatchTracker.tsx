@@ -20,22 +20,22 @@ export function AreaAvailabilityChecker({
         }}
       />
       <div className="relative inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-brass-500/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-brass-300">
-        <MapPin className="h-3 w-3" /> {areaName}, MI
+        <MapPin className="h-3 w-3" /> {areaName}, NY
       </div>
       <h2 className="relative mt-4 font-display text-2xl font-extrabold tracking-tight md:text-3xl">
         Check project availability in {areaName}
       </h2>
       <p className="relative mt-2 text-sm leading-relaxed text-ink-300 md:text-base">
-        {BIZ.name} serves {areaName} as part of our Metro Detroit coverage area. Dates depend on project scope,
-        weather, material selections, and the current schedule, so an instant checker cannot promise availability or
-        arrival times.
+        {BIZ.name} serves {areaName} as part of our Brooklyn, Manhattan &amp; Queens coverage area. Dates depend on
+        project scope, hardware lead times, building access, and the current schedule, so an instant checker cannot
+        promise availability or arrival times.
       </p>
       <div className="relative mt-5 rounded-2xl border border-ink-800 bg-ink-950/60 p-4">
         <div className="flex items-center gap-2 text-sm font-bold text-brass-300">
           <CalendarDays className="h-4 w-4" /> Get a real scheduling answer
         </div>
         <p className="mt-2 text-xs leading-relaxed text-ink-300">
-          Share the address, surfaces, approximate size, desired colors, and timing. We will confirm coverage and
+          Share the address, door type, opening condition, hardware needs, and timing. We will confirm coverage and
           discuss the next appropriate step.
         </p>
       </div>

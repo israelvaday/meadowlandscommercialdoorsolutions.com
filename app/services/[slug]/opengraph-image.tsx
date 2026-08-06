@@ -17,24 +17,24 @@ export function generateStaticParams() {
 }
 
 const ICONS: Record<string, string> = {
-  "interior-painting": "🏠",
-  "exterior-painting": "🏡",
-  "cabinet-painting": "🗄️",
-  "commercial-painting": "🏢",
-  "deck-fence-staining": "🪵",
-  "trim-door-painting": "🚪",
-  "ceiling-painting": "⬆️",
-  "rental-turnover-painting": "🏘️",
-  "wallpaper-removal": "🧽",
-  "color-consultation": "🎨",
+  "residential-door-installation": "🏠",
+  "commercial-door-installation": "🏢",
+  "custom-door-fabrication": "🪚",
+  "door-hardware-supply": "🔐",
+  "structural-door-repair": "🔧",
+  "fire-rated-doors": "🛡️",
+  "storefront-glass-doors": "🪟",
+  "emergency-door-repair": "🚨",
+  "door-frame-jamb-repair": "🚪",
+  "security-access-doors": "🔒",
 };
 
 export default async function ServiceOg({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const s = SERVICES.find((x) => x.slug === slug);
-  const headline = s?.name ?? "Metro Detroit painting";
-  const tagline = s?.tagline ?? "Painting services for homes and businesses across Metro Detroit.";
-  const icon = (s && ICONS[s.slug]) ?? "🎨";
+  const headline = s?.name ?? "NYC door services";
+  const tagline = s?.tagline ?? "Door supply, installation, and repair across Brooklyn & NYC.";
+  const icon = (s && ICONS[s.slug]) ?? "🚪";
   const bullets = (s?.bullets ?? []).slice(0, 3);
 
   return new ImageResponse(
@@ -68,7 +68,6 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
           }}
         />
 
-        {/* brand + badge */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
             <div
@@ -83,14 +82,14 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
                 fontSize: 36,
               }}
             >
-              🎨
+              🚪
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <div style={{ fontSize: 26, fontWeight: 800, letterSpacing: -0.5, lineHeight: 1 }}>
                 {BIZ.name.toUpperCase()}
               </div>
               <div style={{ fontSize: 15, color: "#C9A24A", marginTop: 4, letterSpacing: 2, fontWeight: 700 }}>
-                METRO DETROIT · PAINTING SERVICES
+                BROOKLYN · NYC · DOOR SERVICES
               </div>
             </div>
           </div>
@@ -109,11 +108,10 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
               letterSpacing: 1,
             }}
           >
-            PREP · PAINT · CLEANUP
+            SUPPLY · INSTALL · REPAIR
           </div>
         </div>
 
-        {/* headline + icon */}
         <div style={{ display: "flex", alignItems: "center", gap: 36 }}>
           <div
             style={{
@@ -152,7 +150,6 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
           </div>
         </div>
 
-        {/* bullets + phone */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 24 }}>
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", flex: 1 }}>
             {bullets.map((b) => (

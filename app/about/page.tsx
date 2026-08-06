@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { ClipboardCheck, Clock, MapPin, Paintbrush, Palette, Phone, Sparkles } from "lucide-react";
+import { ClipboardCheck, Clock, DoorOpen, MapPin, Package, Phone, Sparkles } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { FinalCTA } from "@/components/sections/FinalCTA";
@@ -8,7 +8,7 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
   title: `About ${BIZ.name}`,
-  description: `Learn how ${BIZ.name} approaches preparation, product planning, property protection, and painting service across Metro Detroit.`,
+  description: `Learn how ${BIZ.name} approaches door supply, installation, structural repair, and hardware service across Brooklyn, Manhattan & Queens.`,
   alternates: { canonical: `${BIZ.url}/about` },
 };
 
@@ -17,34 +17,34 @@ const APPROACH = [
     Icon: ClipboardCheck,
     label: "Scope",
     value: "Written details",
-    body: "Surfaces, preparation, products, colors, coats, and exclusions are discussed before work begins.",
+    body: "Door type, hardware, framing adjustments, code requirements, and exclusions are discussed before work begins.",
   },
   {
-    Icon: Paintbrush,
-    label: "Preparation",
-    value: "Surface-specific",
-    body: "Cleaning, scraping, sanding, filling, caulking, and primer are selected for the substrate and condition.",
+    Icon: DoorOpen,
+    label: "Measurement",
+    value: "On-site accuracy",
+    body: "We measure openings, verify swing, check jamb condition, and confirm hardware compatibility before ordering.",
   },
   {
-    Icon: Palette,
-    label: "Finish plan",
-    value: "Color & sheen",
-    body: "We help organize the product, color, sheen, and sample decisions that shape the finished appearance.",
+    Icon: Package,
+    label: "Supply",
+    value: "Premium materials",
+    body: "We source door slabs, frames, fire-rated assemblies, and commercial-grade hardware matched to your building.",
   },
   {
     Icon: Sparkles,
     label: "Closeout",
-    value: "Cleanup & review",
-    body: "The project concludes with cleanup, a walkthrough against the scope, and agreed punch-list items.",
+    value: "Testing & review",
+    body: "The project concludes with latch alignment, hardware testing, cleanup, and a walkthrough against the scope.",
   },
 ] as const;
 
 export default function AboutPage() {
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const inspiration = [
-    { slug: "interior-painting", label: "Interior painting project inspiration" },
-    { slug: "exterior-painting", label: "Exterior painting project inspiration" },
-    { slug: "cabinet-painting", label: "Cabinet painting project inspiration" },
+    { slug: "residential-door-installation", label: "Residential door project inspiration" },
+    { slug: "commercial-door-installation", label: "Commercial door project inspiration" },
+    { slug: "custom-door-fabrication", label: "Custom door fabrication inspiration" },
   ].map((item) => ({
     ...item,
     src: `${base}/photos/service-hero-${item.slug}.png`,
@@ -55,8 +55,8 @@ export default function AboutPage() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src={`${base}/photos/branding-generated--hero-painting-metro-detroit.png`}
-            alt="Painting project inspiration for a Metro Detroit property"
+            src={`${base}/photos/branding-generated--hero-hillman-door-nyc.png`}
+            alt="Door supply and installation project inspiration for a NYC property"
             fill
             sizes="100vw"
             className="object-cover"
@@ -67,11 +67,11 @@ export default function AboutPage() {
         <div className="relative mx-auto flex min-h-[60vh] max-w-4xl flex-col items-center justify-center px-4 py-20 text-center md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">About {BIZ.name}</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight drop-shadow-[0_4px_24px_rgba(0,0,0,0.6)] md:text-6xl">
-            Painting planned around <span className="text-brass-gradient">your property</span>.
+            Doors planned around <span className="text-brass-gradient">your opening</span>.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            We serve Metro Detroit homes and businesses with interior, exterior, cabinet, commercial, trim, ceiling,
-            staining, turnover, wallpaper removal, and color consultation options.
+            We serve Brooklyn, Manhattan &amp; Queens with residential and commercial installation, custom fabrication,
+            hardware supply, structural repair, fire-rated doors, storefront systems, and emergency service.
           </p>
           <div className="mt-7">
             <ContactCTA size="lg" />
@@ -84,11 +84,11 @@ export default function AboutPage() {
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Our approach</p>
             <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-5xl">
-              Preparation and expectations come first.
+              Measurement and code compliance come first.
             </h2>
             <p className="mt-4 text-ink-300">
-              Paint performance begins before the first finish coat. We organize the scope around surface condition,
-              desired appearance, property use, access, and cleanup.
+              Door performance begins with accurate sizing and the right hardware. We organize the scope around opening
+              condition, building type, security goals, access, and cleanup.
             </p>
           </div>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -145,7 +145,7 @@ export default function AboutPage() {
                 <Phone className="h-4 w-4 text-brass-400" /> {BIZ.phone}
               </span>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-900/70 px-3 py-1.5">
-                <MapPin className="h-4 w-4 text-brass-400" /> Metro Detroit, MI
+                <MapPin className="h-4 w-4 text-brass-400" /> {BIZ.address.full}
               </span>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-900/70 px-3 py-1.5">
                 <Clock className="h-4 w-4 text-brass-400" /> Mon–Fri 7–6 · Sat 8–2
@@ -158,7 +158,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="NYC Door Services" kind="service" />
       <FinalCTA />
     </>
   );

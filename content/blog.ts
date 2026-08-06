@@ -1,4 +1,4 @@
-// Original painting guidance written for Metro Detroit property owners.
+// Original door guidance written for NYC property owners.
 // Bodies use a small markdown-like format: headings, list items, and paragraphs.
 
 export type BlogPost = {
@@ -6,7 +6,7 @@ export type BlogPost = {
   title: string;
   metaTitle?: string;
   excerpt: string;
-  category: "Interior" | "Exterior" | "Cabinets" | "Commercial" | "Planning";
+  category: "Residential" | "Commercial" | "Hardware" | "Repair" | "Planning";
   readMinutes: number;
   date: string;
   heroImage: string;
@@ -18,330 +18,243 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    slug: "interior-paint-colors-metro-detroit",
-    title: "How to Choose Interior Paint Colors for a Metro Detroit Home",
-    metaTitle: "Interior Paint Colors for Metro Detroit Homes",
+    slug: "choosing-entry-door-brooklyn-brownstone",
+    title: "How to Choose an Entry Door for a Brooklyn Brownstone",
+    metaTitle: "Entry Door Guide for Brooklyn Brownstones",
     excerpt:
-      "Use daylight, undertones, fixed finishes, and real sample areas to build an interior palette that works through every Michigan season.",
-    category: "Interior",
+      "Historic profiles, security needs, and NYC weather all influence the right entry door for a Brooklyn townhouse or brownstone.",
+    category: "Residential",
     readMinutes: 6,
     date: "2026-01-16",
-    heroImage: "/blog/interior-paint-colors-metro-detroit-hero.png",
-    heroAlt:
-      "Homeowner comparing warm neutral paint samples in a bright Metro Detroit living room",
-    secondaryImage: "/blog/interior-paint-colors-metro-detroit-secondary.png",
-    secondaryAlt:
-      "Professional painter applying a sample color beside wood trim in a Michigan home",
+    heroImage: "/blog/choosing-entry-door-brooklyn-brownstone-hero.png",
+    heroAlt: "Premium solid wood entry door installed on a Brooklyn brownstone",
+    secondaryImage: "/blog/choosing-entry-door-brooklyn-brownstone-secondary.png",
+    secondaryAlt: "Door technician measuring a historic Brooklyn entry opening",
     body: `
-Choosing an interior paint color from a small card is difficult because color never appears by itself. It reacts to window direction, bulbs, flooring, counters, furniture, wood tones, and adjoining rooms. Metro Detroit homes add long gray winters, bright summer sun, mature shade trees, and housing styles that range from Detroit brick colonials to Royal Oak bungalows and newer Macomb County homes.
+Brooklyn brownstones and townhouses present a unique combination of historic architecture, settled frames, and modern security expectations. The right entry door must fit an often-non-standard opening, complement original casings, and withstand NYC humidity, heat, and winter weather.
 
-The reliable approach is to narrow the palette in context, then test finalists on the actual surfaces. Sampling costs very little compared with repainting a room that turns unexpectedly cool, yellow, or dark.
+## Start with the opening, not the catalog photo
 
-## Start with finishes that will remain
+Pre-war buildings frequently have openings that differ from modern standard sizes. Measure jamb width, height, depth, swing, and the condition of the header and sill before selecting a slab. A door that fits a catalog dimension but not your frame will bind, leak, or fail to latch within a season.
 
-List the elements you are not changing: flooring, stone, tile, countertops, cabinets, large furniture, and stained wood. These fixed finishes establish the undertone family. A warm floor may make a blue-based gray look colder than it appeared online, while cream stone can make a crisp white feel harsh.
+Check whether the existing frame can be preserved. Rot, termite damage, or repeated settling may require jamb repair or replacement before a new slab is hung.
 
-Carry samples next to each finish instead of judging them against white paper. In an open plan, check the color beside every visible adjoining room so transitions feel intentional.
+## Match the architectural profile
 
-## Read the light throughout the day
+Historic Brooklyn entries often feature panel profiles, transoms, and sidelites that define the facade. When replacing a door, consider whether a standard slab will look out of place against original casings and stonework.
 
-North-facing rooms usually receive cooler indirect light. South-facing rooms tend to stay brighter and warmer, while east- and west-facing rooms can change dramatically. Tree cover, porch roofs, and neighboring houses also matter.
+Custom fabrication or profile-matched doors cost more upfront but preserve curb appeal and property value — especially on blocks where architectural consistency matters.
 
-After sunset, bulb color affects the result. Warm bulbs can pull yellow from a neutral; cooler bulbs can flatten warm tones. Review samples under the lighting you use each evening.
+## Prioritize security and hardware
 
-### Test larger sample areas
+NYC entry doors benefit from solid-core or metal-clad construction, quality deadbolts, reinforced strikes, and hinges with long screws into the framing. Multi-point lock systems add security without compromising the historic appearance when specified correctly.
 
-- Place one sample near the main window and another on a shadowed side.
-- Compare it directly with trim, flooring, and permanent finishes.
-- Observe it in morning, afternoon, evening, and cloudy conditions.
-- Label every sample with its exact color and product reference.
+Hardware weight affects hinge selection and closer requirements. Specify hinges and locksets matched to door weight and daily use.
 
-## Plan color flow and sheen
+## Plan for weather sealing
 
-A connected home does not need one color everywhere. Repeating an undertone, using related lightness levels, or carrying one trim color through shared areas can create continuity. Bedrooms and enclosed offices can support more individual choices because doors provide a visual break.
+Brooklyn entries face driving rain, summer heat, and winter cold. Weatherstripping, thresholds, and proper sill pans prevent drafts and water intrusion. A beautiful door that does not seal will cost more in energy and damage over time.
 
-Sheen changes perceived color. More reflective finishes can look richer and reveal more variation. Lower-sheen finishes soften light, while washable options are practical in kitchens, baths, entries, and children's rooms. Compare the coating line, cleanability, moisture exposure, and traffic instead of choosing by sheen name alone.
-
-Confirm color names, products, and finishes in writing before materials are ordered. BH Painting Metro Detroit helps homeowners across Wayne, Oakland, and Macomb counties plan colors and complete carefully prepared interior projects. Call or text (313) 236-4558 for a written estimate.
+Hillman Door Supply and Door Repair helps Brooklyn homeowners select, fabricate, and install entry doors with accurate measurement and structural assessment. Call or text (718) 638-4271 for a written estimate from our Flatbush Ave headquarters.
 `,
   },
   {
-    slug: "exterior-paint-michigan-weather",
-    title: "Exterior Paint and Michigan Weather: What Makes a Finish Last",
-    metaTitle: "Exterior Paint for Michigan Weather",
+    slug: "fire-rated-doors-nyc-multifamily",
+    title: "Fire-Rated Doors in NYC Multifamily Buildings: What Owners Need to Know",
+    metaTitle: "Fire-Rated Door Requirements NYC Multifamily",
     excerpt:
-      "A durable Michigan exterior depends on dry surfaces, thorough preparation, the right coating system, and a realistic weather window.",
-    category: "Exterior",
+      "UL labels, self-closing hardware, and corridor assemblies — the essentials for compliant multifamily door replacement in NYC.",
+    category: "Commercial",
     readMinutes: 7,
     date: "2026-02-12",
-    heroImage: "/blog/exterior-paint-michigan-weather-hero.png",
-    heroAlt:
-      "Professional painter coating the exterior of a Metro Detroit home on a clear mild day",
-    secondaryImage: "/blog/exterior-paint-michigan-weather-secondary.png",
-    secondaryAlt:
-      "Painter checking prepared wood siding before exterior primer application in Michigan",
+    heroImage: "/blog/fire-rated-doors-nyc-multifamily-hero.png",
+    heroAlt: "Fire-rated corridor door with UL label installed in a NYC apartment building",
+    secondaryImage: "/blog/fire-rated-doors-nyc-multifamily-secondary.png",
+    secondaryAlt: "Self-closing hardware on a fire-rated door assembly",
     body: `
-Michigan exteriors experience freezing winters, humid summers, wind-driven rain, strong sun, and repeated temperature swings. A coating can look fresh when the crew leaves and still fail early if applied over moisture, loose material, contamination, or an incompatible prior finish. Product quality matters, but preparation and timing matter just as much.
+Multifamily and mixed-use buildings across Brooklyn, Manhattan, and Queens must maintain fire-rated door assemblies in corridors, stairwells, and other code-required locations. Replacing a fire door is not the same as swapping a residential interior slab — the assembly, label, and hardware must work together.
 
-For Metro Detroit homes, the goal is not simply to find a warm afternoon. The surface, air, forecast, and cure period all need to fit the coating manufacturer's limits.
+## Understand the label
 
-## Inspect before choosing a product
+Fire-rated doors carry UL or WH labels that specify the rating (e.g., 90-minute, 60-minute) and whether the door is for use in a frame of matching rating. Installing a labeled door in a non-rated frame — or removing the label during installation — can void compliance.
 
-Walk every side of the property and note peeling, fading, chalking, open joints, mildew, rust, damaged wood, and areas where water collects. North sides may stay damp longer. South and west exposures often show more sun wear. Lower siding near landscaping can collect irrigation residue and soil.
+Always verify the existing rating before ordering a replacement. Your superintendent, architect, or expeditor can help confirm what the opening requires.
 
-Correct recurring moisture before coating. Paint is not a substitute for sound gutters, flashing, drainage, or ventilation.
+## Self-closing hardware is part of the assembly
 
-## Preparation creates adhesion
+Fire-rated doors must self-close and latch reliably. This means appropriate closers, spring hinges, or automatic operators depending on the opening type and ADA requirements. A fire door that stays propped open fails its purpose regardless of the slab quality.
 
-A professional scope may include cleaning, removal of loose finish, sanding rough transitions, treatment of compatible stains, paintable caulk at selected joints, and primer on exposed areas. Excessive washing pressure can damage softer wood or drive water behind siding, so cleaning should suit the material. Shaded sections also need enough time to dry.
+## Smoke seals and gasketing
 
-### Match the system to the surface
+Many NYC corridor doors require smoke-seal components or intumescent gasketing. These materials are part of the listed assembly and should not be omitted or substituted without verification.
 
-Brick, masonry, wood, fiber cement, aluminum, vinyl, and previously coated surfaces do not all need the same system.
+## Documentation matters
 
-- Bare or weathered wood may need primer that controls staining and improves adhesion.
-- Masonry must be clean, stable, and suitable for a breathable coating.
-- Metal needs oxidation removal and compatible corrosion control.
-- Vinyl color choices should follow heat and manufacturer guidance.
+Property managers should retain invoices, label photos, and installation records. DOB and FDNY inspections may require proof that listed assemblies were installed correctly.
 
-The proposal should identify the intended primer and finish instead of listing generic exterior paint.
-
-## Respect the complete weather window
-
-Temperature guidance applies to the surface as well as the air. Dark siding in direct sun can be far hotter than the forecast, while shaded masonry can remain cold. Rain and evening dew matter because a fresh finish needs enough time to set. High humidity slows drying; wind can carry debris or create overspray risk.
-
-Coatings must also be applied at the recommended spread rate. Stretching material too far reduces protective film thickness. Edges, lower boards, trim profiles, and transitions deserve deliberate coverage because they often weather first.
-
-Inspect the property each spring and fall, keep plants away from coated surfaces, clean heavy dirt gently, and address local wear before it spreads. BH Painting Metro Detroit provides insured exterior painting across Wayne, Oakland, and Macomb counties with preparation and weather planning written into the scope. Call (313) 236-4558 for an estimate.
+Hillman Door Supply and Door Repair supplies and installs fire-rated door assemblies across NYC with label verification and hardware coordination. Contact us at (718) 638-4271 for multifamily door scopes.
 `,
   },
   {
-    slug: "cabinet-painting-vs-replacement",
-    title: "Cabinet Painting vs. Replacement: How to Make the Right Investment",
-    metaTitle: "Cabinet Painting vs Replacement Guide",
+    slug: "storefront-door-repair-nyc-retail",
+    title: "Storefront Door Repair for NYC Retail: Common Failures and Fixes",
+    metaTitle: "NYC Storefront Door Repair Guide",
     excerpt:
-      "Sound cabinets can often gain a durable, updated finish, while damaged boxes or an unsuitable layout may justify replacement.",
-    category: "Cabinets",
-    readMinutes: 6,
-    date: "2026-03-10",
-    heroImage: "/blog/cabinet-painting-vs-replacement-hero.png",
-    heroAlt:
-      "Freshly painted navy kitchen cabinets with brass hardware in a Metro Detroit home",
-    secondaryImage: "/blog/cabinet-painting-vs-replacement-secondary.png",
-    secondaryAlt:
-      "Professional painter applying a cabinet-grade finish to labeled kitchen doors",
-    body: `
-Cabinet painting can transform a kitchen with less demolition, waste, and disruption than replacement, but it is not the right answer for every room. The decision should begin with cabinet condition and layout, not color inspiration alone.
-
-If the boxes are sturdy, doors operate correctly, and the storage plan works, a professional coating system can provide a major visual update. Replacement makes more sense when boxes are swollen, damaged, poorly secured, or arranged in a way that no finish can improve.
-
-## Good candidates for cabinet painting
-
-Paint is often practical for solid wood, medium-density fiberboard, and previously finished cabinets that remain stable and can accept the selected preparation system. Minor wear is expected. Widespread delamination, deep water damage, failing veneer, or loose structural parts require a closer evaluation.
-
-Consider the layout honestly. Painting will not add drawers, improve awkward corners, raise low counters, or create space for new appliances. If those are the real goals, invest in design changes rather than using color to postpone them.
-
-## The process is more than applying paint
-
-Cabinet surfaces collect cooking oils, hand residue, cleaners, and polish. Successful work requires a controlled sequence:
-
-- Record and label doors, drawers, hinges, and hardware.
-- Degrease all finish areas with suitable cleaners.
-- Sand or abrade consistently to promote adhesion.
-- Use a bonding primer compatible with the cabinet and prior finish.
-- Apply cabinet-grade finish coats within product requirements.
-- Allow adequate cure time before reassembly and normal use.
-
-Skipping cleaning or cure time is a common cause of peeling and marks around handles. A finish may feel dry before it reaches full hardness.
-
-## Compare total project scope
-
-Painting usually preserves counters, cabinet boxes, and the existing footprint. Replacement may trigger added work involving counters, plumbing, electrical items, flooring, backsplash, and appliance fit. Compare complete project costs and disruption, not only the cabinet proposal.
-
-For painting, ask whether doors and drawers are finished off-site or in a controlled area, how the room is isolated, which surfaces are included, and whether interiors are excluded. Confirm the product, color, sheen, hardware handling, and reassembly details in writing.
-
-## Set realistic finish expectations
-
-Paint does not erase wood grain, open seams, profile variation, or every sign of age. Some owners appreciate subtle grain through the new finish; others want an extremely uniform modern appearance. Review a sample and discuss expectations before the full project begins.
-
-Color should be judged beside counters, flooring, backsplash, appliances, and adjacent rooms. Warm whites, muted colors, deep blues, greens, and near-black shades can all work, but lighting and fixed finishes determine which undertones belong.
-
-BH Painting Metro Detroit offers cabinet painting and color guidance throughout Metro Detroit. Call (313) 236-4558 to schedule an assessment of cabinet condition, preparation needs, finish options, and project timing.
-`,
-  },
-  {
-    slug: "hire-painting-contractor-michigan",
-    title: "How to Hire a Painting Contractor in Michigan",
-    metaTitle: "How to Hire a Michigan Painting Contractor",
-    excerpt:
-      "Compare insurance, preparation, products, communication, and written scopes before choosing a painter for your Michigan property.",
-    category: "Planning",
-    readMinutes: 7,
-    date: "2026-04-08",
-    heroImage: "/blog/hire-painting-contractor-michigan-hero.png",
-    heroAlt:
-      "Homeowner reviewing a written painting proposal with an insured Metro Detroit painter",
-    secondaryImage: "/blog/hire-painting-contractor-michigan-secondary.png",
-    secondaryAlt:
-      "Organized professional painting crew protecting floors before an interior project",
-    body: `
-A strong painting proposal should explain how the finish will be achieved, not only provide a total price. Metro Detroit property owners can compare contractors more fairly by reviewing insurance, preparation, products, access, schedule, and cleanup as one complete scope.
-
-Begin with projects similar to yours. Cabinet finishing, a tall exterior, an occupied office, and a vacant rental require different equipment and planning. Ask for relevant examples and listen for a clear explanation of the process.
-
-## Verify the business and insurance
-
-Confirm the business name, local contact information, and current liability insurance. Commercial owners and property managers may also require specific certificates and vendor documents. Verify any registration, permit, or municipal requirements that apply to the broader project directly with the appropriate authority.
-
-Avoid relying on badges or review claims without documentation. A professional should be willing to state exactly what is and is not covered.
-
-## Demand a detailed written scope
-
-Every proposal should identify:
-
-- Rooms, elevations, surfaces, doors, trim, or cabinets included.
-- Cleaning, sanding, caulking, minor repairs, and primer assumptions.
-- Product lines, colors, finishes, and expected coat count.
-- Furniture, floor, landscaping, fixture, and hardware protection.
-- Crew access, working hours, cleanup, and disposal.
-- Estimated timing, payment milestones, and change-order procedure.
-
-One bid may look lower because it excludes preparation or materials included by another. Compare line by line before comparing totals.
-
-## Ask how conditions change the plan
-
-A knowledgeable painter should explain how glossy surfaces, stains, prior coatings, moisture, weather, strong color changes, or occupied areas affect the system. Exterior work needs manufacturer-compliant temperature and moisture windows. Interior work needs ventilation and a plan for children, pets, employees, or customers.
-
-Specific answers are more useful than promises that one product works everywhere.
-
-## Review communication and project control
-
-Know who confirms colors, who provides daily updates, and who completes the final walkthrough. Color names and product references should be recorded before ordering. Added work should receive written approval before it affects the invoice or schedule.
-
-For businesses and multifamily properties, ask about phased zones, tenant notices, secure storage, and coordination with cleaners or maintenance staff.
-
-## Watch for warning signs
-
-- A vague verbal price with no included surfaces or preparation.
-- Pressure for a large payment without defined milestones.
-- No proof of insurance.
-- Unlabeled leftover containers or unclear product substitutions.
-- Promises to paint damp, dirty, or unstable surfaces immediately.
-- No plan for protection, ventilation, cleanup, or final review.
-
-The best choice is the contractor whose written process fits your property and risk, not automatically the highest or lowest bidder. BH Painting Metro Detroit provides free written estimates and insured professional painters across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 to discuss your project.
-`,
-  },
-  {
-    slug: "commercial-painting-minimal-downtime",
-    title: "Commercial Painting With Minimal Downtime in Metro Detroit",
-    metaTitle: "Commercial Painting With Minimal Downtime",
-    excerpt:
-      "Phased work zones, off-hour scheduling, coating selection, and clear communication can keep a business operating during repainting.",
+      "Floor closers, panic hardware, and weather seals — what causes NYC storefront doors to fail and how to fix them properly.",
     category: "Commercial",
     readMinutes: 6,
-    date: "2026-05-07",
-    heroImage: "/blog/commercial-painting-minimal-downtime-hero.png",
-    heroAlt:
-      "Professional painters refreshing a modern Metro Detroit office after business hours",
-    secondaryImage: "/blog/commercial-painting-minimal-downtime-secondary.png",
-    secondaryAlt:
-      "Protected commercial corridor divided into organized painting work zones",
+    date: "2026-03-05",
+    heroImage: "/blog/storefront-door-repair-nyc-retail-hero.png",
+    heroAlt: "Aluminum storefront entrance door on a NYC retail shop",
+    secondaryImage: "/blog/storefront-door-repair-nyc-retail-secondary.png",
+    secondaryAlt: "Technician adjusting floor closer on a commercial glass entrance door",
     body: `
-Commercial painting succeeds when the new finish improves the property without disrupting the people who use it. Offices, stores, restaurants, clinics, apartment common areas, and light-industrial spaces each have different traffic, access, ventilation, security, and cure-time needs.
+Ground-floor retail and restaurant spaces across NYC depend on aluminum and glass storefront doors that handle thousands of cycles per month. When a storefront door drags, won't latch, or slams shut, the cause is usually hardware wear — not necessarily the glass or frame.
 
-The planning conversation should begin with operations. Identify when customers arrive, which rooms cannot close together, where materials can be stored, and who can authorize a completed zone.
+## Floor closers and pivot alignment
 
-## Build the schedule around critical spaces
+Many NYC storefront entrances use floor-mounted closers or bottom pivots. These components wear over time, especially on heavily trafficked doors. Misalignment causes dragging, uneven gaps, and latch failures.
 
-Divide the project into practical phases rather than opening every area at once. A typical plan might complete private offices first, shared corridors in sections, and reception during a low-traffic period. Retail and hospitality work may be scheduled after closing, while multifamily common areas often need daytime access and resident notices.
+Adjustment may restore operation temporarily, but worn closers and pivots often need replacement. After-hours service minimizes disruption to business hours.
 
-The schedule should include preparation and cure time, not only application. A surface that feels dry may not be ready for heavy cleaning, door contact, shelving, or constant hand traffic.
+## Panic hardware and exit devices
 
-## Select products for the actual environment
+Doors equipped with panic bars must latch securely while releasing freely during egress. Worn latches, bent strikes, or misaligned rods cause both security and code concerns. Never disable exit hardware to solve a latching problem — repair or replace the component.
 
-Low-odor and low-VOC options can help occupied spaces, but ventilation is still important. High-contact corridors may need greater washability. Kitchens, restrooms, loading areas, and exterior entrances have distinct moisture and wear conditions.
+## Weather seals and sweeps
 
-Color and sheen also affect maintenance. Very dark colors can show dust or scuffs in bright corridors, while high reflection reveals more variation. A product plan should balance brand standards, appearance, cleaning practices, and expected traffic.
+Worn bottom sweeps and perimeter gaskets allow water, drafts, and street noise into the space. Replacing seals is a cost-effective improvement that extends hardware life by reducing debris in tracks and closers.
 
-### Control each work zone
+## When replacement makes sense
 
-- Post or communicate closures before crews arrive.
-- Protect floors, furniture, displays, equipment, and adjacent finishes.
-- Maintain required exits and keep paths clearly usable.
-- Isolate preparation residue and manage ventilation.
-- Label approved colors and products by room or location.
-- Inspect and release one phase before opening the next.
+If the frame is bent, the door is delaminating, or repeated repairs fail within months, a new entrance assembly may cost less over time than ongoing emergency fixes.
 
-When several tenants share a property, designate one owner or manager contact to prevent conflicting instructions.
-
-## Use off-hours strategically
-
-Night and weekend work can reduce customer interruption, but it needs secure access, adequate lighting, alarm coordination, and a clear end-of-shift checklist. Quiet tasks may be possible during business hours while noisier preparation happens later. The right split can control cost better than moving every task to overtime periods.
-
-## Document progress and closeout
-
-Daily updates should identify completed areas, spaces still curing, access changes, and decisions needed from management. At closeout, record final colors and products for future maintenance. Clearly labeled touch-up material can help facility teams handle small wear without guessing.
-
-BH Painting Metro Detroit coordinates phased commercial painting across Wayne, Oakland, and Macomb counties. Call (313) 236-4558 to review operating hours, priority zones, coating needs, and a written schedule designed to limit downtime.
+Hillman Door Supply and Door Repair provides storefront door repair and replacement across Brooklyn, Manhattan, and Queens. Call (718) 638-4271 for same-day emergency service when available.
 `,
   },
   {
-    slug: "deck-staining-michigan-climate",
-    title: "Deck Staining for Michigan's Climate: Timing, Prep, and Maintenance",
-    metaTitle: "Deck Staining in Michigan's Climate",
+    slug: "interior-door-replacement-nyc-apartment",
+    title: "Interior Door Replacement in NYC Apartments: Scope and Timing",
+    metaTitle: "NYC Apartment Interior Door Replacement",
     excerpt:
-      "Protect outdoor wood through Michigan seasons by checking condition and moisture, cleaning correctly, and choosing the right stain.",
-    category: "Exterior",
-    readMinutes: 7,
-    date: "2026-06-11",
-    heroImage: "/blog/deck-staining-michigan-climate-hero.png",
-    heroAlt:
-      "Freshly stained wood deck behind a Metro Detroit home in mild summer weather",
-    secondaryImage: "/blog/deck-staining-michigan-climate-secondary.png",
-    secondaryAlt:
-      "Professional painter checking clean dry deck boards before applying stain",
+      " Hollow-core upgrades, noise reduction, and building coordination for apartment interior door projects in NYC.",
+    category: "Residential",
+    readMinutes: 5,
+    date: "2026-03-22",
+    heroImage: "/blog/interior-door-replacement-nyc-apartment-hero.png",
+    heroAlt: "New interior door installed in a renovated NYC apartment",
+    secondaryImage: "/blog/interior-door-replacement-nyc-apartment-secondary.png",
+    secondaryAlt: "Stack of pre-hung interior doors ready for apartment installation",
     body: `
-A Metro Detroit deck moves through snow, standing moisture, spring pollen, summer sun, and autumn leaves every year. Stain helps manage water and ultraviolet exposure, but only when the wood is ready to accept it. Applying a premium product over damp, dirty, or nonabsorbent boards can still produce blotchy color and early failure.
+Renovating an NYC apartment often includes replacing dated hollow-core doors with solid-core or fire-rated slabs. Whether you are updating one bedroom door or standardizing an entire unit, scope and timing depend on frame condition, building rules, and hardware compatibility.
 
-The best plan begins with the wood species, age, prior finish, exposure, and current condition.
+## Assess the frame first
 
-## Inspect before cleaning
+Apartment doors in pre-war and post-war buildings frequently have settled jambs, non-standard heights, or damaged strikes. Hanging a new slab on a compromised frame repeats the same binding and latching problems.
 
-Look for soft boards, loose fasteners, splinters, raised grain, algae, heavy graying, peeling finish, and areas that stay shaded. Structural or drainage concerns should be corrected before cosmetic work. Note where planters, grills, rugs, or furniture have trapped moisture.
+Include frame repair, shimming, and strike alignment in the scope when the opening needs it.
 
-New pressure-treated wood often needs time to dry before staining. Older wood may be dry enough but blocked by a prior coating. A small water-drop test can indicate absorption: water that beads for an extended period suggests the surface may not yet accept a penetrating product.
+## Consider sound and fire requirements
 
-## Clean without damaging the wood
+Bedroom and corridor doors in some buildings require minimum fire ratings or sound ratings. Check building alteration agreements and co-op or condo rules before ordering materials.
 
-Cleaning should remove dirt, organic growth, and incompatible loose finish while preserving sound fibers. Excessive pressure can carve softer boards and create visible lines. The appropriate cleaner, agitation, rinse method, and dry period depend on the deck.
+Solid-core doors improve privacy and reduce noise transfer between rooms — a meaningful upgrade in open-layout renovations.
 
-After cleaning, allow shaded joints and end grain to dry fully. A sunny top surface does not prove that moisture deeper in the boards is suitable for application.
+## Coordinate with building staff
 
-## Choose a stain by appearance and maintenance
+Many NYC buildings require insurance certificates, work-hour restrictions, and elevator reservations. Plan the installation schedule with your super or management company to avoid delays.
 
-Transparent and lightly toned products show more grain but generally provide less visual masking. Semi-transparent stains add color while retaining character. Solid-color stains create a more uniform look and can suit previously coated surfaces when preparation and compatibility are correct.
+## Batch replacements save time
 
-No category is maintenance-free. Ask how the product weathers, how future maintenance is performed, and whether the prior finish limits the available choices.
+If multiple doors in a unit need replacement, measuring and installing them in one visit reduces labor cost and disruption compared to one-off service calls.
 
-### Schedule for application and cure
+Hillman Door Supply and Door Repair installs interior doors across Brooklyn, Manhattan, and Queens. Request a unit-wide measurement at (718) 638-4271.
+`,
+  },
+  {
+    slug: "door-hardware-guide-nyc-buildings",
+    title: "Door Hardware Guide for NYC Buildings: Locks, Closers, and Hinges",
+    metaTitle: "NYC Door Hardware Selection Guide",
+    excerpt:
+      "How to specify locksets, closers, hinges, and panic hardware for residential and commercial doors in NYC.",
+    category: "Hardware",
+    readMinutes: 7,
+    date: "2026-04-10",
+    heroImage: "/blog/door-hardware-guide-nyc-buildings-hero.png",
+    heroAlt: "Commercial-grade door hardware including lockset and closer on a NYC office door",
+    secondaryImage: "/blog/door-hardware-guide-nyc-buildings-secondary.png",
+    secondaryAlt: "Assortment of hinges and locksets for door hardware upgrade",
+    body: `
+Door hardware determines how a door feels every day — and whether it meets code. NYC buildings mix residential locksets, commercial closers, panic hardware, and access-control components. Specifying the wrong hardware leads to premature failure, ADA issues, or security gaps.
 
-A useful weather window includes suitable air and surface temperatures, manageable humidity, no expected rain, and enough cure time before furniture returns. Direct midday sun may make sections dry too quickly, while evening dew can affect late application.
+## Match hardware to door weight and traffic
 
-- Work in sections that maintain a wet edge.
-- Coat end grain and detailed areas as the system directs.
-- Avoid excess material that cannot penetrate or level correctly.
-- Keep people, pets, furniture, and rain off the finish during cure.
+Heavy solid-core and fire-rated doors require hinges rated for the weight and frequency of use. Continuous hinges, heavy-duty ball bearings, or pivot systems may be necessary for high-traffic commercial openings.
 
-## Maintain the deck between full applications
+Lightweight hardware on a heavy door causes sagging, misalignment, and repeated latch failures.
 
-Sweep leaves and debris, keep gaps open for drainage, move moisture-trapping items periodically, and clean gently when buildup appears. Inspect horizontal boards and stair treads each spring because they wear faster than vertical rails. Early maintenance can extend the service life of the overall finish.
+## Closers and ADA clearance
 
-BH Painting Metro Detroit stains decks, fences, railings, and pergolas across Wayne, Oakland, and Macomb counties. Call (313) 236-4558 for an evaluation of wood condition, prior coating, color options, preparation, and weather-aware scheduling.
+Door closers control closing speed and latch timing. ADA requirements specify maximum opening force and closing time for accessible routes. Closers must be adjusted correctly — an improperly adjusted closer is a common source of tenant complaints and inspection failures.
+
+## Locksets and access control prep
+
+Modern NYC lobbies and commercial suites often need electric strikes, mag locks, or prep for keypads and intercoms. Planning access-control prep during door installation avoids costly retrofitting later.
+
+## Panic hardware for egress doors
+
+Exit doors in commercial occupancies require listed panic hardware that releases under pressure while maintaining security from the outside. Never substitute residential locksets on required egress openings.
+
+Hillman Door Supply and Door Repair supplies and installs commercial and residential door hardware across NYC. Call (718) 638-4271 for hardware upgrades matched to your openings.
+`,
+  },
+  {
+    slug: "structural-door-repair-vs-replacement",
+    title: "Structural Door Repair vs. Replacement: When to Fix the Frame",
+    metaTitle: "Door Frame Repair vs Replacement NYC",
+    excerpt:
+      "Sagging jambs, split stiles, and misaligned strikes — how to decide between structural repair and full door replacement.",
+    category: "Repair",
+    readMinutes: 6,
+    date: "2026-04-28",
+    heroImage: "/blog/structural-door-repair-vs-replacement-hero.png",
+    heroAlt: "Technician repairing a damaged door jamb in a NYC building",
+    secondaryImage: "/blog/structural-door-repair-vs-replacement-secondary.png",
+    secondaryAlt: "Before and after of a realigned door frame and hardware",
+    body: `
+Not every sticking door needs a new slab. Many NYC buildings — especially pre-war masonry structures — develop frame movement, rot, and hardware wear that mimic door failure. Structural assessment before ordering a replacement saves money and preserves original materials when possible.
+
+## Signs the frame is the problem
+
+- The door binds at the top or bottom but the slab looks straight
+- Visible gaps change seasonally as the building settles
+- Hinge screws pull out or hinges sit proud of the jamb
+- The strike no longer aligns despite hinge adjustment
+- Rot, swelling, or impact damage is visible on the jamb
+
+If multiple symptoms point to the frame, replacing the slab alone will not solve the problem.
+
+## When repair is the durable path
+
+Localized rot, split casings, and misaligned strikes can often be repaired with jamb splices, epoxy consolidation, reinforced hinges, and new strike plates. Historic profiles can be preserved when damage is caught early.
+
+## When replacement is necessary
+
+Severe header failure, widespread rot, or frames that are out of square beyond shimming tolerance usually require jamb replacement or a pre-hung assembly. Fire-rated openings must be replaced with listed assemblies — repairs must not compromise the label.
+
+## Emergency stabilization first
+
+Break-in damage and forced-entry failures need immediate security restoration. Temporary reinforcement and lock replacement protect the property while permanent frame repair is scheduled.
+
+Hillman Door Supply and Door Repair provides structural door repair and frame rebuilds across Brooklyn, Manhattan, and Queens from 281 Flatbush Ave. Call (718) 638-4271 for assessment and a written scope.
 `,
   },
 ];
 
+export const BLOG_BY_SLUG: Record<string, BlogPost> = Object.fromEntries(
+  BLOG_POSTS.map((post) => [post.slug, post])
+);
+
 export function findPost(slug: string): BlogPost | undefined {
-  return BLOG_POSTS.find((post) => post.slug === slug);
+  return BLOG_BY_SLUG[slug];
 }

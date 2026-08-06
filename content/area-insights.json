@@ -1,2224 +1,2203 @@
 {
-  "detroit": {
-    "tagline": "Detroit: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "boerum-hill": {
+    "tagline": "Boerum Hill's trusted source for elegant door installations, reliable repairs, and premium door hardware.",
     "landmarks": [
-      "Detroit Institute of Arts",
-      "Comerica Park",
-      "Motown Museum"
+      "Brooklyn House of Detention",
+      "The Invisible Dog Art Center",
+      "Roulette Intermedium"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Repair historic brownstone entry door",
+      "Install new custom interior doors",
+      "Replace worn door hinges and locks"
     ],
-    "neighborhood_notes": "Detroit is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Boerum Hill features many historic brownstones and townhouses, often requiring custom-sized or period-appropriate doors. Original door hardware can be challenging to repair or replace due to age and unique designs. Commercial doors in the area's boutiques and restaurants need durable, aesthetically pleasing solutions.",
     "keywords": [
-      "detroit painters",
-      "painting company detroit mi",
-      "interior painting detroit",
-      "exterior painting detroit",
-      "house painters detroit",
-      "commercial painting detroit"
+      "boerum hill door repair",
+      "brooklyn brownstone doors",
+      "custom entry doors boerum hill",
+      "commercial door installation brooklyn",
+      "door hardware boerum hill",
+      "historic door restoration brooklyn"
     ]
   },
-  "dearborn": {
-    "tagline": "Dearborn: Preparation-first painting with clean protection and written project scopes.",
+  "fort-greene": {
+    "tagline": "Expert door services in Fort Greene, from classic brownstone doors to modern commercial entrances.",
     "landmarks": [
-      "Henry Ford Museum",
-      "Greenfield Village",
-      "University of Michigan-Dearborn"
+      "Fort Greene Park",
+      "BAM (Brooklyn Academy of Music)",
+      "Irondale Center"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Fix squeaky apartment building doors",
+      "Upgrade security doors for retail space",
+      "Install fire-rated doors for compliance"
     ],
-    "neighborhood_notes": "Dearborn is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "Fort Greene's architecture ranges from grand brownstones to newer apartment complexes, each with distinct door requirements. High foot traffic in commercial areas necessitates robust, secure, and frequently maintained doors. Fire safety codes are particularly strict for multi-unit residential and commercial buildings.",
     "keywords": [
-      "dearborn painters",
-      "painting company dearborn mi",
-      "interior painting dearborn",
-      "exterior painting dearborn",
-      "house painters dearborn",
-      "commercial painting dearborn"
+      "fort greene door repair",
+      "brooklyn brownstone door service",
+      "commercial door repair fort greene",
+      "apartment building doors brooklyn",
+      "fire door installation fort greene",
+      "door replacement brooklyn"
     ]
   },
-  "livonia": {
-    "tagline": "Livonia: Professional painting planned around your property, colors, and schedule.",
+  "downtown-brooklyn": {
+    "tagline": "Downtown Brooklyn's premier door supply and repair for high-rise offices and bustling retail spaces.",
     "landmarks": [
-      "Laurel Park Place",
-      "Livonia City Hall",
-      "Livonia Public Library"
+      "Brooklyn Borough Hall",
+      "MetroTech Center",
+      "Fulton Center"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Repair automatic sliding glass doors",
+      "Install access control system on office doors",
+      "Replace damaged storefront doors"
     ],
-    "neighborhood_notes": "Livonia is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Downtown Brooklyn is characterized by high-rise commercial and residential buildings, demanding durable, high-security, and often automated door systems. Storefront doors experience heavy use and require frequent maintenance or replacement to maintain security and appearance. ADA compliance is crucial for all public-facing doors.",
     "keywords": [
-      "livonia painters",
-      "painting company livonia mi",
-      "interior painting livonia",
-      "exterior painting livonia",
-      "house painters livonia",
-      "commercial painting livonia"
+      "downtown brooklyn door repair",
+      "commercial door installation brooklyn",
+      "automatic door service brooklyn",
+      "storefront door replacement",
+      "office door repair downtown brooklyn",
+      "access control doors brooklyn"
     ]
   },
-  "westland": {
-    "tagline": "Westland: Professional painting planned around your property, colors, and schedule.",
+  "brooklyn-heights": {
+    "tagline": "Brooklyn Heights' trusted door experts for elegant brownstone doors and historic property restoration.",
     "landmarks": [
-      "Westland Shopping Center",
-      "Detroit Wayne County Community Mental Health Authority",
-      "Hines Park"
+      "Brooklyn Heights Promenade",
+      "Plymouth Church",
+      "St. Ann's Warehouse"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Restore antique wooden entry doors",
+      "Repair broken door frames in historic homes",
+      "Install custom storm doors"
     ],
-    "neighborhood_notes": "Westland is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Brooklyn Heights is renowned for its historic brownstones and townhouses, where preserving original architectural integrity is paramount for door repairs and replacements. Many doors require custom fabrication or specialized restoration techniques. Security and weatherproofing are key concerns for these valuable properties.",
     "keywords": [
-      "westland painters",
-      "painting company westland mi",
-      "interior painting westland",
-      "exterior painting westland",
-      "house painters westland",
-      "commercial painting westland"
+      "brooklyn heights door repair",
+      "historic door restoration brooklyn",
+      "brownstone entry doors",
+      "custom wooden doors brooklyn",
+      "door frame repair brooklyn heights",
+      "antique door hardware brooklyn"
     ]
   },
-  "canton": {
-    "tagline": "Canton: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "dumbo": {
+    "tagline": "DUMBO's leading door service for industrial-chic lofts, art galleries, and commercial spaces.",
     "landmarks": [
-      "Canton Leisure Services",
-      "Pheasant Run Golf Club",
-      "Summit on the Park"
+      "Manhattan Bridge Archway",
+      "Jane's Carousel",
+      "Brooklyn Bridge Park"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Repair roll-down security gates",
+      "Install oversized loft doors",
+      "Replace storefront glass doors"
     ],
-    "neighborhood_notes": "Canton is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "DUMBO's industrial past influences its architecture, with many buildings featuring large, robust doors suitable for loft conversions and commercial spaces. Security gates are common for ground-level businesses and require regular maintenance. Modern art galleries and tech offices often seek unique, high-design door solutions.",
     "keywords": [
-      "canton painters",
-      "painting company canton mi",
-      "interior painting canton",
-      "exterior painting canton",
-      "house painters canton",
-      "commercial painting canton"
+      "dumbo door repair",
+      "commercial door installation dumbo",
+      "roll down gate repair brooklyn",
+      "loft doors brooklyn",
+      "storefront door replacement dumbo",
+      "industrial doors brooklyn"
     ]
   },
-  "taylor": {
-    "tagline": "Taylor: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "cobble-hill": {
+    "tagline": "Cobble Hill's reliable source for residential and commercial door repair, installation, and upgrades.",
     "landmarks": [
-      "Taylor Sportsplex",
-      "Heritage Park",
-      "Southland Center"
+      "Cobble Hill Park",
+      "St. Paul's Grotto",
+      "Long Island College Hospital"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Adjust misaligned brownstone doors",
+      "Replace worn out patio doors",
+      "Upgrade apartment entry door locks"
     ],
-    "neighborhood_notes": "Taylor is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Cobble Hill features many well-preserved 19th-century brownstones and row houses, demanding careful attention to historical detail for door services. Residential doors often face issues with alignment due to settling foundations. Commercial establishments along Court Street and Smith Street require durable, secure entryways.",
     "keywords": [
-      "taylor painters",
-      "painting company taylor mi",
-      "interior painting taylor",
-      "exterior painting taylor",
-      "house painters taylor",
-      "commercial painting taylor"
+      "cobble hill door repair",
+      "brownstone door service brooklyn",
+      "residential door installation cobble hill",
+      "patio door replacement brooklyn",
+      "door lock upgrade cobble hill",
+      "commercial door repair cobble hill"
     ]
   },
-  "redford": {
-    "tagline": "Redford: Professional painting planned around your property, colors, and schedule.",
+  "carroll-gardens": {
+    "tagline": "Carroll Gardens' trusted door experts for residential, commercial, and garden-access door solutions.",
     "landmarks": [
-      "Redford Theatre",
-      "Bell Creek Park",
-      "Redford Township Public Library"
+      "Carroll Park",
+      "Sacred Hearts of Jesus and Mary & St. Stephen's Church",
+      "Court Street"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Repair garden access doors",
+      "Install new storm doors for brownstones",
+      "Fix sticky apartment building entrance doors"
     ],
-    "neighborhood_notes": "Redford is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Carroll Gardens is known for its beautiful brownstones with front gardens, often requiring specialized garden-access doors and gates. Many residential properties have older doors that may need weatherproofing or frame repairs. Commercial doors on busy streets like Court Street need to withstand frequent use and maintain security.",
     "keywords": [
-      "redford painters",
-      "painting company redford mi",
-      "interior painting redford",
-      "exterior painting redford",
-      "house painters redford",
-      "commercial painting redford"
+      "carroll gardens door repair",
+      "garden door installation brooklyn",
+      "brownstone storm doors",
+      "residential door service carroll gardens",
+      "commercial door repair brooklyn",
+      "door frame repair carroll gardens"
     ]
   },
-  "garden-city": {
-    "tagline": "Garden City: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "gowanus": {
+    "tagline": "Gowanus's go-to for robust commercial, industrial, and creative space door installations and repairs.",
     "landmarks": [
-      "Garden City Hospital",
-      "Garden City Park",
-      "Garden City Public Library"
+      "Gowanus Canal",
+      "Whole Foods Market",
+      "Gowanus Dredgers Canoe Club"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Repair industrial roll-up garage doors",
+      "Install heavy-duty warehouse doors",
+      "Replace damaged commercial entry doors"
     ],
-    "neighborhood_notes": "Garden City is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Gowanus is a transitioning industrial area, with many warehouses and former factory buildings now housing creative businesses and light industry. Doors here often need to be heavy-duty, secure, and capable of handling high traffic or large deliveries. Roll-up doors and loading dock doors are common and require specialized service.",
     "keywords": [
-      "garden city painters",
-      "painting company garden city mi",
-      "interior painting garden city",
-      "exterior painting garden city",
-      "house painters garden city",
-      "commercial painting garden city"
+      "gowanus door repair",
+      "industrial door installation brooklyn",
+      "roll up door repair gowanus",
+      "warehouse doors brooklyn",
+      "commercial entry door replacement",
+      "loading dock door service brooklyn"
     ]
   },
-  "inkster": {
-    "tagline": "Inkster: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "park-slope": {
+    "tagline": "Park Slope's trusted source for elegant door installations, reliable repairs, and quality door supplies.",
     "landmarks": [
-      "Inkster Valley Golf Club",
-      "Michigan Memorial Park",
-      "Lower Rouge Parkway"
+      "Prospect Park",
+      "Brooklyn Public Library (Grand Army Plaza)",
+      "Old Stone House"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Repair historic brownstone entry door",
+      "Install new patio doors for garden access",
+      "Replace apartment interior doors"
     ],
-    "neighborhood_notes": "Inkster is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Park Slope features many historic brownstones and pre-war buildings, often requiring custom-sized or period-appropriate doors. Weathering and age frequently impact door functionality and security. Many residents seek energy-efficient and sound-dampening door solutions.",
     "keywords": [
-      "inkster painters",
-      "painting company inkster mi",
-      "interior painting inkster",
-      "exterior painting inkster",
-      "house painters inkster",
-      "commercial painting inkster"
+      "park slope door repair",
+      "brownstone door installation",
+      "brooklyn door supply",
+      "entry door park slope",
+      "interior doors brooklyn",
+      "door replacement park slope"
     ]
   },
-  "romulus": {
-    "tagline": "Romulus: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "prospect-heights": {
+    "tagline": "Expert door repair, supply, and installation for Prospect Heights' diverse residential and commercial properties.",
     "landmarks": [
-      "Detroit Metropolitan Airport",
-      "Crosswinds Marsh",
-      "Romulus Historical Park"
+      "Brooklyn Museum",
+      "Brooklyn Botanic Garden",
+      "Grand Army Plaza"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Fix broken storefront door closer",
+      "Install new apartment building entrance doors",
+      "Replace residential garage door"
     ],
-    "neighborhood_notes": "Romulus is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Prospect Heights has a mix of historic row houses, new developments, and commercial spaces, leading to varied door needs. Security is a key concern for many properties, influencing door material and lock choices. Commercial doors often require ADA compliance and heavy-duty hardware.",
     "keywords": [
-      "romulus painters",
-      "painting company romulus mi",
-      "interior painting romulus",
-      "exterior painting romulus",
-      "house painters romulus",
-      "commercial painting romulus"
+      "prospect heights door repair",
+      "commercial door brooklyn",
+      "apartment door installation",
+      "storefront door repair",
+      "brooklyn door company",
+      "garage door prospect heights"
     ]
   },
-  "wayne": {
-    "tagline": "Wayne: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "clinton-hill": {
+    "tagline": "Clinton Hill's premier choice for dependable door services, from historical restorations to modern upgrades.",
     "landmarks": [
-      "Wayne County Community College District - Western Campus",
-      "Goudy Park",
-      "Wayne Historical Museum"
+      "Pratt Institute",
+      "St. Joseph's College",
+      "Lafayette Avenue Presbyterian Church"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Restore antique wooden entry door",
+      "Install soundproof apartment doors",
+      "Repair commercial glass entrance door"
     ],
-    "neighborhood_notes": "Wayne is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Clinton Hill boasts many well-preserved 19th-century homes and a growing number of contemporary buildings. Maintaining architectural integrity is important for door replacements in older structures. Commercial properties often need durable, high-traffic doors.",
     "keywords": [
-      "wayne painters",
-      "painting company wayne mi",
-      "interior painting wayne",
-      "exterior painting wayne",
-      "house painters wayne",
-      "commercial painting wayne"
+      "clinton hill door repair",
+      "historic door restoration",
+      "pratt area door installation",
+      "brooklyn door service",
+      "commercial door repair clinton hill",
+      "entry doors brooklyn"
     ]
   },
-  "highland-park": {
-    "tagline": "Highland Park: Professional painting planned around your property, colors, and schedule.",
+  "williamsburg": {
+    "tagline": "Williamsburg's go-to for stylish door installations, rapid repairs, and a wide selection of door supplies.",
     "landmarks": [
-      "Ford Model T Plant",
-      "Woodward Avenue",
-      "Palmer Park Golf Course"
+      "Domino Park",
+      "Brooklyn Brewery",
+      "Williamsburg Bridge"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Install modern loft apartment doors",
+      "Repair restaurant entrance door",
+      "Replace roll-down security gates"
     ],
-    "neighborhood_notes": "Highland Park is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Williamsburg features a blend of industrial conversions, new residential towers, and commercial storefronts. Doors often reflect contemporary design aesthetics and industrial durability. Security gates and robust commercial doors are frequently requested.",
     "keywords": [
-      "highland park painters",
-      "painting company highland park mi",
-      "interior painting highland park",
-      "exterior painting highland park",
-      "house painters highland park",
-      "commercial painting highland park"
+      "williamsburg door installation",
+      "loft door brooklyn",
+      "commercial door repair williamsburg",
+      "security gate installation",
+      "brooklyn door supply",
+      "modern doors williamsburg"
     ]
   },
-  "hamtramck": {
-    "tagline": "Hamtramck: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "greenpoint": {
+    "tagline": "Greenpoint's trusted partner for quality door installations, reliable repairs, and comprehensive door supplies.",
     "landmarks": [
-      "Hamtramck Stadium",
-      "Pope Park",
-      "Hamtramck Public Library"
+      "Transmitter Park",
+      "Greenpoint Avenue G Train Station",
+      "Warsaw National Home"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Repair storefront door hinge",
+      "Install new apartment balcony doors",
+      "Replace residential entry door"
     ],
-    "neighborhood_notes": "Hamtramck is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Greenpoint has a mix of older residential buildings, industrial spaces, and new waterfront developments. Many older doors show wear from coastal weather conditions. Commercial properties require robust and often custom-sized doors.",
     "keywords": [
-      "hamtramck painters",
-      "painting company hamtramck mi",
-      "interior painting hamtramck",
-      "exterior painting hamtramck",
-      "house painters hamtramck",
-      "commercial painting hamtramck"
+      "greenpoint door repair",
+      "storefront door greenpoint",
+      "apartment door installation brooklyn",
+      "entry door replacement",
+      "brooklyn door company",
+      "commercial doors greenpoint"
     ]
   },
-  "dearborn-heights": {
-    "tagline": "Dearborn Heights: Professional painting planned around your property, colors, and schedule.",
+  "bushwick": {
+    "tagline": "Bushwick's reliable source for durable door installations, efficient repairs, and essential door supplies.",
     "landmarks": [
-      "John F. Kennedy Jr. Library",
-      "Caroline Kennedy Library",
-      "Canfield Plaza"
+      "Maria Hernandez Park",
+      "Bushwick Collective",
+      "Knickerbocker Avenue"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Fix apartment building entrance door",
+      "Install new security doors for businesses",
+      "Replace residential interior doors"
     ],
-    "neighborhood_notes": "Dearborn Heights is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Bushwick comprises diverse housing stock, from multi-family homes to converted industrial spaces. Security is a primary concern for many residents and businesses, leading to demand for robust doors and hardware. Vandalism can also be a factor in door damage.",
     "keywords": [
-      "dearborn heights painters",
-      "painting company dearborn heights mi",
-      "interior painting dearborn heights",
-      "exterior painting dearborn heights",
-      "house painters dearborn heights",
-      "commercial painting dearborn heights"
+      "bushwick door repair",
+      "security door installation",
+      "apartment entrance door",
+      "commercial doors bushwick",
+      "brooklyn door supply",
+      "door replacement bushwick"
     ]
   },
-  "lincoln-park": {
-    "tagline": "Lincoln Park: Professional painting planned around your property, colors, and schedule.",
+  "bedford-stuyvesant": {
+    "tagline": "Bed-Stuy's expert for historic door restoration, new installations, and all door repair needs.",
     "landmarks": [
-      "Lincoln Park Historical Museum",
-      "Council Point Park",
-      "Lincoln Park Public Library"
+      "Herbert Von King Park",
+      "Fulton Street",
+      "Restoration Plaza"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Restore brownstone entry door",
+      "Install new multi-family building doors",
+      "Repair commercial storefront door"
     ],
-    "neighborhood_notes": "Lincoln Park is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Bedford-Stuyvesant is known for its beautiful brownstones and historic architecture, requiring careful consideration for period-appropriate doors. Many doors in older buildings need repair due to age and wear. Security and durability are important factors for both residential and commercial properties.",
     "keywords": [
-      "lincoln park painters",
-      "painting company lincoln park mi",
-      "interior painting lincoln park",
-      "exterior painting lincoln park",
-      "house painters lincoln park",
-      "commercial painting lincoln park"
+      "bed-stuy door repair",
+      "brownstone door restoration",
+      "fulton street door service",
+      "brooklyn door installation",
+      "historic doors bed-stuy",
+      "commercial door repair brooklyn"
     ]
   },
-  "allen-park": {
-    "tagline": "Allen Park: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "crown-heights": {
+    "tagline": "Crown Heights' trusted provider for quality door installations, prompt repairs, and reliable door supplies.",
     "landmarks": [
-      "Allen Park Public Library",
-      "Allen Park High School",
-      "Melvindale-Northern Allen Park School District"
+      "Brooklyn Children's Museum",
+      "Brower Park",
+      "Eastern Parkway"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Repair apartment building entrance door",
+      "Install new residential security door",
+      "Replace interior closet doors"
     ],
-    "neighborhood_notes": "Allen Park is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Crown Heights features a mix of historic row houses, apartment buildings, and new developments. Security is a common concern, leading to demand for reinforced doors and robust locking mechanisms. Many older doors require maintenance due to continuous use.",
     "keywords": [
-      "allen park painters",
-      "painting company allen park mi",
-      "interior painting allen park",
-      "exterior painting allen park",
-      "house painters allen park",
-      "commercial painting allen park"
+      "crown heights door repair",
+      "apartment door repair brooklyn",
+      "security door installation",
+      "eastern parkway door service",
+      "brooklyn door company",
+      "residential doors crown heights"
     ]
   },
-  "wyandotte": {
-    "tagline": "Wyandotte: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "flatbush": {
+    "tagline": "Flatbush's trusted source for door supply, installation, and reliable door repair services.",
     "landmarks": [
-      "Wyandotte Museum",
-      "Wyandotte Public Library",
-      "Bishop Park"
+      "Brooklyn College",
+      "Flatbush Reformed Dutch Church",
+      "Kings Theatre"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "residential entry door replacement",
+      "commercial storefront door repair",
+      "interior door adjustments"
     ],
-    "neighborhood_notes": "Wyandotte is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Flatbush features a mix of historic Victorian homes and multi-unit residential buildings. Many older doors require hardware upgrades or weatherstripping replacement due to age. Commercial properties often need robust, secure entry solutions.",
     "keywords": [
-      "wyandotte painters",
-      "painting company wyandotte mi",
-      "interior painting wyandotte",
-      "exterior painting wyandotte",
-      "house painters wyandotte",
-      "commercial painting wyandotte"
+      "flatbush door repair",
+      "door installation flatbush",
+      "commercial doors flatbush",
+      "residential door repair brooklyn",
+      "entry door replacement flatbush",
+      "flatbush door company"
     ]
   },
-  "southgate": {
-    "tagline": "Southgate: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "prospect-lefferts-gardens": {
+    "tagline": "Expert door solutions for Prospect Lefferts Gardens homes and businesses. Quality and service.",
     "landmarks": [
-      "Southgate Shopping Center",
-      "Southgate Civic Center",
-      "Kiwanis Park"
+      "Prospect Park",
+      "Lefferts Historic House",
+      "Brooklyn Botanic Garden"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "historic brownstone door restoration",
+      "apartment building entry door repair",
+      "patio door replacement"
     ],
-    "neighborhood_notes": "Southgate is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "This area is known for its beautiful brownstones and pre-war apartment buildings. Doors often feature intricate designs and require careful, historically sensitive repairs. Security is a common concern for residential entry doors.",
     "keywords": [
-      "southgate painters",
-      "painting company southgate mi",
-      "interior painting southgate",
-      "exterior painting southgate",
-      "house painters southgate",
-      "commercial painting southgate"
+      "prospect lefferts gardens door repair",
+      "brownstone door restoration",
+      "door installation prospect lefferts gardens",
+      "apartment door repair brooklyn",
+      "entry door replacement prospect lefferts gardens",
+      "historic door repair"
     ]
   },
-  "grosse-pointe": {
-    "tagline": "Grosse Pointe: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "ditmas-park": {
+    "tagline": "Ditmas Park's premier door service: supply, installation, and repair for unique homes.",
     "landmarks": [
-      "Grosse Pointe Yacht Club",
-      "The Hill",
-      "Grosse Pointe War Memorial"
+      "Cortelyou Road",
+      "Ditmas Park Historic District",
+      "Flatbush-Ditmas Park Community Garden"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "victorian home door repair",
+      "custom wood door installation",
+      "garage door maintenance"
     ],
-    "neighborhood_notes": "Grosse Pointe is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Ditmas Park is famous for its large Victorian homes, many of which have unique and oversized doors. These doors often require specialized hardware and careful craftsmanship for repairs or replacements. Security and weather resistance are key considerations.",
     "keywords": [
-      "grosse pointe painters",
-      "painting company grosse pointe mi",
-      "interior painting grosse pointe",
-      "exterior painting grosse pointe",
-      "house painters grosse pointe",
-      "commercial painting grosse pointe"
+      "ditmas park door repair",
+      "victorian door installation",
+      "custom doors ditmas park",
+      "wood door repair brooklyn",
+      "garage door service ditmas park",
+      "entry door ditmas park"
     ]
   },
-  "harper-woods": {
-    "tagline": "Harper Woods: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "kensington": {
+    "tagline": "Kensington's reliable partner for all door needs: repair, replacement, and new installations.",
     "landmarks": [
-      "Eastland Center",
-      "Harper Woods Public Library",
-      "Kennedy Recreation Center"
+      "Ocean Parkway",
+      "Kensington Dog Run",
+      "Green-Wood Cemetery"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "residential entry door repair",
+      "interior door replacement",
+      "commercial glass door adjustment"
     ],
-    "neighborhood_notes": "Harper Woods is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Kensington features a mix of brick rowhouses and multi-family dwellings. Common door issues include worn-out hinges, sticking doors, and outdated security hardware. Commercial storefronts often need durable and aesthetically pleasing entry systems.",
     "keywords": [
-      "harper woods painters",
-      "painting company harper woods mi",
-      "interior painting harper woods",
-      "exterior painting harper woods",
-      "house painters harper woods",
-      "commercial painting harper woods"
+      "kensington door repair",
+      "door installation kensington",
+      "residential doors kensington",
+      "commercial door repair brooklyn",
+      "entry door replacement kensington",
+      "glass door repair kensington"
     ]
   },
-  "troy": {
-    "tagline": "Troy: Professional painting planned around your property, colors, and schedule.",
+  "windsor-terrace": {
+    "tagline": "Windsor Terrace door experts: dependable repair, installation, and supply for your property.",
     "landmarks": [
-      "Somerset Collection",
-      "Troy Historic Village",
-      "Stage Nature Center"
+      "Prospect Park",
+      "Green-Wood Cemetery",
+      "Bartel-Pritchard Square"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "brownstone entry door repair",
+      "basement door replacement",
+      "storefront door hardware upgrade"
     ],
-    "neighborhood_notes": "Troy is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Windsor Terrace has many classic Brooklyn brownstones and brick rowhouses. Doors often need attention for drafts, security enhancements, or general wear and tear. Commercial properties along Prospect Park West require durable, secure doors.",
     "keywords": [
-      "troy painters",
-      "painting company troy mi",
-      "interior painting troy",
-      "exterior painting troy",
-      "house painters troy",
-      "commercial painting troy"
+      "windsor terrace door repair",
+      "door installation windsor terrace",
+      "brownstone door repair",
+      "commercial doors windsor terrace",
+      "entry door replacement windsor terrace",
+      "door hardware upgrade brooklyn"
     ]
   },
-  "rochester-hills": {
-    "tagline": "Rochester Hills: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "sunset-park": {
+    "tagline": "Sunset Park door services: reliable repair, installation, and supply for homes and businesses.",
     "landmarks": [
-      "Meadow Brook Hall",
-      "Yates Cider Mill",
-      "Oakland University"
+      "Sunset Park",
+      "Industry City",
+      "Bush Terminal Piers Park"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "apartment building entry door repair",
+      "industrial roll-up door service",
+      "storefront glass door replacement"
     ],
-    "neighborhood_notes": "Rochester Hills is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Sunset Park is a diverse neighborhood with residential buildings, industrial spaces, and commercial corridors. Residential doors often need security upgrades. Industrial areas frequently require robust, high-cycle doors, and commercial storefronts need reliable glass door systems.",
     "keywords": [
-      "rochester hills painters",
-      "painting company rochester hills mi",
-      "interior painting rochester hills",
-      "exterior painting rochester hills",
-      "house painters rochester hills",
-      "commercial painting rochester hills"
+      "sunset park door repair",
+      "industrial door repair sunset park",
+      "storefront door installation sunset park",
+      "apartment door repair sunset park",
+      "roll up door service brooklyn",
+      "commercial door sunset park"
     ]
   },
-  "southfield": {
-    "tagline": "Southfield: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "bay-ridge": {
+    "tagline": "Bay Ridge door supply, installation, and repair. Quality service for every door type.",
     "landmarks": [
-      "Lawrence Technological University",
-      "Southfield Civic Center",
-      "Detroit Zoo"
+      "Verrazzano-Narrows Bridge",
+      "Shore Road Park",
+      "Owl's Head Park"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "residential entry door replacement",
+      "storm door installation",
+      "commercial fire door inspection"
     ],
-    "neighborhood_notes": "Southfield is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Bay Ridge features a mix of single-family homes, multi-unit buildings, and a vibrant commercial strip. Doors often face coastal weather conditions, requiring durable materials and proper sealing. Commercial properties need to comply with fire safety door regulations.",
     "keywords": [
-      "southfield painters",
-      "painting company southfield mi",
-      "interior painting southfield",
-      "exterior painting southfield",
-      "house painters southfield",
-      "commercial painting southfield"
+      "bay ridge door repair",
+      "door installation bay ridge",
+      "storm door bay ridge",
+      "residential door replacement brooklyn",
+      "commercial fire doors bay ridge",
+      "entry door repair bay ridge"
     ]
   },
-  "farmington-hills": {
-    "tagline": "Farmington Hills: Professional painting planned around your property, colors, and schedule.",
+  "bensonhurst": {
+    "tagline": "Bensonhurst's trusted door experts: comprehensive supply, installation, and repair services.",
     "landmarks": [
-      "Farmington Hills City Hall",
-      "Marriott Detroit Farmington Hills",
-      "Heritage Park"
+      "86th Street Commercial District",
+      "Seth Low Playground",
+      "John Dewey High School"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "residential security door installation",
+      "storefront gate repair",
+      "interior door hardware replacement"
     ],
-    "neighborhood_notes": "Farmington Hills is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Bensonhurst is characterized by its residential homes and bustling commercial avenues. Security doors are a common request for homes, and businesses frequently need robust storefront gates and reliable entry systems. Many doors require hardware upgrades.",
     "keywords": [
-      "farmington hills painters",
-      "painting company farmington hills mi",
-      "interior painting farmington hills",
-      "exterior painting farmington hills",
-      "house painters farmington hills",
-      "commercial painting farmington hills"
+      "bensonhurst door repair",
+      "security door installation bensonhurst",
+      "storefront gate repair bensonhurst",
+      "residential door repair bensonhurst",
+      "door hardware replacement brooklyn",
+      "commercial doors bensonhurst"
     ]
   },
-  "pontiac": {
-    "tagline": "Pontiac: Professional painting planned around your property, colors, and schedule.",
+  "borough-park": {
+    "tagline": "Borough Park's trusted source for door supply, installation, and expert repairs. We secure your home.",
     "landmarks": [
-      "M1 Concourse",
-      "Pontiac Silverdome Site",
-      "Cranbrook Art Museum"
+      "Borough Park Jewish Community Center",
+      "Maimonides Medical Center",
+      "Borough Park Library"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Residential entry door replacement",
+      "Storefront door repair",
+      "Automatic door sensor adjustment"
     ],
-    "neighborhood_notes": "Pontiac is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Borough Park features many multi-family dwellings and synagogues, often requiring robust, secure entry doors. Security is a primary concern, leading to demand for high-grade locks and reinforced door frames. We frequently address issues with older wooden doors and modern aluminum storefront systems.",
     "keywords": [
-      "pontiac painters",
-      "painting company pontiac mi",
-      "interior painting pontiac",
-      "exterior painting pontiac",
-      "house painters pontiac",
-      "commercial painting pontiac"
+      "borough park door repair",
+      "entry door installation brooklyn",
+      "commercial door service borough park",
+      "fire door repair brooklyn",
+      "door replacement borough park",
+      "security doors brooklyn"
     ]
   },
-  "royal-oak": {
-    "tagline": "Royal Oak: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "midwood": {
+    "tagline": "Midwood door experts: supply, installation, and repair for homes and businesses. Quality and security.",
     "landmarks": [
-      "Detroit Zoo",
-      "Royal Oak Music Theatre",
-      "Uptown Palladium 16"
+      "Brooklyn College",
+      "Flatbush Shul",
+      "Midwood Library"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Patio door repair",
+      "Office door closer adjustment",
+      "Residential garage door spring replacement"
     ],
-    "neighborhood_notes": "Royal Oak is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Midwood's diverse architecture, from detached homes to apartment buildings, means a wide range of door types. Older homes often have original wooden doors needing restoration or weatherstripping. Commercial properties along major avenues require durable storefront doors and reliable access control systems.",
     "keywords": [
-      "royal oak painters",
-      "painting company royal oak mi",
-      "interior painting royal oak",
-      "exterior painting royal oak",
-      "house painters royal oak",
-      "commercial painting royal oak"
+      "midwood door repair",
+      "door installation midwood",
+      "sliding door repair brooklyn",
+      "commercial door repair midwood",
+      "garage door service brooklyn",
+      "entry door midwood"
     ]
   },
-  "birmingham": {
-    "tagline": "Birmingham: Professional painting planned around your property, colors, and schedule.",
+  "sheepshead-bay": {
+    "tagline": "Sheepshead Bay's reliable partner for door supply, installation, and repair. Coastal durability matters.",
     "landmarks": [
-      "Shain Park",
-      "Birmingham 8 Theatre",
-      "Poppleton Park"
+      "Roll-N-Roaster",
+      "Emmons Avenue",
+      "Sheepshead Bay Piers"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Storm door installation",
+      "Water-damaged door replacement",
+      "Restaurant entrance door repair"
     ],
-    "neighborhood_notes": "Birmingham is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Coastal proximity in Sheepshead Bay means doors are susceptible to salt air corrosion and moisture damage. Many homes and businesses require weather-resistant doors and hardware. We often address issues with exterior doors that have deteriorated due to environmental factors.",
     "keywords": [
-      "birmingham painters",
-      "painting company birmingham mi",
-      "interior painting birmingham",
-      "exterior painting birmingham",
-      "house painters birmingham",
-      "commercial painting birmingham"
+      "sheepshead bay door repair",
+      "exterior door replacement brooklyn",
+      "commercial door sheepshead bay",
+      "waterproof doors brooklyn",
+      "door installation sheepshead bay",
+      "patio door repair sheepshead bay"
     ]
   },
-  "bloomfield-hills": {
-    "tagline": "Bloomfield Hills: Professional painting planned around your property, colors, and schedule.",
+  "brighton-beach": {
+    "tagline": "Brighton Beach door specialists: supply, installation, and repair. Resilient doors for coastal living.",
     "landmarks": [
-      "Cranbrook House & Gardens",
-      "Bloomfield Hills Country Club",
-      "Brother Rice High School"
+      "Brighton Beach Boardwalk",
+      "Brighton Beach Avenue",
+      "Tatiana Restaurant & Cabaret"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Apartment entry door repair",
+      "Storefront glass door replacement",
+      "Balcony door adjustment"
     ],
-    "neighborhood_notes": "Bloomfield Hills is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "High-rise apartment buildings and busy commercial strips characterize Brighton Beach. Doors here endure heavy foot traffic and coastal weather conditions. We frequently service apartment entry doors, storefront doors, and balcony access doors, focusing on durability and security.",
     "keywords": [
-      "bloomfield hills painters",
-      "painting company bloomfield hills mi",
-      "interior painting bloomfield hills",
-      "exterior painting bloomfield hills",
-      "house painters bloomfield hills",
-      "commercial painting bloomfield hills"
+      "brighton beach door repair",
+      "apartment door repair brooklyn",
+      "storefront door brighton beach",
+      "door installation brighton beach",
+      "commercial door service brooklyn",
+      "coastal door repair"
     ]
   },
-  "west-bloomfield": {
-    "tagline": "West Bloomfield: Preparation-first painting with clean protection and written project scopes.",
+  "coney-island": {
+    "tagline": "Coney Island's door experts: supply, installation, and repair for homes and iconic businesses.",
     "landmarks": [
-      "Orchard Lake St. Mary's",
-      "DTE Energy Music Theatre",
-      "West Bloomfield Library"
+      "Luna Park",
+      "Coney Island Boardwalk",
+      "Deno's Wonder Wheel Amusement Park"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Amusement park gate repair",
+      "Residential entry door installation",
+      "Restaurant kitchen door repair"
     ],
-    "neighborhood_notes": "West Bloomfield is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "Coney Island's unique mix of residential and high-traffic entertainment venues demands diverse door solutions. Durability against heavy use and coastal elements is crucial. We handle everything from secure residential doors to robust commercial and industrial doors for attractions.",
     "keywords": [
-      "west bloomfield painters",
-      "painting company west bloomfield mi",
-      "interior painting west bloomfield",
-      "exterior painting west bloomfield",
-      "house painters west bloomfield",
-      "commercial painting west bloomfield"
+      "coney island door repair",
+      "commercial door coney island",
+      "door installation brooklyn",
+      "security door coney island",
+      "gate repair coney island",
+      "entry door replacement"
     ]
   },
-  "novi": {
-    "tagline": "Novi: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "gravesend": {
+    "tagline": "Gravesend door supply, installation, and repair. Ensuring security and functionality for every door.",
     "landmarks": [
-      "Twelve Oaks Mall",
-      "Suburban Collection Showplace",
-      "Novi Civic Center"
+      "Calvert Vaux Park",
+      "Gravesend Cemetery",
+      "John Dewey High School"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Residential front door replacement",
+      "Interior door repair",
+      "Garage door opener service"
     ],
-    "neighborhood_notes": "Novi is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Gravesend features a mix of detached and semi-detached homes, often with traditional wooden entry doors and attached garages. Security and weatherproofing are common concerns for homeowners. We frequently address issues with older door hardware and garage door systems.",
     "keywords": [
-      "novi painters",
-      "painting company novi mi",
-      "interior painting novi",
-      "exterior painting novi",
-      "house painters novi",
-      "commercial painting novi"
+      "gravesend door repair",
+      "entry door installation gravesend",
+      "garage door repair gravesend",
+      "interior door replacement brooklyn",
+      "door hardware gravesend",
+      "residential door service"
     ]
   },
-  "auburn-hills": {
-    "tagline": "Auburn Hills: Professional painting planned around your property, colors, and schedule.",
+  "marine-park": {
+    "tagline": "Marine Park door specialists: supply, installation, and repair. Durable doors for family homes.",
     "landmarks": [
-      "Great Lakes Crossing Outlets",
-      "Oakland University",
-      "Stellantis North America Headquarters"
+      "Marine Park",
+      "Avenue U Shopping District",
+      "Brooklyn Public Library (Marine Park Branch)"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Patio door track cleaning",
+      "Residential garage door repair",
+      "Front entry door weatherstripping"
     ],
-    "neighborhood_notes": "Auburn Hills is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Marine Park is predominantly residential, with many single and two-family homes. Homeowners frequently seek energy-efficient and secure entry doors, along with reliable garage door services. We often address issues related to wear and tear on exterior doors and their hardware.",
     "keywords": [
-      "auburn hills painters",
-      "painting company auburn hills mi",
-      "interior painting auburn hills",
-      "exterior painting auburn hills",
-      "house painters auburn hills",
-      "commercial painting auburn hills"
+      "marine park door repair",
+      "garage door marine park",
+      "entry door installation marine park",
+      "patio door repair brooklyn",
+      "exterior door replacement marine park",
+      "residential door repair"
     ]
   },
-  "madison-heights": {
-    "tagline": "Madison Heights: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "canarsie": {
+    "tagline": "Canarsie door supply, installation, and repair. Reliable solutions for homes and businesses.",
     "landmarks": [
-      "Red Oaks Waterpark",
-      "John R Road",
-      "Madison Heights Public Library"
+      "Canarsie Pier",
+      "Canarsie Park",
+      "Gateway Center Mall"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Storefront door closer repair",
+      "Residential screen door installation",
+      "Basement door replacement"
     ],
-    "neighborhood_notes": "Madison Heights is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Canarsie features a mix of residential homes and commercial strips, requiring a variety of door services. Security is a key concern for both types of properties. We often work on older wooden doors, modern steel entry doors, and commercial aluminum storefront systems.",
     "keywords": [
-      "madison heights painters",
-      "painting company madison heights mi",
-      "interior painting madison heights",
-      "exterior painting madison heights",
-      "house painters madison heights",
-      "commercial painting madison heights"
+      "canarsie door repair",
+      "storefront door canarsie",
+      "entry door installation canarsie",
+      "commercial door repair brooklyn",
+      "security doors canarsie",
+      "door replacement canarsie"
     ]
   },
-  "ferndale": {
-    "tagline": "Ferndale: Preparation-first painting with clean protection and written project scopes.",
+  "east-flatbush": {
+    "tagline": "East Flatbush: Expert door repair, installation, and supply for residential and commercial properties.",
     "landmarks": [
-      "Rust Belt Market",
-      "The Detroit Zoo",
-      "Woodward Avenue"
+      "Kings County Hospital Center",
+      "Brooklyn College",
+      "Wingate Park"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Residential front door replacement",
+      "Commercial storefront door repair",
+      "Apartment building entry system service"
     ],
-    "neighborhood_notes": "Ferndale is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "East Flatbush features a mix of detached homes, rowhouses, and apartment buildings. Many properties have older wooden doors or aluminum storefront doors that often require hinge repair, lock adjustments, or full replacements. Security is a common concern, leading to requests for robust door hardware upgrades.",
     "keywords": [
-      "ferndale painters",
-      "painting company ferndale mi",
-      "interior painting ferndale",
-      "exterior painting ferndale",
-      "house painters ferndale",
-      "commercial painting ferndale"
+      "east flatbush door repair",
+      "door installation east flatbush",
+      "commercial door service brooklyn",
+      "residential door replacement brooklyn",
+      "entry door repair east flatbush",
+      "storefront door brooklyn"
     ]
   },
-  "oak-park": {
-    "tagline": "Oak Park: Professional painting planned around your property, colors, and schedule.",
+  "brownsville": {
+    "tagline": "Brownsville: Reliable door solutions for homes and businesses. Installation, repair, and supply.",
     "landmarks": [
-      "Oak Park Public Library",
-      "Detroit Institute of Arts",
-      "Royal Oak Music Theatre"
+      "Brookdale Hospital Medical Center",
+      "Betsy Head Park",
+      "Brownsville Recreation Center"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Steel security door installation",
+      "Apartment building door closer adjustment",
+      "Storefront gate repair"
     ],
-    "neighborhood_notes": "Oak Park is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Brownsville is characterized by a high concentration of multi-family dwellings and public housing developments. Steel doors and robust security hardware are frequently requested due to security concerns. Regular maintenance of common area doors and fire-rated doors is essential for building safety and code compliance.",
     "keywords": [
-      "oak park painters",
-      "painting company oak park mi",
-      "interior painting oak park",
-      "exterior painting oak park",
-      "house painters oak park",
-      "commercial painting oak park"
+      "brownsville door repair",
+      "security door brownsville",
+      "apartment door repair brooklyn",
+      "commercial door repair brownsville",
+      "fire door service brooklyn",
+      "door installation brownsville"
     ]
   },
-  "rochester": {
-    "tagline": "Rochester: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "east-new-york": {
+    "tagline": "East New York: Comprehensive door services for residential, commercial, and industrial properties.",
     "landmarks": [
-      "Downtown Rochester",
-      "Paint Creek Trail",
-      "Meadow Brook Hall"
+      "Gateway Center",
+      "Highland Park",
+      "Shirley Chisholm State Park"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Industrial overhead door repair",
+      "Residential entry door installation",
+      "Storefront glass door replacement"
     ],
-    "neighborhood_notes": "Rochester is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "East New York's diverse landscape includes residential areas, bustling commercial strips, and industrial zones. This leads to varied door service needs, from standard residential entry doors to heavy-duty industrial doors and commercial storefronts. Weather-related wear and tear on exterior doors is a frequent issue.",
     "keywords": [
-      "rochester painters",
-      "painting company rochester mi",
-      "interior painting rochester",
-      "exterior painting rochester",
-      "house painters rochester",
-      "commercial painting rochester"
+      "east new york door repair",
+      "overhead door service brooklyn",
+      "residential door east new york",
+      "commercial door installation brooklyn",
+      "storefront door repair east new york",
+      "industrial door repair brooklyn"
     ]
   },
-  "warren": {
-    "tagline": "Warren: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "cypress-hills": {
+    "tagline": "Cypress Hills: Quality door repair, installation, and supply for diverse property types.",
     "landmarks": [
-      "Warren City Hall",
-      "GM Technical Center",
-      "Macomb Community College"
+      "Cypress Hills Cemetery",
+      "Highland Park",
+      "Jackie Robinson Parkway"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Brownstone entry door restoration",
+      "Apartment building common door repair",
+      "Garage door spring replacement"
     ],
-    "neighborhood_notes": "Warren is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Cypress Hills features many historic brownstones and multi-family homes, often with original wooden doors that require specialized repair or restoration. The hilly terrain can sometimes affect door alignment. Ensuring proper insulation and weatherstripping on older doors is a common request.",
     "keywords": [
-      "warren painters",
-      "painting company warren mi",
-      "interior painting warren",
-      "exterior painting warren",
-      "house painters warren",
-      "commercial painting warren"
+      "cypress hills door repair",
+      "brownstone door repair brooklyn",
+      "door installation cypress hills",
+      "garage door service brooklyn",
+      "historic door restoration brooklyn",
+      "entry door repair cypress hills"
     ]
   },
-  "sterling-heights": {
-    "tagline": "Sterling Heights: Preparation-first painting with clean protection and written project scopes.",
+  "red-hook": {
+    "tagline": "Red Hook: Industrial, commercial, and residential door repair, installation, and supply.",
     "landmarks": [
-      "Dodge Park",
-      "Freedom Hill Amphitheatre",
-      "Lakeside Mall"
+      "IKEA Brooklyn",
+      "Fairway Market Red Hook",
+      "Red Hook Grain Terminal"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Warehouse rolling gate repair",
+      "Storefront door closer replacement",
+      "Waterfront property door weatherproofing"
     ],
-    "neighborhood_notes": "Sterling Heights is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "Red Hook's industrial past and waterfront location mean a high demand for robust, weather-resistant doors. Rolling gates, overhead doors, and heavy-duty commercial doors are prevalent. Salt air and moisture require durable materials and regular maintenance to prevent corrosion and operational issues.",
     "keywords": [
-      "sterling heights painters",
-      "painting company sterling heights mi",
-      "interior painting sterling heights",
-      "exterior painting sterling heights",
-      "house painters sterling heights",
-      "commercial painting sterling heights"
+      "red hook door repair",
+      "rolling gate repair brooklyn",
+      "commercial door red hook",
+      "industrial door service brooklyn",
+      "waterfront door repair red hook",
+      "storefront door red hook"
     ]
   },
-  "clinton-township": {
-    "tagline": "Clinton Township: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "vinegar-hill": {
+    "tagline": "Vinegar Hill: Historic door repair, modern installation, and reliable door supply services.",
     "landmarks": [
-      "Civic Center Park",
-      "Metro Beach Metropark",
-      "Partridge Creek Mall"
+      "Brooklyn Navy Yard",
+      "The Vinegar Hill House",
+      "Manhattan Bridge"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Historic wood door repair",
+      "Apartment building entry door upgrade",
+      "Custom door installation"
     ],
-    "neighborhood_notes": "Clinton Township is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Vinegar Hill's historic character means many properties feature unique, often older, wooden doors that require careful repair or custom replacement to maintain architectural integrity. Security and aesthetics are key considerations for residents and businesses. Modern apartment buildings also require contemporary door solutions.",
     "keywords": [
-      "clinton township painters",
-      "painting company clinton township mi",
-      "interior painting clinton township",
-      "exterior painting clinton township",
-      "house painters clinton township",
-      "commercial painting clinton township"
+      "vinegar hill door repair",
+      "historic door repair brooklyn",
+      "custom door installation brooklyn",
+      "apartment door service vinegar hill",
+      "entry door repair vinegar hill",
+      "wood door restoration brooklyn"
     ]
   },
-  "shelby-township": {
-    "tagline": "Shelby Township: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "navy-yard": {
+    "tagline": "Navy Yard: Specialized door solutions for industrial, commercial, and creative spaces.",
     "landmarks": [
-      "Stony Creek Metropark",
-      "Shelby Township Library",
-      "Cherry Creek Golf Course"
+      "Brooklyn Navy Yard Center at BLDG 92",
+      "Russ & Daughters at the Navy Yard",
+      "Wegmans Brooklyn"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Industrial roll-up door repair",
+      "Commercial glass door installation",
+      "Loading dock door service"
     ],
-    "neighborhood_notes": "Shelby Township is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "The Brooklyn Navy Yard is a hub for industrial, manufacturing, and creative businesses, demanding a wide range of specialized doors. This includes heavy-duty roll-up doors, loading dock doors, and custom commercial entrances. Security and functionality are paramount in this dynamic environment.",
     "keywords": [
-      "shelby township painters",
-      "painting company shelby township mi",
-      "interior painting shelby township",
-      "exterior painting shelby township",
-      "house painters shelby township",
-      "commercial painting shelby township"
+      "navy yard door repair",
+      "industrial door navy yard",
+      "commercial door installation brooklyn",
+      "roll up door repair brooklyn",
+      "loading dock door service brooklyn",
+      "glass door navy yard"
     ]
   },
-  "macomb-township": {
-    "tagline": "Macomb Township: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "south-slope": {
+    "tagline": "South Slope: Residential and commercial door repair, installation, and supply experts.",
     "landmarks": [
-      "Macomb Township Recreation Center",
-      "Waldenburg Park",
-      "The Mall at Partridge Creek"
+      "Green-Wood Cemetery",
+      "Prospect Avenue Subway Station",
+      "P.S. 10"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Brownstone front door replacement",
+      "Apartment building intercom door repair",
+      "Backyard gate installation"
     ],
-    "neighborhood_notes": "Macomb Township is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "South Slope features many historic brownstones and rowhouses, often requiring careful attention to period-appropriate door repairs and replacements. Modern apartment buildings also dot the area, needing contemporary door solutions. Security and insulation are frequent concerns for both residential and commercial properties.",
     "keywords": [
-      "macomb township painters",
-      "painting company macomb township mi",
-      "interior painting macomb township",
-      "exterior painting macomb township",
-      "house painters macomb township",
-      "commercial painting macomb township"
+      "south slope door repair",
+      "brownstone door service brooklyn",
+      "door installation south slope",
+      "residential door replacement brooklyn",
+      "entry door repair south slope",
+      "gate repair brooklyn"
     ]
   },
-  "st-clair-shores": {
-    "tagline": "St. Clair Shores: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "greenwood-heights": {
+    "tagline": "Greenwood Heights door supply, repair, and installation. We service all residential and commercial doors.",
     "landmarks": [
-      "Nautical Mile",
-      "Veterans Memorial Park",
-      "Lake St. Clair Metropark"
+      "Green-Wood Cemetery",
+      "Industry City",
+      "Park Slope Food Coop"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "repair squeaky apartment door hinges",
+      "install new storefront door",
+      "replace broken garage door spring"
     ],
-    "neighborhood_notes": "St. Clair Shores is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Many brownstones and rowhouses in Greenwood Heights feature original wooden doors that often require delicate repair or historically accurate replacements. Commercial properties in Industry City frequently need robust, high-traffic doors. Residential doors often face wear and tear from constant use and older hardware.",
     "keywords": [
-      "st. clair shores painters",
-      "painting company st. clair shores mi",
-      "interior painting st. clair shores",
-      "exterior painting st. clair shores",
-      "house painters st. clair shores",
-      "commercial painting st. clair shores"
+      "greenwood heights door repair",
+      "door installation greenwood heights",
+      "garage door repair greenwood heights",
+      "commercial doors greenwood heights",
+      "residential door service brooklyn",
+      "emergency door repair greenwood heights"
     ]
   },
-  "roseville": {
-    "tagline": "Roseville: Preparation-first painting with clean protection and written project scopes.",
+  "dyker-heights": {
+    "tagline": "Dyker Heights' trusted source for door supply, expert installation, and reliable repair services.",
     "landmarks": [
-      "Macomb Mall",
-      "Huron Park",
-      "Gratiot Avenue"
+      "Dyker Heights Golf Course",
+      "Dyker Beach Park",
+      "Our Lady of Guadalupe Church"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "fix misaligned front door",
+      "install new patio doors",
+      "repair garage door opener"
     ],
-    "neighborhood_notes": "Roseville is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "Homes in Dyker Heights often have custom entry doors and elaborate garage door systems that require specialized knowledge for repair and installation. Security is a common concern, leading to requests for robust locking mechanisms and reinforced doors. Weather-related wear on exterior doors is also prevalent.",
     "keywords": [
-      "roseville painters",
-      "painting company roseville mi",
-      "interior painting roseville",
-      "exterior painting roseville",
-      "house painters roseville",
-      "commercial painting roseville"
+      "dyker heights door repair",
+      "garage door dyker heights",
+      "entry door installation brooklyn",
+      "patio door repair dyker heights",
+      "commercial door service dyker heights",
+      "dyker heights door replacement"
     ]
   },
-  "fraser": {
-    "tagline": "Fraser: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "flatlands": {
+    "tagline": "Flatlands door supply, installation, and repair for homes and businesses. Quality service guaranteed.",
     "landmarks": [
-      "Fraser Public Library",
-      "Steffens Park",
-      "Fraser High School"
+      "Brooklyn College",
+      "Flatbush Junction",
+      "Starrett City"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "replace damaged storm door",
+      "install new interior doors",
+      "repair commercial roll-down gate"
     ],
-    "neighborhood_notes": "Fraser is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Flatlands features a mix of single-family homes and apartment buildings, leading to diverse door service needs from residential entryways to common area doors. Many older homes have wooden doors that may need weatherstripping or frame repair. Commercial properties often require durable security doors.",
     "keywords": [
-      "fraser painters",
-      "painting company fraser mi",
-      "interior painting fraser",
-      "exterior painting fraser",
-      "house painters fraser",
-      "commercial painting fraser"
+      "flatlands door repair",
+      "door installation flatlands",
+      "commercial door repair flatlands",
+      "residential door service brooklyn",
+      "storm door replacement flatlands",
+      "flatlands garage door repair"
     ]
   },
-  "mount-clemens": {
-    "tagline": "Mount Clemens: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "mill-basin": {
+    "tagline": "Mill Basin's premier door service: supply, installation, and repair for all door types.",
     "landmarks": [
-      "Macomb County Building",
-      "Anton Art Center",
-      "Clinton River"
+      "Kings Plaza Shopping Center",
+      "Mill Basin Park",
+      "Seaview Park"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "fix sliding glass door track",
+      "install new custom entry door",
+      "repair automatic garage door"
     ],
-    "neighborhood_notes": "Mount Clemens is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Mill Basin homes often feature high-end custom doors, including large sliding glass doors and elaborate entry systems, requiring specialized repair and installation. Waterfront properties may experience increased wear on exterior doors due to salt air exposure. Security is a key consideration for many residents.",
     "keywords": [
-      "mount clemens painters",
-      "painting company mount clemens mi",
-      "interior painting mount clemens",
-      "exterior painting mount clemens",
-      "house painters mount clemens",
-      "commercial painting mount clemens"
+      "mill basin door repair",
+      "sliding door repair mill basin",
+      "custom entry doors mill basin",
+      "garage door service mill basin",
+      "door installation brooklyn",
+      "commercial door repair mill basin"
     ]
   },
-  "utica": {
-    "tagline": "Utica: Professional painting planned around your property, colors, and schedule.",
+  "bergen-beach": {
+    "tagline": "Bergen Beach door supply, installation, and repair specialists. Serving residential and commercial needs.",
     "landmarks": [
-      "Jimmy John's Field",
-      "Stony Creek Metropark",
-      "Downtown Utica"
+      "Canarsie Pier",
+      "Bergen Beach Playground",
+      "Roy Wilkins Park"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "replace worn-out exterior door",
+      "install new bifold closet doors",
+      "repair garage door sensor"
     ],
-    "neighborhood_notes": "Utica is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Bergen Beach homes frequently have robust exterior doors to withstand coastal weather conditions, often requiring weatherstripping and corrosion-resistant hardware. Many residences feature multi-car garages, leading to common garage door service requests. Interior door upgrades are also popular in renovated homes.",
     "keywords": [
-      "utica painters",
-      "painting company utica mi",
-      "interior painting utica",
-      "exterior painting utica",
-      "house painters utica",
-      "commercial painting utica"
+      "bergen beach door repair",
+      "exterior door installation bergen beach",
+      "garage door repair bergen beach",
+      "residential door service brooklyn",
+      "door replacement bergen beach",
+      "commercial doors bergen beach"
     ]
   },
-  "eastpointe": {
-    "tagline": "Eastpointe: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "financial-district": {
+    "tagline": "Financial District's expert door solutions: supply, installation, and repair for commercial properties.",
     "landmarks": [
-      "Eastpointe Public Library",
-      "Kennedy Memorial Park",
-      "Gratiot Avenue"
+      "Wall Street",
+      "One World Trade Center",
+      "Charging Bull"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "repair revolving door mechanism",
+      "install new access control doors",
+      "fix commercial glass storefront door"
     ],
-    "neighborhood_notes": "Eastpointe is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "The Financial District is dominated by high-rise commercial buildings requiring heavy-duty, high-security, and often automated door systems. Fire code compliance for doors is paramount in these structures. Frequent use means components like closers and hinges wear out quickly.",
     "keywords": [
-      "eastpointe painters",
-      "painting company eastpointe mi",
-      "interior painting eastpointe",
-      "exterior painting eastpointe",
-      "house painters eastpointe",
-      "commercial painting eastpointe"
+      "financial district door repair",
+      "commercial door installation manhattan",
+      "revolving door repair financial district",
+      "access control doors nyc",
+      "storefront door repair financial district",
+      "emergency door service manhattan"
     ]
   },
-  "grosse-pointe-park": {
-    "tagline": "Grosse Pointe Park: Professional painting planned around your property, colors, and schedule.",
+  "tribeca": {
+    "tagline": "Tribeca door supply, installation, and repair. Servicing lofts, businesses, and residential buildings.",
     "landmarks": [
-      "Patterson Park",
-      "Windmill Pointe Park",
-      "Lake St. Clair"
+      "Franklin Street Station",
+      "Washington Market Park",
+      "Hudson River Park"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "adjust pivot hinge on loft door",
+      "install new soundproof apartment door",
+      "repair commercial entrance door"
     ],
-    "neighborhood_notes": "Grosse Pointe Park is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Tribeca features many converted industrial lofts with oversized and custom doors, often requiring specialized hardware and expert installation. High-end residential buildings frequently request soundproof or security-enhanced doors. Commercial storefronts need durable and aesthetically pleasing entrance doors.",
     "keywords": [
-      "grosse pointe park painters",
-      "painting company grosse pointe park mi",
-      "interior painting grosse pointe park",
-      "exterior painting grosse pointe park",
-      "house painters grosse pointe park",
-      "commercial painting grosse pointe park"
+      "tribeca door repair",
+      "loft door installation tribeca",
+      "commercial door service tribeca",
+      "soundproof door manhattan",
+      "residential door repair tribeca",
+      "emergency door repair nyc"
     ]
   },
-  "grosse-pointe-woods": {
-    "tagline": "Grosse Pointe Woods: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "soho": {
+    "tagline": "SoHo door supply, installation, and repair. Stylish and secure doors for unique spaces.",
     "landmarks": [
-      "Grosse Pointe Woods Lakefront Park",
-      "University Liggett School",
-      "Grosse Pointe Woods City Hall"
+      "Washington Square Park",
+      "New York University",
+      "Broadway-Lafayette Street Station"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "repair squeaky interior loft door",
+      "install new custom glass storefront",
+      "replace apartment entry door"
     ],
-    "neighborhood_notes": "Grosse Pointe Woods is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "SoHo's historic cast-iron buildings and loft conversions often require custom-sized doors and period-appropriate hardware. Retail spaces demand visually appealing and secure storefront doors. Residential units frequently need robust entry doors for security and sound insulation.",
     "keywords": [
-      "grosse pointe woods painters",
-      "painting company grosse pointe woods mi",
-      "interior painting grosse pointe woods",
-      "exterior painting grosse pointe woods",
-      "house painters grosse pointe woods",
-      "commercial painting grosse pointe woods"
+      "soho door repair",
+      "custom door installation soho",
+      "storefront door repair soho",
+      "residential door service manhattan",
+      "loft door repair nyc",
+      "commercial door installation soho"
     ]
   },
-  "belleville": {
-    "tagline": "Belleville: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "greenwich-village": {
+    "tagline": "Greenwich Village door repair, installation, and supply. Historic charm meets modern door security and style.",
     "landmarks": [
-      "Belleville Lake",
-      "Horizon Park",
-      "Willow Run Airport"
+      "Washington Square Park",
+      "New York University",
+      "The Stonewall Inn"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Repairing squeaky apartment entry doors",
+      "Installing new storefront doors for boutiques",
+      "Adjusting misaligned brownstone doors"
     ],
-    "neighborhood_notes": "Belleville is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Many buildings in Greenwich Village are historic brownstones and pre-war apartments, often requiring custom door sizes and hardware. Commercial establishments frequently need robust storefront doors that complement the neighborhood's aesthetic. Door security is a top concern for both residential and commercial properties.",
     "keywords": [
-      "belleville painters",
-      "painting company belleville mi",
-      "interior painting belleville",
-      "exterior painting belleville",
-      "house painters belleville",
-      "commercial painting belleville"
+      "greenwich village door repair",
+      "brownstone door installation",
+      "historic door hardware",
+      "commercial door service manhattan",
+      "apartment door repair greenwich village",
+      "custom doors nyc"
     ]
   },
-  "chesterfield-township": {
-    "tagline": "Chesterfield Township: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "chelsea": {
+    "tagline": "Chelsea's trusted source for door repair, new door installation, and quality door supplies.",
     "landmarks": [
-      "Lake St. Clair Metropark",
-      "Selfridge Air National Guard Base",
-      "Anchor Bay"
+      "The High Line",
+      "Chelsea Market",
+      "Rubin Museum of Art"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Fixing broken commercial glass doors",
+      "Installing modern loft apartment doors",
+      "Repairing office building entrance doors"
     ],
-    "neighborhood_notes": "Chesterfield Township is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Chelsea features a mix of industrial-chic lofts, art galleries, and commercial spaces, leading to diverse door needs. Many commercial properties require ADA-compliant doors and high-security solutions. Residential buildings often seek stylish, durable apartment entry doors.",
     "keywords": [
-      "chesterfield township painters",
-      "painting company chesterfield township mi",
-      "interior painting chesterfield township",
-      "exterior painting chesterfield township",
-      "house painters chesterfield township",
-      "commercial painting chesterfield township"
+      "chelsea door repair",
+      "commercial door installation chelsea",
+      "loft apartment doors manhattan",
+      "storefront door repair nyc",
+      "high-security doors chelsea",
+      "glass door repair manhattan"
     ]
   },
-  "new-baltimore": {
-    "tagline": "New Baltimore: Professional painting planned around your property, colors, and schedule.",
+  "flatiron": {
+    "tagline": "Flatiron District door repair, installation, and supply for offices, retail, and residences.",
     "landmarks": [
-      "New Baltimore City Park",
-      "Anchor Bay",
-      "Burton Memorial Park"
+      "Flatiron Building",
+      "Madison Square Park",
+      "Eataly NYC Flatiron"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Repairing revolving doors in office buildings",
+      "Installing sleek commercial entry doors",
+      "Replacing apartment balcony doors"
     ],
-    "neighborhood_notes": "New Baltimore is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "The Flatiron District is characterized by its iconic commercial buildings and a growing residential presence. Office buildings frequently require specialized doors like revolving or automatic sliding doors, while residential units need secure and aesthetically pleasing entry doors. Durability and modern design are key considerations.",
     "keywords": [
-      "new baltimore painters",
-      "painting company new baltimore mi",
-      "interior painting new baltimore",
-      "exterior painting new baltimore",
-      "house painters new baltimore",
-      "commercial painting new baltimore"
+      "flatiron door repair",
+      "commercial door service flatiron",
+      "revolving door repair manhattan",
+      "office door installation nyc",
+      "apartment door replacement flatiron",
+      "automatic door repair"
     ]
   },
-  "detroit-downtown": {
-    "tagline": "Downtown: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "murray-hill": {
+    "tagline": "Murray Hill door repair, new door installation, and reliable door supply for all properties.",
     "landmarks": [
-      "Campus Martius Park",
-      "Renaissance Center",
-      "Fox Theatre"
+      "Grand Central Terminal",
+      "Morgan Library & Museum",
+      "Chrysler Building"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Repairing apartment building lobby doors",
+      "Installing fire-rated apartment entry doors",
+      "Adjusting commercial office suite doors"
     ],
-    "neighborhood_notes": "Downtown in Detroit is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Murray Hill is predominantly residential with many pre-war apartment buildings and some commercial spaces. Common door issues include wear and tear on older apartment doors and the need for upgraded security. Fire-rated doors are often a requirement for multi-unit residential buildings.",
     "keywords": [
-      "downtown painters",
-      "painting company downtown mi",
-      "interior painting downtown",
-      "exterior painting downtown",
-      "house painters downtown",
-      "commercial painting downtown"
+      "murray hill door repair",
+      "apartment door installation murray hill",
+      "fire-rated doors nyc",
+      "commercial door repair manhattan",
+      "lobby door service",
+      "door hardware murray hill"
     ]
   },
-  "detroit-midtown": {
-    "tagline": "Midtown: Professional painting planned around your property, colors, and schedule.",
+  "gramercy": {
+    "tagline": "Gramercy Park door repair, installation, and supply. Enhancing security and elegance.",
     "landmarks": [
-      "Detroit Institute of Arts",
-      "Wayne State University",
-      "Detroit Public Library"
+      "Gramercy Park",
+      "Pete's Tavern",
+      "National Arts Club"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Repairing historic brownstone entry doors",
+      "Installing high-security apartment doors",
+      "Replacing worn-out interior doors"
     ],
-    "neighborhood_notes": "Midtown in Detroit is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Gramercy is known for its historic brownstones and upscale apartment buildings. Doors often need to match the architectural integrity of the area, sometimes requiring custom craftsmanship. Security is paramount, and residents frequently seek robust, aesthetically pleasing entry doors.",
     "keywords": [
-      "midtown painters",
-      "painting company midtown mi",
-      "interior painting midtown",
-      "exterior painting midtown",
-      "house painters midtown",
-      "commercial painting midtown"
+      "gramercy door repair",
+      "historic brownstone door service",
+      "custom wood doors nyc",
+      "high-security apartment doors gramercy",
+      "door hardware replacement",
+      "residential door installation manhattan"
     ]
   },
-  "detroit-new-center": {
-    "tagline": "New Center: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "east-village": {
+    "tagline": "East Village door repair, installation, and supply for unique shops and residences.",
     "landmarks": [
-      "Fisher Building",
-      "Cadillac Place",
-      "Henry Ford Hospital"
+      "St. Mark's Church in-the-Bowery",
+      "Tompkins Square Park",
+      "Nuyorican Poets Cafe"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Fixing storefront doors for small businesses",
+      "Repairing apartment entry doors with security issues",
+      "Installing new doors for renovated spaces"
     ],
-    "neighborhood_notes": "New Center in Detroit is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "The East Village features a mix of older tenement buildings, renovated apartments, and diverse storefronts. Doors often face heavy use and require durable, secure solutions. Many small businesses need reliable commercial doors that fit the neighborhood's eclectic vibe.",
     "keywords": [
-      "new center painters",
-      "painting company new center mi",
-      "interior painting new center",
-      "exterior painting new center",
-      "house painters new center",
-      "commercial painting new center"
+      "east village door repair",
+      "storefront door repair east village",
+      "apartment door security nyc",
+      "commercial door installation manhattan",
+      "tenement building door repair",
+      "door replacement east village"
     ]
   },
-  "detroit-corktown": {
-    "tagline": "Corktown: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "west-village": {
+    "tagline": "West Village door repair, installation, and supply. Preserving charm, ensuring security.",
     "landmarks": [
-      "Michigan Central Station",
-      "Detroit Tiger Stadium site",
-      "Mexicantown"
+      "Christopher Street Pier",
+      "Jefferson Market Garden",
+      "The Cherry Lane Theatre"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Repairing misaligned brownstone doors",
+      "Installing elegant residential entry doors",
+      "Fixing commercial doors for boutiques"
     ],
-    "neighborhood_notes": "Corktown in Detroit is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "The West Village is characterized by its historic brownstones, narrow streets, and charming boutiques. Doors often require custom sizes and period-appropriate hardware to maintain the neighborhood's aesthetic. Security and weather resistance are important for these older structures.",
     "keywords": [
-      "corktown painters",
-      "painting company corktown mi",
-      "interior painting corktown",
-      "exterior painting corktown",
-      "house painters corktown",
-      "commercial painting corktown"
+      "west village door repair",
+      "brownstone door repair nyc",
+      "historic door installation west village",
+      "custom residential doors manhattan",
+      "boutique storefront door service",
+      "door hardware west village"
     ]
   },
-  "detroit-greektown": {
-    "tagline": "Greektown: Professional painting planned around your property, colors, and schedule.",
+  "midtown": {
+    "tagline": "Midtown door repair, installation, and supply for commercial, retail, and residential needs.",
     "landmarks": [
-      "Greektown Casino-Hotel",
-      "St. Mary's Church",
-      "Music Hall Center for the Performing Arts"
+      "Times Square",
+      "Empire State Building",
+      "Rockefeller Center"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Repairing automatic sliding doors in office towers",
+      "Installing high-traffic commercial entrance doors",
+      "Servicing hotel lobby doors"
     ],
-    "neighborhood_notes": "Greektown in Detroit is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Midtown is a bustling commercial hub with numerous office buildings, hotels, and retail establishments. Doors experience extremely high traffic and require robust, often automated, solutions. Security and ADA compliance are critical for most commercial properties in this area.",
     "keywords": [
-      "greektown painters",
-      "painting company greektown mi",
-      "interior painting greektown",
-      "exterior painting greektown",
-      "house painters greektown",
-      "commercial painting greektown"
+      "midtown door repair",
+      "commercial door service midtown",
+      "automatic door repair nyc",
+      "revolving door installation manhattan",
+      "hotel door repair",
+      "storefront door replacement midtown"
     ]
   },
-  "detroit-eastern-market": {
-    "tagline": "Eastern Market: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "midtown-east": {
+    "tagline": "Midtown East: Expert door repair, installation, and supply for commercial and residential properties.",
     "landmarks": [
-      "Eastern Market",
-      "Detroit vs. Everybody Store",
-      "Detroit City Distillery"
+      "Grand Central Terminal",
+      "Chrysler Building",
+      "United Nations Headquarters"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "repair revolving door",
+      "install commercial storefront door",
+      "fix office door closer"
     ],
-    "neighborhood_notes": "Eastern Market in Detroit is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Midtown East features a high concentration of commercial high-rises and luxury residential buildings. Doors often require heavy-duty hardware and ADA compliance for accessibility. Many older buildings may have original, ornate doors needing specialized repair.",
     "keywords": [
-      "eastern market painters",
-      "painting company eastern market mi",
-      "interior painting eastern market",
-      "exterior painting eastern market",
-      "house painters eastern market",
-      "commercial painting eastern market"
+      "midtown east door repair",
+      "commercial door midtown east",
+      "office door repair manhattan",
+      "storefront door installation",
+      "revolving door service",
+      "midtown east door supply"
     ]
   },
-  "detroit-brush-park": {
-    "tagline": "Brush Park: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "midtown-west": {
+    "tagline": "Midtown West: Your trusted partner for door repair, installation, and supply services.",
     "landmarks": [
-      "Brush Park Historic District",
-      "Little Caesars Arena",
-      "Detroit Medical Center"
+      "Times Square",
+      "Rockefeller Center",
+      "Broadway Theatres"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "emergency door repair",
+      "install new security door",
+      "fix theater entrance door"
     ],
-    "neighborhood_notes": "Brush Park in Detroit is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Midtown West is a bustling area with numerous commercial establishments, entertainment venues, and residential buildings. High-traffic doors, especially in retail and theater spaces, often need frequent maintenance and robust security features. Emergency door services are commonly requested due to constant activity.",
     "keywords": [
-      "brush park painters",
-      "painting company brush park mi",
-      "interior painting brush park",
-      "exterior painting brush park",
-      "house painters brush park",
-      "commercial painting brush park"
+      "midtown west door repair",
+      "commercial door midtown west",
+      "emergency door service manhattan",
+      "storefront door repair",
+      "security door installation",
+      "theater door repair"
     ]
   },
-  "detroit-woodbridge": {
-    "tagline": "Woodbridge: Professional painting planned around your property, colors, and schedule.",
+  "hells-kitchen": {
+    "tagline": "Hell's Kitchen: Reliable door solutions for residential, commercial, and restaurant properties.",
     "landmarks": [
-      "Woodbridge Historic District",
-      "Wayne State University",
-      "Detroit Public Library"
+      "Intrepid Sea, Air & Space Museum",
+      "Restaurant Row",
+      "Port Authority Bus Terminal"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "repair restaurant kitchen door",
+      "install apartment entry door",
+      "fix storefront glass door"
     ],
-    "neighborhood_notes": "Woodbridge in Detroit is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Hell's Kitchen has a mix of residential walk-ups, new developments, and a vibrant restaurant scene. Doors in older buildings may be prone to wear and tear, while commercial kitchens require durable, often fire-rated, doors. Security is a key concern for residential and commercial doors.",
     "keywords": [
-      "woodbridge painters",
-      "painting company woodbridge mi",
-      "interior painting woodbridge",
-      "exterior painting woodbridge",
-      "house painters woodbridge",
-      "commercial painting woodbridge"
+      "hells kitchen door repair",
+      "apartment door installation",
+      "restaurant door repair",
+      "commercial door hells kitchen",
+      "fire rated door service",
+      "storefront door repair manhattan"
     ]
   },
-  "detroit-indian-village": {
-    "tagline": "Indian Village: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "upper-east-side": {
+    "tagline": "Upper East Side: Premium door repair, installation, and supply for discerning clients.",
     "landmarks": [
-      "Indian Village Historic District",
-      "Pewabic Pottery",
-      "Detroit River"
+      "Metropolitan Museum of Art",
+      "Central Park Zoo",
+      "Gracie Mansion"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "repair brownstone entry door",
+      "install luxury apartment door",
+      "replace custom wood door"
     ],
-    "neighborhood_notes": "Indian Village in Detroit is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "The Upper East Side features many historic brownstones, luxury co-ops, and high-end residential buildings. Doors often require aesthetic sensitivity, custom sizing, and high-quality hardware. Preserving the architectural integrity of original doors is frequently a priority.",
     "keywords": [
-      "indian village painters",
-      "painting company indian village mi",
-      "interior painting indian village",
-      "exterior painting indian village",
-      "house painters indian village",
-      "commercial painting indian village"
+      "upper east side door repair",
+      "luxury apartment door",
+      "brownstone door repair",
+      "custom wood door manhattan",
+      "door hardware installation",
+      "residential door service"
     ]
   },
-  "detroit-boston-edison": {
-    "tagline": "Boston-Edison: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "upper-west-side": {
+    "tagline": "Upper West Side: Expert door repair, installation, and supply for classic and modern homes.",
     "landmarks": [
-      "Boston-Edison Historic District",
-      "Henry Ford Hospital",
-      "Motown Museum"
+      "American Museum of Natural History",
+      "Lincoln Center for the Performing Arts",
+      "Beacon Theatre"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "fix pre-war apartment door",
+      "install new patio door",
+      "repair brownstone entrance door"
     ],
-    "neighborhood_notes": "Boston-Edison in Detroit is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "The Upper West Side is characterized by pre-war apartment buildings, brownstones, and some newer developments. Doors in these buildings often require specialized knowledge for repair and replacement, especially regarding historical accuracy and robust security. Patio doors are common in buildings facing Central Park.",
     "keywords": [
-      "boston-edison painters",
-      "painting company boston-edison mi",
-      "interior painting boston-edison",
-      "exterior painting boston-edison",
-      "house painters boston-edison",
-      "commercial painting boston-edison"
+      "upper west side door repair",
+      "pre-war apartment door",
+      "brownstone door repair manhattan",
+      "patio door installation",
+      "residential door service",
+      "door hardware repair"
     ]
   },
-  "detroit-palmer-woods": {
-    "tagline": "Palmer Woods: Professional painting planned around your property, colors, and schedule.",
+  "harlem": {
+    "tagline": "Harlem: Comprehensive door repair, installation, and supply for homes and businesses.",
     "landmarks": [
-      "Palmer Woods Historic District",
-      "Detroit Golf Club",
-      "University of Detroit Mercy"
+      "Apollo Theater",
+      "Studio Museum in Harlem",
+      "Schomburg Center for Research in Black Culture"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "repair stoop entry door",
+      "install storefront security door",
+      "fix apartment building entrance"
     ],
-    "neighborhood_notes": "Palmer Woods in Detroit is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Harlem features a diverse mix of historic brownstones, rowhouses, and apartment buildings, alongside commercial corridors. Doors often require security enhancements and durable materials to withstand heavy use. Many stoop doors need repair or replacement to maintain curb appeal and safety.",
     "keywords": [
-      "palmer woods painters",
-      "painting company palmer woods mi",
-      "interior painting palmer woods",
-      "exterior painting palmer woods",
-      "house painters palmer woods",
-      "commercial painting palmer woods"
+      "harlem door repair",
+      "brownstone door harlem",
+      "storefront door installation",
+      "apartment entry door",
+      "security door repair",
+      "commercial door service"
     ]
   },
-  "detroit-palmer-park": {
-    "tagline": "Palmer Park: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "east-harlem": {
+    "tagline": "East Harlem: Reliable door repair, installation, and supply for all property types.",
     "landmarks": [
-      "Palmer Park",
-      "Merrill Fountain",
-      "Detroit Zoo"
+      "El Museo del Barrio",
+      "Thomas Jefferson Park",
+      "P.S. 109 East Harlem ArtSpace"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "repair apartment building door",
+      "install steel security door",
+      "fix commercial glass door"
     ],
-    "neighborhood_notes": "Palmer Park in Detroit is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "East Harlem, or El Barrio, has a mix of residential buildings, including tenements and public housing, as well as commercial establishments. Security is a primary concern, leading to a demand for robust and secure door options. Many older building doors may require significant repair due to age and wear.",
     "keywords": [
-      "palmer park painters",
-      "painting company palmer park mi",
-      "interior painting palmer park",
-      "exterior painting palmer park",
-      "house painters palmer park",
-      "commercial painting palmer park"
+      "east harlem door repair",
+      "security door east harlem",
+      "apartment door installation",
+      "commercial door repair",
+      "steel door service",
+      "door replacement manhattan"
     ]
   },
-  "detroit-lafayette-park": {
-    "tagline": "Lafayette Park: Professional painting planned around your property, colors, and schedule.",
+  "washington-heights": {
+    "tagline": "Washington Heights: Your local door experts for repair, installation, and supply.",
     "landmarks": [
-      "Lafayette Park",
-      "Mies van der Rohe Apartments",
-      "DeVos Place Convention Center"
+      "The Cloisters",
+      "NewYork-Presbyterian Hospital",
+      "George Washington Bridge"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "repair apartment entrance door",
+      "install fire-rated door",
+      "fix commercial building door"
     ],
-    "neighborhood_notes": "Lafayette Park in Detroit is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Washington Heights is predominantly residential with many pre-war apartment buildings and some commercial areas. Doors in these buildings often need repair due to age and frequent use, particularly common entry doors. Fire-rated doors are a significant requirement for multi-unit residential buildings.",
     "keywords": [
-      "lafayette park painters",
-      "painting company lafayette park mi",
-      "interior painting lafayette park",
-      "exterior painting lafayette park",
-      "house painters lafayette park",
-      "commercial painting lafayette park"
+      "washington heights door repair",
+      "apartment door repair",
+      "fire-rated door installation",
+      "commercial door washington heights",
+      "entry door replacement",
+      "door closer repair"
     ]
   },
-  "detroit-mexicantown": {
-    "tagline": "Mexicantown: Preparation-first painting with clean protection and written project scopes.",
+  "inwood": {
+    "tagline": "Inwood's trusted source for door repair, installation, and replacement services. We keep your entries secure.",
     "landmarks": [
-      "Ste. Anne de Detroit Catholic Church",
-      "Clark Park",
-      "Honey Bee La Colmena"
+      "Inwood Hill Park",
+      "Dyckman Farmhouse Museum",
+      "Columbia University Boathouse"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Apartment entry door repair",
+      "Storefront door installation",
+      "Fire-rated door inspection"
     ],
-    "neighborhood_notes": "Mexicantown in Detroit is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "Inwood features a mix of pre-war apartment buildings and some newer constructions. Many older buildings require door hardware upgrades to meet current security standards. Ensuring proper fire door function is also a common concern in multi-unit dwellings.",
     "keywords": [
-      "mexicantown painters",
-      "painting company mexicantown mi",
-      "interior painting mexicantown",
-      "exterior painting mexicantown",
-      "house painters mexicantown",
-      "commercial painting mexicantown"
+      "inwood door repair",
+      "door installation inwood",
+      "commercial doors inwood",
+      "apartment door repair manhattan",
+      "fire door service inwood",
+      "entry door replacement inwood"
     ]
   },
-  "detroit-southwest-detroit": {
-    "tagline": "Southwest Detroit: Professional painting planned around your property, colors, and schedule.",
+  "morningside-heights": {
+    "tagline": "Morningside Heights door experts: reliable repair, secure installation, and quality door replacements.",
     "landmarks": [
-      "Michigan Central Station",
-      "Detroit River International Wildlife Refuge",
-      "Ford Historic Site"
+      "Cathedral of Saint John the Divine",
+      "Columbia University",
+      "Riverside Church"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Brownstone entry door restoration",
+      "University building door repair",
+      "Apartment security door upgrade"
     ],
-    "neighborhood_notes": "Southwest Detroit in Detroit is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Morningside Heights is known for its historic brownstones and large institutional buildings. Doors often need repair due to age, heavy use, or to maintain architectural integrity. Security upgrades for residential and commercial doors are frequently requested.",
     "keywords": [
-      "southwest detroit painters",
-      "painting company southwest detroit mi",
-      "interior painting southwest detroit",
-      "exterior painting southwest detroit",
-      "house painters southwest detroit",
-      "commercial painting southwest detroit"
+      "morningside heights door repair",
+      "brownstone door repair manhattan",
+      "commercial door service morningside heights",
+      "door installation morningside heights",
+      "security door upgrade morningside heights",
+      "historic door restoration manhattan"
     ]
   },
-  "detroit-north-end": {
-    "tagline": "North End: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "battery-park-city": {
+    "tagline": "Battery Park City's premier door service for modern residential and commercial door solutions.",
     "landmarks": [
-      "Durfee Innovation Society",
-      "Motown Museum",
-      "New Center Park"
+      "One World Trade Center",
+      "Brookfield Place",
+      "Statue of Liberty View"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "High-rise apartment door adjustment",
+      "Storefront glass door repair",
+      "Building entrance door maintenance"
     ],
-    "neighborhood_notes": "North End in Detroit is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Battery Park City features modern high-rise residential and commercial buildings. Doors often incorporate advanced security features and require precise adjustments. Wind and weather exposure from the waterfront can affect door performance and hardware.",
     "keywords": [
-      "north end painters",
-      "painting company north end mi",
-      "interior painting north end",
-      "exterior painting north end",
-      "house painters north end",
-      "commercial painting north end"
+      "battery park city door repair",
+      "commercial door installation battery park city",
+      "apartment door service manhattan",
+      "glass door repair battery park city",
+      "high-rise door repair",
+      "entry door replacement battery park city"
     ]
   },
-  "detroit-east-english-village": {
-    "tagline": "East English Village: Preparation-first painting with clean protection and written project scopes.",
+  "chinatown": {
+    "tagline": "Chinatown door repair and installation: reliable service for businesses and residences.",
     "landmarks": [
-      "Balduck Park",
-      "Grosse Pointe Park",
-      "Detroit Golf Club"
+      "Columbus Park",
+      "Museum of Chinese in America",
+      "Mahayana Buddhist Temple"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Storefront security gate repair",
+      "Restaurant kitchen door replacement",
+      "Apartment building common door repair"
     ],
-    "neighborhood_notes": "East English Village in Detroit is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "Chinatown has many older commercial and residential buildings with high foot traffic. Storefront doors and security gates experience heavy use and often require frequent repairs. Fire code compliance for doors in restaurants and multi-unit dwellings is crucial.",
     "keywords": [
-      "east english village painters",
-      "painting company east english village mi",
-      "interior painting east english village",
-      "exterior painting east english village",
-      "house painters east english village",
-      "commercial painting east english village"
+      "chinatown door repair",
+      "storefront door service chinatown",
+      "commercial door installation manhattan",
+      "security gate repair chinatown",
+      "apartment door repair chinatown",
+      "restaurant door replacement"
     ]
   },
-  "detroit-jefferson-chalmers": {
-    "tagline": "Jefferson-Chalmers: Professional painting planned around your property, colors, and schedule.",
+  "little-italy": {
+    "tagline": "Little Italy's trusted door specialists for historic charm and modern security.",
     "landmarks": [
-      "Mariners Inn",
-      "Alfred Brush Ford Park",
-      "Detroit RiverWalk"
+      "St. Patrick's Old Cathedral",
+      "Mulberry Street",
+      "Italian American Museum"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Historic storefront door repair",
+      "Restaurant entry door replacement",
+      "Residential building common door service"
     ],
-    "neighborhood_notes": "Jefferson-Chalmers in Detroit is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Little Italy features many historic buildings, requiring careful attention to door aesthetics and functionality. Commercial doors, especially for restaurants, endure constant use. Maintaining the historical integrity of doors while ensuring modern security is a key need.",
     "keywords": [
-      "jefferson-chalmers painters",
-      "painting company jefferson-chalmers mi",
-      "interior painting jefferson-chalmers",
-      "exterior painting jefferson-chalmers",
-      "house painters jefferson-chalmers",
-      "commercial painting jefferson-chalmers"
+      "little italy door repair",
+      "historic door restoration little italy",
+      "commercial door service little italy",
+      "restaurant door repair manhattan",
+      "storefront door replacement little italy",
+      "entry door repair little italy"
     ]
   },
-  "detroit-warrendale": {
-    "tagline": "Warrendale: Preparation-first painting with clean protection and written project scopes.",
+  "nolita": {
+    "tagline": "NoLita door solutions: stylish installations, expert repairs, and security upgrades for unique spaces.",
     "landmarks": [
-      "Rouge Park",
-      "Henry Ford Centennial Library",
-      "Fairlane Town Center"
+      "New Museum",
+      "Elizabeth Street Garden",
+      "St. Patrick's Old Cathedral School"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Boutique storefront door installation",
+      "Loft apartment entry door repair",
+      "Commercial glass door adjustment"
     ],
-    "neighborhood_notes": "Warrendale in Detroit is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "NoLita is characterized by trendy boutiques, art galleries, and residential lofts. Doors often need to combine aesthetic appeal with robust security. Custom door solutions and high-quality hardware are frequently requested for both commercial and residential properties.",
     "keywords": [
-      "warrendale painters",
-      "painting company warrendale mi",
-      "interior painting warrendale",
-      "exterior painting warrendale",
-      "house painters warrendale",
-      "commercial painting warrendale"
+      "nolita door repair",
+      "storefront door installation nolita",
+      "commercial glass door service manhattan",
+      "loft door repair nolita",
+      "boutique door replacement",
+      "entry door upgrade nolita"
     ]
   },
-  "detroit-grandmont-rosedale": {
-    "tagline": "Grandmont-Rosedale: Professional painting planned around your property, colors, and schedule.",
+  "noho": {
+    "tagline": "NoHo door experts: premium installations, reliable repairs, and secure solutions for distinctive properties.",
     "landmarks": [
-      "Stoepel Park No. 1",
-      "Grandmont Rosedale Development Corporation",
-      "Redford Theatre"
+      "The Public Theater",
+      "Astor Place",
+      "Great Jones Street"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Loft building entrance door repair",
+      "Gallery storefront door installation",
+      "Commercial fire door inspection"
     ],
-    "neighborhood_notes": "Grandmont-Rosedale in Detroit is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "NoHo features grand loft buildings and historic commercial spaces. Doors often require specialized hardware to match architectural styles and meet security demands. Fire doors in these multi-story buildings are critical for safety and code compliance.",
     "keywords": [
-      "grandmont-rosedale painters",
-      "painting company grandmont-rosedale mi",
-      "interior painting grandmont-rosedale",
-      "exterior painting grandmont-rosedale",
-      "house painters grandmont-rosedale",
-      "commercial painting grandmont-rosedale"
+      "noho door repair",
+      "loft door installation noho",
+      "commercial fire door service manhattan",
+      "storefront door repair noho",
+      "entry door replacement noho",
+      "historic building door repair"
     ]
   },
-  "detroit-rosedale-park": {
-    "tagline": "Rosedale Park: Professional painting planned around your property, colors, and schedule.",
+  "kips-bay": {
+    "tagline": "Kips Bay door services: dependable repair, secure installation, and efficient replacements.",
     "landmarks": [
-      "Rosedale Park Community House",
-      "Rouge Park",
-      "Detroit School of Arts"
+      "St. Vartan Armenian Cathedral",
+      "Bellevue Hospital Center",
+      "Fairway Market Kips Bay"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Apartment building entry door repair",
+      "Medical office door installation",
+      "Retail storefront door adjustment"
     ],
-    "neighborhood_notes": "Rosedale Park in Detroit is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Kips Bay has a mix of residential high-rises, medical facilities, and retail spaces. Apartment building entry doors experience heavy traffic and require durable solutions. Doors in medical and commercial settings must meet specific accessibility and safety codes.",
     "keywords": [
-      "rosedale park painters",
-      "painting company rosedale park mi",
-      "interior painting rosedale park",
-      "exterior painting rosedale park",
-      "house painters rosedale park",
-      "commercial painting rosedale park"
+      "kips bay door repair",
+      "apartment door service kips bay",
+      "commercial door installation kips bay",
+      "medical office door repair manhattan",
+      "entry door replacement kips bay",
+      "storefront door repair kips bay"
     ]
   },
-  "detroit-northwest-detroit": {
-    "tagline": "Northwest Detroit: Professional painting planned around your property, colors, and schedule.",
+  "turtle-bay": {
+    "tagline": "Expert door repair and installation in Turtle Bay. We handle all commercial and residential door needs.",
     "landmarks": [
-      "University of Detroit Mercy",
-      "Palmer Park",
-      "Marygrove College"
+      "United Nations Headquarters",
+      "Dag Hammarskjöld Plaza",
+      "Chrysler Building"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Repairing commercial storefront doors",
+      "Installing new apartment entry doors",
+      "Servicing fire-rated doors"
     ],
-    "neighborhood_notes": "Northwest Detroit in Detroit is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Turtle Bay features a mix of high-rise residential buildings and commercial properties. Many older buildings require door hardware upgrades to meet current safety and access codes. Commercial doors often experience heavy traffic, leading to wear and tear on pivots and closers.",
     "keywords": [
-      "northwest detroit painters",
-      "painting company northwest detroit mi",
-      "interior painting northwest detroit",
-      "exterior painting northwest detroit",
-      "house painters northwest detroit",
-      "commercial painting northwest detroit"
+      "turtle bay door repair",
+      "manhattan door installation",
+      "commercial door service turtle bay",
+      "apartment door repair nyc",
+      "fire door inspection turtle bay",
+      "door hardware replacement manhattan"
     ]
   },
-  "detroit-east-side": {
-    "tagline": "East Side: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "yorkville": {
+    "tagline": "Yorkville's trusted source for door repair, replacement, and new door installations. Residential and commercial.",
     "landmarks": [
-      "Belle Isle Park",
-      "Indian Village",
-      "Detroit RiverWalk"
+      "Gracie Mansion",
+      "Carl Schurz Park",
+      "Ruppert Park"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Replacing worn apartment doors",
+      "Fixing broken door locks",
+      "Installing soundproof doors"
     ],
-    "neighborhood_notes": "East Side in Detroit is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Yorkville has many pre-war apartment buildings with original, often heavy, entry doors. These doors frequently need hinge adjustments, lock repairs, or full replacements due to age and use. New developments often require modern, energy-efficient door solutions.",
     "keywords": [
-      "east side painters",
-      "painting company east side mi",
-      "interior painting east side",
-      "exterior painting east side",
-      "house painters east side",
-      "commercial painting east side"
+      "yorkville door repair",
+      "apartment door installation yorkville",
+      "door lock repair manhattan",
+      "residential door service yorkville",
+      "pre-war door replacement nyc",
+      "soundproof door yorkville"
     ]
   },
-  "detroit-west-side": {
-    "tagline": "West Side: Preparation-first painting with clean protection and written project scopes.",
+  "lincoln-square": {
+    "tagline": "Lincoln Square's premier door service for residential, commercial, and institutional door solutions.",
     "landmarks": [
-      "Motown Museum",
-      "Michigan Central Station",
-      "Corktown"
+      "Lincoln Center for the Performing Arts",
+      "Juilliard School",
+      "American Museum of Natural History"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Repairing automatic sliding doors",
+      "Installing high-security entry doors",
+      "Servicing theater doors"
     ],
-    "neighborhood_notes": "West Side in Detroit is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "Lincoln Square features a diverse range of buildings, from luxury high-rises to cultural institutions. Automatic and ADA-compliant doors are common, requiring specialized repair and maintenance. High-traffic areas demand durable and secure door systems.",
     "keywords": [
-      "west side painters",
-      "painting company west side mi",
-      "interior painting west side",
-      "exterior painting west side",
-      "house painters west side",
-      "commercial painting west side"
+      "lincoln square door repair",
+      "automatic door service manhattan",
+      "high-security door installation",
+      "commercial door repair lincoln square",
+      "ada door compliance nyc",
+      "theater door repair manhattan"
     ]
   },
-  "dearborn-west-dearborn": {
-    "tagline": "West Dearborn: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "theater-district": {
+    "tagline": "Specialized door repair and installation for the unique demands of the Theater District.",
     "landmarks": [
-      "Greenfield Village",
-      "Henry Ford Museum",
-      "University of Michigan-Dearborn"
+      "Times Square",
+      "Broadway Theatres",
+      "Restaurant Row"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Repairing heavy-duty commercial doors",
+      "Installing sound-dampening theater doors",
+      "Emergency door board-up"
     ],
-    "neighborhood_notes": "West Dearborn in Dearborn is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "The Theater District experiences immense foot traffic, necessitating robust and secure commercial doors. Soundproofing is crucial for theater and restaurant doors. Emergency door services are often required due to constant public interaction and potential damage.",
     "keywords": [
-      "west dearborn painters",
-      "painting company west dearborn mi",
-      "interior painting west dearborn",
-      "exterior painting west dearborn",
-      "house painters west dearborn",
-      "commercial painting west dearborn"
+      "theater district door repair",
+      "commercial door service times square",
+      "soundproof door installation nyc",
+      "emergency door repair manhattan",
+      "broadway theater door repair",
+      "storefront door replacement"
     ]
   },
-  "dearborn-east-dearborn": {
-    "tagline": "East Dearborn: Preparation-first painting with clean protection and written project scopes.",
+  "garment-district": {
+    "tagline": "Reliable door supply, repair, and installation for Garment District businesses and residences.",
     "landmarks": [
-      "Arab American National Museum",
-      "Dearborn City Hall",
-      "Warren Avenue business district"
+      "Fashion Institute of Technology (FIT)",
+      "Port Authority Bus Terminal",
+      "Herald Square"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Repairing freight elevator doors",
+      "Installing heavy-duty commercial doors",
+      "Replacing worn warehouse doors"
     ],
-    "neighborhood_notes": "East Dearborn in Dearborn is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "The Garment District is characterized by commercial lofts, warehouses, and showrooms. Freight elevator doors and large loading dock doors are common and require specialized repair. Security is a significant concern, often leading to requests for reinforced door installations.",
     "keywords": [
-      "east dearborn painters",
-      "painting company east dearborn mi",
-      "interior painting east dearborn",
-      "exterior painting east dearborn",
-      "house painters east dearborn",
-      "commercial painting east dearborn"
+      "garment district door repair",
+      "commercial door installation nyc",
+      "freight door service manhattan",
+      "warehouse door repair",
+      "security door garment district",
+      "loading dock door repair"
     ]
   },
-  "dearborn-ford-rouge-area": {
-    "tagline": "Ford Rouge area: Professional painting planned around your property, colors, and schedule.",
+  "lower-east-side": {
+    "tagline": "Lower East Side door repair and installation. Serving historic buildings and modern establishments.",
     "landmarks": [
-      "Ford Rouge Factory Tour",
-      "Rouge River",
-      "Fairlane Town Center"
+      "Tenement Museum",
+      "Katz's Delicatessen",
+      "Essex Market"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Repairing historic wooden doors",
+      "Installing new storefront doors",
+      "Upgrading apartment entry doors"
     ],
-    "neighborhood_notes": "Ford Rouge area in Dearborn is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "The Lower East Side features many historic tenement buildings with unique door sizes and hardware. Modern storefronts and new residential developments require contemporary door solutions. Security and insulation are common considerations for door upgrades in this area.",
     "keywords": [
-      "ford rouge area painters",
-      "painting company ford rouge area mi",
-      "interior painting ford rouge area",
-      "exterior painting ford rouge area",
-      "house painters ford rouge area",
-      "commercial painting ford rouge area"
+      "lower east side door repair",
+      "historic door restoration nyc",
+      "storefront door installation les",
+      "apartment door upgrade manhattan",
+      "wood door repair lower east side",
+      "security door installation nyc"
     ]
   },
-  "dearborn-southend-dearborn": {
-    "tagline": "Southend Dearborn: Professional painting planned around your property, colors, and schedule.",
+  "two-bridges": {
+    "tagline": "Two Bridges door repair and installation for residential and commercial properties.",
     "landmarks": [
-      "Lapeer Park",
-      "Salina Elementary School",
-      "Dix Avenue"
+      "Manhattan Bridge",
+      "Brooklyn Bridge",
+      "Alfred E. Smith Houses"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Repairing apartment building entry doors",
+      "Installing new fire-rated doors",
+      "Fixing commercial glass doors"
     ],
-    "neighborhood_notes": "Southend Dearborn in Dearborn is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Two Bridges is undergoing significant redevelopment, blending older residential buildings with new constructions. Many apartment complexes require frequent door maintenance due to heavy usage. Commercial establishments often need durable, secure, and code-compliant door solutions.",
     "keywords": [
-      "southend dearborn painters",
-      "painting company southend dearborn mi",
-      "interior painting southend dearborn",
-      "exterior painting southend dearborn",
-      "house painters southend dearborn",
-      "commercial painting southend dearborn"
+      "two bridges door repair",
+      "apartment door service manhattan",
+      "fire door installation nyc",
+      "commercial glass door repair",
+      "residential door replacement two bridges",
+      "door hardware upgrade manhattan"
     ]
   },
-  "livonia-rosedale-gardens": {
-    "tagline": "Rosedale Gardens: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "stuyvesant-town": {
+    "tagline": "Stuyvesant Town door repair, maintenance, and installation for all residential door types.",
     "landmarks": [
-      "Rosedale Gardens Park",
-      "St. Mary Mercy Hospital",
-      "Livonia City Hall"
+      "Stuyvesant Square Park",
+      "Peter Cooper Village Green",
+      "Stuyvesant Oval"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Repairing apartment entry doors",
+      "Replacing worn interior doors",
+      "Servicing patio sliding doors"
     ],
-    "neighborhood_notes": "Rosedale Gardens in Livonia is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Stuyvesant Town primarily consists of large residential complexes with a consistent architectural style. Apartment entry doors and interior doors experience constant use, requiring regular maintenance and occasional replacement. Patio sliding doors are also common and often need track or roller repair.",
     "keywords": [
-      "rosedale gardens painters",
-      "painting company rosedale gardens mi",
-      "interior painting rosedale gardens",
-      "exterior painting rosedale gardens",
-      "house painters rosedale gardens",
-      "commercial painting rosedale gardens"
+      "stuyvesant town door repair",
+      "apartment door repair nyc",
+      "interior door replacement manhattan",
+      "sliding door repair stuyvesant town",
+      "residential door service",
+      "door hardware upgrade stuyvesant town"
     ]
   },
-  "livonia-greenmead": {
-    "tagline": "Greenmead: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "long-island-city": {
+    "tagline": "Long Island City's premier door service: expert installation, reliable repairs, and quality door supplies.",
     "landmarks": [
-      "Greenmead Historical Park",
-      "Laurel Park Place",
-      "Schoolcraft College"
+      "Gantry Plaza State Park",
+      "MoMA PS1",
+      "Pepsi-Cola Sign"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Commercial storefront door repair",
+      "Apartment entry door replacement",
+      "Automatic door sensor adjustment"
     ],
-    "neighborhood_notes": "Greenmead in Livonia is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Long Island City features a mix of modern high-rise residential buildings, renovated industrial spaces, and new commercial developments. Many doors here are contemporary, requiring specialized hardware and adherence to updated building codes. Security and aesthetic appeal are primary concerns for doors in this rapidly developing area.",
     "keywords": [
-      "greenmead painters",
-      "painting company greenmead mi",
-      "interior painting greenmead",
-      "exterior painting greenmead",
-      "house painters greenmead",
-      "commercial painting greenmead"
+      "long island city door repair",
+      "lic door installation",
+      "commercial doors lic",
+      "apartment door replacement long island city",
+      "storefront door repair queens",
+      "door suppliers long island city"
     ]
   },
-  "livonia-livonia-downtown": {
-    "tagline": "Livonia Downtown: Professional painting planned around your property, colors, and schedule.",
+  "astoria": {
+    "tagline": "Astoria's trusted source for door repair, new door installation, and all door hardware needs.",
     "landmarks": [
-      "Livonia City Hall",
-      "Livonia Public Library",
-      "Wilson Barn"
+      "Astoria Park",
+      "Museum of the Moving Image",
+      "Bohemian Hall & Beer Garden"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Brownstone entry door repair",
+      "Retail store door replacement",
+      "Apartment building common area door maintenance"
     ],
-    "neighborhood_notes": "Livonia Downtown in Livonia is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Astoria's housing stock ranges from historic brownstones and pre-war apartment buildings to newer constructions. Many older doors require careful restoration or custom sizing for replacement. Commercial properties often need durable, high-traffic doors that comply with local safety regulations.",
     "keywords": [
-      "livonia downtown painters",
-      "painting company livonia downtown mi",
-      "interior painting livonia downtown",
-      "exterior painting livonia downtown",
-      "house painters livonia downtown",
-      "commercial painting livonia downtown"
+      "astoria door repair",
+      "door installation astoria",
+      "pre-war apartment door astoria",
+      "commercial door repair astoria",
+      "entry door replacement queens",
+      "door hardware astoria"
     ]
   },
-  "royal-oak-downtown-royal-oak": {
-    "tagline": "Downtown Royal Oak: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "sunnyside": {
+    "tagline": "Sunnyside door experts: reliable repairs, secure installations, and quality door supplies for homes and businesses.",
     "landmarks": [
-      "Royal Oak Music Theatre",
-      "Emagine Royal Oak",
-      "Royal Oak Farmers Market"
+      "Sunnyside Gardens Park",
+      "Thalia Spanish Theatre",
+      "Lowery Street Station"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Residential front door lock repair",
+      "Garden apartment patio door replacement",
+      "Commercial security door installation"
     ],
-    "neighborhood_notes": "Downtown Royal Oak in Royal Oak is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Sunnyside is known for its historic Sunnyside Gardens and numerous pre-war apartment buildings. Doors often need to match architectural styles, and many older units may have unique door dimensions or hardware. Security is a significant consideration for both residential and commercial doors in the area.",
     "keywords": [
-      "downtown royal oak painters",
-      "painting company downtown royal oak mi",
-      "interior painting downtown royal oak",
-      "exterior painting downtown royal oak",
-      "house painters downtown royal oak",
-      "commercial painting downtown royal oak"
+      "sunnyside door repair",
+      "door installation sunnyside gardens",
+      "apartment door repair sunnyside",
+      "commercial door sunnyside",
+      "front door replacement queens",
+      "security doors sunnyside"
     ]
   },
-  "royal-oak-norman-oaks": {
-    "tagline": "Norman Oaks: Professional painting planned around your property, colors, and schedule.",
+  "woodside": {
+    "tagline": "Woodside's go-to for door services: professional installation, emergency repairs, and comprehensive door solutions.",
     "landmarks": [
-      "Red Run Golf Club",
-      "Detroit Zoo",
-      "Uptown Palladium 12"
+      "Doughboy Park",
+      "Woodside Library",
+      "St. Sebastian's Church"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Residential garage door repair",
+      "Storefront glass door replacement",
+      "Apartment building fire door inspection"
     ],
-    "neighborhood_notes": "Norman Oaks in Royal Oak is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Woodside features a mix of multi-family homes, apartment buildings, and local businesses. Doors often experience heavy use and require durable materials. Fire doors in apartment buildings are critical and must meet strict safety codes.",
     "keywords": [
-      "norman oaks painters",
-      "painting company norman oaks mi",
-      "interior painting norman oaks",
-      "exterior painting norman oaks",
-      "house painters norman oaks",
-      "commercial painting norman oaks"
+      "woodside door repair",
+      "garage door woodside",
+      "commercial door installation woodside",
+      "fire door inspection queens",
+      "residential door replacement woodside",
+      "emergency door repair woodside"
     ]
   },
-  "royal-oak-northwood-ferndale-border": {
-    "tagline": "Northwood-Ferndale border: Preparation-first painting with clean protection and written project scopes.",
+  "jackson-heights": {
+    "tagline": "Jackson Heights door specialists: expert repairs, new door installations, and reliable door hardware solutions.",
     "landmarks": [
-      "Ferndale Public Library",
-      "Oakland Community College - Royal Oak",
-      "Innovation Hills Park"
+      "Jackson Heights Historic District",
+      "Travers Park",
+      "Jackson Heights Beautification Group"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Pre-war apartment entry door repair",
+      "Retail store security gate installation",
+      "Building lobby door closer adjustment"
     ],
-    "neighborhood_notes": "Northwood-Ferndale border in Royal Oak is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "Jackson Heights is famous for its historic garden apartment complexes and diverse commercial strips. Doors in pre-war buildings often require specialized knowledge for repair and replacement to maintain historical integrity. Commercial doors need to be robust for high foot traffic and security.",
     "keywords": [
-      "northwood-ferndale border painters",
-      "painting company northwood-ferndale border mi",
-      "interior painting northwood-ferndale border",
-      "exterior painting northwood-ferndale border",
-      "house painters northwood-ferndale border",
-      "commercial painting northwood-ferndale border"
+      "jackson heights door repair",
+      "historic apartment doors jackson heights",
+      "commercial door installation queens",
+      "door closer repair jackson heights",
+      "entry door replacement jackson heights",
+      "security gates jackson heights"
     ]
   },
-  "troy-big-beaver-corridor": {
-    "tagline": "Big Beaver Corridor: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "elmhurst": {
+    "tagline": "Elmhurst's trusted door service: quality installations, efficient repairs, and all door supply needs covered.",
     "landmarks": [
-      "Somerset Collection",
-      "Troy Historic Village",
-      "Beaumont Hospital, Troy"
+      "Elmhurst Hospital Center",
+      "Queens Center Mall",
+      "Moore Homestead Playground"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Residential front door replacement",
+      "Shopping mall entrance door repair",
+      "Apartment building common area door upgrade"
     ],
-    "neighborhood_notes": "Big Beaver Corridor in Troy is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Elmhurst is a bustling commercial and residential area with a mix of housing types and numerous businesses. Doors, especially in high-traffic commercial zones and apartment buildings, endure significant wear and tear. Durability and compliance with commercial building codes are crucial.",
     "keywords": [
-      "big beaver corridor painters",
-      "painting company big beaver corridor mi",
-      "interior painting big beaver corridor",
-      "exterior painting big beaver corridor",
-      "house painters big beaver corridor",
-      "commercial painting big beaver corridor"
+      "elmhurst door repair",
+      "door installation elmhurst",
+      "commercial door service queens",
+      "residential door replacement elmhurst",
+      "apartment door repair elmhurst",
+      "storefront doors elmhurst"
     ]
   },
-  "troy-somerset-area": {
-    "tagline": "Somerset area: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "corona": {
+    "tagline": "Corona door experts: reliable repairs, secure installations, and comprehensive door solutions for the community.",
     "landmarks": [
-      "Somerset Collection",
-      "The Crofoot Ballroom",
-      "Stage Nature Center"
+      "Flushing Meadows Corona Park",
+      "Queens Zoo",
+      "Louis Armstrong House Museum"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Residential backyard door repair",
+      "Restaurant entrance door replacement",
+      "Apartment building exterior door maintenance"
     ],
-    "neighborhood_notes": "Somerset area in Troy is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Corona features a diverse range of residential properties and a vibrant commercial district. Doors in this active neighborhood often require robust construction to withstand heavy use. Security and weather resistance are important considerations for all door types.",
     "keywords": [
-      "somerset area painters",
-      "painting company somerset area mi",
-      "interior painting somerset area",
-      "exterior painting somerset area",
-      "house painters somerset area",
-      "commercial painting somerset area"
+      "corona door repair",
+      "door installation corona",
+      "commercial door corona",
+      "residential door repair queens",
+      "exterior door replacement corona",
+      "security doors corona"
     ]
   },
-  "troy-troy-historic-village-area": {
-    "tagline": "Troy Historic Village area: Professional painting planned around your property, colors, and schedule.",
+  "flushing": {
+    "tagline": "Flushing's leading door service: expert installations, prompt repairs, and a wide selection of door supplies.",
     "landmarks": [
-      "Troy Historic Village",
-      "Troy Community Center",
-      "Firefighters Park"
+      "Flushing Meadows Corona Park",
+      "Queens Botanical Garden",
+      "Citi Field"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Commercial glass storefront door repair",
+      "Residential entry door replacement",
+      "Apartment building fire-rated door installation"
     ],
-    "neighborhood_notes": "Troy Historic Village area in Troy is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Flushing is a densely populated area with a mix of high-rise residential buildings, bustling commercial centers, and older homes. Commercial doors experience extremely high traffic and require frequent maintenance or robust replacements. Fire safety compliance is paramount for doors in multi-story buildings.",
     "keywords": [
-      "troy historic village area painters",
-      "painting company troy historic village area mi",
-      "interior painting troy historic village area",
-      "exterior painting troy historic village area",
-      "house painters troy historic village area",
-      "commercial painting troy historic village area"
+      "flushing door repair",
+      "commercial glass door flushing",
+      "door installation flushing",
+      "fire doors flushing",
+      "residential door replacement flushing",
+      "storefront door repair flushing"
     ]
   },
-  "warren-warren-civic-center": {
-    "tagline": "Warren Civic Center: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "forest-hills": {
+    "tagline": "Forest Hills' trusted source for door repair, installation, and premium door supplies. We secure your entry.",
     "landmarks": [
-      "Warren City Hall",
-      "GM Technical Center",
-      "Macomb Community College - South Campus"
+      "Forest Hills Stadium",
+      "Forest Hills Gardens",
+      "Station Square"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Residential entry door replacement",
+      "Commercial storefront door repair",
+      "Patio sliding door adjustment"
     ],
-    "neighborhood_notes": "Warren Civic Center in Warren is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Forest Hills features a mix of pre-war apartment buildings and single-family homes, often with original wooden entry doors or older metal security doors. Many properties require upgraded hardware for enhanced security and energy efficiency. Compliance with local building codes for historic districts is crucial for door replacements.",
     "keywords": [
-      "warren civic center painters",
-      "painting company warren civic center mi",
-      "interior painting warren civic center",
-      "exterior painting warren civic center",
-      "house painters warren civic center",
-      "commercial painting warren civic center"
+      "forest hills door repair",
+      "door installation forest hills",
+      "entry doors forest hills",
+      "commercial doors forest hills",
+      "door replacement forest hills",
+      "sliding doors forest hills"
     ]
   },
-  "warren-van-dyke-corridor": {
-    "tagline": "Van Dyke Corridor: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "rego-park": {
+    "tagline": "Rego Park's premier door service: reliable repairs, expert installations, and quality door supplies for all needs.",
     "landmarks": [
-      "Universal Mall",
-      "St. John Macomb-Oakland Hospital",
-      "Warren Police Department"
+      "Rego Center",
+      "Lost Battalion Hall",
+      "Juniper Valley Park"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Apartment building entrance door repair",
+      "Retail store front door installation",
+      "Interior door replacement"
     ],
-    "neighborhood_notes": "Van Dyke Corridor in Warren is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Rego Park has many co-op and condominium buildings, leading to frequent requests for common area door repairs and unit entry door replacements. Commercial properties often need durable storefront doors. Older wooden doors may require weatherstripping and hinge adjustments.",
     "keywords": [
-      "van dyke corridor painters",
-      "painting company van dyke corridor mi",
-      "interior painting van dyke corridor",
-      "exterior painting van dyke corridor",
-      "house painters van dyke corridor",
-      "commercial painting van dyke corridor"
+      "rego park door repair",
+      "door installation rego park",
+      "commercial door rego park",
+      "residential doors rego park",
+      "door replacement rego park",
+      "fire doors rego park"
     ]
   },
-  "warren-warren-woods": {
-    "tagline": "Warren Woods: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "kew-gardens": {
+    "tagline": "Kew Gardens' go-to for door repair, new door installations, and a wide selection of quality door supplies.",
     "landmarks": [
-      "Warren Woods Tower High School",
-      "Halmich Park",
-      "Warren Woods Middle School"
+      "Queens Borough Hall",
+      "Kew Gardens Cinemas",
+      "Forest Park"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Historic wood door restoration",
+      "Apartment building lobby door repair",
+      "Security door installation"
     ],
-    "neighborhood_notes": "Warren Woods in Warren is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Kew Gardens is known for its pre-war apartment buildings and Tudor-style homes, often featuring unique and sometimes historic entry doors. Many doors require specialized repair for ornate details or custom sizes. Security upgrades for older doors are a common request.",
     "keywords": [
-      "warren woods painters",
-      "painting company warren woods mi",
-      "interior painting warren woods",
-      "exterior painting warren woods",
-      "house painters warren woods",
-      "commercial painting warren woods"
+      "kew gardens door repair",
+      "door installation kew gardens",
+      "historic doors kew gardens",
+      "apartment doors kew gardens",
+      "security doors kew gardens",
+      "door replacement kew gardens"
     ]
   },
-  "sterling-heights-sterling-heights-utica-corridor": {
-    "tagline": "Sterling Heights Utica corridor: Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "jamaica": {
+    "tagline": "Jamaica's trusted partner for all door needs: expert repairs, new installations, and comprehensive door supplies.",
     "landmarks": [
-      "Lakeside Mall",
-      "Dodge Park",
-      "Sterling Heights Public Library"
+      "Jamaica Center",
+      "Rufus King Park",
+      "York College CUNY"
     ],
     "common_calls": [
-      "living-area color update",
-      "weathered exterior repaint",
-      "door and baseboard painting"
+      "Storefront glass door repair",
+      "Residential steel entry door installation",
+      "Apartment building common area door maintenance"
     ],
-    "neighborhood_notes": "Sterling Heights Utica corridor in Sterling Heights is within our regular Metro Detroit painting service area. Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+    "neighborhood_notes": "Jamaica has a diverse mix of commercial storefronts and residential multi-family and single-family homes. High traffic areas often lead to wear and tear on commercial doors, requiring robust solutions. Security is a primary concern, driving demand for durable entry doors and reliable locking hardware.",
     "keywords": [
-      "sterling heights utica corridor painters",
-      "painting company sterling heights utica corridor mi",
-      "interior painting sterling heights utica corridor",
-      "exterior painting sterling heights utica corridor",
-      "house painters sterling heights utica corridor",
-      "commercial painting sterling heights utica corridor"
+      "jamaica door repair",
+      "door installation jamaica",
+      "commercial doors jamaica",
+      "residential doors jamaica",
+      "storefront doors jamaica",
+      "security doors jamaica"
     ]
   },
-  "sterling-heights-dodge-park-area": {
-    "tagline": "Dodge Park area: Professional painting planned around your property, colors, and schedule.",
+  "richmond-hill": {
+    "tagline": "Richmond Hill's reliable choice for door repair, new door installations, and quality door supplies.",
     "landmarks": [
-      "Dodge Park",
-      "Upton House",
-      "Sterling Heights City Hall"
+      "Forest Park Carousel",
+      "Smokey Oval Park",
+      "Richmond Hill Library"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Residential front door replacement",
+      "Garage door repair",
+      "Commercial entrance door adjustment"
     ],
-    "neighborhood_notes": "Dodge Park area in Sterling Heights is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Richmond Hill features many older residential homes, often with original wooden entry doors that require maintenance or replacement. Garage door issues are also common. Commercial properties along Jamaica Avenue often need durable and secure entrance doors.",
     "keywords": [
-      "dodge park area painters",
-      "painting company dodge park area mi",
-      "interior painting dodge park area",
-      "exterior painting dodge park area",
-      "house painters dodge park area",
-      "commercial painting dodge park area"
+      "richmond hill door repair",
+      "door installation richmond hill",
+      "residential doors richmond hill",
+      "garage door repair richmond hill",
+      "commercial doors richmond hill",
+      "entry door replacement richmond hill"
     ]
   },
-  "farmington-hills-downtown-farmington": {
-    "tagline": "Downtown Farmington: Preparation-first painting with clean protection and written project scopes.",
+  "ozone-park": {
+    "tagline": "Ozone Park's leading door service: expert repairs, installations, and a wide range of door supplies.",
     "landmarks": [
-      "Farmington Community Arts Council",
-      "The Marvin's Garden",
-      "Farmington Civic Theater"
+      "Aqueduct Racetrack",
+      "Tudor Park",
+      "Ozone Park Library"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Residential storm door installation",
+      "Storefront security door repair",
+      "Interior door replacement"
     ],
-    "neighborhood_notes": "Downtown Farmington in Farmington Hills is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "Ozone Park primarily consists of residential homes, many of which benefit from storm door installations for energy efficiency and added security. Commercial properties along Rockaway Boulevard frequently require robust and secure entry systems. Older homes often have worn door frames needing repair.",
     "keywords": [
-      "downtown farmington painters",
-      "painting company downtown farmington mi",
-      "interior painting downtown farmington",
-      "exterior painting downtown farmington",
-      "house painters downtown farmington",
-      "commercial painting downtown farmington"
+      "ozone park door repair",
+      "door installation ozone park",
+      "storm doors ozone park",
+      "commercial doors ozone park",
+      "residential doors ozone park",
+      "door replacement ozone park"
     ]
   },
-  "farmington-hills-heritage-park-area": {
-    "tagline": "Heritage Park area: Preparation-first painting with clean protection and written project scopes.",
+  "howard-beach": {
+    "tagline": "Howard Beach's trusted door specialists: reliable repairs, new installations, and quality door supplies.",
     "landmarks": [
-      "Heritage Park",
-      "Farmington Hills Nature Center",
-      "Farmington Hills Ice Arena"
+      "Frank Charles Park",
+      "Gateway National Recreation Area",
+      "Howard Beach Library"
     ],
     "common_calls": [
-      "rental turnover painting",
-      "ceiling and trim painting",
-      "deck or fence staining"
+      "Patio sliding glass door repair",
+      "Residential fiberglass entry door installation",
+      "Water-damaged door replacement"
     ],
-    "neighborhood_notes": "Heritage Park area in Farmington Hills is within our regular Metro Detroit painting service area. Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
+    "neighborhood_notes": "Howard Beach, with its proximity to water, often experiences issues with water-damaged doors and frames. Patio sliding doors are common and frequently need repair or replacement. Homeowners often seek durable, weather-resistant entry doors suitable for coastal conditions.",
     "keywords": [
-      "heritage park area painters",
-      "painting company heritage park area mi",
-      "interior painting heritage park area",
-      "exterior painting heritage park area",
-      "house painters heritage park area",
-      "commercial painting heritage park area"
+      "howard beach door repair",
+      "door installation howard beach",
+      "patio doors howard beach",
+      "entry doors howard beach",
+      "water damaged door repair howard beach",
+      "residential doors howard beach"
     ]
   },
-  "southfield-southfield-town-center": {
-    "tagline": "Southfield Town Center: Professional painting planned around your property, colors, and schedule.",
+  "ridgewood": {
+    "tagline": "Ridgewood's top choice for door repair, expert installations, and premium door supplies for all properties.",
     "landmarks": [
-      "Southfield Town Center",
-      "Lawrence Technological University",
-      "Southfield Public Library"
+      "Grover Cleveland Park",
+      "Myrtle Avenue",
+      "Ridgewood Savings Bank"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Historic brownstone entry door repair",
+      "Commercial glass door installation",
+      "Apartment building fire door inspection"
     ],
-    "neighborhood_notes": "Southfield Town Center in Southfield is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Ridgewood is characterized by its historic brownstones and pre-war apartment buildings, often requiring specialized repair for ornate or oversized doors. Commercial corridors on Myrtle Avenue and Fresh Pond Road need durable and aesthetically pleasing storefront doors. Fire door compliance is crucial for multi-family dwellings.",
     "keywords": [
-      "southfield town center painters",
-      "painting company southfield town center mi",
-      "interior painting southfield town center",
-      "exterior painting southfield town center",
-      "house painters southfield town center",
-      "commercial painting southfield town center"
+      "ridgewood door repair",
+      "door installation ridgewood",
+      "historic doors ridgewood",
+      "commercial doors ridgewood",
+      "fire doors ridgewood",
+      "brownstone door repair ridgewood",
+      "entry doors ridgewood"
     ]
   },
-  "southfield-northland-area": {
-    "tagline": "Northland area: Careful interior and exterior painting for homes, rentals, and businesses.",
+  "maspeth": {
+    "tagline": "Maspeth's trusted source for door supply, installation, and reliable repairs. We keep your entries secure.",
     "landmarks": [
-      "Northland Center site",
-      "Lawrence Technological University",
-      "Detroit Zoo"
+      "Maspeth Federal Savings Bank",
+      "Maspeth High School",
+      "Frank Principe Park"
     ],
     "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
+      "Residential front door replacement",
+      "Commercial storefront door repair",
+      "Emergency door lockout service"
     ],
-    "neighborhood_notes": "Northland area in Southfield is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
+    "neighborhood_notes": "Maspeth features a mix of residential homes and industrial businesses, leading to diverse door needs. Many older homes may require custom-sized doors or historical hardware matching. Commercial properties often need heavy-duty doors to withstand frequent use and ensure security.",
     "keywords": [
-      "northland area painters",
-      "painting company northland area mi",
-      "interior painting northland area",
-      "exterior painting northland area",
-      "house painters northland area",
-      "commercial painting northland area"
+      "maspeth door repair",
+      "queens door installation",
+      "commercial doors maspeth",
+      "residential door maspeth",
+      "maspeth emergency door service",
+      "storefront door repair queens"
     ]
   },
-  "pontiac-downtown-pontiac": {
-    "tagline": "Downtown Pontiac: Professional painting planned around your property, colors, and schedule.",
+  "middle-village": {
+    "tagline": "Middle Village door experts: sales, precision installation, and swift, dependable repair services.",
     "landmarks": [
-      "Strand Theatre",
-      "Oakland County Courthouse",
-      "Pontiac General Hospital"
+      "Juniper Valley Park",
+      "Our Lady of Hope Church",
+      "Metro Mall"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Patio door repair and replacement",
+      "Entry door hardware upgrade",
+      "Garage door spring repair"
     ],
-    "neighborhood_notes": "Downtown Pontiac in Pontiac is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Middle Village primarily consists of residential properties, including many attached and semi-detached homes. Door issues often involve wear and tear on older wooden doors or common problems with patio and garage doors. Security upgrades for residential entry doors are also a frequent request.",
     "keywords": [
-      "downtown pontiac painters",
-      "painting company downtown pontiac mi",
-      "interior painting downtown pontiac",
-      "exterior painting downtown pontiac",
-      "house painters downtown pontiac",
-      "commercial painting downtown pontiac"
+      "middle village door repair",
+      "residential door middle village",
+      "patio door repair queens",
+      "garage door service middle village",
+      "entry door replacement middle village",
+      "door installation queens"
     ]
   },
-  "pontiac-phoenix-center-area": {
-    "tagline": "Phoenix Center area: Professional painting planned around your property, colors, and schedule.",
+  "bayside": {
+    "tagline": "Bayside's premier door service: high-quality doors, expert installation, and efficient repairs.",
     "landmarks": [
-      "Phoenix Center Amphitheater",
-      "M-1 Concourse",
-      "Oakland University"
+      "Fort Totten Park",
+      "Bayside LIRR Station",
+      "Bay Terrace Shopping Center"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Luxury entry door installation",
+      "Sliding glass door repair",
+      "Commercial office door adjustment"
     ],
-    "neighborhood_notes": "Phoenix Center area in Pontiac is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Bayside features a range of housing, from single-family homes to co-ops and apartments, often with a focus on aesthetics and security. Many properties seek high-end door solutions or require repairs for sliding glass doors leading to balconies or patios. Commercial establishments in shopping areas need reliable and presentable entry doors.",
     "keywords": [
-      "phoenix center area painters",
-      "painting company phoenix center area mi",
-      "interior painting phoenix center area",
-      "exterior painting phoenix center area",
-      "house painters phoenix center area",
-      "commercial painting phoenix center area"
+      "bayside door installation",
+      "queens luxury doors",
+      "sliding door repair bayside",
+      "commercial door service queens",
+      "residential door repair bayside",
+      "bayside entry doors"
     ]
   },
-  "rochester-hills-rochester-hills-downtown": {
-    "tagline": "Rochester Hills Downtown: Professional painting planned around your property, colors, and schedule.",
+  "whitestone": {
+    "tagline": "Whitestone door solutions: sales, professional installation, and prompt, reliable door repairs.",
     "landmarks": [
-      "Rochester Hills Public Library",
-      "Rochester Municipal Park",
-      "Oakland University"
+      "Whitestone Bridge",
+      "Whitestone Shopping Center",
+      "Francis Lewis Park"
     ],
     "common_calls": [
-      "commercial interior repaint",
-      "wallpaper removal",
-      "color and sheen guidance"
+      "Storm door installation",
+      "Front door frame repair",
+      "Interior door replacement"
     ],
-    "neighborhood_notes": "Rochester Hills Downtown in Rochester Hills is within our regular Metro Detroit painting service area. Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
+    "neighborhood_notes": "Whitestone is predominantly residential, with many single-family homes and some multi-family dwellings. Common door needs include storm door installations for weather protection and repairs to door frames damaged by age or use. Homeowners often seek to upgrade interior doors for improved insulation or aesthetics.",
     "keywords": [
-      "rochester hills downtown painters",
-      "painting company rochester hills downtown mi",
-      "interior painting rochester hills downtown",
-      "exterior painting rochester hills downtown",
-      "house painters rochester hills downtown",
-      "commercial painting rochester hills downtown"
-    ]
-  },
-  "rochester-hills-stoney-creek-area": {
-    "tagline": "Stoney Creek area: Careful interior and exterior painting for homes, rentals, and businesses.",
-    "landmarks": [
-      "Stoney Creek Metropark",
-      "Meadow Brook Hall",
-      "Oakland University"
-    ],
-    "common_calls": [
-      "whole-home interior repaint",
-      "exterior trim refresh",
-      "cabinet color update"
-    ],
-    "neighborhood_notes": "Stoney Creek area in Rochester Hills is within our regular Metro Detroit painting service area. Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
-    "keywords": [
-      "stoney creek area painters",
-      "painting company stoney creek area mi",
-      "interior painting stoney creek area",
-      "exterior painting stoney creek area",
-      "house painters stoney creek area",
-      "commercial painting stoney creek area"
+      "whitestone door repair",
+      "storm door installation queens",
+      "residential door whitestone",
+      "door frame repair queens",
+      "interior door replacement whitestone",
+      "whitestone door service"
     ]
   }
 }

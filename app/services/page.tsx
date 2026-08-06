@@ -6,9 +6,9 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
-  title: "Painting Services in Metro Detroit",
+  title: "Door Services in Brooklyn & NYC",
   description:
-    `${BIZ.name} offers interior, exterior, cabinet, commercial, trim, ceiling, staining, rental turnover, wallpaper removal, and color consultation services.`,
+    `${BIZ.name} offers residential and commercial installation, custom fabrication, hardware supply, structural repair, fire-rated doors, storefront systems, and emergency service.`,
   alternates: { canonical: `${BIZ.url}/services` },
 };
 
@@ -21,11 +21,11 @@ export default function ServicesPage() {
         <div className="relative mx-auto max-w-5xl px-4 text-center md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Services</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            Painting services across <span className="text-brass-gradient">Metro Detroit</span>.
+            Door services across <span className="text-brass-gradient">Brooklyn & NYC</span>.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            Explore ten service lines with preparation, finish, and planning details for homes, businesses, rentals,
-            cabinets, and exterior wood.
+            Explore ten service lines with supply, installation, repair, hardware, and code-compliance details for
+            homes, businesses, and multifamily buildings.
           </p>
         </div>
       </section>
@@ -43,15 +43,14 @@ export default function ServicesPage() {
                 photoAlt={`${s.name} project inspiration`}
                 photoW={1600}
                 photoH={900}
-                city="Metro Detroit, MI"
+                city="Brooklyn, NY"
                 priority={i < 3}
               />
           ))}
         </div>
       </section>
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="NYC Door Services" kind="service" />
       <FinalCTA />
     </>
   );
 }
-

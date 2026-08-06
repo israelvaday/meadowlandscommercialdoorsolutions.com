@@ -7,41 +7,40 @@ export function PaintingGlossary() {
         <header>
           <p className="text-xs font-semibold uppercase tracking-wider text-brass-400">Glossary</p>
           <h2 className="mt-2 font-display text-2xl font-bold text-white md:text-3xl">
-            Painting terms, explained in plain language
+            Door terms, explained in plain language
           </h2>
           <p className="mt-3 text-ink-300">
-            These are the terms {BIZ.name} uses when discussing scope, products, and finish expectations.
+            These are the terms {BIZ.name} uses when discussing scope, hardware, and installation expectations.
           </p>
         </header>
 
         <p>
-          <strong className="text-white">Surface preparation</strong> &mdash; cleaning, scraping, sanding, filling,
-          caulking, and spot repairs completed before paint is applied.
+          <strong className="text-white">Door slab</strong> &mdash; the door panel itself, separate from the frame,
+          hardware, and casing.
         </p>
         <p>
-          <strong className="text-white">Primer</strong> &mdash; a preparatory coating selected for adhesion, stain
-          blocking, color changes, or bare surfaces. Not every previously painted surface needs a full primer coat.
+          <strong className="text-white">Jamb</strong> &mdash; the vertical frame members the door hangs on; includes
+          the hinge side and strike side.
         </p>
         <p>
-          <strong className="text-white">Sheen</strong> &mdash; how reflective the dried paint appears. Common choices
-          include flat, matte, eggshell, satin, semi-gloss, and gloss.
+          <strong className="text-white">Rough opening</strong> &mdash; the framed gap in the wall before the door
+          assembly is installed.
         </p>
         <p>
-          <strong className="text-white">Coat</strong> &mdash; one complete application of paint. Coverage depends on
-          the existing color, new color, product, surface condition, and application method.
+          <strong className="text-white">Fire-rated assembly</strong> &mdash; a UL-listed door, frame, and hardware
+          combination rated for a specific fire duration (e.g. 90 minutes).
         </p>
         <p>
-          <strong className="text-white">Cutting in</strong> &mdash; painting clean edges around ceilings, trim,
-          corners, fixtures, and other areas a roller cannot reach precisely.
+          <strong className="text-white">Strike plate</strong> &mdash; the metal plate on the jamb that receives the
+          latch or deadbolt; alignment affects whether the door closes securely.
         </p>
         <p>
-          <strong className="text-white">Dry time</strong> &mdash; when a coating can usually be recoated or lightly
-          touched. <strong className="text-white">Cure time</strong> is longer and describes when it reaches fuller
-          hardness and durability.
+          <strong className="text-white">Door closer</strong> &mdash; a mechanical device that controls swing speed
+          and ensures self-closing for code compliance.
         </p>
         <p>
-          <strong className="text-white">Color sample</strong> &mdash; a test area or sample board reviewed under the
-          room&apos;s actual daylight and artificial light before the final color is confirmed.
+          <strong className="text-white">Weatherstripping</strong> &mdash; seals around the door perimeter to reduce
+          drafts, noise, and moisture infiltration.
         </p>
         <p>
           <strong className="text-white">Punch list</strong> &mdash; the final walkthrough items addressed before

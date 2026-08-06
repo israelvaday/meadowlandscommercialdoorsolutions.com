@@ -9,49 +9,46 @@ import { MobileDock } from "@/components/site/MobileDock";
 import { localBusinessJsonLd } from "@/lib/schema";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "optional", adjustFontFallback: true });
-// Jakarta = display-font for headlines (LCP target). Use "optional" so the
-// fallback paint is locked-in for the LCP — eliminates the font-swap repaint
-// that was pushing mobile LCP to ~2.9s. Jakarta still loads in the background
-// and applies on subsequent page views from cache.
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-jakarta", display: "optional", adjustFontFallback: true });
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "optional", adjustFontFallback: true });
 
 export const metadata: Metadata = {
   metadataBase: new URL(BIZ.url),
   title: {
-    default: `${BIZ.name} — Metro Detroit Painting Company`,
+    default: `${BIZ.name} — Door Supply, Installation & Repair NYC`,
     template: `%s — ${BIZ.name}`,
   },
   description:
-    `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Metro Detroit. Free estimates — call ${BIZ.phone}.`,
+    `${BIZ.name} provides commercial and residential door supply, custom installation, hardware, and structural door repairs across Brooklyn, Manhattan, and Queens. Free estimates — call ${BIZ.phone}.`,
   keywords: [
-    "painting company Detroit",
-    "interior painting Metro Detroit",
-    "exterior painting Michigan",
-    "cabinet painting Metro Detroit",
-    "commercial painting Wayne County",
+    "door supply Brooklyn",
+    "door installation NYC",
+    "door repair Brooklyn NY",
+    "commercial doors NYC",
+    "custom door installation Queens",
+    "door hardware supply Manhattan",
   ],
   openGraph: {
     type: "website",
     siteName: BIZ.name,
     url: BIZ.url,
     locale: "en_US",
-    title: `${BIZ.name} — Metro Detroit Painting Company`,
+    title: `${BIZ.name} — Door Supply, Installation & Repair NYC`,
     description:
-      "Interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Wayne, Oakland & Macomb counties.",
+      "Commercial and residential door supply, custom installation, hardware, and structural repairs across Brooklyn, Manhattan & Queens.",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: `${BIZ.name} — Metro Detroit painting company`,
+        alt: `${BIZ.name} — NYC door supply and installation`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${BIZ.name} — Metro Detroit painting company`,
-    description: "Painting for Metro Detroit homes, businesses, rentals, cabinets, trim, and exterior surfaces.",
+    title: `${BIZ.name} — NYC door supply & repair`,
+    description: "Door supply, installation, hardware, and structural repair for Brooklyn, Manhattan, and Queens.",
     images: ["/opengraph-image.png"],
   },
   alternates: { canonical: "/" },
@@ -71,7 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           dangerouslySetInnerHTML={{
             __html:
-              'if(location.protocol==="http:"&&location.hostname==="bhpaintingmetrodetroit.com"){location.replace("https://"+location.host+location.pathname+location.search+location.hash)}',
+              'if(location.protocol==="http:"&&location.hostname==="hillmandoorsupplyanddoorrepair.com"){location.replace("https://"+location.host+location.pathname+location.search+location.hash)}',
           }}
         />
       </head>

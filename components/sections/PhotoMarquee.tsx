@@ -15,7 +15,7 @@ export function PhotoMarquee() {
       <div className="mx-auto mb-6 flex max-w-7xl flex-col items-center px-4 text-center md:px-6">
         <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Project inspiration</p>
         <h2 className="mt-1 font-display text-2xl font-bold tracking-tight md:text-3xl">
-          The kind of painting work we perform for Metro Detroit properties.
+          The kind of door work we perform for NYC properties.
         </h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-400">
           Inspiration imagery is illustrative and is not presented as completed customer projects.

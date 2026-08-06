@@ -54,7 +54,6 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
   return (
     <div>
       <div className="mx-auto max-w-2xl">
-        {/* Mobile: prominent stand-alone CTA above the search */}
         <button
           type="button"
           onClick={detect}
@@ -77,10 +76,9 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
             type="search"
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Search city, neighborhood, or ZIP…"
+            placeholder="Search neighborhood or ZIP…"
             className="h-14 w-full rounded-2xl border border-ink-800 bg-ink-900/70 pl-12 pr-4 text-base outline-none transition-colors focus:border-brass-500 md:pr-44"
           />
-          {/* Desktop / tablet: inline pill on the right of the input */}
           <button
             type="button"
             onClick={detect}
@@ -99,7 +97,7 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
           </button>
         </div>
         <p className="mt-2 text-center text-[11px] uppercase tracking-wider text-ink-500">
-          Optional location check · confirms whether you appear inside Metro Detroit
+          Optional location check · confirms whether you appear inside our NYC service area
         </p>
       </div>
 
@@ -109,7 +107,7 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
             <AlertTriangle className="h-4 w-4" /> Location blocked
           </div>
           <p className="mt-1 text-xs text-ink-300">
-            Type your city, neighborhood, or ZIP above and we&rsquo;ll find your service area instantly.
+            Type your neighborhood or ZIP above and we&rsquo;ll find your service area instantly.
           </p>
         </div>
       )}
@@ -117,7 +115,7 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
       {loc.phase === "out_of_area" && (
         <div className="mx-auto mt-6 max-w-2xl rounded-2xl border border-amber-500/30 bg-amber-500/5 p-4 text-sm">
           <div className="flex items-center gap-2 font-bold text-amber-300">
-            <AlertTriangle className="h-4 w-4" /> Outside our Metro Detroit service zone
+            <AlertTriangle className="h-4 w-4" /> Outside our NYC service zone
           </div>
           <p className="mt-1 text-xs text-ink-300">
             Your position appears outside our standard bounds. The check is approximate; call with the project address
@@ -133,7 +131,7 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
         <div className="mx-auto mt-6 max-w-3xl rounded-2xl border border-emerald-500/30 bg-emerald-500/5 p-5">
           <div className="flex flex-wrap items-center gap-2 text-sm font-bold text-emerald-300">
             <CheckCircle2 className="h-4 w-4" />
-            You appear to be inside our Metro Detroit service area
+            You appear to be inside our Brooklyn, Manhattan &amp; Queens service area
           </div>
           <p className="mt-2 text-sm text-ink-300">
             Request a quote with your project address so we can confirm coverage and discuss scheduling.

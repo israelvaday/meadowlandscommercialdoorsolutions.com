@@ -1,7 +1,6 @@
 /**
- * Rebuild local painting copy while preserving the existing Metro Detroit
- * service-area names and landmark lists. This provides an offline fallback
- * when the optional OpenRouter copy refresh is unavailable.
+ * Rebuild local door-service copy for NYC service areas.
+ * Offline fallback when OpenRouter copy refresh is unavailable.
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -11,29 +10,26 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const areas = JSON.parse(
   readFileSync(join(ROOT, "content/service-areas.json"), "utf8")
 );
-const current = JSON.parse(
-  readFileSync(join(ROOT, "content/area-insights.json"), "utf8")
-);
 
 const taglines = [
-  "Careful interior and exterior painting for homes, rentals, and businesses.",
-  "Preparation-first painting with clean protection and written project scopes.",
-  "Professional painting planned around your property, colors, and schedule.",
-  "Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "Commercial and residential door supply, installation, and structural repair.",
+  "Custom door fitting, hardware supply, and frame repair for NYC properties.",
+  "Premium door installation with code-aware hardware and clean finishes.",
+  "Door supply, emergency repair, and jamb restoration across Brooklyn and NYC.",
 ];
 
 const callSets = [
-  ["whole-home interior repaint", "exterior trim refresh", "cabinet color update"],
-  ["rental turnover painting", "ceiling and trim painting", "deck or fence staining"],
-  ["commercial interior repaint", "wallpaper removal", "color and sheen guidance"],
-  ["living-area color update", "weathered exterior repaint", "door and baseboard painting"],
+  ["entry door replacement", "commercial storefront repair", "fire-rated door upgrade"],
+  ["interior door installation", "door hardware upgrade", "sagging door structural repair"],
+  ["custom door fabrication", "jamb and frame rebuild", "emergency lock repair"],
+  ["multifamily corridor doors", "security entry upgrade", "storefront glass door service"],
 ];
 
 const propertyNotes = [
-  "Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
-  "Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
-  "Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
-  "Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+  "Properties here range from pre-war masonry buildings to new glass storefronts, so door work must account for settled frames, irregular openings, and NYC code requirements. Hardware weight, fire labels, and ADA clearances are evaluated before installation.",
+  "Local door projects often involve aging jambs, misaligned strikes, and hardware that has outlasted its cycle. A site measurement and structural assessment prevent repeat binding after a new slab is hung.",
+  "Buildings in this area commonly mix residential units, ground-floor retail, and office suites — each with different door ratings, closers, and security needs. We specify assemblies matched to the opening, not one-size-fits-all slabs.",
+  "NYC door work here frequently includes fire-rated corridor replacements, storefront entrance repairs, and custom-fit interior doors for renovated layouts. Frame condition and wall substrate determine whether repair or replacement is the durable path.",
 ];
 
 function hash(value) {
@@ -52,26 +48,21 @@ const output = Object.fromEntries(
       area.kind === "city" || !area.city || area.city === place
         ? place
         : `${place} in ${area.city}`;
-    const priorLandmarks = Array.isArray(current[area.slug]?.landmarks)
-      ? current[area.slug].landmarks.filter(
-          (landmark) => typeof landmark === "string" && landmark.trim()
-        )
-      : [];
 
     return [
       area.slug,
       {
         tagline: `${place}: ${taglines[index]}`,
-        landmarks: priorLandmarks,
+        landmarks: [],
         common_calls: callSets[index],
-        neighborhood_notes: `${city} is within our regular Metro Detroit painting service area. ${propertyNotes[index]}`,
+        neighborhood_notes: `${city} is within Hillman Door Supply and Door Repair's regular NYC service area from our Brooklyn headquarters at 281 Flatbush Ave. ${propertyNotes[index]}`,
         keywords: [
-          `${lowerPlace(place)} painters`,
-          `painting company ${lowerPlace(place)} mi`,
-          `interior painting ${lowerPlace(place)}`,
-          `exterior painting ${lowerPlace(place)}`,
-          `house painters ${lowerPlace(place)}`,
-          `commercial painting ${lowerPlace(place)}`,
+          `${lowerPlace(place)} door repair`,
+          `door installation ${lowerPlace(place)}`,
+          `door supply ${lowerPlace(place)} ny`,
+          `commercial doors ${lowerPlace(place)}`,
+          `door contractor ${lowerPlace(place)} brooklyn`,
+          `emergency door repair ${lowerPlace(place)}`,
         ],
       },
     ];
@@ -82,4 +73,4 @@ writeFileSync(
   join(ROOT, "content/area-insights.json"),
   `${JSON.stringify(output, null, 2)}\n`
 );
-console.log(`Wrote painting insights for ${Object.keys(output).length} service areas`);
+console.log(`Rebuilt ${Object.keys(output).length} area insights`);

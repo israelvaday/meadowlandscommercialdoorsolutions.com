@@ -9,10 +9,10 @@ export function AreaTeaser() {
         <div className="mb-10 flex flex-col items-center text-center">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Service Areas</p>
           <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-5xl">
-            Serving all of Metro Detroit.
+            Serving Brooklyn, Manhattan &amp; Queens.
           </h2>
           <p className="mt-3 max-w-2xl text-ink-300">
-            Painting service across {AREAS.length}+ Metro Detroit cities, communities, and neighborhoods.
+            Door supply, installation, and repair across {AREAS.length}+ NYC neighborhoods and communities.
           </p>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
