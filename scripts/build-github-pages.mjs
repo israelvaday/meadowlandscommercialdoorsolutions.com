@@ -7,6 +7,7 @@ import {
   mkdirSync,
   renameSync,
   rmSync,
+  writeFileSync,
 } from "node:fs";
 import { dirname, join } from "node:path";
 import { spawnSync } from "node:child_process";
@@ -69,6 +70,8 @@ try {
   if (sync.status !== 0) {
     throw new Error(`Static asset sync exited with ${sync.status}`);
   }
+
+  writeFileSync(join(ROOT, "out", ".nojekyll"), "");
 } finally {
   if (movedApi && existsSync(STASHED_API)) {
     renameSync(STASHED_API, API_DIR);
