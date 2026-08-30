@@ -1,7 +1,8 @@
-# BH Painting Metro Detroit
+# Meadowlands Commercial Door Solutions
 
-Next.js site for interior, exterior, cabinet, commercial, trim, ceiling, and
-wood-finishing services across Metro Detroit.
+Next.js site for commercial overhead doors, rolling steel, loading docks,
+high-speed doors, fire-rated assemblies, and storefronts from
+333 Washington St, Jersey City, NJ 07302.
 
 ## Development
 
@@ -10,19 +11,8 @@ npm install
 npm run dev
 ```
 
-Business details are centralized in `lib/business.ts`. Painting services and
-service areas live in `content/`.
-
-## Verification
-
-```powershell
-npx tsc --noEmit
-npm run build
-npm run build:pages
-```
-
-`build:pages` creates the GitHub Pages artifact in `out/` while preserving the
-server-only quote API route.
+Business details are centralized in `lib/business.ts`. Commercial services and
+100 nearby service areas live in `content/`.
 
 ## Generated assets
 
@@ -30,14 +20,20 @@ OpenRouter and Cloudflare credentials belong in the ignored `.env.local` file.
 Never commit or print API keys.
 
 ```powershell
-node scripts/openrouter-generate-site.mjs --test --force
+node scripts/openrouter-generate-site.mjs --copy --force
+node scripts/openrouter-generate-site.mjs --areas --force
 node scripts/openrouter-generate-site.mjs --images-blog --images-gallery --images-brand --images-quote --force
-node scripts/finalize-painting-assets.mjs
-node scripts/clean-stale-assets.mjs
 ```
 
 The site identifies generated images as project inspiration, not completed
-customer work.
+customer work. Photos are written as WebP for faster loading.
+
+## Deploy (GitHub Pages)
+
+```powershell
+npm run build:pages
+npm run deploy:pages
+```
 
 ## Cloudflare
 
@@ -45,7 +41,3 @@ customer work.
 node scripts/cloudflare-configure.mjs
 node scripts/cloudflare-configure.mjs --apply
 ```
-
-The apply command reconciles GitHub Pages DNS records and enables Email Routing.
-Forwarding destinations must be verified in Cloudflare before the `info@` and
-`quotes@` rules can be created.

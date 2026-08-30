@@ -1,21 +1,21 @@
 import Image from "next/image";
-import { AlertTriangle, Building2, DoorOpen, Home, Package } from "lucide-react";
+import { AlertTriangle, Building2, DoorOpen, Truck, Warehouse } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { Reveal } from "@/components/site/Reveal";
 
 const FRAME_DETAILS = [
-  { slug: "residential-door-installation", Icon: Home, label: "Residential door inspiration" },
-  { slug: "commercial-door-installation", Icon: Building2, label: "Commercial entrance systems" },
-  { slug: "custom-door-fabrication", Icon: DoorOpen, label: "Custom fabrication" },
-  { slug: "door-hardware-supply", Icon: Package, label: "Hardware & security" },
-  { slug: "emergency-door-repair", Icon: AlertTriangle, label: "Serving Brooklyn & NYC" },
+  { slug: "commercial-overhead-doors", Icon: Warehouse, label: "Commercial overhead systems" },
+  { slug: "rolling-steel-doors", Icon: Building2, label: "Rolling steel curtains" },
+  { slug: "loading-dock-equipment", Icon: Truck, label: "Dock doors & seals" },
+  { slug: "storefront-entrances", Icon: DoorOpen, label: "Storefront entrances" },
+  { slug: "emergency-commercial-repair", Icon: AlertTriangle, label: `Serving ${BIZ.regionShort}` },
 ] as const;
 
 export function BrandShowcase() {
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const frames = FRAME_DETAILS.map((frame) => ({
     ...frame,
-    src: `${base}/photos/service-hero-${frame.slug}.png`,
+    src: `${base}/photos/service-hero-${frame.slug}.webp`,
   }));
 
   return (
@@ -27,8 +27,8 @@ export function BrandShowcase() {
             Precision measurement. Lasting performance.
           </h2>
           <p className="mt-3 max-w-2xl text-ink-300">
-            The imagery shown is project inspiration and represents the kind of door work we perform. It is not
-            presented as a gallery of completed customer projects.
+            Imagery is project inspiration for commercial overhead, dock, and storefront work. It is not a gallery of
+            completed customer jobs.
           </p>
         </div>
 
@@ -46,14 +46,14 @@ export function BrandShowcase() {
               sizes="(max-width: 768px) 100vw, 66vw"
               className="h-full max-h-[34rem] w-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/30 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
             <div className="absolute bottom-5 left-5 right-5">
               <div className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-ink-950/70 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brass-300 backdrop-blur">
                 <DoorOpen className="h-3.5 w-3.5" />
                 {frames[0].label}
               </div>
               <h3 className="mt-3 font-display text-2xl font-extrabold text-white md:text-3xl">
-                A door plan shaped around your opening, use, and building code.
+                A commercial door plan shaped around the opening, cycle count, and code.
               </h3>
             </div>
           </Reveal>
@@ -74,7 +74,7 @@ export function BrandShowcase() {
                 sizes="(max-width: 768px) 100vw, 33vw"
                 className="h-56 w-full object-cover md:h-60"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
               <div className="absolute bottom-3 left-3">
                 <div className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-ink-950/70 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-brass-300 backdrop-blur">
                   <Icon className="h-3 w-3" />

@@ -7,8 +7,8 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BuyersGuide } from "@/components/site/BuyersGuide";
 
 export const metadata: Metadata = {
-  title: "Service Areas — Brooklyn & NYC Door Services",
-  description: `${BIZ.name} serves ${AREAS.length} NYC neighborhoods and communities. Search your area and request a door quote.`,
+  title: "Service Areas — Jersey City, Hudson County & the Meadowlands",
+  description: `${BIZ.name} serves ${AREAS.length} locations near 333 Washington St, Jersey City. Search your area and request a commercial door quote.`,
   alternates: { canonical: `${BIZ.url}/service-areas` },
 };
 
@@ -20,10 +20,10 @@ export default function AreasPage() {
         <div className="relative mx-auto max-w-5xl px-4 text-center md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Service Areas</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            Every corner of <span className="text-brass-gradient">Brooklyn, Manhattan & Queens</span>.
+            {AREAS.length} locations around <span className="text-brass-gradient">333 Washington St</span>.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            We cover {AREAS.length} neighborhoods and communities — from {CITIES[0]?.name} to {CITIES[CITIES.length - 1]?.name}.
+            Hudson County, the Meadowlands, Newark ports, and NYC waterfront — from {CITIES[0]?.name} to {CITIES[CITIES.length - 1]?.name}.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function AreasPage() {
           <AreaSearch areas={AREAS} />
         </div>
       </section>
-      <LongFormFaq subject="NYC Door Services" kind="service" />
+      <LongFormFaq subject="Commercial Door Coverage" kind="service" />
       <BuyersGuide />
       <FinalCTA />
     </>

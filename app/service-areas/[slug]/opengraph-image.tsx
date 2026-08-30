@@ -24,9 +24,9 @@ export function generateStaticParams() {
 export default async function AreaOg({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const a = AREAS_BY_SLUG[slug];
-  const name = a?.name ?? "NYC";
-  const city = a?.city ?? "Brooklyn";
-  const sub = a && a.kind !== "city" ? `${city}, NY` : "Brooklyn, Manhattan & Queens, NY";
+  const name = a?.name ?? "Jersey City";
+  const city = a?.city ?? "Jersey City";
+  const sub = a && a.kind !== "city" ? `${city}` : "Jersey City, Hudson County & the Meadowlands";
 
   return new ImageResponse(
     (
@@ -39,8 +39,8 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
           justifyContent: "space-between",
           padding: "64px 72px",
           background:
-            "radial-gradient(1000px 600px at 90% 10%, rgba(201,162,74,0.24), transparent 60%)," +
-            "radial-gradient(900px 700px at -10% 110%, rgba(201,162,74,0.14), transparent 55%)," +
+            "radial-gradient(1000px 600px at 90% 10%, rgba(34,211,238,0.24), transparent 60%)," +
+            "radial-gradient(900px 700px at -10% 110%, rgba(34,211,238,0.14), transparent 55%)," +
             "linear-gradient(180deg, #0B0E12 0%, #0B0E12 100%)",
           color: "#F4F1EA",
           fontFamily: "system-ui, sans-serif",
@@ -54,7 +54,7 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
             left: 0,
             right: 0,
             height: 6,
-            background: "linear-gradient(90deg, #8A6A1F 0%, #C9A24A 35%, #E9D08A 55%, #C9A24A 70%, #8A6A1F 100%)",
+            background: "linear-gradient(90deg, #0E7490 0%, #22D3EE 35%, #67E8F9 55%, #22D3EE 70%, #0E7490 100%)",
             display: "flex",
           }}
         />
@@ -65,7 +65,7 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
               width: 64,
               height: 64,
               borderRadius: 16,
-              background: "linear-gradient(135deg, #C9A24A 0%, #8A6A1F 100%)",
+              background: "linear-gradient(135deg, #22D3EE 0%, #0E7490 100%)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -78,8 +78,8 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
             <div style={{ fontSize: 26, fontWeight: 800, letterSpacing: -0.5, lineHeight: 1 }}>
               {BIZ.name.toUpperCase()}
             </div>
-            <div style={{ fontSize: 15, color: "#C9A24A", marginTop: 4, letterSpacing: 2, fontWeight: 700 }}>
-              DOOR SERVICES · BROOKLYN & NYC
+            <div style={{ fontSize: 15, color: "#22D3EE", marginTop: 4, letterSpacing: 2, fontWeight: 700 }}>
+              COMMERCIAL DOORS · JERSEY CITY
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
         <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
             <div style={{ fontSize: 40, display: "flex" }}>📍</div>
-            <div style={{ fontSize: 22, color: "#C9A24A", letterSpacing: 3, fontWeight: 700, display: "flex" }}>
+            <div style={{ fontSize: 22, color: "#22D3EE", letterSpacing: 3, fontWeight: 700, display: "flex" }}>
               SERVING
             </div>
           </div>
@@ -97,7 +97,7 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
               fontWeight: 900,
               lineHeight: 1.0,
               letterSpacing: -2.5,
-              backgroundImage: "linear-gradient(135deg, #F4E3B1 0%, #C9A24A 55%, #8A6A1F 100%)",
+              backgroundImage: "linear-gradient(135deg, #A5F3FC 0%, #22D3EE 55%, #0E7490 100%)",
               backgroundClip: "text",
               color: "transparent",
               display: "flex",
@@ -106,16 +106,16 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
             {name}
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", display: "flex" }}>
-            Door supply, installation, and repair serving {sub}
+            Commercial overhead, dock, and entrance systems serving {sub}
           </div>
         </div>
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16 }}>
           <div style={{ display: "flex", gap: 12 }}>
-            <Chip>RESIDENTIAL</Chip>
-            <Chip>COMMERCIAL</Chip>
+            <Chip>OVERHEAD</Chip>
+            <Chip>DOCK</Chip>
             <Chip>FIRE-RATED</Chip>
-            <Chip>EMERGENCY</Chip>
+            <Chip>REPAIR</Chip>
           </div>
           <div
             style={{
@@ -124,15 +124,15 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
               alignItems: "flex-end",
               padding: "12px 22px",
               borderRadius: 16,
-              background: "linear-gradient(135deg, rgba(201,162,74,0.22), rgba(201,162,74,0.06))",
-              border: "1px solid rgba(201,162,74,0.55)",
+              background: "linear-gradient(135deg, rgba(34,211,238,0.22), rgba(34,211,238,0.06))",
+              border: "1px solid rgba(34,211,238,0.55)",
             }}
           >
-            <div style={{ fontSize: 13, color: "#C9A24A", letterSpacing: 2, fontWeight: 700, display: "flex" }}>
-              CALL
+            <div style={{ fontSize: 13, color: "#22D3EE", letterSpacing: 2, fontWeight: 700, display: "flex" }}>
+              {BIZ.phone ? "CALL" : "FREE QUOTE"}
             </div>
-            <div style={{ fontSize: 32, color: "#F4E3B1", fontWeight: 900, letterSpacing: -0.5, display: "flex" }}>
-              {BIZ.phone}
+            <div style={{ fontSize: 22, color: "#A5F3FC", fontWeight: 900, letterSpacing: -0.5, display: "flex" }}>
+              {BIZ.phone || BIZ.url.replace(/^https?:\/\//, "")}
             </div>
           </div>
         </div>
@@ -150,9 +150,9 @@ function Chip({ children }: { children: React.ReactNode }) {
         alignItems: "center",
         padding: "10px 18px",
         borderRadius: 999,
-        border: "1px solid rgba(201,162,74,0.45)",
-        background: "rgba(201,162,74,0.08)",
-        color: "#E9D08A",
+        border: "1px solid rgba(34,211,238,0.45)",
+        background: "rgba(34,211,238,0.08)",
+        color: "#67E8F9",
         fontSize: 18,
         fontWeight: 700,
         letterSpacing: 1,

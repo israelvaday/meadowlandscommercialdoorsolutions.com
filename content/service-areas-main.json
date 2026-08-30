@@ -1,102 +1,12 @@
 [
-  {
-    "slug": "boerum-hill",
-    "name": "Boerum Hill",
-    "city": "Brooklyn",
-    "kind": "neighborhood",
-    "lat": 40.6869,
-    "lng": -73.9847,
-    "parent": "brooklyn",
-    "main": true
-  },
-  {
-    "slug": "fort-greene",
-    "name": "Fort Greene",
-    "city": "Brooklyn",
-    "kind": "neighborhood",
-    "lat": 40.6892,
-    "lng": -73.9748,
-    "parent": "brooklyn",
-    "main": true
-  },
-  {
-    "slug": "downtown-brooklyn",
-    "name": "Downtown Brooklyn",
-    "city": "Brooklyn",
-    "kind": "neighborhood",
-    "lat": 40.6933,
-    "lng": -73.9857,
-    "parent": "brooklyn",
-    "main": true
-  },
-  {
-    "slug": "park-slope",
-    "name": "Park Slope",
-    "city": "Brooklyn",
-    "kind": "neighborhood",
-    "lat": 40.671,
-    "lng": -73.9814,
-    "parent": "brooklyn",
-    "main": true
-  },
-  {
-    "slug": "williamsburg",
-    "name": "Williamsburg",
-    "city": "Brooklyn",
-    "kind": "neighborhood",
-    "lat": 40.7081,
-    "lng": -73.9571,
-    "parent": "brooklyn",
-    "main": true
-  },
-  {
-    "slug": "chelsea",
-    "name": "Chelsea",
-    "city": "Manhattan",
-    "kind": "neighborhood",
-    "lat": 40.7465,
-    "lng": -74.0014,
-    "parent": "manhattan",
-    "main": true
-  },
-  {
-    "slug": "upper-east-side",
-    "name": "Upper East Side",
-    "city": "Manhattan",
-    "kind": "neighborhood",
-    "lat": 40.7736,
-    "lng": -73.9566,
-    "parent": "manhattan",
-    "main": true
-  },
-  {
-    "slug": "long-island-city",
-    "name": "Long Island City",
-    "city": "Queens",
-    "kind": "neighborhood",
-    "lat": 40.7447,
-    "lng": -73.9485,
-    "parent": "queens",
-    "main": true
-  },
-  {
-    "slug": "astoria",
-    "name": "Astoria",
-    "city": "Queens",
-    "kind": "neighborhood",
-    "lat": 40.7644,
-    "lng": -73.9235,
-    "parent": "queens",
-    "main": true
-  },
-  {
-    "slug": "flushing",
-    "name": "Flushing",
-    "city": "Queens",
-    "kind": "neighborhood",
-    "lat": 40.7654,
-    "lng": -73.8311,
-    "parent": "queens",
-    "main": true
-  }
+  {"slug":"downtown-jersey-city","name":"Downtown Jersey City","city":"Jersey City","kind":"neighborhood","lat":40.7178,"lng":-74.0435,"parent":"jersey-city","main":true},
+  {"slug":"exchange-place","name":"Exchange Place","city":"Jersey City","kind":"neighborhood","lat":40.7165,"lng":-74.033,"parent":"jersey-city","main":true},
+  {"slug":"newport","name":"Newport","city":"Jersey City","kind":"neighborhood","lat":40.727,"lng":-74.0345,"parent":"jersey-city","main":true},
+  {"slug":"journal-square","name":"Journal Square","city":"Jersey City","kind":"neighborhood","lat":40.7326,"lng":-74.0635,"parent":"jersey-city","main":true},
+  {"slug":"hoboken","name":"Hoboken","city":"Hoboken","kind":"city","lat":40.7439,"lng":-74.0324,"parent":"hudson","main":true},
+  {"slug":"weehawken","name":"Weehawken","city":"Weehawken","kind":"city","lat":40.7695,"lng":-74.0204,"parent":"hudson","main":true},
+  {"slug":"secaucus","name":"Secaucus","city":"Secaucus","kind":"city","lat":40.7895,"lng":-74.0565,"parent":"hudson","main":true},
+  {"slug":"east-rutherford","name":"East Rutherford","city":"East Rutherford","kind":"city","lat":40.8337,"lng":-74.0971,"parent":"meadowlands","main":true},
+  {"slug":"meadowlands-sports-complex","name":"Meadowlands Sports Complex","city":"East Rutherford","kind":"community","lat":40.8136,"lng":-74.0744,"parent":"meadowlands","main":true},
+  {"slug":"newark","name":"Newark","city":"Newark","kind":"city","lat":40.7357,"lng":-74.1724,"parent":"essex","main":true}
 ]

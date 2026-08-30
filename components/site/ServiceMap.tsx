@@ -1,4 +1,4 @@
-import { MapPin } from "lucide-react";
+import { MapPin, Radio } from "lucide-react";
 
 export function ServiceMap({
   query,
@@ -17,21 +17,19 @@ export function ServiceMap({
   height?: number;
   className?: string;
 }) {
-  // Prefer exact coordinates when given so the map is centered on the
-  // specific service area rather than a generic search result.
   const src =
     typeof lat === "number" && typeof lng === "number"
       ? `https://maps.google.com/maps?q=${lat},${lng}&z=${zoom}&t=m&ie=UTF8&iwloc=&output=embed`
       : `https://www.google.com/maps?q=${encodeURIComponent(query ?? "")}&output=embed`;
   return (
-    <div className={`overflow-hidden rounded-3xl border border-ink-800 bg-ink-900/50 ${className ?? ""}`}>
+    <div className={`hud-frame overflow-hidden rounded-2xl border border-brass-500/25 bg-ink-900/70 ${className ?? ""}`}>
       <div className="flex items-center justify-between gap-2 border-b border-ink-800 px-4 py-2.5">
-        <div className="flex items-center gap-2 text-sm font-semibold text-ink-100">
+        <div className="flex items-center gap-2 font-mono text-xs font-semibold uppercase tracking-wider text-ink-100">
           <MapPin className="h-4 w-4 text-brass-400" />
           {title ?? "Service area map"}
         </div>
-        <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-400">
-          Coverage map
+        <span className="inline-flex items-center gap-1.5 font-mono text-[10px] font-bold uppercase tracking-wider text-emerald-300">
+          <Radio className="h-3 w-3 animate-pulse" /> Live coverage
         </span>
       </div>
       <iframe

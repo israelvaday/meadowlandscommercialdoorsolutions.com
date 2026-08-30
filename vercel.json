@@ -2,14 +2,14 @@
   "redirects": [
     {
       "source": "/",
-      "has": [{ "type": "host", "value": "www.hillmandoorsupplyanddoorrepair.com" }],
-      "destination": "https://hillmandoorsupplyanddoorrepair.com/",
+      "has": [{ "type": "host", "value": "www.meadowlandscommercialdoorsolutions.com" }],
+      "destination": "https://meadowlandscommercialdoorsolutions.com/",
       "permanent": true
     },
     {
       "source": "/:path+",
-      "has": [{ "type": "host", "value": "www.hillmandoorsupplyanddoorrepair.com" }],
-      "destination": "https://hillmandoorsupplyanddoorrepair.com/:path+",
+      "has": [{ "type": "host", "value": "www.meadowlandscommercialdoorsolutions.com" }],
+      "destination": "https://meadowlandscommercialdoorsolutions.com/:path+",
       "permanent": true
     }
   ]

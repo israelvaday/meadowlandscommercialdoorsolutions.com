@@ -1,2203 +1,2205 @@
 {
-  "boerum-hill": {
-    "tagline": "Boerum Hill's trusted source for elegant door installations, reliable repairs, and premium door hardware.",
+  "downtown-jersey-city": {
+    "tagline": "Downtown Jersey City's trusted partner for robust commercial door installation, repair, and maintenance.",
     "landmarks": [
-      "Brooklyn House of Detention",
-      "The Invisible Dog Art Center",
-      "Roulette Intermedium"
+      "Newport Centre",
+      "Empty Sky Memorial",
+      "Katyn Memorial"
     ],
     "common_calls": [
-      "Repair historic brownstone entry door",
-      "Install new custom interior doors",
-      "Replace worn door hinges and locks"
-    ],
-    "neighborhood_notes": "Boerum Hill features many historic brownstones and townhouses, often requiring custom-sized or period-appropriate doors. Original door hardware can be challenging to repair or replace due to age and unique designs. Commercial doors in the area's boutiques and restaurants need durable, aesthetically pleasing solutions.",
-    "keywords": [
-      "boerum hill door repair",
-      "brooklyn brownstone doors",
-      "custom entry doors boerum hill",
-      "commercial door installation brooklyn",
-      "door hardware boerum hill",
-      "historic door restoration brooklyn"
-    ]
-  },
-  "fort-greene": {
-    "tagline": "Expert door services in Fort Greene, from classic brownstone doors to modern commercial entrances.",
-    "landmarks": [
-      "Fort Greene Park",
-      "BAM (Brooklyn Academy of Music)",
-      "Irondale Center"
-    ],
-    "common_calls": [
-      "Fix squeaky apartment building doors",
-      "Upgrade security doors for retail space",
-      "Install fire-rated doors for compliance"
-    ],
-    "neighborhood_notes": "Fort Greene's architecture ranges from grand brownstones to newer apartment complexes, each with distinct door requirements. High foot traffic in commercial areas necessitates robust, secure, and frequently maintained doors. Fire safety codes are particularly strict for multi-unit residential and commercial buildings.",
-    "keywords": [
-      "fort greene door repair",
-      "brooklyn brownstone door service",
-      "commercial door repair fort greene",
-      "apartment building doors brooklyn",
-      "fire door installation fort greene",
-      "door replacement brooklyn"
-    ]
-  },
-  "downtown-brooklyn": {
-    "tagline": "Downtown Brooklyn's premier door supply and repair for high-rise offices and bustling retail spaces.",
-    "landmarks": [
-      "Brooklyn Borough Hall",
-      "MetroTech Center",
-      "Fulton Center"
-    ],
-    "common_calls": [
-      "Repair automatic sliding glass doors",
-      "Install access control system on office doors",
-      "Replace damaged storefront doors"
-    ],
-    "neighborhood_notes": "Downtown Brooklyn is characterized by high-rise commercial and residential buildings, demanding durable, high-security, and often automated door systems. Storefront doors experience heavy use and require frequent maintenance or replacement to maintain security and appearance. ADA compliance is crucial for all public-facing doors.",
-    "keywords": [
-      "downtown brooklyn door repair",
-      "commercial door installation brooklyn",
-      "automatic door service brooklyn",
-      "storefront door replacement",
-      "office door repair downtown brooklyn",
-      "access control doors brooklyn"
-    ]
-  },
-  "brooklyn-heights": {
-    "tagline": "Brooklyn Heights' trusted door experts for elegant brownstone doors and historic property restoration.",
-    "landmarks": [
-      "Brooklyn Heights Promenade",
-      "Plymouth Church",
-      "St. Ann's Warehouse"
-    ],
-    "common_calls": [
-      "Restore antique wooden entry doors",
-      "Repair broken door frames in historic homes",
-      "Install custom storm doors"
-    ],
-    "neighborhood_notes": "Brooklyn Heights is renowned for its historic brownstones and townhouses, where preserving original architectural integrity is paramount for door repairs and replacements. Many doors require custom fabrication or specialized restoration techniques. Security and weatherproofing are key concerns for these valuable properties.",
-    "keywords": [
-      "brooklyn heights door repair",
-      "historic door restoration brooklyn",
-      "brownstone entry doors",
-      "custom wooden doors brooklyn",
-      "door frame repair brooklyn heights",
-      "antique door hardware brooklyn"
-    ]
-  },
-  "dumbo": {
-    "tagline": "DUMBO's leading door service for industrial-chic lofts, art galleries, and commercial spaces.",
-    "landmarks": [
-      "Manhattan Bridge Archway",
-      "Jane's Carousel",
-      "Brooklyn Bridge Park"
-    ],
-    "common_calls": [
-      "Repair roll-down security gates",
-      "Install oversized loft doors",
-      "Replace storefront glass doors"
-    ],
-    "neighborhood_notes": "DUMBO's industrial past influences its architecture, with many buildings featuring large, robust doors suitable for loft conversions and commercial spaces. Security gates are common for ground-level businesses and require regular maintenance. Modern art galleries and tech offices often seek unique, high-design door solutions.",
-    "keywords": [
-      "dumbo door repair",
-      "commercial door installation dumbo",
-      "roll down gate repair brooklyn",
-      "loft doors brooklyn",
-      "storefront door replacement dumbo",
-      "industrial doors brooklyn"
-    ]
-  },
-  "cobble-hill": {
-    "tagline": "Cobble Hill's reliable source for residential and commercial door repair, installation, and upgrades.",
-    "landmarks": [
-      "Cobble Hill Park",
-      "St. Paul's Grotto",
-      "Long Island College Hospital"
-    ],
-    "common_calls": [
-      "Adjust misaligned brownstone doors",
-      "Replace worn out patio doors",
-      "Upgrade apartment entry door locks"
-    ],
-    "neighborhood_notes": "Cobble Hill features many well-preserved 19th-century brownstones and row houses, demanding careful attention to historical detail for door services. Residential doors often face issues with alignment due to settling foundations. Commercial establishments along Court Street and Smith Street require durable, secure entryways.",
-    "keywords": [
-      "cobble hill door repair",
-      "brownstone door service brooklyn",
-      "residential door installation cobble hill",
-      "patio door replacement brooklyn",
-      "door lock upgrade cobble hill",
-      "commercial door repair cobble hill"
-    ]
-  },
-  "carroll-gardens": {
-    "tagline": "Carroll Gardens' trusted door experts for residential, commercial, and garden-access door solutions.",
-    "landmarks": [
-      "Carroll Park",
-      "Sacred Hearts of Jesus and Mary & St. Stephen's Church",
-      "Court Street"
-    ],
-    "common_calls": [
-      "Repair garden access doors",
-      "Install new storm doors for brownstones",
-      "Fix sticky apartment building entrance doors"
-    ],
-    "neighborhood_notes": "Carroll Gardens is known for its beautiful brownstones with front gardens, often requiring specialized garden-access doors and gates. Many residential properties have older doors that may need weatherproofing or frame repairs. Commercial doors on busy streets like Court Street need to withstand frequent use and maintain security.",
-    "keywords": [
-      "carroll gardens door repair",
-      "garden door installation brooklyn",
-      "brownstone storm doors",
-      "residential door service carroll gardens",
-      "commercial door repair brooklyn",
-      "door frame repair carroll gardens"
-    ]
-  },
-  "gowanus": {
-    "tagline": "Gowanus's go-to for robust commercial, industrial, and creative space door installations and repairs.",
-    "landmarks": [
-      "Gowanus Canal",
-      "Whole Foods Market",
-      "Gowanus Dredgers Canoe Club"
-    ],
-    "common_calls": [
-      "Repair industrial roll-up garage doors",
-      "Install heavy-duty warehouse doors",
-      "Replace damaged commercial entry doors"
-    ],
-    "neighborhood_notes": "Gowanus is a transitioning industrial area, with many warehouses and former factory buildings now housing creative businesses and light industry. Doors here often need to be heavy-duty, secure, and capable of handling high traffic or large deliveries. Roll-up doors and loading dock doors are common and require specialized service.",
-    "keywords": [
-      "gowanus door repair",
-      "industrial door installation brooklyn",
-      "roll up door repair gowanus",
-      "warehouse doors brooklyn",
-      "commercial entry door replacement",
-      "loading dock door service brooklyn"
-    ]
-  },
-  "park-slope": {
-    "tagline": "Park Slope's trusted source for elegant door installations, reliable repairs, and quality door supplies.",
-    "landmarks": [
-      "Prospect Park",
-      "Brooklyn Public Library (Grand Army Plaza)",
-      "Old Stone House"
-    ],
-    "common_calls": [
-      "Repair historic brownstone entry door",
-      "Install new patio doors for garden access",
-      "Replace apartment interior doors"
-    ],
-    "neighborhood_notes": "Park Slope features many historic brownstones and pre-war buildings, often requiring custom-sized or period-appropriate doors. Weathering and age frequently impact door functionality and security. Many residents seek energy-efficient and sound-dampening door solutions.",
-    "keywords": [
-      "park slope door repair",
-      "brownstone door installation",
-      "brooklyn door supply",
-      "entry door park slope",
-      "interior doors brooklyn",
-      "door replacement park slope"
-    ]
-  },
-  "prospect-heights": {
-    "tagline": "Expert door repair, supply, and installation for Prospect Heights' diverse residential and commercial properties.",
-    "landmarks": [
-      "Brooklyn Museum",
-      "Brooklyn Botanic Garden",
-      "Grand Army Plaza"
-    ],
-    "common_calls": [
-      "Fix broken storefront door closer",
-      "Install new apartment building entrance doors",
-      "Replace residential garage door"
-    ],
-    "neighborhood_notes": "Prospect Heights has a mix of historic row houses, new developments, and commercial spaces, leading to varied door needs. Security is a key concern for many properties, influencing door material and lock choices. Commercial doors often require ADA compliance and heavy-duty hardware.",
-    "keywords": [
-      "prospect heights door repair",
-      "commercial door brooklyn",
-      "apartment door installation",
-      "storefront door repair",
-      "brooklyn door company",
-      "garage door prospect heights"
-    ]
-  },
-  "clinton-hill": {
-    "tagline": "Clinton Hill's premier choice for dependable door services, from historical restorations to modern upgrades.",
-    "landmarks": [
-      "Pratt Institute",
-      "St. Joseph's College",
-      "Lafayette Avenue Presbyterian Church"
-    ],
-    "common_calls": [
-      "Restore antique wooden entry door",
-      "Install soundproof apartment doors",
-      "Repair commercial glass entrance door"
-    ],
-    "neighborhood_notes": "Clinton Hill boasts many well-preserved 19th-century homes and a growing number of contemporary buildings. Maintaining architectural integrity is important for door replacements in older structures. Commercial properties often need durable, high-traffic doors.",
-    "keywords": [
-      "clinton hill door repair",
-      "historic door restoration",
-      "pratt area door installation",
-      "brooklyn door service",
-      "commercial door repair clinton hill",
-      "entry doors brooklyn"
-    ]
-  },
-  "williamsburg": {
-    "tagline": "Williamsburg's go-to for stylish door installations, rapid repairs, and a wide selection of door supplies.",
-    "landmarks": [
-      "Domino Park",
-      "Brooklyn Brewery",
-      "Williamsburg Bridge"
-    ],
-    "common_calls": [
-      "Install modern loft apartment doors",
-      "Repair restaurant entrance door",
-      "Replace roll-down security gates"
-    ],
-    "neighborhood_notes": "Williamsburg features a blend of industrial conversions, new residential towers, and commercial storefronts. Doors often reflect contemporary design aesthetics and industrial durability. Security gates and robust commercial doors are frequently requested.",
-    "keywords": [
-      "williamsburg door installation",
-      "loft door brooklyn",
-      "commercial door repair williamsburg",
-      "security gate installation",
-      "brooklyn door supply",
-      "modern doors williamsburg"
-    ]
-  },
-  "greenpoint": {
-    "tagline": "Greenpoint's trusted partner for quality door installations, reliable repairs, and comprehensive door supplies.",
-    "landmarks": [
-      "Transmitter Park",
-      "Greenpoint Avenue G Train Station",
-      "Warsaw National Home"
-    ],
-    "common_calls": [
-      "Repair storefront door hinge",
-      "Install new apartment balcony doors",
-      "Replace residential entry door"
-    ],
-    "neighborhood_notes": "Greenpoint has a mix of older residential buildings, industrial spaces, and new waterfront developments. Many older doors show wear from coastal weather conditions. Commercial properties require robust and often custom-sized doors.",
-    "keywords": [
-      "greenpoint door repair",
-      "storefront door greenpoint",
-      "apartment door installation brooklyn",
-      "entry door replacement",
-      "brooklyn door company",
-      "commercial doors greenpoint"
-    ]
-  },
-  "bushwick": {
-    "tagline": "Bushwick's reliable source for durable door installations, efficient repairs, and essential door supplies.",
-    "landmarks": [
-      "Maria Hernandez Park",
-      "Bushwick Collective",
-      "Knickerbocker Avenue"
-    ],
-    "common_calls": [
-      "Fix apartment building entrance door",
-      "Install new security doors for businesses",
-      "Replace residential interior doors"
-    ],
-    "neighborhood_notes": "Bushwick comprises diverse housing stock, from multi-family homes to converted industrial spaces. Security is a primary concern for many residents and businesses, leading to demand for robust doors and hardware. Vandalism can also be a factor in door damage.",
-    "keywords": [
-      "bushwick door repair",
-      "security door installation",
-      "apartment entrance door",
-      "commercial doors bushwick",
-      "brooklyn door supply",
-      "door replacement bushwick"
-    ]
-  },
-  "bedford-stuyvesant": {
-    "tagline": "Bed-Stuy's expert for historic door restoration, new installations, and all door repair needs.",
-    "landmarks": [
-      "Herbert Von King Park",
-      "Fulton Street",
-      "Restoration Plaza"
-    ],
-    "common_calls": [
-      "Restore brownstone entry door",
-      "Install new multi-family building doors",
-      "Repair commercial storefront door"
-    ],
-    "neighborhood_notes": "Bedford-Stuyvesant is known for its beautiful brownstones and historic architecture, requiring careful consideration for period-appropriate doors. Many doors in older buildings need repair due to age and wear. Security and durability are important factors for both residential and commercial properties.",
-    "keywords": [
-      "bed-stuy door repair",
-      "brownstone door restoration",
-      "fulton street door service",
-      "brooklyn door installation",
-      "historic doors bed-stuy",
-      "commercial door repair brooklyn"
-    ]
-  },
-  "crown-heights": {
-    "tagline": "Crown Heights' trusted provider for quality door installations, prompt repairs, and reliable door supplies.",
-    "landmarks": [
-      "Brooklyn Children's Museum",
-      "Brower Park",
-      "Eastern Parkway"
-    ],
-    "common_calls": [
-      "Repair apartment building entrance door",
-      "Install new residential security door",
-      "Replace interior closet doors"
-    ],
-    "neighborhood_notes": "Crown Heights features a mix of historic row houses, apartment buildings, and new developments. Security is a common concern, leading to demand for reinforced doors and robust locking mechanisms. Many older doors require maintenance due to continuous use.",
-    "keywords": [
-      "crown heights door repair",
-      "apartment door repair brooklyn",
-      "security door installation",
-      "eastern parkway door service",
-      "brooklyn door company",
-      "residential doors crown heights"
-    ]
-  },
-  "flatbush": {
-    "tagline": "Flatbush's trusted source for door supply, installation, and reliable door repair services.",
-    "landmarks": [
-      "Brooklyn College",
-      "Flatbush Reformed Dutch Church",
-      "Kings Theatre"
-    ],
-    "common_calls": [
-      "residential entry door replacement",
-      "commercial storefront door repair",
-      "interior door adjustments"
-    ],
-    "neighborhood_notes": "Flatbush features a mix of historic Victorian homes and multi-unit residential buildings. Many older doors require hardware upgrades or weatherstripping replacement due to age. Commercial properties often need robust, secure entry solutions.",
-    "keywords": [
-      "flatbush door repair",
-      "door installation flatbush",
-      "commercial doors flatbush",
-      "residential door repair brooklyn",
-      "entry door replacement flatbush",
-      "flatbush door company"
-    ]
-  },
-  "prospect-lefferts-gardens": {
-    "tagline": "Expert door solutions for Prospect Lefferts Gardens homes and businesses. Quality and service.",
-    "landmarks": [
-      "Prospect Park",
-      "Lefferts Historic House",
-      "Brooklyn Botanic Garden"
-    ],
-    "common_calls": [
-      "historic brownstone door restoration",
-      "apartment building entry door repair",
-      "patio door replacement"
-    ],
-    "neighborhood_notes": "This area is known for its beautiful brownstones and pre-war apartment buildings. Doors often feature intricate designs and require careful, historically sensitive repairs. Security is a common concern for residential entry doors.",
-    "keywords": [
-      "prospect lefferts gardens door repair",
-      "brownstone door restoration",
-      "door installation prospect lefferts gardens",
-      "apartment door repair brooklyn",
-      "entry door replacement prospect lefferts gardens",
-      "historic door repair"
-    ]
-  },
-  "ditmas-park": {
-    "tagline": "Ditmas Park's premier door service: supply, installation, and repair for unique homes.",
-    "landmarks": [
-      "Cortelyou Road",
-      "Ditmas Park Historic District",
-      "Flatbush-Ditmas Park Community Garden"
-    ],
-    "common_calls": [
-      "victorian home door repair",
-      "custom wood door installation",
-      "garage door maintenance"
-    ],
-    "neighborhood_notes": "Ditmas Park is famous for its large Victorian homes, many of which have unique and oversized doors. These doors often require specialized hardware and careful craftsmanship for repairs or replacements. Security and weather resistance are key considerations.",
-    "keywords": [
-      "ditmas park door repair",
-      "victorian door installation",
-      "custom doors ditmas park",
-      "wood door repair brooklyn",
-      "garage door service ditmas park",
-      "entry door ditmas park"
-    ]
-  },
-  "kensington": {
-    "tagline": "Kensington's reliable partner for all door needs: repair, replacement, and new installations.",
-    "landmarks": [
-      "Ocean Parkway",
-      "Kensington Dog Run",
-      "Green-Wood Cemetery"
-    ],
-    "common_calls": [
-      "residential entry door repair",
-      "interior door replacement",
-      "commercial glass door adjustment"
-    ],
-    "neighborhood_notes": "Kensington features a mix of brick rowhouses and multi-family dwellings. Common door issues include worn-out hinges, sticking doors, and outdated security hardware. Commercial storefronts often need durable and aesthetically pleasing entry systems.",
-    "keywords": [
-      "kensington door repair",
-      "door installation kensington",
-      "residential doors kensington",
-      "commercial door repair brooklyn",
-      "entry door replacement kensington",
-      "glass door repair kensington"
-    ]
-  },
-  "windsor-terrace": {
-    "tagline": "Windsor Terrace door experts: dependable repair, installation, and supply for your property.",
-    "landmarks": [
-      "Prospect Park",
-      "Green-Wood Cemetery",
-      "Bartel-Pritchard Square"
-    ],
-    "common_calls": [
-      "brownstone entry door repair",
-      "basement door replacement",
-      "storefront door hardware upgrade"
-    ],
-    "neighborhood_notes": "Windsor Terrace has many classic Brooklyn brownstones and brick rowhouses. Doors often need attention for drafts, security enhancements, or general wear and tear. Commercial properties along Prospect Park West require durable, secure doors.",
-    "keywords": [
-      "windsor terrace door repair",
-      "door installation windsor terrace",
-      "brownstone door repair",
-      "commercial doors windsor terrace",
-      "entry door replacement windsor terrace",
-      "door hardware upgrade brooklyn"
-    ]
-  },
-  "sunset-park": {
-    "tagline": "Sunset Park door services: reliable repair, installation, and supply for homes and businesses.",
-    "landmarks": [
-      "Sunset Park",
-      "Industry City",
-      "Bush Terminal Piers Park"
-    ],
-    "common_calls": [
-      "apartment building entry door repair",
-      "industrial roll-up door service",
+      "rolling steel door repair",
+      "loading dock leveler service",
       "storefront glass door replacement"
     ],
-    "neighborhood_notes": "Sunset Park is a diverse neighborhood with residential buildings, industrial spaces, and commercial corridors. Residential doors often need security upgrades. Industrial areas frequently require robust, high-cycle doors, and commercial storefronts need reliable glass door systems.",
+    "neighborhood_notes": "This bustling area features a mix of high-rise commercial buildings, retail spaces, and restaurants. Many businesses require high-security solutions for their doors and reliable access for deliveries. Wind resistance is a factor for waterfront properties.",
     "keywords": [
-      "sunset park door repair",
-      "industrial door repair sunset park",
-      "storefront door installation sunset park",
-      "apartment door repair sunset park",
-      "roll up door service brooklyn",
-      "commercial door sunset park"
+      "downtown jersey city commercial doors",
+      "jersey city storefront repair",
+      "overhead door downtown jersey city",
+      "loading dock repair jersey city",
+      "security grilles downtown jc",
+      "commercial door service jersey city"
     ]
   },
-  "bay-ridge": {
-    "tagline": "Bay Ridge door supply, installation, and repair. Quality service for every door type.",
+  "paulus-hook": {
+    "tagline": "Paulus Hook commercial door experts: reliable service for historic buildings and modern businesses.",
     "landmarks": [
-      "Verrazzano-Narrows Bridge",
-      "Shore Road Park",
-      "Owl's Head Park"
+      "Paulus Hook Park",
+      "Liberty House Restaurant",
+      "Harsimus Stem Embankment"
     ],
     "common_calls": [
-      "residential entry door replacement",
-      "storm door installation",
-      "commercial fire door inspection"
+      "fire-rated door inspection",
+      "hollow metal door installation",
+      "security grille repair"
     ],
-    "neighborhood_notes": "Bay Ridge features a mix of single-family homes, multi-unit buildings, and a vibrant commercial strip. Doors often face coastal weather conditions, requiring durable materials and proper sealing. Commercial properties need to comply with fire safety door regulations.",
+    "neighborhood_notes": "Paulus Hook blends historic architecture with new developments, often requiring commercial doors that meet specific aesthetic and safety codes. Businesses here, including many restaurants and small offices, need secure and functional entryways. Proximity to the waterfront means considering durable, weather-resistant materials.",
     "keywords": [
-      "bay ridge door repair",
-      "door installation bay ridge",
-      "storm door bay ridge",
-      "residential door replacement brooklyn",
-      "commercial fire doors bay ridge",
-      "entry door repair bay ridge"
+      "paulus hook commercial door repair",
+      "historic building door service jc",
+      "hollow metal doors paulus hook",
+      "fire doors jersey city",
+      "security grilles paulus hook",
+      "commercial door maintenance jersey city"
     ]
   },
-  "bensonhurst": {
-    "tagline": "Bensonhurst's trusted door experts: comprehensive supply, installation, and repair services.",
+  "exchange-place": {
+    "tagline": "Exchange Place commercial door solutions: keeping high-traffic business entrances secure and operational.",
     "landmarks": [
-      "86th Street Commercial District",
-      "Seth Low Playground",
-      "John Dewey High School"
+      "Exchange Place PATH Station",
+      "Goldman Sachs Tower",
+      "Colgate Clock"
     ],
     "common_calls": [
-      "residential security door installation",
-      "storefront gate repair",
-      "interior door hardware replacement"
+      "high-speed door maintenance",
+      "overhead sectional door repair",
+      "storefront door operator service"
     ],
-    "neighborhood_notes": "Bensonhurst is characterized by its residential homes and bustling commercial avenues. Security doors are a common request for homes, and businesses frequently need robust storefront gates and reliable entry systems. Many doors require hardware upgrades.",
+    "neighborhood_notes": "As a major financial and transportation hub, Exchange Place features numerous high-rise office buildings and retail spaces with heavy foot traffic. Commercial doors here, especially storefronts and high-speed doors, endure constant use and require prompt, efficient service to maintain security and business flow. Wind loads are a significant consideration for tall structures.",
     "keywords": [
-      "bensonhurst door repair",
-      "security door installation bensonhurst",
-      "storefront gate repair bensonhurst",
-      "residential door repair bensonhurst",
-      "door hardware replacement brooklyn",
-      "commercial doors bensonhurst"
+      "exchange place commercial doors",
+      "high-speed door repair jersey city",
+      "storefront door replacement exchange place",
+      "overhead door service jc",
+      "commercial door operators jersey city",
+      "security grilles exchange place"
     ]
   },
-  "borough-park": {
-    "tagline": "Borough Park's trusted source for door supply, installation, and expert repairs. We secure your home.",
+  "grove-street": {
+    "tagline": "Grove Street commercial door experts: servicing diverse businesses with reliability and professionalism.",
     "landmarks": [
-      "Borough Park Jewish Community Center",
-      "Maimonides Medical Center",
-      "Borough Park Library"
+      "Grove Street PATH Station",
+      "New Jersey City University @ Grove Street",
+      "Jersey City Free Public Library"
     ],
     "common_calls": [
-      "Residential entry door replacement",
-      "Storefront door repair",
-      "Automatic door sensor adjustment"
+      "rolling steel door installation",
+      "commercial door emergency repair",
+      "storefront door adjustment"
     ],
-    "neighborhood_notes": "Borough Park features many multi-family dwellings and synagogues, often requiring robust, secure entry doors. Security is a primary concern, leading to demand for high-grade locks and reinforced door frames. We frequently address issues with older wooden doors and modern aluminum storefront systems.",
+    "neighborhood_notes": "Grove Street is a vibrant commercial corridor with a mix of retail shops, restaurants, and office spaces. Businesses require durable and secure commercial doors, often with aesthetic considerations for storefronts. Reliable emergency repair is crucial for maintaining operations in this busy area.",
     "keywords": [
-      "borough park door repair",
-      "entry door installation brooklyn",
-      "commercial door service borough park",
-      "fire door repair brooklyn",
-      "door replacement borough park",
-      "security doors brooklyn"
+      "grove street commercial door repair",
+      "storefront doors grove street",
+      "rolling steel doors jersey city",
+      "commercial door service grove street",
+      "hollow metal doors jersey city",
+      "emergency door repair jc"
     ]
   },
-  "midwood": {
-    "tagline": "Midwood door experts: supply, installation, and repair for homes and businesses. Quality and security.",
+  "van-vorst": {
+    "tagline": "Van Vorst Park commercial door services: blending modern security with historic district needs.",
     "landmarks": [
-      "Brooklyn College",
-      "Flatbush Shul",
-      "Midwood Library"
+      "Van Vorst Park",
+      "Jersey City Medical Center",
+      "St. Peter's University"
     ],
     "common_calls": [
-      "Patio door repair",
-      "Office door closer adjustment",
-      "Residential garage door spring replacement"
+      "hollow metal door replacement",
+      "fire-rated assembly service",
+      "security grille installation"
     ],
-    "neighborhood_notes": "Midwood's diverse architecture, from detached homes to apartment buildings, means a wide range of door types. Older homes often have original wooden doors needing restoration or weatherstripping. Commercial properties along major avenues require durable storefront doors and reliable access control systems.",
+    "neighborhood_notes": "While known for its historic residential character, Van Vorst also contains commercial properties, medical facilities, and institutional buildings. These businesses often require specialized fire-rated doors, robust security grilles, and hollow metal doors that adhere to local building codes and maintain architectural integrity. Access control integration is frequently requested.",
     "keywords": [
-      "midwood door repair",
-      "door installation midwood",
-      "sliding door repair brooklyn",
-      "commercial door repair midwood",
-      "garage door service brooklyn",
-      "entry door midwood"
+      "van vorst commercial doors",
+      "hollow metal doors jersey city",
+      "fire door repair van vorst",
+      "security grilles jersey city",
+      "commercial door installation jc",
+      "door operators van vorst"
     ]
   },
-  "sheepshead-bay": {
-    "tagline": "Sheepshead Bay's reliable partner for door supply, installation, and repair. Coastal durability matters.",
+  "hamilton-park": {
+    "tagline": "Hamilton Park commercial door solutions: secure and functional doors for local businesses.",
     "landmarks": [
-      "Roll-N-Roaster",
-      "Emmons Avenue",
-      "Sheepshead Bay Piers"
+      "Hamilton Park",
+      "St. Francis Hospital (former)",
+      "Hamilton Park Montessori School"
     ],
     "common_calls": [
-      "Storm door installation",
-      "Water-damaged door replacement",
-      "Restaurant entrance door repair"
+      "overhead door spring replacement",
+      "storefront door pivot repair",
+      "loading dock equipment service"
     ],
-    "neighborhood_notes": "Coastal proximity in Sheepshead Bay means doors are susceptible to salt air corrosion and moisture damage. Many homes and businesses require weather-resistant doors and hardware. We often address issues with exterior doors that have deteriorated due to environmental factors.",
+    "neighborhood_notes": "Hamilton Park, with its mix of residential and commercial properties, includes businesses like cafes, boutiques, and smaller offices. These establishments need reliable commercial doors for both security and daily operations. Many have delivery access points requiring overhead doors or loading dock services. Aesthetics are important for street-level businesses.",
     "keywords": [
-      "sheepshead bay door repair",
-      "exterior door replacement brooklyn",
-      "commercial door sheepshead bay",
-      "waterproof doors brooklyn",
-      "door installation sheepshead bay",
-      "patio door repair sheepshead bay"
+      "hamilton park commercial doors",
+      "storefront repair jersey city",
+      "overhead door service hamilton park",
+      "loading dock repair jc",
+      "security grilles jersey city",
+      "commercial door maintenance hamilton park"
     ]
   },
-  "brighton-beach": {
-    "tagline": "Brighton Beach door specialists: supply, installation, and repair. Resilient doors for coastal living.",
+  "newport": {
+    "tagline": "Newport commercial door specialists: robust solutions for high-rise, retail, and waterfront properties.",
     "landmarks": [
-      "Brighton Beach Boardwalk",
-      "Brighton Beach Avenue",
-      "Tatiana Restaurant & Cabaret"
+      "Newport Centre Mall",
+      "Newport Green Park",
+      "LeFrak Tower"
     ],
     "common_calls": [
-      "Apartment entry door repair",
-      "Storefront glass door replacement",
-      "Balcony door adjustment"
+      "high-speed door repair",
+      "rolling steel door service",
+      "storefront glass door replacement"
     ],
-    "neighborhood_notes": "High-rise apartment buildings and busy commercial strips characterize Brighton Beach. Doors here endure heavy foot traffic and coastal weather conditions. We frequently service apartment entry doors, storefront doors, and balcony access doors, focusing on durability and security.",
+    "neighborhood_notes": "Newport is characterized by its modern high-rise residential and commercial buildings, extensive retail spaces, and waterfront access. Businesses here demand high-performance commercial doors, including high-speed doors for parking garages and loading docks, and robust storefronts. Wind resistance and security are critical considerations for properties in this area.",
     "keywords": [
-      "brighton beach door repair",
-      "apartment door repair brooklyn",
-      "storefront door brighton beach",
-      "door installation brighton beach",
-      "commercial door service brooklyn",
-      "coastal door repair"
+      "newport commercial doors",
+      "high-speed doors jersey city",
+      "storefront repair newport",
+      "rolling steel doors newport",
+      "loading dock equipment jersey city",
+      "commercial door operators newport"
     ]
   },
-  "coney-island": {
-    "tagline": "Coney Island's door experts: supply, installation, and repair for homes and iconic businesses.",
+  "journal-square": {
+    "tagline": "Journal Square commercial door experts: dependable service for a revitalized urban center.",
     "landmarks": [
-      "Luna Park",
-      "Coney Island Boardwalk",
-      "Deno's Wonder Wheel Amusement Park"
+      "Journal Square PATH Station",
+      "Loews Jersey Theatre",
+      "Mana Contemporary"
     ],
     "common_calls": [
-      "Amusement park gate repair",
-      "Residential entry door installation",
-      "Restaurant kitchen door repair"
+      "overhead sectional door repair",
+      "fire-rated door inspection",
+      "security grille installation"
     ],
-    "neighborhood_notes": "Coney Island's unique mix of residential and high-traffic entertainment venues demands diverse door solutions. Durability against heavy use and coastal elements is crucial. We handle everything from secure residential doors to robust commercial and industrial doors for attractions.",
+    "neighborhood_notes": "Journal Square is a busy transportation hub undergoing significant revitalization, featuring a mix of historic buildings, new developments, and diverse commercial enterprises. Businesses here require a range of commercial door services, from heavy-duty overhead doors for loading bays to secure storefronts and fire-rated assemblies for code compliance. Security is a primary concern for many businesses.",
     "keywords": [
-      "coney island door repair",
-      "commercial door coney island",
-      "door installation brooklyn",
-      "security door coney island",
-      "gate repair coney island",
-      "entry door replacement"
+      "journal square commercial doors",
+      "overhead door repair journal square",
+      "fire doors jersey city",
+      "security grilles journal square",
+      "commercial door installation jc",
+      "loading dock service jersey city"
     ]
   },
-  "gravesend": {
-    "tagline": "Gravesend door supply, installation, and repair. Ensuring security and functionality for every door.",
+  "jersey-city-heights": {
+    "tagline": "Specializing in commercial door solutions for diverse businesses in Jersey City Heights.",
     "landmarks": [
-      "Calvert Vaux Park",
-      "Gravesend Cemetery",
-      "John Dewey High School"
+      "Pershing Field Park",
+      "Central Avenue Shopping District",
+      "Riverview-Fisk Park"
     ],
     "common_calls": [
-      "Residential front door replacement",
-      "Interior door repair",
-      "Garage door opener service"
+      "overhead sectional door repair",
+      "storefront security grille installation",
+      "loading dock leveler maintenance"
     ],
-    "neighborhood_notes": "Gravesend features a mix of detached and semi-detached homes, often with traditional wooden entry doors and attached garages. Security and weatherproofing are common concerns for homeowners. We frequently address issues with older door hardware and garage door systems.",
+    "neighborhood_notes": "Jersey City Heights features a mix of older commercial buildings and newer developments, often requiring robust security solutions and efficient loading dock operations. Many businesses operate on busy thoroughfares, necessitating reliable and safe commercial door systems. Wind exposure can be a factor for certain door types.",
     "keywords": [
-      "gravesend door repair",
-      "entry door installation gravesend",
-      "garage door repair gravesend",
-      "interior door replacement brooklyn",
-      "door hardware gravesend",
-      "residential door service"
+      "jersey city heights commercial door repair",
+      "overhead door installation jersey city heights",
+      "rolling steel door jersey city heights",
+      "storefront security gates jersey city heights",
+      "loading dock service jersey city heights",
+      "commercial door maintenance jersey city heights"
     ]
   },
-  "marine-park": {
-    "tagline": "Marine Park door specialists: supply, installation, and repair. Durable doors for family homes.",
+  "bergen-lafayette": {
+    "tagline": "Expert commercial door services for Bergen-Lafayette's growing business community.",
     "landmarks": [
-      "Marine Park",
-      "Avenue U Shopping District",
-      "Brooklyn Public Library (Marine Park Branch)"
+      "Liberty State Park Light Rail Station",
+      "Berry Lane Park",
+      "Pacific Avenue"
     ],
     "common_calls": [
-      "Patio door track cleaning",
-      "Residential garage door repair",
-      "Front entry door weatherstripping"
+      "fire-rated door inspection",
+      "high-speed door repair",
+      "hollow metal door replacement"
     ],
-    "neighborhood_notes": "Marine Park is predominantly residential, with many single and two-family homes. Homeowners frequently seek energy-efficient and secure entry doors, along with reliable garage door services. We often address issues related to wear and tear on exterior doors and their hardware.",
+    "neighborhood_notes": "Bergen-Lafayette is experiencing significant commercial growth, including new retail and industrial spaces. Businesses here often require a range of commercial doors, from high-speed options for logistics to durable hollow metal doors for security. Compliance with fire codes is essential for many commercial properties.",
     "keywords": [
-      "marine park door repair",
-      "garage door marine park",
-      "entry door installation marine park",
-      "patio door repair brooklyn",
-      "exterior door replacement marine park",
-      "residential door repair"
+      "bergen-lafayette commercial door repair",
+      "fire door installation jersey city",
+      "loading dock equipment bergen-lafayette",
+      "high-speed door service jersey city",
+      "commercial garage door repair bergen-lafayette",
+      "security grille installation bergen-lafayette"
     ]
   },
-  "canarsie": {
-    "tagline": "Canarsie door supply, installation, and repair. Reliable solutions for homes and businesses.",
+  "greenville": {
+    "tagline": "Reliable commercial door installations and repairs for Greenville, Jersey City businesses.",
     "landmarks": [
-      "Canarsie Pier",
-      "Canarsie Park",
-      "Gateway Center Mall"
+      "Greenville Hospital",
+      "MLK Drive",
+      "Bayside Park"
     ],
     "common_calls": [
-      "Storefront door closer repair",
-      "Residential screen door installation",
-      "Basement door replacement"
+      "overhead door operator repair",
+      "security grille installation",
+      "loading dock seal replacement"
     ],
-    "neighborhood_notes": "Canarsie features a mix of residential homes and commercial strips, requiring a variety of door services. Security is a key concern for both types of properties. We often work on older wooden doors, modern steel entry doors, and commercial aluminum storefront systems.",
+    "neighborhood_notes": "Greenville's commercial landscape includes various industrial facilities, warehouses, and retail establishments. Durable and secure commercial doors are critical for protecting assets and maintaining operational efficiency. Many older commercial buildings may require upgrades to meet current security and accessibility standards.",
     "keywords": [
-      "canarsie door repair",
-      "storefront door canarsie",
-      "entry door installation canarsie",
-      "commercial door repair brooklyn",
-      "security doors canarsie",
-      "door replacement canarsie"
+      "greenville commercial door repair",
+      "overhead door service greenville nj",
+      "rolling steel door greenville",
+      "loading dock repair greenville",
+      "commercial security grilles jersey city",
+      "hollow metal door greenville"
     ]
   },
-  "east-flatbush": {
-    "tagline": "East Flatbush: Expert door repair, installation, and supply for residential and commercial properties.",
+  "liberty-harbor": {
+    "tagline": "Premier commercial door solutions for upscale businesses and developments in Liberty Harbor.",
     "landmarks": [
-      "Kings County Hospital Center",
-      "Brooklyn College",
-      "Wingate Park"
+      "Liberty Harbor Marina",
+      "Jersey City Medical Center",
+      "Marin Boulevard"
     ],
     "common_calls": [
-      "Residential front door replacement",
-      "Commercial storefront door repair",
-      "Apartment building entry system service"
+      "storefront door repair",
+      "security grille installation",
+      "overhead sectional door maintenance"
     ],
-    "neighborhood_notes": "East Flatbush features a mix of detached homes, rowhouses, and apartment buildings. Many properties have older wooden doors or aluminum storefront doors that often require hinge repair, lock adjustments, or full replacements. Security is a common concern, leading to requests for robust door hardware upgrades.",
+    "neighborhood_notes": "Liberty Harbor features modern commercial spaces, including retail, restaurants, and offices, often with high aesthetic and security requirements. Storefront appearance and reliable access are paramount for businesses in this vibrant area. Wind resistance for exterior doors can be a consideration near the waterfront.",
     "keywords": [
-      "east flatbush door repair",
-      "door installation east flatbush",
-      "commercial door service brooklyn",
-      "residential door replacement brooklyn",
-      "entry door repair east flatbush",
-      "storefront door brooklyn"
+      "liberty harbor commercial door repair",
+      "storefront door installation jersey city",
+      "security grilles liberty harbor",
+      "overhead door service liberty harbor",
+      "commercial door operators jersey city",
+      "fire-rated doors liberty harbor"
     ]
   },
-  "brownsville": {
-    "tagline": "Brownsville: Reliable door solutions for homes and businesses. Installation, repair, and supply.",
+  "liberty-state-park": {
+    "tagline": "Specialized commercial door services for facilities adjacent to Liberty State Park.",
     "landmarks": [
-      "Brookdale Hospital Medical Center",
-      "Betsy Head Park",
-      "Brownsville Recreation Center"
+      "Empty Sky Memorial",
+      "Central Railroad of New Jersey Terminal",
+      "Liberty Science Center"
     ],
     "common_calls": [
-      "Steel security door installation",
-      "Apartment building door closer adjustment",
-      "Storefront gate repair"
+      "rolling steel door repair",
+      "loading dock equipment service",
+      "high-speed door installation"
     ],
-    "neighborhood_notes": "Brownsville is characterized by a high concentration of multi-family dwellings and public housing developments. Steel doors and robust security hardware are frequently requested due to security concerns. Regular maintenance of common area doors and fire-rated doors is essential for building safety and code compliance.",
+    "neighborhood_notes": "Commercial properties near Liberty State Park, including light industrial or institutional facilities, require robust and weather-resistant commercial doors. Security is a key concern given the proximity to a major public landmark. High-traffic areas may benefit from durable and efficient door systems.",
     "keywords": [
-      "brownsville door repair",
-      "security door brownsville",
-      "apartment door repair brooklyn",
-      "commercial door repair brownsville",
-      "fire door service brooklyn",
-      "door installation brownsville"
+      "liberty state park commercial door repair",
+      "rolling steel door liberty state park",
+      "loading dock service jersey city",
+      "commercial overhead doors liberty state park",
+      "high-speed door installation jersey city",
+      "security grilles liberty state park"
     ]
   },
-  "east-new-york": {
-    "tagline": "East New York: Comprehensive door services for residential, commercial, and industrial properties.",
+  "mcginley-square": {
+    "tagline": "Dedicated commercial door services for businesses and institutions in McGinley Square.",
     "landmarks": [
-      "Gateway Center",
-      "Highland Park",
-      "Shirley Chisholm State Park"
+      "Saint Peter's University",
+      "Bergen Avenue",
+      "The Beacon"
     ],
     "common_calls": [
-      "Industrial overhead door repair",
-      "Residential entry door installation",
-      "Storefront glass door replacement"
+      "hollow metal door replacement",
+      "overhead sectional door repair",
+      "fire-rated door inspection"
     ],
-    "neighborhood_notes": "East New York's diverse landscape includes residential areas, bustling commercial strips, and industrial zones. This leads to varied door service needs, from standard residential entry doors to heavy-duty industrial doors and commercial storefronts. Weather-related wear and tear on exterior doors is a frequent issue.",
+    "neighborhood_notes": "McGinley Square is a bustling commercial and institutional hub with a mix of retail, offices, and educational facilities. Security and fire safety compliance are critical for many commercial door applications here. Older buildings may require door upgrades to meet current building codes and operational needs.",
     "keywords": [
-      "east new york door repair",
-      "overhead door service brooklyn",
-      "residential door east new york",
-      "commercial door installation brooklyn",
-      "storefront door repair east new york",
-      "industrial door repair brooklyn"
+      "mcginley square commercial door repair",
+      "hollow metal door jersey city",
+      "overhead door service mcginley square",
+      "fire door repair jersey city",
+      "commercial door operators mcginley square",
+      "storefront security mcginley square"
     ]
   },
-  "cypress-hills": {
-    "tagline": "Cypress Hills: Quality door repair, installation, and supply for diverse property types.",
+  "west-side-jersey-city": {
+    "tagline": "Comprehensive commercial door solutions for West Side Jersey City's diverse businesses.",
     "landmarks": [
-      "Cypress Hills Cemetery",
-      "Highland Park",
-      "Jackie Robinson Parkway"
+      "Lincoln Park",
+      "Route 1&9",
+      "New Jersey City University"
     ],
     "common_calls": [
-      "Brownstone entry door restoration",
-      "Apartment building common door repair",
-      "Garage door spring replacement"
+      "loading dock leveler repair",
+      "rolling steel door installation",
+      "overhead door operator service"
     ],
-    "neighborhood_notes": "Cypress Hills features many historic brownstones and multi-family homes, often with original wooden doors that require specialized repair or restoration. The hilly terrain can sometimes affect door alignment. Ensuring proper insulation and weatherstripping on older doors is a common request.",
+    "neighborhood_notes": "West Side Jersey City features a mix of industrial, warehousing, and commercial properties, often requiring heavy-duty and high-performance commercial doors. Efficient loading dock operations are vital for many businesses in this area. Security grilles and robust door systems are important for asset protection.",
     "keywords": [
-      "cypress hills door repair",
-      "brownstone door repair brooklyn",
-      "door installation cypress hills",
-      "garage door service brooklyn",
-      "historic door restoration brooklyn",
-      "entry door repair cypress hills"
+      "west side jersey city commercial door repair",
+      "loading dock service jersey city",
+      "rolling steel door west side",
+      "overhead sectional door west side jersey city",
+      "high-speed door jersey city",
+      "commercial door maintenance west side"
     ]
   },
-  "red-hook": {
-    "tagline": "Red Hook: Industrial, commercial, and residential door repair, installation, and supply.",
+  "india-square": {
+    "tagline": "Specialized commercial door services for businesses in Jersey City's vibrant India Square.",
     "landmarks": [
-      "IKEA Brooklyn",
-      "Fairway Market Red Hook",
-      "Red Hook Grain Terminal"
+      "Newark Avenue Pedestrian Plaza",
+      "Journal Square Transportation Center",
+      "Little India"
     ],
     "common_calls": [
-      "Warehouse rolling gate repair",
-      "Storefront door closer replacement",
-      "Waterfront property door weatherproofing"
+      "storefront security grille installation",
+      "overhead sectional door repair",
+      "hollow metal door replacement"
     ],
-    "neighborhood_notes": "Red Hook's industrial past and waterfront location mean a high demand for robust, weather-resistant doors. Rolling gates, overhead doors, and heavy-duty commercial doors are prevalent. Salt air and moisture require durable materials and regular maintenance to prevent corrosion and operational issues.",
+    "neighborhood_notes": "India Square is a bustling commercial district with numerous retail shops, restaurants, and services. Storefront security and reliable entrance doors are crucial for businesses in this high-traffic area. The aesthetic appeal of commercial doors can also be a significant consideration for many establishments.",
     "keywords": [
-      "red hook door repair",
-      "rolling gate repair brooklyn",
-      "commercial door red hook",
-      "industrial door service brooklyn",
-      "waterfront door repair red hook",
-      "storefront door red hook"
+      "india square commercial door repair",
+      "storefront security gates india square",
+      "overhead door service jersey city",
+      "rolling steel door india square",
+      "commercial door operators jersey city",
+      "hollow metal doors india square"
     ]
   },
-  "vinegar-hill": {
-    "tagline": "Vinegar Hill: Historic door repair, modern installation, and reliable door supply services.",
+  "powerhouse-arts": {
+    "tagline": "Specialized commercial door services for Powerhouse Arts District's dynamic businesses and galleries.",
     "landmarks": [
-      "Brooklyn Navy Yard",
-      "The Vinegar Hill House",
-      "Manhattan Bridge"
+      "Mana Contemporary",
+      "Art House Productions",
+      "Smush Gallery"
     ],
     "common_calls": [
-      "Historic wood door repair",
-      "Apartment building entry door upgrade",
-      "Custom door installation"
+      "overhead door repair",
+      "storefront door installation",
+      "security grille maintenance"
     ],
-    "neighborhood_notes": "Vinegar Hill's historic character means many properties feature unique, often older, wooden doors that require careful repair or custom replacement to maintain architectural integrity. Security and aesthetics are key considerations for residents and businesses. Modern apartment buildings also require contemporary door solutions.",
+    "neighborhood_notes": "This vibrant arts district features a mix of industrial conversions and new commercial spaces. Businesses often require robust security solutions and aesthetic storefronts. Proximity to the waterfront means durability against elements is key.",
     "keywords": [
-      "vinegar hill door repair",
-      "historic door repair brooklyn",
-      "custom door installation brooklyn",
-      "apartment door service vinegar hill",
-      "entry door repair vinegar hill",
-      "wood door restoration brooklyn"
+      "powerhouse arts overhead door",
+      "jersey city commercial doors",
+      "powerhouse arts security grilles",
+      "commercial door repair jersey city",
+      "storefront installation jersey city",
+      "rolling steel doors powerhouse arts"
     ]
   },
-  "navy-yard": {
-    "tagline": "Navy Yard: Specialized door solutions for industrial, commercial, and creative spaces.",
+  "harborside": {
+    "tagline": "Premier commercial door solutions for Harborside's corporate offices and retail establishments.",
     "landmarks": [
-      "Brooklyn Navy Yard Center at BLDG 92",
-      "Russ & Daughters at the Navy Yard",
-      "Wegmans Brooklyn"
+      "Harborside Financial Center",
+      "Exchange Place PATH Station",
+      "Colgate Clock"
     ],
     "common_calls": [
-      "Industrial roll-up door repair",
-      "Commercial glass door installation",
-      "Loading dock door service"
+      "hollow metal door replacement",
+      "automatic operator repair",
+      "storefront glass door service"
     ],
-    "neighborhood_notes": "The Brooklyn Navy Yard is a hub for industrial, manufacturing, and creative businesses, demanding a wide range of specialized doors. This includes heavy-duty roll-up doors, loading dock doors, and custom commercial entrances. Security and functionality are paramount in this dynamic environment.",
+    "neighborhood_notes": "Harborside is a bustling commercial hub with high foot traffic and numerous office buildings. Security and efficient access control are paramount for businesses here. Wind resistance for exterior doors is also a significant consideration.",
     "keywords": [
-      "navy yard door repair",
-      "industrial door navy yard",
-      "commercial door installation brooklyn",
-      "roll up door repair brooklyn",
-      "loading dock door service brooklyn",
-      "glass door navy yard"
+      "harborside commercial doors",
+      "jersey city office door repair",
+      "harborside storefront doors",
+      "commercial door operators jersey city",
+      "hollow metal doors harborside",
+      "jersey city security doors"
     ]
   },
-  "south-slope": {
-    "tagline": "South Slope: Residential and commercial door repair, installation, and supply experts.",
+  "lafayette": {
+    "tagline": "Reliable commercial door services for Lafayette's diverse businesses and industrial properties.",
     "landmarks": [
-      "Green-Wood Cemetery",
-      "Prospect Avenue Subway Station",
-      "P.S. 10"
+      "Liberty State Park",
+      "Central Railroad of New Jersey Terminal",
+      "Liberty Science Center"
     ],
     "common_calls": [
-      "Brownstone front door replacement",
-      "Apartment building intercom door repair",
-      "Backyard gate installation"
+      "rolling steel door repair",
+      "loading dock equipment service",
+      "fire-rated door inspection"
     ],
-    "neighborhood_notes": "South Slope features many historic brownstones and rowhouses, often requiring careful attention to period-appropriate door repairs and replacements. Modern apartment buildings also dot the area, needing contemporary door solutions. Security and insulation are frequent concerns for both residential and commercial properties.",
+    "neighborhood_notes": "Lafayette has a blend of commercial and light industrial properties, often requiring heavy-duty doors and loading dock solutions. Older buildings may need upgrades for modern security and code compliance. Proximity to the park means some businesses experience higher visitor traffic.",
     "keywords": [
-      "south slope door repair",
-      "brownstone door service brooklyn",
-      "door installation south slope",
-      "residential door replacement brooklyn",
-      "entry door repair south slope",
-      "gate repair brooklyn"
+      "lafayette commercial doors",
+      "jersey city rolling steel doors",
+      "lafayette loading dock repair",
+      "fire-rated doors jersey city",
+      "commercial overhead doors lafayette",
+      "jersey city industrial doors"
     ]
   },
-  "greenwood-heights": {
-    "tagline": "Greenwood Heights door supply, repair, and installation. We service all residential and commercial doors.",
+  "port-liberte": {
+    "tagline": "Specialized commercial door solutions for Port Liberte's unique commercial and retail spaces.",
     "landmarks": [
-      "Green-Wood Cemetery",
-      "Industry City",
-      "Park Slope Food Coop"
+      "Port Liberte Ferry Terminal",
+      "Port Liberte Marina",
+      "Liberty National Golf Club"
     ],
     "common_calls": [
-      "repair squeaky apartment door hinges",
-      "install new storefront door",
-      "replace broken garage door spring"
+      "storefront door repair",
+      "security grille installation",
+      "overhead door maintenance"
     ],
-    "neighborhood_notes": "Many brownstones and rowhouses in Greenwood Heights feature original wooden doors that often require delicate repair or historically accurate replacements. Commercial properties in Industry City frequently need robust, high-traffic doors. Residential doors often face wear and tear from constant use and older hardware.",
+    "neighborhood_notes": "Port Liberte features a mix of residential and commercial properties, including retail and dining establishments. Doors must blend aesthetics with robust security, especially given the waterfront location. Wind and salt exposure require durable materials.",
     "keywords": [
-      "greenwood heights door repair",
-      "door installation greenwood heights",
-      "garage door repair greenwood heights",
-      "commercial doors greenwood heights",
-      "residential door service brooklyn",
-      "emergency door repair greenwood heights"
+      "port liberte commercial doors",
+      "jersey city storefront repair",
+      "port liberte security grilles",
+      "commercial overhead doors port liberte",
+      "jersey city business doors",
+      "rolling doors port liberte"
     ]
   },
-  "dyker-heights": {
-    "tagline": "Dyker Heights' trusted source for door supply, expert installation, and reliable repair services.",
+  "communipaw": {
+    "tagline": "Durable commercial door services for Communipaw's industrial and business establishments.",
     "landmarks": [
-      "Dyker Heights Golf Course",
-      "Dyker Beach Park",
-      "Our Lady of Guadalupe Church"
+      "Berry Lane Park",
+      "Liberty State Park",
+      "Skyway Park"
     ],
     "common_calls": [
-      "fix misaligned front door",
-      "install new patio doors",
-      "repair garage door opener"
+      "loading dock leveler repair",
+      "rolling steel door installation",
+      "overhead door spring replacement"
     ],
-    "neighborhood_notes": "Homes in Dyker Heights often have custom entry doors and elaborate garage door systems that require specialized knowledge for repair and installation. Security is a common concern, leading to requests for robust locking mechanisms and reinforced doors. Weather-related wear on exterior doors is also prevalent.",
+    "neighborhood_notes": "Communipaw is home to many industrial facilities and warehouses, requiring robust loading dock solutions and heavy-duty doors. Security for large commercial properties is a primary concern. Regular maintenance helps prevent costly downtime.",
     "keywords": [
-      "dyker heights door repair",
-      "garage door dyker heights",
-      "entry door installation brooklyn",
-      "patio door repair dyker heights",
-      "commercial door service dyker heights",
-      "dyker heights door replacement"
+      "communipaw commercial doors",
+      "jersey city loading dock repair",
+      "communipaw rolling steel",
+      "overhead door repair jersey city",
+      "industrial doors communipaw",
+      "jersey city warehouse doors"
     ]
   },
-  "flatlands": {
-    "tagline": "Flatlands door supply, installation, and repair for homes and businesses. Quality service guaranteed.",
+  "lincoln-park-jc": {
+    "tagline": "Quality commercial door services for businesses surrounding Jersey City's Lincoln Park.",
     "landmarks": [
-      "Brooklyn College",
-      "Flatbush Junction",
-      "Starrett City"
+      "Lincoln Park",
+      "Eastern Christian Children's Retreat",
+      "Jersey City Medical Center"
     ],
     "common_calls": [
-      "replace damaged storm door",
-      "install new interior doors",
-      "repair commercial roll-down gate"
+      "storefront door repair",
+      "hollow metal door installation",
+      "security grille service"
     ],
-    "neighborhood_notes": "Flatlands features a mix of single-family homes and apartment buildings, leading to diverse door service needs from residential entryways to common area doors. Many older homes have wooden doors that may need weatherstripping or frame repair. Commercial properties often require durable security doors.",
+    "neighborhood_notes": "Businesses around Lincoln Park range from retail to community-focused establishments. Doors need to be secure and presentable, often requiring custom sizing for older buildings. High-traffic areas benefit from durable door systems.",
     "keywords": [
-      "flatlands door repair",
-      "door installation flatlands",
-      "commercial door repair flatlands",
-      "residential door service brooklyn",
-      "storm door replacement flatlands",
-      "flatlands garage door repair"
+      "lincoln park commercial doors",
+      "jersey city storefront repair",
+      "lincoln park security grilles",
+      "hollow metal doors jersey city",
+      "commercial door service lincoln park",
+      "jersey city business entry"
     ]
   },
-  "mill-basin": {
-    "tagline": "Mill Basin's premier door service: supply, installation, and repair for all door types.",
+  "country-village": {
+    "tagline": "Reliable commercial door solutions for Country Village's local businesses and facilities.",
     "landmarks": [
-      "Kings Plaza Shopping Center",
-      "Mill Basin Park",
-      "Seaview Park"
+      "Liberty State Park",
+      "New Jersey City University",
+      "Bayfront Park"
     ],
     "common_calls": [
-      "fix sliding glass door track",
-      "install new custom entry door",
-      "repair automatic garage door"
+      "overhead door repair",
+      "rolling steel door maintenance",
+      "fire-rated door inspection"
     ],
-    "neighborhood_notes": "Mill Basin homes often feature high-end custom doors, including large sliding glass doors and elaborate entry systems, requiring specialized repair and installation. Waterfront properties may experience increased wear on exterior doors due to salt air exposure. Security is a key consideration for many residents.",
+    "neighborhood_notes": "Country Village features a mix of commercial properties serving the local community, from small businesses to larger facilities. Security and durability are important, especially for frequently used entry points. Compliance with fire safety codes is critical.",
     "keywords": [
-      "mill basin door repair",
-      "sliding door repair mill basin",
-      "custom entry doors mill basin",
-      "garage door service mill basin",
-      "door installation brooklyn",
-      "commercial door repair mill basin"
+      "country village commercial doors",
+      "jersey city overhead door repair",
+      "country village rolling steel",
+      "fire-rated doors jersey city",
+      "commercial door maintenance country village",
+      "jersey city business doors"
     ]
   },
-  "bergen-beach": {
-    "tagline": "Bergen Beach door supply, installation, and repair specialists. Serving residential and commercial needs.",
+  "society-hill": {
+    "tagline": "Expert commercial door services for Society Hill's diverse business and institutional needs.",
     "landmarks": [
-      "Canarsie Pier",
-      "Bergen Beach Playground",
-      "Roy Wilkins Park"
+      "Society Hill Community Center",
+      "Liberty State Park",
+      "New Jersey City University"
     ],
     "common_calls": [
-      "replace worn-out exterior door",
-      "install new bifold closet doors",
-      "repair garage door sensor"
+      "hollow metal door replacement",
+      "automatic door operator repair",
+      "security grille installation"
     ],
-    "neighborhood_notes": "Bergen Beach homes frequently have robust exterior doors to withstand coastal weather conditions, often requiring weatherstripping and corrosion-resistant hardware. Many residences feature multi-car garages, leading to common garage door service requests. Interior door upgrades are also popular in renovated homes.",
+    "neighborhood_notes": "Society Hill includes commercial spaces that require reliable and secure access solutions. Aesthetic appeal often matters, alongside robust security. Doors must withstand regular use and offer long-term durability.",
     "keywords": [
-      "bergen beach door repair",
-      "exterior door installation bergen beach",
-      "garage door repair bergen beach",
-      "residential door service brooklyn",
-      "door replacement bergen beach",
-      "commercial doors bergen beach"
+      "society hill commercial doors",
+      "jersey city hollow metal doors",
+      "society hill security grilles",
+      "commercial door operators jersey city",
+      "storefront repair society hill",
+      "jersey city business entrances"
+    ]
+  },
+  "the-village-jc": {
+    "tagline": "The Village's trusted partner for robust commercial doors, essential for business security and operation.",
+    "landmarks": [
+      "St. Peter's University",
+      "Lincoln Park",
+      "Journal Square Transportation Center"
+    ],
+    "common_calls": [
+      "hollow metal door repair",
+      "storefront security grille installation",
+      "emergency exit door service"
+    ],
+    "neighborhood_notes": "The Village features a mix of commercial storefronts and industrial facilities, many requiring reliable security and access solutions. Older buildings often have unique door frame sizes and require custom solutions. Proximity to major transportation hubs necessitates robust security measures.",
+    "keywords": [
+      "jersey city commercial door repair",
+      "the village storefront door",
+      "hollow metal door jersey city",
+      "commercial security grilles jc",
+      "overhead door repair the village",
+      "jersey city commercial door installation"
+    ]
+  },
+  "hoboken": {
+    "tagline": "Hoboken's premier commercial door solutions: overhead, rolling steel, storefronts, and emergency repairs.",
+    "landmarks": [
+      "Hoboken Terminal",
+      "Stevens Institute of Technology",
+      "Pier A Park"
+    ],
+    "common_calls": [
+      "storefront glass door repair",
+      "rolling steel door maintenance",
+      "loading dock leveler service"
+    ],
+    "neighborhood_notes": "Hoboken's bustling commercial avenues and waterfront properties demand durable, aesthetically pleasing commercial doors. Many businesses utilize storefront doors and security grilles for evening protection. Wind resistance is a factor for doors exposed to the Hudson River.",
+    "keywords": [
+      "hoboken commercial door repair",
+      "storefront door hoboken",
+      "rolling steel door hoboken",
+      "hoboken loading dock service",
+      "commercial overhead door hoboken",
+      "security grilles hoboken"
+    ]
+  },
+  "weehawken": {
+    "tagline": "Weehawken's commercial door experts: high-speed, fire-rated, hollow metal, and emergency repair services.",
+    "landmarks": [
+      "Port Imperial Ferry Terminal",
+      "Weehawken Waterfront Park",
+      "Lincoln Tunnel Entrance"
+    ],
+    "common_calls": [
+      "high-speed door repair",
+      "fire-rated door inspection",
+      "loading dock equipment service"
+    ],
+    "neighborhood_notes": "Weehawken's waterfront location and proximity to major transportation arteries mean commercial properties often require high-performance and secure door systems. Many buildings, especially those with freight operations, need reliable loading dock equipment. Fire safety codes are strictly enforced.",
+    "keywords": [
+      "weehawken commercial door repair",
+      "high-speed door weehawken",
+      "fire-rated door weehawken",
+      "loading dock repair weehawken",
+      "commercial overhead door weehawken",
+      "weehawken storefront doors"
+    ]
+  },
+  "union-city": {
+    "tagline": "Union City's commercial door specialists for storefronts, security grilles, and robust overhead solutions.",
+    "landmarks": [
+      "Union City High School",
+      "Washington Park",
+      "Bergenline Avenue Shopping District"
+    ],
+    "common_calls": [
+      "storefront door replacement",
+      "security grille installation",
+      "overhead door spring repair"
+    ],
+    "neighborhood_notes": "Union City's dense commercial corridors, particularly along Bergenline Avenue, rely heavily on secure and functional storefront doors. Many businesses also benefit from robust security grilles. Older industrial buildings may require specialized overhead door solutions.",
+    "keywords": [
+      "union city commercial door repair",
+      "storefront door union city",
+      "security grilles union city",
+      "overhead door repair union city",
+      "commercial door installation union city",
+      "hollow metal door union city"
+    ]
+  },
+  "west-new-york": {
+    "tagline": "West New York's reliable source for commercial overhead, rolling steel, and emergency door services.",
+    "landmarks": [
+      "North Hudson Braddock Park",
+      "West New York Public Library",
+      "Hudson-Bergen Light Rail"
+    ],
+    "common_calls": [
+      "rolling steel door repair",
+      "loading dock plate service",
+      "fire door assembly inspection"
+    ],
+    "neighborhood_notes": "West New York features a mix of commercial and light industrial properties, often requiring durable rolling steel and overhead doors. Proximity to transit lines means security is a key consideration for many businesses. Regular maintenance of loading dock equipment is crucial.",
+    "keywords": [
+      "west new york commercial door",
+      "rolling steel door west new york",
+      "overhead door repair wny",
+      "loading dock west new york",
+      "fire door west new york",
+      "commercial door repair west new york"
+    ]
+  },
+  "north-bergen": {
+    "tagline": "North Bergen's commercial door experts: high-speed, overhead, loading dock, and emergency repairs.",
+    "landmarks": [
+      "James J. Braddock North Hudson County Park",
+      "Tonnelle Avenue",
+      "North Bergen Public Library"
+    ],
+    "common_calls": [
+      "high-speed door maintenance",
+      "loading dock bumper replacement",
+      "overhead sectional door repair"
+    ],
+    "neighborhood_notes": "North Bergen's industrial zones and commercial centers often require robust, high-performance doors for logistics and warehousing. Many facilities along Tonnelle Avenue have significant loading dock operations. Wind and weather protection are important for large exterior doors.",
+    "keywords": [
+      "north bergen commercial door",
+      "high-speed door north bergen",
+      "loading dock repair north bergen",
+      "overhead door north bergen",
+      "commercial door service north bergen",
+      "rolling steel north bergen"
+    ]
+  },
+  "secaucus": {
+    "tagline": "Secaucus commercial door solutions: high-speed, overhead, rolling steel, and loading dock specialists.",
+    "landmarks": [
+      "Secaucus Junction",
+      "The Outlets at The Plaza",
+      "Meadowlands Exposition Center"
+    ],
+    "common_calls": [
+      "high-speed door installation",
+      "loading dock leveler repair",
+      "overhead door preventative maintenance"
+    ],
+    "neighborhood_notes": "Secaucus, a major logistics and retail hub, has extensive warehousing and distribution centers requiring high-speed and heavy-duty commercial doors. Loading dock operations are critical to many businesses. Doors must withstand frequent use and varying weather conditions.",
+    "keywords": [
+      "secaucus commercial door",
+      "high-speed door secaucus",
+      "loading dock repair secaucus",
+      "overhead door secaucus",
+      "rolling steel door secaucus",
+      "commercial door maintenance secaucus"
+    ]
+  },
+  "kearny": {
+    "tagline": "Kearny's commercial door contractor for rolling steel, overhead, fire-rated, and emergency services.",
+    "landmarks": [
+      "Kearny High School",
+      "West Hudson Park",
+      "Passaic River"
+    ],
+    "common_calls": [
+      "rolling steel door motor repair",
+      "fire-rated door recertification",
+      "overhead door panel replacement"
+    ],
+    "neighborhood_notes": "Kearny's industrial heritage means many businesses rely on heavy-duty rolling steel and overhead doors. Compliance with fire codes for fire-rated assemblies is crucial for safety. Proximity to the Passaic River can necessitate corrosion-resistant door components.",
+    "keywords": [
+      "kearny commercial door repair",
+      "rolling steel door kearny",
+      "overhead door kearny",
+      "fire-rated door kearny",
+      "commercial door installation kearny",
+      "loading dock kearny"
+    ]
+  },
+  "east-rutherford": {
+    "tagline": "East Rutherford's trusted partner for robust commercial doors, overheads, and security grilles.",
+    "landmarks": [
+      "MetLife Stadium",
+      "American Dream Meadowlands",
+      "Meadowlands Exposition Center"
+    ],
+    "common_calls": [
+      "overhead door repair",
+      "loading dock leveler service",
+      "fire-rated door inspection"
+    ],
+    "neighborhood_notes": "With major entertainment and retail complexes, high-speed doors and security grilles are essential for high-traffic areas. Industrial parks and warehouses require reliable loading dock equipment and heavy-duty overhead doors for logistics.",
+    "keywords": [
+      "east rutherford commercial door repair",
+      "metlife stadium overhead door",
+      "american dream security grille",
+      "meadowlands loading dock service",
+      "east rutherford high-speed door",
+      "commercial door maintenance east rutherford"
+    ]
+  },
+  "rutherford": {
+    "tagline": "Rutherford's reliable source for commercial door repair, rolling steel, and storefront solutions.",
+    "landmarks": [
+      "Felician University",
+      "Rutherford Public Library",
+      "Williams Center for the Arts"
+    ],
+    "common_calls": [
+      "storefront door repair",
+      "rolling steel door installation",
+      "hollow metal door replacement"
+    ],
+    "neighborhood_notes": "Rutherford's mix of retail and light industrial spaces demands versatile commercial door solutions. Businesses often need durable storefront doors and secure rolling steel options to protect their assets.",
+    "keywords": [
+      "rutherford commercial door repair",
+      "rutherford storefront door",
+      "rolling steel door rutherford",
+      "hollow metal door rutherford",
+      "commercial overhead door rutherford",
+      "rutherford security grilles"
+    ]
+  },
+  "carlstadt": {
+    "tagline": "Carlstadt's expert in industrial doors: high-speed, rolling steel, and loading dock solutions.",
+    "landmarks": [
+      "Carlstadt Public Library",
+      "Carlstadt Borough Hall",
+      "Becton Regional High School"
+    ],
+    "common_calls": [
+      "high-speed door repair",
+      "loading dock equipment service",
+      "rolling steel door maintenance"
+    ],
+    "neighborhood_notes": "Carlstadt's extensive industrial parks and warehouses require robust and efficient door systems. High-speed doors are crucial for energy efficiency, while durable rolling steel doors and reliable loading docks are vital for operations.",
+    "keywords": [
+      "carlstadt industrial doors",
+      "carlstadt high-speed door repair",
+      "loading dock service carlstadt",
+      "rolling steel doors carlstadt",
+      "commercial overhead doors carlstadt",
+      "carlstadt fire door repair"
+    ]
+  },
+  "moonachie": {
+    "tagline": "Moonachie's specialist for commercial overhead doors, loading docks, and security solutions.",
+    "landmarks": [
+      "Moonachie Public Library",
+      "Moonachie Borough Hall",
+      "Moonachie Creek"
+    ],
+    "common_calls": [
+      "overhead sectional door repair",
+      "loading dock leveler service",
+      "security grille installation"
+    ],
+    "neighborhood_notes": "Moonachie, with its industrial and commercial zones, often requires heavy-duty overhead doors and efficient loading dock equipment. Security grilles are also important for protecting commercial properties.",
+    "keywords": [
+      "moonachie commercial door repair",
+      "moonachie overhead door",
+      "loading dock moonachie",
+      "security grilles moonachie",
+      "rolling steel door moonachie",
+      "moonachie commercial door service"
+    ]
+  },
+  "little-ferry": {
+    "tagline": "Little Ferry's trusted provider for commercial door repair, storefronts, and operators.",
+    "landmarks": [
+      "Little Ferry Public Library",
+      "Little Ferry Borough Hall",
+      "Losen Slote Creek Park"
+    ],
+    "common_calls": [
+      "storefront door repair",
+      "commercial door operator service",
+      "hollow metal door replacement"
+    ],
+    "neighborhood_notes": "Little Ferry's commercial areas benefit from reliable storefront doors and efficient door operators. Businesses also require sturdy hollow metal doors for security and fire safety.",
+    "keywords": [
+      "little ferry commercial door repair",
+      "little ferry storefront door",
+      "commercial door operator little ferry",
+      "hollow metal door little ferry",
+      "overhead door little ferry",
+      "little ferry security grilles"
+    ]
+  },
+  "ridgefield": {
+    "tagline": "Ridgefield's go-to for commercial door solutions: overhead, rolling steel, and storefronts.",
+    "landmarks": [
+      "Ridgefield Public Library",
+      "Ridgefield Borough Hall",
+      "Veterans Memorial Park"
+    ],
+    "common_calls": [
+      "overhead door repair",
+      "storefront door service",
+      "rolling steel door installation"
+    ],
+    "neighborhood_notes": "Ridgefield's commercial properties, from retail to light industrial, need dependable overhead and rolling steel doors. Storefront doors are crucial for business accessibility and aesthetics.",
+    "keywords": [
+      "ridgefield commercial door repair",
+      "ridgefield overhead door",
+      "storefront doors ridgefield",
+      "rolling steel door ridgefield",
+      "commercial door service ridgefield",
+      "ridgefield security grilles"
+    ]
+  },
+  "ridgefield-park": {
+    "tagline": "Ridgefield Park's expert for commercial door repair, loading docks, and fire-rated assemblies.",
+    "landmarks": [
+      "Ridgefield Park Public Library",
+      "Overpeck County Park",
+      "Ridgefield Park High School"
+    ],
+    "common_calls": [
+      "loading dock repair",
+      "fire-rated door inspection",
+      "commercial overhead door service"
+    ],
+    "neighborhood_notes": "Ridgefield Park's industrial and commercial areas necessitate robust loading dock equipment and fire-rated doors for safety compliance. Reliable overhead doors are also essential for daily operations.",
+    "keywords": [
+      "ridgefield park commercial door repair",
+      "loading dock ridgefield park",
+      "fire-rated doors ridgefield park",
+      "overhead doors ridgefield park",
+      "commercial door service ridgefield park",
+      "ridgefield park security grilles"
+    ]
+  },
+  "teterboro": {
+    "tagline": "Teterboro's premier provider for high-speed doors, operators, and robust security grilles.",
+    "landmarks": [
+      "Teterboro Airport",
+      "Aviation Hall of Fame & Museum of New Jersey",
+      "Teterboro Borough Hall"
+    ],
+    "common_calls": [
+      "high-speed door repair",
+      "commercial door operator service",
+      "security grille installation"
+    ],
+    "neighborhood_notes": "Given the presence of Teterboro Airport and industrial facilities, high-speed doors are critical for efficiency. Security grilles and reliable operators are also vital for access control and property protection.",
+    "keywords": [
+      "teterboro commercial door repair",
+      "teterboro high-speed door",
+      "teterboro commercial operator",
+      "security grilles teterboro",
+      "teterboro rolling steel door",
+      "commercial overhead door teterboro"
+    ]
+  },
+  "south-hackensack": {
+    "tagline": "South Hackensack's trusted partner for robust commercial doors, operators, and loading dock solutions.",
+    "landmarks": [
+      "Teterboro Airport",
+      "Route 17",
+      "Patterson Plank Road"
+    ],
+    "common_calls": [
+      "overhead door repair",
+      "loading dock leveler service",
+      "fire-rated door inspection"
+    ],
+    "neighborhood_notes": "With its proximity to major highways and Teterboro Airport, South Hackensack features many industrial parks and warehouses. These facilities require durable loading docks, high-speed doors, and security grilles to manage logistics and protect assets.",
+    "keywords": [
+      "south hackensack commercial door repair",
+      "loading dock repair south hackensack",
+      "overhead door south hackensack",
+      "rolling steel door south hackensack",
+      "high speed door south hackensack",
+      "commercial door service south hackensack"
+    ]
+  },
+  "hackensack": {
+    "tagline": "Hackensack's top choice for comprehensive commercial door services, from storefronts to rolling steel.",
+    "landmarks": [
+      "Hackensack University Medical Center",
+      "Bergen County Courthouse",
+      "Main Street"
+    ],
+    "common_calls": [
+      "storefront door repair",
+      "hollow metal door installation",
+      "security grille maintenance"
+    ],
+    "neighborhood_notes": "Hackensack's diverse commercial landscape includes a bustling downtown, medical facilities, and various business parks. Many buildings require reliable storefront doors, secure hollow metal doors, and robust security grilles for daily operations.",
+    "keywords": [
+      "hackensack commercial door repair",
+      "storefront door hackensack",
+      "hollow metal door hackensack",
+      "security grilles hackensack",
+      "commercial overhead door hackensack",
+      "hackensack door operator repair"
+    ]
+  },
+  "hasbrouck-heights": {
+    "tagline": "Reliable commercial door solutions for Hasbrouck Heights businesses, ensuring security and smooth operations.",
+    "landmarks": [
+      "Hasbrouck Heights High School",
+      "Boulevard",
+      "Route 17"
+    ],
+    "common_calls": [
+      "overhead door repair",
+      "storefront door service",
+      "fire door inspection"
+    ],
+    "neighborhood_notes": "Hasbrouck Heights combines residential areas with commercial strips and light industrial zones. Businesses here often need dependable overhead doors for garages or warehouses, and secure storefronts for retail establishments.",
+    "keywords": [
+      "hasbrouck heights commercial door",
+      "overhead door repair hasbrouck heights",
+      "storefront door hasbrouck heights",
+      "commercial door service hasbrouck heights",
+      "rolling door hasbrouck heights",
+      "fire door hasbrouck heights"
+    ]
+  },
+  "lodi": {
+    "tagline": "Lodi's expert in commercial doors, providing installations, repairs, and maintenance for all types.",
+    "landmarks": [
+      "Felician University",
+      "Route 17",
+      "Outwater Lane"
+    ],
+    "common_calls": [
+      "rolling steel door repair",
+      "loading dock equipment service",
+      "hollow metal door installation"
+    ],
+    "neighborhood_notes": "Lodi features a mix of industrial facilities, retail centers, and local businesses. Many operations depend on robust rolling steel doors for security and efficient loading dock equipment to handle goods.",
+    "keywords": [
+      "lodi commercial door repair",
+      "rolling steel door lodi",
+      "loading dock lodi",
+      "commercial overhead door lodi",
+      "hollow metal door lodi",
+      "lodi door service"
+    ]
+  },
+  "garfield": {
+    "tagline": "Garfield's trusted source for commercial door repair, installation, and preventative maintenance.",
+    "landmarks": [
+      "Garfield High School",
+      "Outwater Lane",
+      "Passaic Street"
+    ],
+    "common_calls": [
+      "overhead door repair",
+      "storefront door replacement",
+      "security grille installation"
+    ],
+    "neighborhood_notes": "Garfield's commercial areas include retail strips and some light industrial properties. Businesses often require reliable overhead doors for back entrances, secure storefronts, and robust security grilles to deter theft.",
+    "keywords": [
+      "garfield commercial door",
+      "overhead door repair garfield",
+      "storefront door garfield",
+      "security grilles garfield",
+      "commercial door service garfield",
+      "rolling door garfield"
+    ]
+  },
+  "wallington": {
+    "tagline": "Wallington's premier commercial door specialists, offering superior service for all door types.",
+    "landmarks": [
+      "Wallington High School",
+      "Main Avenue",
+      "Passaic River"
+    ],
+    "common_calls": [
+      "overhead door repair",
+      "hollow metal door service",
+      "loading dock maintenance"
+    ],
+    "neighborhood_notes": "Wallington's commercial landscape includes local businesses and some industrial properties along the Passaic River. These facilities require sturdy overhead doors, secure hollow metal doors, and well-maintained loading docks.",
+    "keywords": [
+      "wallington commercial door",
+      "overhead door repair wallington",
+      "hollow metal door wallington",
+      "loading dock wallington",
+      "commercial door service wallington",
+      "rolling door wallington"
+    ]
+  },
+  "wood-ridge": {
+    "tagline": "Wood-Ridge's dedicated commercial door contractor, ensuring reliable and secure access for businesses.",
+    "landmarks": [
+      "Wood-Ridge High School",
+      "Hackensack Street",
+      "Teterboro Airport"
+    ],
+    "common_calls": [
+      "overhead door operator repair",
+      "storefront door adjustment",
+      "fire-rated door inspection"
+    ],
+    "neighborhood_notes": "Located near Teterboro Airport, Wood-Ridge has commercial areas that demand reliable overhead doors and operators for efficient movement of goods. Fire-rated assemblies are also critical for safety compliance.",
+    "keywords": [
+      "wood-ridge commercial door repair",
+      "overhead door wood-ridge",
+      "storefront door wood-ridge",
+      "commercial door operator wood-ridge",
+      "fire door wood-ridge",
+      "wood-ridge door service"
+    ]
+  },
+  "lyndhurst": {
+    "tagline": "Lyndhurst's expert for commercial doors, including loading docks, high-speed doors, and security grilles.",
+    "landmarks": [
+      "Lyndhurst High School",
+      "Riverside Avenue",
+      "Route 3"
+    ],
+    "common_calls": [
+      "loading dock repair",
+      "high-speed door service",
+      "rolling steel door installation"
+    ],
+    "neighborhood_notes": "Lyndhurst, part of the Meadowlands, features numerous warehouses and distribution centers. These facilities rely heavily on efficient loading docks, high-speed doors, and secure rolling steel doors for their operations.",
+    "keywords": [
+      "lyndhurst commercial door repair",
+      "loading dock lyndhurst",
+      "high speed door lyndhurst",
+      "rolling steel door lyndhurst",
+      "commercial overhead door lyndhurst",
+      "lyndhurst door service"
+    ]
+  },
+  "north-arlington": {
+    "tagline": "North Arlington commercial doors: expert installation, reliable repairs for rolling steel, storefronts, and loading docks.",
+    "landmarks": [
+      "Kearny Riverbank Park",
+      "North Arlington Public Library",
+      "Queen of Peace Church"
+    ],
+    "common_calls": [
+      "rolling steel door repair",
+      "loading dock leveler service",
+      "storefront security grille installation"
+    ],
+    "neighborhood_notes": "Many businesses in North Arlington utilize loading docks for receiving and shipping, requiring durable overhead doors. Older industrial buildings may need upgrades to meet modern security and operational demands. Proximity to major roadways means high-speed doors could benefit logistics operations.",
+    "keywords": [
+      "north arlington overhead door repair",
+      "commercial garage door service north arlington",
+      "loading dock repair north arlington",
+      "rolling steel door north arlington",
+      "storefront door installation north arlington",
+      "commercial door maintenance north arlington"
+    ]
+  },
+  "meadowlands-sports-complex": {
+    "tagline": "Meadowlands Sports Complex commercial door solutions: high-speed, security grilles, and heavy-duty overhead doors.",
+    "landmarks": [
+      "MetLife Stadium",
+      "American Dream",
+      "Meadowlands Racetrack"
+    ],
+    "common_calls": [
+      "high-speed door maintenance",
+      "security grille repair",
+      "overhead door operator replacement"
+    ],
+    "neighborhood_notes": "The Meadowlands Sports Complex features large-scale venues and retail, demanding robust, high-traffic commercial door solutions. Security is paramount for these facilities, requiring reliable grilles and access control. Wind resistance for large exterior doors is also a key consideration.",
+    "keywords": [
+      "meadowlands sports complex commercial doors",
+      "high-speed door repair meadowlands",
+      "security grilles meadowlands",
+      "overhead door service meadowlands",
+      "loading dock repair meadowlands",
+      "commercial door installation meadowlands sports complex"
+    ]
+  },
+  "american-dream": {
+    "tagline": "American Dream commercial doors: specialized solutions for retail storefronts, security, and high-traffic areas.",
+    "landmarks": [
+      "Nickelodeon Universe Theme Park",
+      "DreamWorks Water Park",
+      "Big SNOW American Dream"
+    ],
+    "common_calls": [
+      "storefront door repair",
+      "security grille installation",
+      "high-speed door service"
+    ],
+    "neighborhood_notes": "American Dream, as a major entertainment and retail destination, requires specialized commercial door solutions for high foot traffic and enhanced security. Many doors are integrated with complex access systems. Fire-rated assemblies are crucial for safety in such a large public venue.",
+    "keywords": [
+      "american dream commercial doors",
+      "storefront door repair american dream",
+      "security grille installation american dream",
+      "high-speed door american dream",
+      "commercial door maintenance american dream",
+      "fire-rated door service american dream"
+    ]
+  },
+  "elmwood-park": {
+    "tagline": "Elmwood Park commercial doors: reliable service for overhead, rolling steel, and loading dock systems.",
+    "landmarks": [
+      "Elmwood Park Public Library",
+      "Borough Hall of Elmwood Park",
+      "Goffle Brook Park"
+    ],
+    "common_calls": [
+      "overhead door spring replacement",
+      "rolling steel door repair",
+      "loading dock equipment service"
+    ],
+    "neighborhood_notes": "Elmwood Park features a mix of commercial and light industrial properties, many with loading docks and overhead doors. Older commercial buildings may require updates to meet current safety codes and improve energy efficiency. Security grilles are often needed for retail establishments.",
+    "keywords": [
+      "elmwood park commercial door repair",
+      "overhead door service elmwood park",
+      "rolling steel door elmwood park",
+      "loading dock repair elmwood park",
+      "storefront door installation elmwood park",
+      "commercial door operators elmwood park"
+    ]
+  },
+  "saddle-brook": {
+    "tagline": "Saddle Brook commercial door experts: overhead, rolling steel, fire-rated assemblies, and loading dock services.",
+    "landmarks": [
+      "Saddle Brook Public Library",
+      "Saddle Brook Park",
+      "Borough Hall of Saddle Brook"
+    ],
+    "common_calls": [
+      "fire-rated door inspection",
+      "loading dock leveler repair",
+      "overhead sectional door service"
+    ],
+    "neighborhood_notes": "Saddle Brook has a significant commercial and industrial presence, particularly along its major thoroughfares. Many facilities rely on functional loading docks and fire-rated doors for safety and logistics. Wind resistance is important for larger exterior doors.",
+    "keywords": [
+      "saddle brook commercial door repair",
+      "loading dock service saddle brook",
+      "fire-rated door saddle brook",
+      "overhead door installation saddle brook",
+      "rolling steel door repair saddle brook",
+      "commercial door maintenance saddle brook"
+    ]
+  },
+  "maywood": {
+    "tagline": "Maywood commercial doors: reliable service for storefronts, overhead doors, and security grilles.",
+    "landmarks": [
+      "Maywood Public Library",
+      "Borough Hall of Maywood",
+      "Maywood Marketplace"
+    ],
+    "common_calls": [
+      "storefront glass door repair",
+      "overhead door opener service",
+      "security grille installation"
+    ],
+    "neighborhood_notes": "Maywood's commercial areas often feature storefronts requiring secure and aesthetically pleasing entryways. Many businesses also utilize overhead doors for storage and deliveries. Regular maintenance is key to ensure smooth operation and security.",
+    "keywords": [
+      "maywood commercial door repair",
+      "storefront door service maywood",
+      "overhead door maywood",
+      "security grilles maywood",
+      "commercial door installation maywood",
+      "hollow metal door maywood"
+    ]
+  },
+  "rochelle-park": {
+    "tagline": "Rochelle Park commercial door specialists: overhead, rolling steel, loading dock, and high-speed door solutions.",
+    "landmarks": [
+      "Rochelle Park Public Library",
+      "Rochelle Park Town Hall",
+      "Saddle River County Park - Rochelle Park Section"
+    ],
+    "common_calls": [
+      "high-speed door repair",
+      "loading dock equipment service",
+      "overhead door track alignment"
+    ],
+    "neighborhood_notes": "Rochelle Park's commercial corridors and industrial parks frequently require robust overhead and rolling steel doors for warehousing and logistics. High-speed doors can significantly improve operational efficiency for businesses with frequent traffic. Proper loading dock functionality is critical for many businesses.",
+    "keywords": [
+      "rochelle park commercial door repair",
+      "high-speed door rochelle park",
+      "loading dock repair rochelle park",
+      "overhead door service rochelle park",
+      "rolling steel door rochelle park",
+      "commercial door maintenance rochelle park"
+    ]
+  },
+  "cliffside-park": {
+    "tagline": "Cliffside Park commercial doors: storefronts, security grilles, and reliable overhead door solutions.",
+    "landmarks": [
+      "Cliffside Park Public Library",
+      "Cliffside Park Municipal Complex",
+      "James J. Braddock North Hudson County Park"
+    ],
+    "common_calls": [
+      "storefront door repair",
+      "security grille maintenance",
+      "overhead door spring replacement"
+    ],
+    "neighborhood_notes": "Cliffside Park's diverse commercial landscape, including retail along Anderson Avenue, often necessitates aesthetically pleasing and secure storefront doors and security grilles. Many commercial buildings also have overhead doors for deliveries and storage. Wind resistance can be a factor for doors facing the waterfront.",
+    "keywords": [
+      "cliffside park commercial door repair",
+      "storefront door service cliffside park",
+      "security grilles cliffside park",
+      "overhead door installation cliffside park",
+      "rolling steel door cliffside park",
+      "commercial door maintenance cliffside park"
+    ]
+  },
+  "fairview": {
+    "tagline": "Fairview's trusted partner for robust commercial doors, overheads, and security grilles.",
+    "landmarks": [
+      "Fairview Public Library",
+      "Memorial Park",
+      "Fairview Borough Hall"
+    ],
+    "common_calls": [
+      "overhead door spring replacement",
+      "rolling steel door repair",
+      "storefront glass door adjustment"
+    ],
+    "neighborhood_notes": "Fairview features a mix of older commercial structures and newer retail developments, many requiring reliable overhead and storefront door solutions. Businesses along Anderson Avenue often need quick service for high-traffic entryways. Ensuring security and smooth operation is key for local enterprises.",
+    "keywords": [
+      "fairview commercial door repair",
+      "overhead doors fairview nj",
+      "rolling steel door fairview",
+      "fairview storefront repair",
+      "commercial door service fairview",
+      "fairview security grilles"
+    ]
+  },
+  "edgewater": {
+    "tagline": "Edgewater's premier commercial door solutions: docks, high-speed doors, and storefront systems.",
+    "landmarks": [
+      "Edgewater Commons",
+      "Veterans Field",
+      "Edgewater Marina"
+    ],
+    "common_calls": [
+      "loading dock leveler repair",
+      "high-speed door maintenance",
+      "storefront door installation"
+    ],
+    "neighborhood_notes": "Edgewater's waterfront location and numerous retail centers mean a high demand for secure and efficient commercial doors. Many businesses require durable loading dock equipment and modern storefront solutions. Wind resistance and frequent use are important considerations for door systems here.",
+    "keywords": [
+      "edgewater commercial door repair",
+      "loading dock edgewater nj",
+      "high-speed doors edgewater",
+      "edgewater storefronts",
+      "commercial door installation edgewater",
+      "rolling doors edgewater"
+    ]
+  },
+  "fort-lee": {
+    "tagline": "Fort Lee's source for commercial overhead doors, security grilles, and emergency repairs.",
+    "landmarks": [
+      "Fort Lee Historic Park",
+      "Fort Lee Public Library",
+      "Fort Lee Borough Hall"
+    ],
+    "common_calls": [
+      "overhead door operator repair",
+      "security grille installation",
+      "hollow metal door replacement"
+    ],
+    "neighborhood_notes": "Fort Lee's diverse commercial landscape, from retail strips to larger commercial buildings, requires versatile door solutions. High-traffic areas often benefit from robust security grilles and reliable overhead doors. Proximity to major bridges means businesses need dependable access and egress.",
+    "keywords": [
+      "fort lee commercial door repair",
+      "overhead doors fort lee nj",
+      "security grilles fort lee",
+      "fort lee hollow metal doors",
+      "commercial door service fort lee",
+      "fort lee rolling doors"
+    ]
+  },
+  "palisades-park": {
+    "tagline": "Palisades Park's trusted commercial door contractor for rolling steel and storefronts.",
+    "landmarks": [
+      "Palisades Park Public Library",
+      "Overpeck County Park",
+      "Palisades Park Borough Hall"
+    ],
+    "common_calls": [
+      "rolling steel door repair",
+      "storefront door adjustment",
+      "fire-rated door inspection"
+    ],
+    "neighborhood_notes": "Palisades Park's commercial corridors feature a mix of retail and light industrial properties. Many businesses rely on durable rolling steel doors for security and efficient storefront systems. Regular maintenance ensures compliance and smooth operation in a bustling environment.",
+    "keywords": [
+      "palisades park commercial door",
+      "rolling steel palisades park",
+      "storefront repair palisades park",
+      "commercial door repair palisades park nj",
+      "fire doors palisades park",
+      "overhead doors palisades park"
+    ]
+  },
+  "leonia": {
+    "tagline": "Leonia's commercial door experts: overhead, hollow metal, and emergency repairs.",
+    "landmarks": [
+      "Leonia Public Library",
+      "Wood Park",
+      "Leonia Borough Hall"
+    ],
+    "common_calls": [
+      "overhead door track repair",
+      "hollow metal frame installation",
+      "commercial door emergency service"
+    ],
+    "neighborhood_notes": "Leonia's commercial areas, though smaller, still require robust and reliable door systems for various businesses. From auto service centers needing overhead doors to offices with hollow metal entrances, dependable service is essential. Maintaining security and functionality is a priority for local establishments.",
+    "keywords": [
+      "leonia commercial door repair",
+      "overhead doors leonia nj",
+      "hollow metal doors leonia",
+      "commercial door service leonia",
+      "leonia emergency door repair",
+      "rolling doors leonia"
+    ]
+  },
+  "englewood": {
+    "tagline": "Englewood's leading provider of commercial overhead doors, security grilles, and loading docks.",
+    "landmarks": [
+      "Bergen Performing Arts Center",
+      "Englewood Public Library",
+      "Englewood City Hall"
+    ],
+    "common_calls": [
+      "loading dock equipment repair",
+      "security grille motor replacement",
+      "commercial overhead door spring repair"
+    ],
+    "neighborhood_notes": "Englewood's vibrant downtown and surrounding commercial zones demand high-quality and secure door solutions. Many businesses benefit from robust security grilles and efficient loading dock systems. Architectural variety means diverse door types, from modern storefronts to heavy-duty industrial doors.",
+    "keywords": [
+      "englewood commercial door repair",
+      "loading dock englewood nj",
+      "security grilles englewood",
+      "commercial overhead doors englewood",
+      "englewood storefront repair",
+      "rolling doors englewood"
+    ]
+  },
+  "teaneck": {
+    "tagline": "Teaneck's trusted commercial door services for overheads, fire-rated assemblies, and operators.",
+    "landmarks": [
+      "Teaneck Public Library",
+      "Votee Park",
+      "Teaneck Road"
+    ],
+    "common_calls": [
+      "fire-rated door inspection",
+      "commercial operator repair",
+      "overhead sectional door replacement"
+    ],
+    "neighborhood_notes": "Teaneck's commercial districts feature a range of building types, from retail to light industrial, all requiring reliable door systems. Compliance with fire codes is crucial for many establishments, making fire-rated door services essential. Smooth-operating doors contribute to business efficiency and safety.",
+    "keywords": [
+      "teaneck commercial door repair",
+      "fire rated doors teaneck",
+      "overhead doors teaneck nj",
+      "commercial door operators teaneck",
+      "teaneck rolling doors",
+      "commercial door service teaneck"
+    ]
+  },
+  "bogota": {
+    "tagline": "Bogota's reliable commercial door solutions: rolling steel, hollow metal, and emergency repair.",
+    "landmarks": [
+      "Bogota Public Library",
+      "Oscar E. Olsen Park",
+      "Bogota Borough Hall"
+    ],
+    "common_calls": [
+      "rolling steel door slat replacement",
+      "hollow metal door closer adjustment",
+      "emergency commercial door repair"
+    ],
+    "neighborhood_notes": "Bogota's commercial areas often require durable and secure door systems for various businesses. Many older buildings may need hollow metal door upgrades or rolling steel door repairs. Prompt service ensures business continuity and security for local enterprises.",
+    "keywords": [
+      "bogota commercial door repair",
+      "rolling steel doors bogota",
+      "hollow metal bogota nj",
+      "commercial door service bogota",
+      "bogota emergency door repair",
+      "overhead doors bogota"
+    ]
+  },
+  "paramus": {
+    "tagline": "Paramus's trusted source for commercial door installation, repair, and loading dock solutions.",
+    "landmarks": [
+      "Paramus Park Mall",
+      "Garden State Plaza",
+      "Bergen Community College"
+    ],
+    "common_calls": [
+      "Overhead door repair Paramus",
+      "Loading dock leveler service",
+      "Storefront door replacement"
+    ],
+    "neighborhood_notes": "Paramus features numerous retail centers and commercial parks requiring robust security grilles and reliable overhead doors. High traffic volumes necessitate durable door systems and prompt service for businesses.",
+    "keywords": [
+      "paramus commercial door repair",
+      "overhead door paramus",
+      "loading dock paramus",
+      "rolling steel paramus",
+      "storefront doors paramus",
+      "commercial door service paramus"
+    ]
+  },
+  "bulls-ferry": {
+    "tagline": "Bulls Ferry commercial door experts: overhead doors, security grilles, and loading dock solutions.",
+    "landmarks": [
+      "Bulls Ferry Historic Area",
+      "James J. Braddock North Hudson County Park",
+      "Hudson River Waterfront Walkway"
+    ],
+    "common_calls": [
+      "Rolling steel door repair",
+      "Security grille installation",
+      "Loading dock equipment service"
+    ],
+    "neighborhood_notes": "The Bulls Ferry area, with its mix of commercial buildings and waterfront properties, demands durable and secure door systems. Wind resistance and reliable operation are key considerations for commercial doors here.",
+    "keywords": [
+      "bulls ferry commercial doors",
+      "north bergen overhead doors",
+      "security grilles bulls ferry",
+      "loading dock repair north bergen",
+      "commercial door service bulls ferry",
+      "rolling steel door bulls ferry"
+    ]
+  },
+  "newark": {
+    "tagline": "Newark's premier commercial door contractor for overhead doors, loading docks, and storefronts.",
+    "landmarks": [
+      "Newark Liberty International Airport",
+      "Prudential Center",
+      "New Jersey Performing Arts Center"
+    ],
+    "common_calls": [
+      "Emergency commercial door repair Newark",
+      "Loading dock plate repair",
+      "Overhead door operator service"
+    ],
+    "neighborhood_notes": "Newark's diverse commercial landscape, from industrial zones to bustling downtown areas, requires a variety of robust door solutions. Security and efficiency are paramount for businesses operating in this vibrant city.",
+    "keywords": [
+      "newark commercial door repair",
+      "overhead doors newark",
+      "loading dock newark",
+      "rolling steel newark",
+      "fire rated doors newark",
+      "storefront newark",
+      "commercial door service newark"
+    ]
+  },
+  "ironbound": {
+    "tagline": "Ironbound's commercial door specialists for reliable overhead doors, security grilles, and loading docks.",
+    "landmarks": [
+      "Ironbound Section",
+      "Newark Penn Station",
+      "Riverbank Park"
+    ],
+    "common_calls": [
+      "Rolling steel door repair Ironbound",
+      "Hollow metal door installation",
+      "Loading dock seal replacement"
+    ],
+    "neighborhood_notes": "The Ironbound's industrial and commercial character necessitates heavy-duty overhead doors and secure entry systems. Businesses benefit from reliable loading dock equipment and prompt repair services.",
+    "keywords": [
+      "ironbound commercial door repair",
+      "overhead doors ironbound",
+      "loading dock ironbound",
+      "security grilles ironbound",
+      "hollow metal ironbound",
+      "commercial door service ironbound"
+    ]
+  },
+  "port-newark": {
+    "tagline": "Port Newark's expert commercial door services: high-speed doors, loading docks, and operators.",
+    "landmarks": [
+      "Port Newark Container Terminal",
+      "Newark Bay",
+      "Global Container Terminals"
+    ],
+    "common_calls": [
+      "High-speed door repair Port Newark",
+      "Loading dock leveler service",
+      "Overhead door operator replacement"
+    ],
+    "neighborhood_notes": "Port Newark's high-traffic logistics and warehousing operations demand durable, high-performance doors. Efficient loading dock systems and reliable high-speed doors are critical for productivity and security in this area.",
+    "keywords": [
+      "port newark commercial doors",
+      "high-speed doors port newark",
+      "loading dock repair port newark",
+      "overhead door service port newark",
+      "rolling steel port newark",
+      "commercial door repair port newark"
+    ]
+  },
+  "elizabeth": {
+    "tagline": "Elizabeth's leading commercial door company for overhead doors, loading docks, and storefronts.",
+    "landmarks": [
+      "The Mills at Jersey Gardens",
+      "Warinanco Park",
+      "Elizabeth River"
+    ],
+    "common_calls": [
+      "Commercial overhead door repair Elizabeth",
+      "Storefront door installation",
+      "Loading dock equipment service"
+    ],
+    "neighborhood_notes": "Elizabeth's diverse commercial landscape, including retail and industrial zones, requires robust and secure door systems. Businesses need reliable service for both high-traffic storefronts and heavy-duty loading docks.",
+    "keywords": [
+      "elizabeth commercial door repair",
+      "overhead doors elizabeth",
+      "loading dock elizabeth",
+      "rolling steel elizabeth",
+      "storefront doors elizabeth",
+      "commercial door service elizabeth"
+    ]
+  },
+  "port-elizabeth": {
+    "tagline": "Port Elizabeth's commercial door experts for high-speed doors, loading docks, and operators.",
+    "landmarks": [
+      "Port Newark-Elizabeth Marine Terminal",
+      "Goethals Bridge",
+      "Elizabeth Channel"
+    ],
+    "common_calls": [
+      "High-speed door repair Port Elizabeth",
+      "Loading dock leveler service",
+      "Overhead door operator replacement"
+    ],
+    "neighborhood_notes": "Port Elizabeth's intense industrial activity necessitates highly durable and efficient commercial door solutions. High-speed doors and robust loading dock equipment are essential for maintaining operational flow and security.",
+    "keywords": [
+      "port elizabeth commercial doors",
+      "high-speed doors port elizabeth",
+      "loading dock repair port elizabeth",
+      "overhead door service port elizabeth",
+      "rolling steel port elizabeth",
+      "commercial door repair port elizabeth"
+    ]
+  },
+  "linden": {
+    "tagline": "Linden's trusted commercial door contractor for overhead doors, loading docks, and security grilles.",
+    "landmarks": [
+      "Linden Airport",
+      "Tremley Point",
+      "Hawk Rise Sanctuary"
+    ],
+    "common_calls": [
+      "Overhead sectional door repair Linden",
+      "Rolling steel door installation",
+      "Loading dock seal replacement"
+    ],
+    "neighborhood_notes": "Linden's industrial and commercial areas benefit from durable overhead doors and secure entry solutions. Reliable loading dock equipment and prompt repair services are crucial for local businesses.",
+    "keywords": [
+      "linden commercial door repair",
+      "overhead doors linden",
+      "loading dock linden",
+      "rolling steel linden",
+      "security grilles linden",
+      "commercial door service linden"
+    ]
+  },
+  "hillside": {
+    "tagline": "Hillside's trusted partner for robust commercial doors, ensuring security, efficiency, and expert installation.",
+    "landmarks": [
+      "Hillside Public Library",
+      "Hillside High School",
+      "Conant Park"
+    ],
+    "common_calls": [
+      "overhead door repair",
+      "loading dock leveler service",
+      "fire-rated door inspection"
+    ],
+    "neighborhood_notes": "Hillside features a mix of industrial parks and commercial corridors, requiring durable and secure commercial door solutions. Many businesses benefit from high-speed doors for efficiency and rolling steel doors for robust security. Proper maintenance is key to preventing disruptions.",
+    "keywords": [
+      "hillside commercial door repair",
+      "overhead door hillside nj",
+      "rolling steel door hillside",
+      "loading dock repair hillside",
+      "fire door service hillside",
+      "hillside commercial door installation"
+    ]
+  },
+  "irvington": {
+    "tagline": "Irvington's commercial door specialists, providing reliable installation, repair, and maintenance for all business types.",
+    "landmarks": [
+      "Irvington Public Library",
+      "Irvington Park",
+      "Irvington Town Hall"
+    ],
+    "common_calls": [
+      "storefront door replacement",
+      "security grille installation",
+      "overhead door operator repair"
+    ],
+    "neighborhood_notes": "Irvington's commercial landscape includes many storefront businesses and light industrial facilities. Security grilles and robust storefront doors are often essential to protect assets. Regular service ensures operational efficiency and compliance.",
+    "keywords": [
+      "irvington commercial door repair",
+      "storefront door irvington",
+      "security grilles irvington",
+      "overhead door irvington nj",
+      "irvington loading dock service",
+      "commercial door installation irvington"
+    ]
+  },
+  "east-orange": {
+    "tagline": "East Orange commercial door experts: installation, repair, and service for overhead, rolling steel, and storefront doors.",
+    "landmarks": [
+      "East Orange City Hall",
+      "Upsala College Historical Society",
+      "East Orange Public Library"
+    ],
+    "common_calls": [
+      "hollow metal door repair",
+      "high-speed door maintenance",
+      "overhead door spring replacement"
+    ],
+    "neighborhood_notes": "East Orange has a diverse commercial environment, from retail establishments to warehouses and municipal buildings. Hollow metal doors are common for security and fire ratings, while efficient high-speed doors benefit busy facilities. Adherence to local building codes is crucial for all installations.",
+    "keywords": [
+      "east orange commercial door",
+      "overhead door repair east orange",
+      "hollow metal door east orange",
+      "high-speed door east orange",
+      "storefront repair east orange",
+      "east orange commercial door service"
+    ]
+  },
+  "bloomfield": {
+    "tagline": "Bloomfield's premier commercial door solutions, offering durable installations and prompt repairs for every business.",
+    "landmarks": [
+      "Bloomfield College",
+      "Bloomfield Public Library",
+      "Brookdale Park"
+    ],
+    "common_calls": [
+      "rolling steel door repair",
+      "loading dock seal replacement",
+      "commercial door operator repair"
+    ],
+    "neighborhood_notes": "Bloomfield features a mix of retail, light industrial, and institutional buildings. Rolling steel doors provide excellent security for many businesses, and functional loading docks are vital for logistics. Proactive maintenance helps prevent costly downtime.",
+    "keywords": [
+      "bloomfield commercial door",
+      "rolling steel door bloomfield",
+      "loading dock repair bloomfield",
+      "overhead door bloomfield nj",
+      "commercial door repair bloomfield",
+      "bloomfield security grilles"
+    ]
+  },
+  "belleville": {
+    "tagline": "Belleville's trusted source for commercial door installation, repair, and maintenance, ensuring business continuity.",
+    "landmarks": [
+      "Belleville High School",
+      "Belleville Public Library",
+      "Belleville Park"
+    ],
+    "common_calls": [
+      "overhead sectional door repair",
+      "fire-rated door inspection",
+      "storefront door adjustment"
+    ],
+    "neighborhood_notes": "Belleville's commercial areas include storefronts and smaller industrial operations. Overhead sectional doors are common for many facilities, and fire-rated assemblies are critical for safety and code compliance. Ensuring smooth operation is key for daily business.",
+    "keywords": [
+      "belleville commercial door",
+      "overhead door belleville nj",
+      "fire door belleville",
+      "storefront repair belleville",
+      "belleville loading dock",
+      "commercial door repair belleville"
+    ]
+  },
+  "nutley": {
+    "tagline": "Nutley's leading commercial door specialists, delivering quality installation, repair, and reliable service.",
+    "landmarks": [
+      "Nutley Public Library",
+      "Nutley High School",
+      "Memorial Park"
+    ],
+    "common_calls": [
+      "security grille repair",
+      "hollow metal door installation",
+      "overhead door cable replacement"
+    ],
+    "neighborhood_notes": "Nutley has a vibrant downtown commercial district and some light industrial areas. Security grilles are often necessary for storefronts, while hollow metal doors provide robust security and fire protection for various facilities. Proper installation ensures longevity and performance.",
+    "keywords": [
+      "nutley commercial door",
+      "security grilles nutley",
+      "hollow metal door nutley",
+      "overhead door nutley nj",
+      "commercial door repair nutley",
+      "nutley storefront door"
+    ]
+  },
+  "clifton": {
+    "tagline": "Clifton's go-to for commercial door solutions, specializing in overhead, rolling steel, and high-speed door services.",
+    "landmarks": [
+      "Clifton City Hall",
+      "Clifton Public Library",
+      "Clifton Commons"
+    ],
+    "common_calls": [
+      "loading dock equipment repair",
+      "high-speed door troubleshooting",
+      "rolling steel door chain hoist repair"
+    ],
+    "neighborhood_notes": "Clifton is home to numerous industrial parks and commercial centers, often featuring extensive loading docks and high-volume operations. High-speed doors and efficient loading dock equipment are critical for productivity. Durable rolling steel doors are also essential for security.",
+    "keywords": [
+      "clifton commercial door",
+      "loading dock repair clifton",
+      "high-speed door clifton",
+      "rolling steel door clifton",
+      "overhead door clifton nj",
+      "commercial door repair clifton"
+    ]
+  },
+  "passaic": {
+    "tagline": "Passaic's trusted commercial door experts, offering comprehensive repair, installation, and maintenance services.",
+    "landmarks": [
+      "Passaic City Hall",
+      "Passaic Public Library",
+      "Dundee Island Park"
+    ],
+    "common_calls": [
+      "overhead sectional door repair",
+      "security grilles installation",
+      "fire-rated door inspection"
+    ],
+    "neighborhood_notes": "Passaic has a mix of commercial and industrial properties, many requiring robust and compliant door systems. Overhead sectional doors are common, and security grilles are frequently needed for retail and warehouse protection. Regular fire door inspections are crucial for safety and code adherence.",
+    "keywords": [
+      "passaic commercial door",
+      "overhead door passaic nj",
+      "security grilles passaic",
+      "fire door service passaic",
+      "loading dock repair passaic",
+      "commercial door installation passaic"
+    ]
+  },
+  "staten-island-st-george": {
+    "tagline": "St. George's commercial doors: waterfront security, high-speed access, and reliable overhead solutions.",
+    "landmarks": [
+      "St. George Terminal",
+      "Staten Island FerryHawks Stadium",
+      "National Lighthouse Museum"
+    ],
+    "common_calls": [
+      "rolling steel door repair",
+      "loading dock leveler service",
+      "storefront glass replacement"
+    ],
+    "neighborhood_notes": "The St. George waterfront features numerous commercial properties requiring robust security grilles and high-speed doors for efficient operations. Businesses here often need durable solutions to withstand the coastal weather and heavy foot traffic.",
+    "keywords": [
+      "staten island commercial door repair",
+      "st george rolling steel door",
+      "staten island loading dock service",
+      "commercial overhead door staten island",
+      "fire rated door st george",
+      "staten island security grilles"
     ]
   },
   "financial-district": {
-    "tagline": "Financial District's expert door solutions: supply, installation, and repair for commercial properties.",
+    "tagline": "Financial District commercial doors: secure, high-traffic solutions for modern businesses and facilities.",
     "landmarks": [
-      "Wall Street",
-      "One World Trade Center",
-      "Charging Bull"
+      "New York Stock Exchange",
+      "Federal Hall National Memorial",
+      "One World Trade Center"
     ],
     "common_calls": [
-      "repair revolving door mechanism",
-      "install new access control doors",
-      "fix commercial glass storefront door"
+      "hollow metal door installation",
+      "security grille repair",
+      "high-speed door maintenance"
     ],
-    "neighborhood_notes": "The Financial District is dominated by high-rise commercial buildings requiring heavy-duty, high-security, and often automated door systems. Fire code compliance for doors is paramount in these structures. Frequent use means components like closers and hinges wear out quickly.",
+    "neighborhood_notes": "With its dense concentration of high-rise commercial buildings, the Financial District demands robust and secure door systems. High-traffic areas necessitate durable hollow metal doors and reliable access solutions, often requiring compliance with stringent building codes.",
     "keywords": [
-      "financial district door repair",
-      "commercial door installation manhattan",
-      "revolving door repair financial district",
-      "access control doors nyc",
-      "storefront door repair financial district",
-      "emergency door service manhattan"
-    ]
-  },
-  "tribeca": {
-    "tagline": "Tribeca door supply, installation, and repair. Servicing lofts, businesses, and residential buildings.",
-    "landmarks": [
-      "Franklin Street Station",
-      "Washington Market Park",
-      "Hudson River Park"
-    ],
-    "common_calls": [
-      "adjust pivot hinge on loft door",
-      "install new soundproof apartment door",
-      "repair commercial entrance door"
-    ],
-    "neighborhood_notes": "Tribeca features many converted industrial lofts with oversized and custom doors, often requiring specialized hardware and expert installation. High-end residential buildings frequently request soundproof or security-enhanced doors. Commercial storefronts need durable and aesthetically pleasing entrance doors.",
-    "keywords": [
-      "tribeca door repair",
-      "loft door installation tribeca",
-      "commercial door service tribeca",
-      "soundproof door manhattan",
-      "residential door repair tribeca",
-      "emergency door repair nyc"
-    ]
-  },
-  "soho": {
-    "tagline": "SoHo door supply, installation, and repair. Stylish and secure doors for unique spaces.",
-    "landmarks": [
-      "Washington Square Park",
-      "New York University",
-      "Broadway-Lafayette Street Station"
-    ],
-    "common_calls": [
-      "repair squeaky interior loft door",
-      "install new custom glass storefront",
-      "replace apartment entry door"
-    ],
-    "neighborhood_notes": "SoHo's historic cast-iron buildings and loft conversions often require custom-sized doors and period-appropriate hardware. Retail spaces demand visually appealing and secure storefront doors. Residential units frequently need robust entry doors for security and sound insulation.",
-    "keywords": [
-      "soho door repair",
-      "custom door installation soho",
-      "storefront door repair soho",
-      "residential door service manhattan",
-      "loft door repair nyc",
-      "commercial door installation soho"
-    ]
-  },
-  "greenwich-village": {
-    "tagline": "Greenwich Village door repair, installation, and supply. Historic charm meets modern door security and style.",
-    "landmarks": [
-      "Washington Square Park",
-      "New York University",
-      "The Stonewall Inn"
-    ],
-    "common_calls": [
-      "Repairing squeaky apartment entry doors",
-      "Installing new storefront doors for boutiques",
-      "Adjusting misaligned brownstone doors"
-    ],
-    "neighborhood_notes": "Many buildings in Greenwich Village are historic brownstones and pre-war apartments, often requiring custom door sizes and hardware. Commercial establishments frequently need robust storefront doors that complement the neighborhood's aesthetic. Door security is a top concern for both residential and commercial properties.",
-    "keywords": [
-      "greenwich village door repair",
-      "brownstone door installation",
-      "historic door hardware",
+      "financial district commercial door repair",
+      "fi-di hollow metal doors",
+      "security grilles financial district",
       "commercial door service manhattan",
-      "apartment door repair greenwich village",
-      "custom doors nyc"
-    ]
-  },
-  "chelsea": {
-    "tagline": "Chelsea's trusted source for door repair, new door installation, and quality door supplies.",
-    "landmarks": [
-      "The High Line",
-      "Chelsea Market",
-      "Rubin Museum of Art"
-    ],
-    "common_calls": [
-      "Fixing broken commercial glass doors",
-      "Installing modern loft apartment doors",
-      "Repairing office building entrance doors"
-    ],
-    "neighborhood_notes": "Chelsea features a mix of industrial-chic lofts, art galleries, and commercial spaces, leading to diverse door needs. Many commercial properties require ADA-compliant doors and high-security solutions. Residential buildings often seek stylish, durable apartment entry doors.",
-    "keywords": [
-      "chelsea door repair",
-      "commercial door installation chelsea",
-      "loft apartment doors manhattan",
-      "storefront door repair nyc",
-      "high-security doors chelsea",
-      "glass door repair manhattan"
-    ]
-  },
-  "flatiron": {
-    "tagline": "Flatiron District door repair, installation, and supply for offices, retail, and residences.",
-    "landmarks": [
-      "Flatiron Building",
-      "Madison Square Park",
-      "Eataly NYC Flatiron"
-    ],
-    "common_calls": [
-      "Repairing revolving doors in office buildings",
-      "Installing sleek commercial entry doors",
-      "Replacing apartment balcony doors"
-    ],
-    "neighborhood_notes": "The Flatiron District is characterized by its iconic commercial buildings and a growing residential presence. Office buildings frequently require specialized doors like revolving or automatic sliding doors, while residential units need secure and aesthetically pleasing entry doors. Durability and modern design are key considerations.",
-    "keywords": [
-      "flatiron door repair",
-      "commercial door service flatiron",
-      "revolving door repair manhattan",
-      "office door installation nyc",
-      "apartment door replacement flatiron",
-      "automatic door repair"
-    ]
-  },
-  "murray-hill": {
-    "tagline": "Murray Hill door repair, new door installation, and reliable door supply for all properties.",
-    "landmarks": [
-      "Grand Central Terminal",
-      "Morgan Library & Museum",
-      "Chrysler Building"
-    ],
-    "common_calls": [
-      "Repairing apartment building lobby doors",
-      "Installing fire-rated apartment entry doors",
-      "Adjusting commercial office suite doors"
-    ],
-    "neighborhood_notes": "Murray Hill is predominantly residential with many pre-war apartment buildings and some commercial spaces. Common door issues include wear and tear on older apartment doors and the need for upgraded security. Fire-rated doors are often a requirement for multi-unit residential buildings.",
-    "keywords": [
-      "murray hill door repair",
-      "apartment door installation murray hill",
-      "fire-rated doors nyc",
-      "commercial door repair manhattan",
-      "lobby door service",
-      "door hardware murray hill"
-    ]
-  },
-  "gramercy": {
-    "tagline": "Gramercy Park door repair, installation, and supply. Enhancing security and elegance.",
-    "landmarks": [
-      "Gramercy Park",
-      "Pete's Tavern",
-      "National Arts Club"
-    ],
-    "common_calls": [
-      "Repairing historic brownstone entry doors",
-      "Installing high-security apartment doors",
-      "Replacing worn-out interior doors"
-    ],
-    "neighborhood_notes": "Gramercy is known for its historic brownstones and upscale apartment buildings. Doors often need to match the architectural integrity of the area, sometimes requiring custom craftsmanship. Security is paramount, and residents frequently seek robust, aesthetically pleasing entry doors.",
-    "keywords": [
-      "gramercy door repair",
-      "historic brownstone door service",
-      "custom wood doors nyc",
-      "high-security apartment doors gramercy",
-      "door hardware replacement",
-      "residential door installation manhattan"
-    ]
-  },
-  "east-village": {
-    "tagline": "East Village door repair, installation, and supply for unique shops and residences.",
-    "landmarks": [
-      "St. Mark's Church in-the-Bowery",
-      "Tompkins Square Park",
-      "Nuyorican Poets Cafe"
-    ],
-    "common_calls": [
-      "Fixing storefront doors for small businesses",
-      "Repairing apartment entry doors with security issues",
-      "Installing new doors for renovated spaces"
-    ],
-    "neighborhood_notes": "The East Village features a mix of older tenement buildings, renovated apartments, and diverse storefronts. Doors often face heavy use and require durable, secure solutions. Many small businesses need reliable commercial doors that fit the neighborhood's eclectic vibe.",
-    "keywords": [
-      "east village door repair",
-      "storefront door repair east village",
-      "apartment door security nyc",
-      "commercial door installation manhattan",
-      "tenement building door repair",
-      "door replacement east village"
-    ]
-  },
-  "west-village": {
-    "tagline": "West Village door repair, installation, and supply. Preserving charm, ensuring security.",
-    "landmarks": [
-      "Christopher Street Pier",
-      "Jefferson Market Garden",
-      "The Cherry Lane Theatre"
-    ],
-    "common_calls": [
-      "Repairing misaligned brownstone doors",
-      "Installing elegant residential entry doors",
-      "Fixing commercial doors for boutiques"
-    ],
-    "neighborhood_notes": "The West Village is characterized by its historic brownstones, narrow streets, and charming boutiques. Doors often require custom sizes and period-appropriate hardware to maintain the neighborhood's aesthetic. Security and weather resistance are important for these older structures.",
-    "keywords": [
-      "west village door repair",
-      "brownstone door repair nyc",
-      "historic door installation west village",
-      "custom residential doors manhattan",
-      "boutique storefront door service",
-      "door hardware west village"
-    ]
-  },
-  "midtown": {
-    "tagline": "Midtown door repair, installation, and supply for commercial, retail, and residential needs.",
-    "landmarks": [
-      "Times Square",
-      "Empire State Building",
-      "Rockefeller Center"
-    ],
-    "common_calls": [
-      "Repairing automatic sliding doors in office towers",
-      "Installing high-traffic commercial entrance doors",
-      "Servicing hotel lobby doors"
-    ],
-    "neighborhood_notes": "Midtown is a bustling commercial hub with numerous office buildings, hotels, and retail establishments. Doors experience extremely high traffic and require robust, often automated, solutions. Security and ADA compliance are critical for most commercial properties in this area.",
-    "keywords": [
-      "midtown door repair",
-      "commercial door service midtown",
-      "automatic door repair nyc",
-      "revolving door installation manhattan",
-      "hotel door repair",
-      "storefront door replacement midtown"
-    ]
-  },
-  "midtown-east": {
-    "tagline": "Midtown East: Expert door repair, installation, and supply for commercial and residential properties.",
-    "landmarks": [
-      "Grand Central Terminal",
-      "Chrysler Building",
-      "United Nations Headquarters"
-    ],
-    "common_calls": [
-      "repair revolving door",
-      "install commercial storefront door",
-      "fix office door closer"
-    ],
-    "neighborhood_notes": "Midtown East features a high concentration of commercial high-rises and luxury residential buildings. Doors often require heavy-duty hardware and ADA compliance for accessibility. Many older buildings may have original, ornate doors needing specialized repair.",
-    "keywords": [
-      "midtown east door repair",
-      "commercial door midtown east",
-      "office door repair manhattan",
-      "storefront door installation",
-      "revolving door service",
-      "midtown east door supply"
-    ]
-  },
-  "midtown-west": {
-    "tagline": "Midtown West: Your trusted partner for door repair, installation, and supply services.",
-    "landmarks": [
-      "Times Square",
-      "Rockefeller Center",
-      "Broadway Theatres"
-    ],
-    "common_calls": [
-      "emergency door repair",
-      "install new security door",
-      "fix theater entrance door"
-    ],
-    "neighborhood_notes": "Midtown West is a bustling area with numerous commercial establishments, entertainment venues, and residential buildings. High-traffic doors, especially in retail and theater spaces, often need frequent maintenance and robust security features. Emergency door services are commonly requested due to constant activity.",
-    "keywords": [
-      "midtown west door repair",
-      "commercial door midtown west",
-      "emergency door service manhattan",
-      "storefront door repair",
-      "security door installation",
-      "theater door repair"
-    ]
-  },
-  "hells-kitchen": {
-    "tagline": "Hell's Kitchen: Reliable door solutions for residential, commercial, and restaurant properties.",
-    "landmarks": [
-      "Intrepid Sea, Air & Space Museum",
-      "Restaurant Row",
-      "Port Authority Bus Terminal"
-    ],
-    "common_calls": [
-      "repair restaurant kitchen door",
-      "install apartment entry door",
-      "fix storefront glass door"
-    ],
-    "neighborhood_notes": "Hell's Kitchen has a mix of residential walk-ups, new developments, and a vibrant restaurant scene. Doors in older buildings may be prone to wear and tear, while commercial kitchens require durable, often fire-rated, doors. Security is a key concern for residential and commercial doors.",
-    "keywords": [
-      "hells kitchen door repair",
-      "apartment door installation",
-      "restaurant door repair",
-      "commercial door hells kitchen",
-      "fire rated door service",
-      "storefront door repair manhattan"
-    ]
-  },
-  "upper-east-side": {
-    "tagline": "Upper East Side: Premium door repair, installation, and supply for discerning clients.",
-    "landmarks": [
-      "Metropolitan Museum of Art",
-      "Central Park Zoo",
-      "Gracie Mansion"
-    ],
-    "common_calls": [
-      "repair brownstone entry door",
-      "install luxury apartment door",
-      "replace custom wood door"
-    ],
-    "neighborhood_notes": "The Upper East Side features many historic brownstones, luxury co-ops, and high-end residential buildings. Doors often require aesthetic sensitivity, custom sizing, and high-quality hardware. Preserving the architectural integrity of original doors is frequently a priority.",
-    "keywords": [
-      "upper east side door repair",
-      "luxury apartment door",
-      "brownstone door repair",
-      "custom wood door manhattan",
-      "door hardware installation",
-      "residential door service"
-    ]
-  },
-  "upper-west-side": {
-    "tagline": "Upper West Side: Expert door repair, installation, and supply for classic and modern homes.",
-    "landmarks": [
-      "American Museum of Natural History",
-      "Lincoln Center for the Performing Arts",
-      "Beacon Theatre"
-    ],
-    "common_calls": [
-      "fix pre-war apartment door",
-      "install new patio door",
-      "repair brownstone entrance door"
-    ],
-    "neighborhood_notes": "The Upper West Side is characterized by pre-war apartment buildings, brownstones, and some newer developments. Doors in these buildings often require specialized knowledge for repair and replacement, especially regarding historical accuracy and robust security. Patio doors are common in buildings facing Central Park.",
-    "keywords": [
-      "upper west side door repair",
-      "pre-war apartment door",
-      "brownstone door repair manhattan",
-      "patio door installation",
-      "residential door service",
-      "door hardware repair"
-    ]
-  },
-  "harlem": {
-    "tagline": "Harlem: Comprehensive door repair, installation, and supply for homes and businesses.",
-    "landmarks": [
-      "Apollo Theater",
-      "Studio Museum in Harlem",
-      "Schomburg Center for Research in Black Culture"
-    ],
-    "common_calls": [
-      "repair stoop entry door",
-      "install storefront security door",
-      "fix apartment building entrance"
-    ],
-    "neighborhood_notes": "Harlem features a diverse mix of historic brownstones, rowhouses, and apartment buildings, alongside commercial corridors. Doors often require security enhancements and durable materials to withstand heavy use. Many stoop doors need repair or replacement to maintain curb appeal and safety.",
-    "keywords": [
-      "harlem door repair",
-      "brownstone door harlem",
-      "storefront door installation",
-      "apartment entry door",
-      "security door repair",
-      "commercial door service"
-    ]
-  },
-  "east-harlem": {
-    "tagline": "East Harlem: Reliable door repair, installation, and supply for all property types.",
-    "landmarks": [
-      "El Museo del Barrio",
-      "Thomas Jefferson Park",
-      "P.S. 109 East Harlem ArtSpace"
-    ],
-    "common_calls": [
-      "repair apartment building door",
-      "install steel security door",
-      "fix commercial glass door"
-    ],
-    "neighborhood_notes": "East Harlem, or El Barrio, has a mix of residential buildings, including tenements and public housing, as well as commercial establishments. Security is a primary concern, leading to a demand for robust and secure door options. Many older building doors may require significant repair due to age and wear.",
-    "keywords": [
-      "east harlem door repair",
-      "security door east harlem",
-      "apartment door installation",
-      "commercial door repair",
-      "steel door service",
-      "door replacement manhattan"
-    ]
-  },
-  "washington-heights": {
-    "tagline": "Washington Heights: Your local door experts for repair, installation, and supply.",
-    "landmarks": [
-      "The Cloisters",
-      "NewYork-Presbyterian Hospital",
-      "George Washington Bridge"
-    ],
-    "common_calls": [
-      "repair apartment entrance door",
-      "install fire-rated door",
-      "fix commercial building door"
-    ],
-    "neighborhood_notes": "Washington Heights is predominantly residential with many pre-war apartment buildings and some commercial areas. Doors in these buildings often need repair due to age and frequent use, particularly common entry doors. Fire-rated doors are a significant requirement for multi-unit residential buildings.",
-    "keywords": [
-      "washington heights door repair",
-      "apartment door repair",
-      "fire-rated door installation",
-      "commercial door washington heights",
-      "entry door replacement",
-      "door closer repair"
-    ]
-  },
-  "inwood": {
-    "tagline": "Inwood's trusted source for door repair, installation, and replacement services. We keep your entries secure.",
-    "landmarks": [
-      "Inwood Hill Park",
-      "Dyckman Farmhouse Museum",
-      "Columbia University Boathouse"
-    ],
-    "common_calls": [
-      "Apartment entry door repair",
-      "Storefront door installation",
-      "Fire-rated door inspection"
-    ],
-    "neighborhood_notes": "Inwood features a mix of pre-war apartment buildings and some newer constructions. Many older buildings require door hardware upgrades to meet current security standards. Ensuring proper fire door function is also a common concern in multi-unit dwellings.",
-    "keywords": [
-      "inwood door repair",
-      "door installation inwood",
-      "commercial doors inwood",
-      "apartment door repair manhattan",
-      "fire door service inwood",
-      "entry door replacement inwood"
-    ]
-  },
-  "morningside-heights": {
-    "tagline": "Morningside Heights door experts: reliable repair, secure installation, and quality door replacements.",
-    "landmarks": [
-      "Cathedral of Saint John the Divine",
-      "Columbia University",
-      "Riverside Church"
-    ],
-    "common_calls": [
-      "Brownstone entry door restoration",
-      "University building door repair",
-      "Apartment security door upgrade"
-    ],
-    "neighborhood_notes": "Morningside Heights is known for its historic brownstones and large institutional buildings. Doors often need repair due to age, heavy use, or to maintain architectural integrity. Security upgrades for residential and commercial doors are frequently requested.",
-    "keywords": [
-      "morningside heights door repair",
-      "brownstone door repair manhattan",
-      "commercial door service morningside heights",
-      "door installation morningside heights",
-      "security door upgrade morningside heights",
-      "historic door restoration manhattan"
+      "high speed doors financial district",
+      "loading dock repair fi-di"
     ]
   },
   "battery-park-city": {
-    "tagline": "Battery Park City's premier door service for modern residential and commercial door solutions.",
+    "tagline": "Battery Park City commercial doors: elegant, secure, and resilient solutions for waterfront properties.",
     "landmarks": [
-      "One World Trade Center",
       "Brookfield Place",
-      "Statue of Liberty View"
+      "Statue of Liberty View",
+      "Museum of Jewish Heritage"
     ],
     "common_calls": [
-      "High-rise apartment door adjustment",
-      "Storefront glass door repair",
-      "Building entrance door maintenance"
+      "storefront door repair",
+      "overhead door operator service",
+      "security grille installation"
     ],
-    "neighborhood_notes": "Battery Park City features modern high-rise residential and commercial buildings. Doors often incorporate advanced security features and require precise adjustments. Wind and weather exposure from the waterfront can affect door performance and hardware.",
+    "neighborhood_notes": "Battery Park City's upscale commercial spaces and mixed-use developments require aesthetically pleasing yet highly secure door solutions. Waterfront exposure means doors must be resilient against wind and weather, while maintaining a sophisticated appearance.",
     "keywords": [
-      "battery park city door repair",
-      "commercial door installation battery park city",
-      "apartment door service manhattan",
-      "glass door repair battery park city",
-      "high-rise door repair",
-      "entry door replacement battery park city"
+      "battery park city commercial door",
+      "storefront door repair battery park city",
+      "security grilles battery park city",
+      "overhead door service manhattan",
+      "hollow metal doors bpc",
+      "commercial door installation battery park"
     ]
   },
-  "chinatown": {
-    "tagline": "Chinatown door repair and installation: reliable service for businesses and residences.",
+  "tribeca": {
+    "tagline": "Tribeca commercial doors: robust, stylish solutions for historic buildings and modern enterprises.",
     "landmarks": [
-      "Columbus Park",
-      "Museum of Chinese in America",
-      "Mahayana Buddhist Temple"
+      "Staple Street Skybridge",
+      "Washington Market Park",
+      "Greenwich Street"
     ],
     "common_calls": [
-      "Storefront security gate repair",
-      "Restaurant kitchen door replacement",
-      "Apartment building common door repair"
+      "rolling steel door repair",
+      "hollow metal door replacement",
+      "storefront gate service"
     ],
-    "neighborhood_notes": "Chinatown has many older commercial and residential buildings with high foot traffic. Storefront doors and security gates experience heavy use and often require frequent repairs. Fire code compliance for doors in restaurants and multi-unit dwellings is crucial.",
+    "neighborhood_notes": "Tribeca's blend of historic industrial buildings and upscale commercial spaces requires versatile door solutions. Many businesses need durable rolling steel doors or security grilles that complement the neighborhood's unique architectural character and provide enhanced security.",
     "keywords": [
-      "chinatown door repair",
-      "storefront door service chinatown",
-      "commercial door installation manhattan",
-      "security gate repair chinatown",
-      "apartment door repair chinatown",
-      "restaurant door replacement"
+      "tribeca commercial door repair",
+      "rolling steel doors tribeca",
+      "storefront gate tribeca",
+      "hollow metal door manhattan",
+      "commercial overhead door tribeca",
+      "tribeca security grilles"
     ]
   },
-  "little-italy": {
-    "tagline": "Little Italy's trusted door specialists for historic charm and modern security.",
+  "chelsea-nyc": {
+    "tagline": "Chelsea commercial doors: high-performance solutions for galleries, studios, and high-traffic businesses.",
     "landmarks": [
-      "St. Patrick's Old Cathedral",
-      "Mulberry Street",
-      "Italian American Museum"
+      "Chelsea Market",
+      "The High Line",
+      "Piers 59-62"
     ],
     "common_calls": [
-      "Historic storefront door repair",
-      "Restaurant entry door replacement",
-      "Residential building common door service"
+      "overhead sectional door repair",
+      "high-speed door maintenance",
+      "loading dock equipment service"
     ],
-    "neighborhood_notes": "Little Italy features many historic buildings, requiring careful attention to door aesthetics and functionality. Commercial doors, especially for restaurants, endure constant use. Maintaining the historical integrity of doors while ensuring modern security is a key need.",
+    "neighborhood_notes": "Chelsea's vibrant arts scene and commercial corridors often feature large, accessible spaces requiring reliable overhead sectional doors and efficient high-speed doors. Many businesses along the west side also rely on robust loading dock equipment for daily operations.",
     "keywords": [
-      "little italy door repair",
-      "historic door restoration little italy",
-      "commercial door service little italy",
-      "restaurant door repair manhattan",
-      "storefront door replacement little italy",
-      "entry door repair little italy"
+      "chelsea commercial door repair",
+      "overhead sectional door chelsea",
+      "high speed doors chelsea",
+      "loading dock repair chelsea",
+      "chelsea storefront doors",
+      "commercial door service nyc"
     ]
   },
-  "nolita": {
-    "tagline": "NoLita door solutions: stylish installations, expert repairs, and security upgrades for unique spaces.",
+  "hudson-yards": {
+    "tagline": "Hudson Yards commercial doors: cutting-edge solutions for modern high-rises and retail spaces.",
     "landmarks": [
-      "New Museum",
-      "Elizabeth Street Garden",
-      "St. Patrick's Old Cathedral School"
+      "The Vessel",
+      "Edge Observation Deck",
+      "Hudson Yards Mall"
     ],
     "common_calls": [
-      "Boutique storefront door installation",
-      "Loft apartment entry door repair",
-      "Commercial glass door adjustment"
+      "fire-rated door inspection",
+      "storefront glass repair",
+      "high-speed door installation"
     ],
-    "neighborhood_notes": "NoLita is characterized by trendy boutiques, art galleries, and residential lofts. Doors often need to combine aesthetic appeal with robust security. Custom door solutions and high-quality hardware are frequently requested for both commercial and residential properties.",
+    "neighborhood_notes": "Hudson Yards' contemporary architecture and high-tech infrastructure demand state-of-the-art commercial door systems. Fire-rated assemblies and high-speed doors are crucial for safety and efficiency in this dense, vertical commercial environment.",
     "keywords": [
-      "nolita door repair",
-      "storefront door installation nolita",
-      "commercial glass door service manhattan",
-      "loft door repair nolita",
-      "boutique door replacement",
-      "entry door upgrade nolita"
+      "hudson yards commercial door",
+      "fire rated doors hudson yards",
+      "high speed door installation nyc",
+      "storefront repair hudson yards",
+      "commercial overhead door hudson yards",
+      "security grilles hudson yards"
     ]
   },
-  "noho": {
-    "tagline": "NoHo door experts: premium installations, reliable repairs, and secure solutions for distinctive properties.",
-    "landmarks": [
-      "The Public Theater",
-      "Astor Place",
-      "Great Jones Street"
-    ],
-    "common_calls": [
-      "Loft building entrance door repair",
-      "Gallery storefront door installation",
-      "Commercial fire door inspection"
-    ],
-    "neighborhood_notes": "NoHo features grand loft buildings and historic commercial spaces. Doors often require specialized hardware to match architectural styles and meet security demands. Fire doors in these multi-story buildings are critical for safety and code compliance.",
-    "keywords": [
-      "noho door repair",
-      "loft door installation noho",
-      "commercial fire door service manhattan",
-      "storefront door repair noho",
-      "entry door replacement noho",
-      "historic building door repair"
-    ]
-  },
-  "kips-bay": {
-    "tagline": "Kips Bay door services: dependable repair, secure installation, and efficient replacements.",
-    "landmarks": [
-      "St. Vartan Armenian Cathedral",
-      "Bellevue Hospital Center",
-      "Fairway Market Kips Bay"
-    ],
-    "common_calls": [
-      "Apartment building entry door repair",
-      "Medical office door installation",
-      "Retail storefront door adjustment"
-    ],
-    "neighborhood_notes": "Kips Bay has a mix of residential high-rises, medical facilities, and retail spaces. Apartment building entry doors experience heavy traffic and require durable solutions. Doors in medical and commercial settings must meet specific accessibility and safety codes.",
-    "keywords": [
-      "kips bay door repair",
-      "apartment door service kips bay",
-      "commercial door installation kips bay",
-      "medical office door repair manhattan",
-      "entry door replacement kips bay",
-      "storefront door repair kips bay"
-    ]
-  },
-  "turtle-bay": {
-    "tagline": "Expert door repair and installation in Turtle Bay. We handle all commercial and residential door needs.",
-    "landmarks": [
-      "United Nations Headquarters",
-      "Dag Hammarskjöld Plaza",
-      "Chrysler Building"
-    ],
-    "common_calls": [
-      "Repairing commercial storefront doors",
-      "Installing new apartment entry doors",
-      "Servicing fire-rated doors"
-    ],
-    "neighborhood_notes": "Turtle Bay features a mix of high-rise residential buildings and commercial properties. Many older buildings require door hardware upgrades to meet current safety and access codes. Commercial doors often experience heavy traffic, leading to wear and tear on pivots and closers.",
-    "keywords": [
-      "turtle bay door repair",
-      "manhattan door installation",
-      "commercial door service turtle bay",
-      "apartment door repair nyc",
-      "fire door inspection turtle bay",
-      "door hardware replacement manhattan"
-    ]
-  },
-  "yorkville": {
-    "tagline": "Yorkville's trusted source for door repair, replacement, and new door installations. Residential and commercial.",
-    "landmarks": [
-      "Gracie Mansion",
-      "Carl Schurz Park",
-      "Ruppert Park"
-    ],
-    "common_calls": [
-      "Replacing worn apartment doors",
-      "Fixing broken door locks",
-      "Installing soundproof doors"
-    ],
-    "neighborhood_notes": "Yorkville has many pre-war apartment buildings with original, often heavy, entry doors. These doors frequently need hinge adjustments, lock repairs, or full replacements due to age and use. New developments often require modern, energy-efficient door solutions.",
-    "keywords": [
-      "yorkville door repair",
-      "apartment door installation yorkville",
-      "door lock repair manhattan",
-      "residential door service yorkville",
-      "pre-war door replacement nyc",
-      "soundproof door yorkville"
-    ]
-  },
-  "lincoln-square": {
-    "tagline": "Lincoln Square's premier door service for residential, commercial, and institutional door solutions.",
-    "landmarks": [
-      "Lincoln Center for the Performing Arts",
-      "Juilliard School",
-      "American Museum of Natural History"
-    ],
-    "common_calls": [
-      "Repairing automatic sliding doors",
-      "Installing high-security entry doors",
-      "Servicing theater doors"
-    ],
-    "neighborhood_notes": "Lincoln Square features a diverse range of buildings, from luxury high-rises to cultural institutions. Automatic and ADA-compliant doors are common, requiring specialized repair and maintenance. High-traffic areas demand durable and secure door systems.",
-    "keywords": [
-      "lincoln square door repair",
-      "automatic door service manhattan",
-      "high-security door installation",
-      "commercial door repair lincoln square",
-      "ada door compliance nyc",
-      "theater door repair manhattan"
-    ]
-  },
-  "theater-district": {
-    "tagline": "Specialized door repair and installation for the unique demands of the Theater District.",
+  "midtown-west": {
+    "tagline": "Midtown West commercial doors: durable, secure, and efficient solutions for diverse businesses.",
     "landmarks": [
       "Times Square",
-      "Broadway Theatres",
-      "Restaurant Row"
-    ],
-    "common_calls": [
-      "Repairing heavy-duty commercial doors",
-      "Installing sound-dampening theater doors",
-      "Emergency door board-up"
-    ],
-    "neighborhood_notes": "The Theater District experiences immense foot traffic, necessitating robust and secure commercial doors. Soundproofing is crucial for theater and restaurant doors. Emergency door services are often required due to constant public interaction and potential damage.",
-    "keywords": [
-      "theater district door repair",
-      "commercial door service times square",
-      "soundproof door installation nyc",
-      "emergency door repair manhattan",
-      "broadway theater door repair",
-      "storefront door replacement"
-    ]
-  },
-  "garment-district": {
-    "tagline": "Reliable door supply, repair, and installation for Garment District businesses and residences.",
-    "landmarks": [
-      "Fashion Institute of Technology (FIT)",
       "Port Authority Bus Terminal",
-      "Herald Square"
+      "Theater District"
     ],
     "common_calls": [
-      "Repairing freight elevator doors",
-      "Installing heavy-duty commercial doors",
-      "Replacing worn warehouse doors"
+      "rolling steel door repair",
+      "loading dock equipment service",
+      "hollow metal door replacement"
     ],
-    "neighborhood_notes": "The Garment District is characterized by commercial lofts, warehouses, and showrooms. Freight elevator doors and large loading dock doors are common and require specialized repair. Security is a significant concern, often leading to requests for reinforced door installations.",
+    "neighborhood_notes": "Midtown West's bustling commercial activity, including entertainment venues and transportation hubs, requires highly durable and secure commercial doors. High-traffic areas and loading docks demand robust rolling steel doors and reliable operators to ensure smooth operations.",
     "keywords": [
-      "garment district door repair",
-      "commercial door installation nyc",
-      "freight door service manhattan",
-      "warehouse door repair",
-      "security door garment district",
-      "loading dock door repair"
+      "midtown west commercial door repair",
+      "rolling steel doors midtown west",
+      "loading dock service nyc",
+      "hollow metal doors midtown",
+      "commercial overhead door midtown west",
+      "fire rated door midtown"
     ]
   },
-  "lower-east-side": {
-    "tagline": "Lower East Side door repair and installation. Serving historic buildings and modern establishments.",
+  "west-village": {
+    "tagline": "West Village commercial doors: charming, secure, and code-compliant solutions for local businesses.",
     "landmarks": [
-      "Tenement Museum",
-      "Katz's Delicatessen",
-      "Essex Market"
+      "Stonewall Inn",
+      "Washington Square Park",
+      "Jefferson Market Garden"
     ],
     "common_calls": [
-      "Repairing historic wooden doors",
-      "Installing new storefront doors",
-      "Upgrading apartment entry doors"
+      "storefront door repair",
+      "security grille installation",
+      "hollow metal door service"
     ],
-    "neighborhood_notes": "The Lower East Side features many historic tenement buildings with unique door sizes and hardware. Modern storefronts and new residential developments require contemporary door solutions. Security and insulation are common considerations for door upgrades in this area.",
+    "neighborhood_notes": "The West Village's unique commercial spaces, often in historic buildings, require commercial doors that blend aesthetics with modern security and code compliance. Storefront doors and security grilles must be both functional and visually appealing to match the neighborhood's character.",
     "keywords": [
-      "lower east side door repair",
-      "historic door restoration nyc",
-      "storefront door installation les",
-      "apartment door upgrade manhattan",
-      "wood door repair lower east side",
-      "security door installation nyc"
+      "west village commercial door repair",
+      "storefront door west village",
+      "security grilles west village",
+      "hollow metal doors west village",
+      "commercial door service manhattan",
+      "rolling steel door west village"
     ]
   },
-  "two-bridges": {
-    "tagline": "Two Bridges door repair and installation for residential and commercial properties.",
+  "soho": {
+    "tagline": "SoHo's trusted partner for commercial door installation, repair, and maintenance.",
     "landmarks": [
-      "Manhattan Bridge",
-      "Brooklyn Bridge",
-      "Alfred E. Smith Houses"
+      "Washington Square Park",
+      "New York University",
+      "One World Trade Center"
     ],
     "common_calls": [
-      "Repairing apartment building entry doors",
-      "Installing new fire-rated doors",
-      "Fixing commercial glass doors"
+      "Storefront door repair",
+      "Security grille installation",
+      "Hollow metal door replacement"
     ],
-    "neighborhood_notes": "Two Bridges is undergoing significant redevelopment, blending older residential buildings with new constructions. Many apartment complexes require frequent door maintenance due to heavy usage. Commercial establishments often need durable, secure, and code-compliant door solutions.",
+    "neighborhood_notes": "SoHo's cast-iron buildings often require specialized door solutions that complement historical aesthetics while meeting modern security and operational demands. Retail spaces here benefit from robust storefront doors and reliable security grilles. Code compliance for fire-rated assemblies in older structures is also a frequent consideration.",
     "keywords": [
-      "two bridges door repair",
-      "apartment door service manhattan",
-      "fire door installation nyc",
-      "commercial glass door repair",
-      "residential door replacement two bridges",
-      "door hardware upgrade manhattan"
+      "soho commercial door repair",
+      "storefront door soho",
+      "security grilles manhattan",
+      "hollow metal doors nyc",
+      "soho rolling steel doors",
+      "commercial door contractor soho"
     ]
   },
-  "stuyvesant-town": {
-    "tagline": "Stuyvesant Town door repair, maintenance, and installation for all residential door types.",
+  "dumbo": {
+    "tagline": "DUMBO's premier commercial door solutions for creative spaces and industrial needs.",
     "landmarks": [
-      "Stuyvesant Square Park",
-      "Peter Cooper Village Green",
-      "Stuyvesant Oval"
+      "Brooklyn Bridge Park",
+      "Jane's Carousel",
+      "St. Ann's Warehouse"
     ],
     "common_calls": [
-      "Repairing apartment entry doors",
-      "Replacing worn interior doors",
-      "Servicing patio sliding doors"
+      "Overhead door repair DUMBO",
+      "Loading dock equipment service",
+      "High-speed door installation"
     ],
-    "neighborhood_notes": "Stuyvesant Town primarily consists of large residential complexes with a consistent architectural style. Apartment entry doors and interior doors experience constant use, requiring regular maintenance and occasional replacement. Patio sliding doors are also common and often need track or roller repair.",
+    "neighborhood_notes": "DUMBO's blend of industrial conversions and modern commercial spaces demands versatile door solutions. Many businesses, from tech startups to design studios, require reliable overhead doors and efficient loading dock equipment. Security grilles are also essential for ground-floor establishments.",
     "keywords": [
-      "stuyvesant town door repair",
-      "apartment door repair nyc",
-      "interior door replacement manhattan",
-      "sliding door repair stuyvesant town",
-      "residential door service",
-      "door hardware upgrade stuyvesant town"
+      "dumbo commercial door repair",
+      "overhead doors brooklyn",
+      "loading dock service dumbo",
+      "high-speed doors nyc",
+      "commercial door installation dumbo",
+      "security grilles dumbo"
+    ]
+  },
+  "red-hook": {
+    "tagline": "Red Hook's expert commercial door services for waterfront businesses and warehouses.",
+    "landmarks": [
+      "Fairway Market Red Hook",
+      "Red Hook Grain Terminal",
+      "IKEA Brooklyn"
+    ],
+    "common_calls": [
+      "Rolling steel door repair",
+      "Loading dock leveler service",
+      "Overhead sectional door replacement"
+    ],
+    "neighborhood_notes": "Red Hook's industrial character and waterfront location mean commercial doors must withstand harsh weather and heavy usage. Robust rolling steel doors and dependable loading dock equipment are critical for warehouse and distribution centers. Wind loads are a significant factor for many door installations in this area.",
+    "keywords": [
+      "red hook commercial door",
+      "rolling steel door repair brooklyn",
+      "loading dock equipment red hook",
+      "overhead doors red hook",
+      "commercial door contractor red hook",
+      "fire-rated doors brooklyn"
     ]
   },
   "long-island-city": {
-    "tagline": "Long Island City's premier door service: expert installation, reliable repairs, and quality door supplies.",
+    "tagline": "Long Island City's trusted commercial door contractor for diverse business needs.",
     "landmarks": [
       "Gantry Plaza State Park",
       "MoMA PS1",
-      "Pepsi-Cola Sign"
+      "Silvercup Studios"
     ],
     "common_calls": [
-      "Commercial storefront door repair",
-      "Apartment entry door replacement",
-      "Automatic door sensor adjustment"
+      "Storefront door repair LIC",
+      "Overhead door operator service",
+      "Fire-rated door inspection"
     ],
-    "neighborhood_notes": "Long Island City features a mix of modern high-rise residential buildings, renovated industrial spaces, and new commercial developments. Many doors here are contemporary, requiring specialized hardware and adherence to updated building codes. Security and aesthetic appeal are primary concerns for doors in this rapidly developing area.",
+    "neighborhood_notes": "Long Island City's rapid development, from industrial zones to mixed-use commercial properties, requires a wide range of commercial door expertise. Many businesses need durable storefront doors, reliable overhead door operators, and code-compliant fire-rated assemblies. Security is also a key concern for many commercial establishments.",
     "keywords": [
-      "long island city door repair",
-      "lic door installation",
-      "commercial doors lic",
-      "apartment door replacement long island city",
-      "storefront door repair queens",
-      "door suppliers long island city"
+      "long island city commercial doors",
+      "storefront repair lic",
+      "overhead door repair queens",
+      "fire-rated doors nyc",
+      "commercial door installation long island city",
+      "security grilles lic"
     ]
   },
-  "astoria": {
-    "tagline": "Astoria's trusted source for door repair, new door installation, and all door hardware needs.",
+  "harrison": {
+    "tagline": "Harrison's premier commercial door contractor for robust overhead doors and secure access solutions.",
     "landmarks": [
-      "Astoria Park",
-      "Museum of the Moving Image",
-      "Bohemian Hall & Beer Garden"
+      "Red Bull Arena",
+      "Harrison PATH Station",
+      "Passaic River Waterfront"
     ],
     "common_calls": [
-      "Brownstone entry door repair",
-      "Retail store door replacement",
-      "Apartment building common area door maintenance"
+      "Overhead door repair for warehouse",
+      "Install new rolling steel door",
+      "Loading dock leveler service"
     ],
-    "neighborhood_notes": "Astoria's housing stock ranges from historic brownstones and pre-war apartment buildings to newer constructions. Many older doors require careful restoration or custom sizing for replacement. Commercial properties often need durable, high-traffic doors that comply with local safety regulations.",
+    "neighborhood_notes": "Harrison's industrial and commercial zones, especially near the river, require durable doors. New developments often demand modern, efficient access systems. High-traffic areas benefit from high-speed door installations.",
     "keywords": [
-      "astoria door repair",
-      "door installation astoria",
-      "pre-war apartment door astoria",
-      "commercial door repair astoria",
-      "entry door replacement queens",
-      "door hardware astoria"
+      "harrison overhead door repair",
+      "commercial door harrison nj",
+      "harrison loading dock service",
+      "rolling steel door harrison",
+      "harrison storefront door",
+      "commercial door contractor harrison"
     ]
   },
-  "sunnyside": {
-    "tagline": "Sunnyside door experts: reliable repairs, secure installations, and quality door supplies for homes and businesses.",
+  "east-newark": {
+    "tagline": "East Newark's trusted source for commercial door installation, repair, and maintenance services.",
     "landmarks": [
-      "Sunnyside Gardens Park",
-      "Thalia Spanish Theatre",
-      "Lowery Street Station"
+      "East Newark Town Hall",
+      "Passaic River",
+      "Pequannoc River"
     ],
     "common_calls": [
-      "Residential front door lock repair",
-      "Garden apartment patio door replacement",
-      "Commercial security door installation"
+      "Repair damaged storefront door",
+      "Service commercial garage door operator",
+      "Fire-rated door inspection"
     ],
-    "neighborhood_notes": "Sunnyside is known for its historic Sunnyside Gardens and numerous pre-war apartment buildings. Doors often need to match architectural styles, and many older units may have unique door dimensions or hardware. Security is a significant consideration for both residential and commercial doors in the area.",
+    "neighborhood_notes": "East Newark's mix of older industrial buildings and newer commercial spaces necessitates a variety of door solutions. Security grilles are often vital for retail businesses. Regular maintenance helps prevent costly downtime.",
     "keywords": [
-      "sunnyside door repair",
-      "door installation sunnyside gardens",
-      "apartment door repair sunnyside",
-      "commercial door sunnyside",
-      "front door replacement queens",
-      "security doors sunnyside"
+      "east newark commercial door",
+      "storefront door repair east newark",
+      "rolling grille east newark",
+      "east newark fire door service",
+      "overhead door east newark",
+      "commercial door repair east newark"
     ]
   },
-  "woodside": {
-    "tagline": "Woodside's go-to for door services: professional installation, emergency repairs, and comprehensive door solutions.",
+  "bayonne": {
+    "tagline": "Bayonne's expert commercial door services: overhead, rolling steel, loading dock, and security solutions.",
     "landmarks": [
-      "Doughboy Park",
-      "Woodside Library",
-      "St. Sebastian's Church"
+      "Bayonne Bridge",
+      "Stephen R. Gregg Park",
+      "Cape Liberty Cruise Port"
     ],
     "common_calls": [
-      "Residential garage door repair",
-      "Storefront glass door replacement",
-      "Apartment building fire door inspection"
+      "Overhead sectional door spring replacement",
+      "Loading dock equipment repair",
+      "Install security grille for retail"
     ],
-    "neighborhood_notes": "Woodside features a mix of multi-family homes, apartment buildings, and local businesses. Doors often experience heavy use and require durable materials. Fire doors in apartment buildings are critical and must meet strict safety codes.",
+    "neighborhood_notes": "Bayonne's extensive waterfront and industrial areas, including the port, demand heavy-duty commercial doors. Wind resistance is a factor for larger door installations. Security is paramount for many businesses.",
     "keywords": [
-      "woodside door repair",
-      "garage door woodside",
-      "commercial door installation woodside",
-      "fire door inspection queens",
-      "residential door replacement woodside",
-      "emergency door repair woodside"
+      "bayonne commercial door repair",
+      "loading dock bayonne",
+      "bayonne overhead doors",
+      "rolling steel bayonne",
+      "bayonne security grille",
+      "hollow metal door bayonne",
+      "commercial door contractor bayonne"
     ]
   },
-  "jackson-heights": {
-    "tagline": "Jackson Heights door specialists: expert repairs, new door installations, and reliable door hardware solutions.",
+  "guttenberg": {
+    "tagline": "Guttenberg's reliable commercial door contractor for storefronts, grilles, and robust access.",
     "landmarks": [
-      "Jackson Heights Historic District",
-      "Travers Park",
-      "Jackson Heights Beautification Group"
+      "Guttenberg Public Library",
+      "Boulevard East",
+      "Waterfront Park"
     ],
     "common_calls": [
-      "Pre-war apartment entry door repair",
-      "Retail store security gate installation",
-      "Building lobby door closer adjustment"
+      "Storefront door glass replacement",
+      "Security grille repair",
+      "Hollow metal door installation"
     ],
-    "neighborhood_notes": "Jackson Heights is famous for its historic garden apartment complexes and diverse commercial strips. Doors in pre-war buildings often require specialized knowledge for repair and replacement to maintain historical integrity. Commercial doors need to be robust for high foot traffic and security.",
+    "neighborhood_notes": "Guttenberg's dense urban environment often features ground-level retail and mixed-use buildings. Storefront aesthetics and robust security grilles are key considerations. Space-saving rolling doors are also common.",
     "keywords": [
-      "jackson heights door repair",
-      "historic apartment doors jackson heights",
-      "commercial door installation queens",
-      "door closer repair jackson heights",
-      "entry door replacement jackson heights",
-      "security gates jackson heights"
+      "guttenberg storefront door",
+      "commercial door repair guttenberg",
+      "security grille guttenberg",
+      "hollow metal guttenberg",
+      "rolling door guttenberg",
+      "guttenberg commercial access"
     ]
   },
-  "elmhurst": {
-    "tagline": "Elmhurst's trusted door service: quality installations, efficient repairs, and all door supply needs covered.",
+  "port-imperial": {
+    "tagline": "Port Imperial's commercial door experts: high-speed, storefront, and security solutions for modern properties.",
     "landmarks": [
-      "Elmhurst Hospital Center",
-      "Queens Center Mall",
-      "Moore Homestead Playground"
+      "Port Imperial Ferry Terminal",
+      "Whole Foods Market Weehawken",
+      "Hudson River Waterfront Walkway"
     ],
     "common_calls": [
-      "Residential front door replacement",
-      "Shopping mall entrance door repair",
-      "Apartment building common area door upgrade"
+      "High-speed door maintenance",
+      "Storefront entrance repair",
+      "New commercial door operator installation"
     ],
-    "neighborhood_notes": "Elmhurst is a bustling commercial and residential area with a mix of housing types and numerous businesses. Doors, especially in high-traffic commercial zones and apartment buildings, endure significant wear and tear. Durability and compliance with commercial building codes are crucial.",
+    "neighborhood_notes": "Port Imperial's modern commercial and mixed-use developments require aesthetically pleasing yet highly functional doors. High-speed doors are beneficial for climate control and efficiency. Security grilles are essential for many retail tenants.",
     "keywords": [
-      "elmhurst door repair",
-      "door installation elmhurst",
-      "commercial door service queens",
-      "residential door replacement elmhurst",
-      "apartment door repair elmhurst",
-      "storefront doors elmhurst"
+      "port imperial commercial door",
+      "weehawken storefront door",
+      "high-speed door port imperial",
+      "security grille weehawken",
+      "commercial door operator port imperial",
+      "port imperial commercial repair"
     ]
   },
-  "corona": {
-    "tagline": "Corona door experts: reliable repairs, secure installations, and comprehensive door solutions for the community.",
+  "harmon-meadow": {
+    "tagline": "Harmon Meadow's commercial door specialist for overhead, loading dock, and high-speed door systems.",
     "landmarks": [
-      "Flushing Meadows Corona Park",
-      "Queens Zoo",
-      "Louis Armstrong House Museum"
+      "The Plaza at Harmon Meadow",
+      "Secaucus Junction",
+      "Meadowlands Exposition Center"
     ],
     "common_calls": [
-      "Residential backyard door repair",
-      "Restaurant entrance door replacement",
-      "Apartment building exterior door maintenance"
+      "Loading dock equipment service",
+      "Overhead door track repair",
+      "Install high-speed fabric door"
     ],
-    "neighborhood_notes": "Corona features a diverse range of residential properties and a vibrant commercial district. Doors in this active neighborhood often require robust construction to withstand heavy use. Security and weather resistance are important considerations for all door types.",
+    "neighborhood_notes": "Harmon Meadow is a major commercial hub with numerous warehouses, retail centers, and office parks. Efficient loading docks and high-speed doors are crucial for logistics and energy efficiency. Robust security is also a priority.",
     "keywords": [
-      "corona door repair",
-      "door installation corona",
-      "commercial door corona",
-      "residential door repair queens",
-      "exterior door replacement corona",
-      "security doors corona"
+      "harmon meadow commercial door",
+      "secaucus loading dock repair",
+      "harmon meadow overhead door",
+      "high-speed door secaucus",
+      "rolling steel harmon meadow",
+      "commercial door contractor secaucus"
     ]
   },
-  "flushing": {
-    "tagline": "Flushing's leading door service: expert installations, prompt repairs, and a wide selection of door supplies.",
+  "mill-creek-secaucus": {
+    "tagline": "Mill Creek Secaucus commercial door solutions: overhead, loading dock, and robust industrial doors.",
     "landmarks": [
-      "Flushing Meadows Corona Park",
-      "Queens Botanical Garden",
-      "Citi Field"
+      "Mill Creek Mall",
+      "Walmart Supercenter Secaucus",
+      "Secaucus High School"
     ],
     "common_calls": [
-      "Commercial glass storefront door repair",
-      "Residential entry door replacement",
-      "Apartment building fire-rated door installation"
+      "Overhead door spring replacement",
+      "Loading dock seal repair",
+      "Fire-rated door inspection and repair"
     ],
-    "neighborhood_notes": "Flushing is a densely populated area with a mix of high-rise residential buildings, bustling commercial centers, and older homes. Commercial doors experience extremely high traffic and require frequent maintenance or robust replacements. Fire safety compliance is paramount for doors in multi-story buildings.",
+    "neighborhood_notes": "Mill Creek in Secaucus features large retail establishments and light industrial facilities. Durable overhead and rolling steel doors are common. Loading dock efficiency and safety are critical for operations.",
     "keywords": [
-      "flushing door repair",
-      "commercial glass door flushing",
-      "door installation flushing",
-      "fire doors flushing",
-      "residential door replacement flushing",
-      "storefront door repair flushing"
+      "mill creek commercial door",
+      "secaucus overhead door",
+      "loading dock mill creek",
+      "rolling steel door secaucus",
+      "fire door repair mill creek",
+      "commercial door repair secaucus"
     ]
   },
-  "forest-hills": {
-    "tagline": "Forest Hills' trusted source for door repair, installation, and premium door supplies. We secure your entry.",
+  "constable-hook": {
+    "tagline": "Constable Hook's industrial door experts: heavy-duty overhead, rolling steel, and loading dock services.",
     "landmarks": [
-      "Forest Hills Stadium",
-      "Forest Hills Gardens",
-      "Station Square"
+      "IMTT Bayonne",
+      "Bayonne Energy Center",
+      "Robbins Reef Lighthouse"
     ],
     "common_calls": [
-      "Residential entry door replacement",
-      "Commercial storefront door repair",
-      "Patio sliding door adjustment"
+      "Heavy-duty rolling steel door repair",
+      "Loading dock leveler replacement",
+      "Industrial overhead door maintenance"
     ],
-    "neighborhood_notes": "Forest Hills features a mix of pre-war apartment buildings and single-family homes, often with original wooden entry doors or older metal security doors. Many properties require upgraded hardware for enhanced security and energy efficiency. Compliance with local building codes for historic districts is crucial for door replacements.",
+    "neighborhood_notes": "Constable Hook is a highly industrial area requiring exceptionally durable and secure commercial doors. Exposure to elements and heavy vehicle traffic necessitates robust solutions. Fire-rated assemblies are also common for safety.",
     "keywords": [
-      "forest hills door repair",
-      "door installation forest hills",
-      "entry doors forest hills",
-      "commercial doors forest hills",
-      "door replacement forest hills",
-      "sliding doors forest hills"
-    ]
-  },
-  "rego-park": {
-    "tagline": "Rego Park's premier door service: reliable repairs, expert installations, and quality door supplies for all needs.",
-    "landmarks": [
-      "Rego Center",
-      "Lost Battalion Hall",
-      "Juniper Valley Park"
-    ],
-    "common_calls": [
-      "Apartment building entrance door repair",
-      "Retail store front door installation",
-      "Interior door replacement"
-    ],
-    "neighborhood_notes": "Rego Park has many co-op and condominium buildings, leading to frequent requests for common area door repairs and unit entry door replacements. Commercial properties often need durable storefront doors. Older wooden doors may require weatherstripping and hinge adjustments.",
-    "keywords": [
-      "rego park door repair",
-      "door installation rego park",
-      "commercial door rego park",
-      "residential doors rego park",
-      "door replacement rego park",
-      "fire doors rego park"
-    ]
-  },
-  "kew-gardens": {
-    "tagline": "Kew Gardens' go-to for door repair, new door installations, and a wide selection of quality door supplies.",
-    "landmarks": [
-      "Queens Borough Hall",
-      "Kew Gardens Cinemas",
-      "Forest Park"
-    ],
-    "common_calls": [
-      "Historic wood door restoration",
-      "Apartment building lobby door repair",
-      "Security door installation"
-    ],
-    "neighborhood_notes": "Kew Gardens is known for its pre-war apartment buildings and Tudor-style homes, often featuring unique and sometimes historic entry doors. Many doors require specialized repair for ornate details or custom sizes. Security upgrades for older doors are a common request.",
-    "keywords": [
-      "kew gardens door repair",
-      "door installation kew gardens",
-      "historic doors kew gardens",
-      "apartment doors kew gardens",
-      "security doors kew gardens",
-      "door replacement kew gardens"
-    ]
-  },
-  "jamaica": {
-    "tagline": "Jamaica's trusted partner for all door needs: expert repairs, new installations, and comprehensive door supplies.",
-    "landmarks": [
-      "Jamaica Center",
-      "Rufus King Park",
-      "York College CUNY"
-    ],
-    "common_calls": [
-      "Storefront glass door repair",
-      "Residential steel entry door installation",
-      "Apartment building common area door maintenance"
-    ],
-    "neighborhood_notes": "Jamaica has a diverse mix of commercial storefronts and residential multi-family and single-family homes. High traffic areas often lead to wear and tear on commercial doors, requiring robust solutions. Security is a primary concern, driving demand for durable entry doors and reliable locking hardware.",
-    "keywords": [
-      "jamaica door repair",
-      "door installation jamaica",
-      "commercial doors jamaica",
-      "residential doors jamaica",
-      "storefront doors jamaica",
-      "security doors jamaica"
-    ]
-  },
-  "richmond-hill": {
-    "tagline": "Richmond Hill's reliable choice for door repair, new door installations, and quality door supplies.",
-    "landmarks": [
-      "Forest Park Carousel",
-      "Smokey Oval Park",
-      "Richmond Hill Library"
-    ],
-    "common_calls": [
-      "Residential front door replacement",
-      "Garage door repair",
-      "Commercial entrance door adjustment"
-    ],
-    "neighborhood_notes": "Richmond Hill features many older residential homes, often with original wooden entry doors that require maintenance or replacement. Garage door issues are also common. Commercial properties along Jamaica Avenue often need durable and secure entrance doors.",
-    "keywords": [
-      "richmond hill door repair",
-      "door installation richmond hill",
-      "residential doors richmond hill",
-      "garage door repair richmond hill",
-      "commercial doors richmond hill",
-      "entry door replacement richmond hill"
-    ]
-  },
-  "ozone-park": {
-    "tagline": "Ozone Park's leading door service: expert repairs, installations, and a wide range of door supplies.",
-    "landmarks": [
-      "Aqueduct Racetrack",
-      "Tudor Park",
-      "Ozone Park Library"
-    ],
-    "common_calls": [
-      "Residential storm door installation",
-      "Storefront security door repair",
-      "Interior door replacement"
-    ],
-    "neighborhood_notes": "Ozone Park primarily consists of residential homes, many of which benefit from storm door installations for energy efficiency and added security. Commercial properties along Rockaway Boulevard frequently require robust and secure entry systems. Older homes often have worn door frames needing repair.",
-    "keywords": [
-      "ozone park door repair",
-      "door installation ozone park",
-      "storm doors ozone park",
-      "commercial doors ozone park",
-      "residential doors ozone park",
-      "door replacement ozone park"
-    ]
-  },
-  "howard-beach": {
-    "tagline": "Howard Beach's trusted door specialists: reliable repairs, new installations, and quality door supplies.",
-    "landmarks": [
-      "Frank Charles Park",
-      "Gateway National Recreation Area",
-      "Howard Beach Library"
-    ],
-    "common_calls": [
-      "Patio sliding glass door repair",
-      "Residential fiberglass entry door installation",
-      "Water-damaged door replacement"
-    ],
-    "neighborhood_notes": "Howard Beach, with its proximity to water, often experiences issues with water-damaged doors and frames. Patio sliding doors are common and frequently need repair or replacement. Homeowners often seek durable, weather-resistant entry doors suitable for coastal conditions.",
-    "keywords": [
-      "howard beach door repair",
-      "door installation howard beach",
-      "patio doors howard beach",
-      "entry doors howard beach",
-      "water damaged door repair howard beach",
-      "residential doors howard beach"
-    ]
-  },
-  "ridgewood": {
-    "tagline": "Ridgewood's top choice for door repair, expert installations, and premium door supplies for all properties.",
-    "landmarks": [
-      "Grover Cleveland Park",
-      "Myrtle Avenue",
-      "Ridgewood Savings Bank"
-    ],
-    "common_calls": [
-      "Historic brownstone entry door repair",
-      "Commercial glass door installation",
-      "Apartment building fire door inspection"
-    ],
-    "neighborhood_notes": "Ridgewood is characterized by its historic brownstones and pre-war apartment buildings, often requiring specialized repair for ornate or oversized doors. Commercial corridors on Myrtle Avenue and Fresh Pond Road need durable and aesthetically pleasing storefront doors. Fire door compliance is crucial for multi-family dwellings.",
-    "keywords": [
-      "ridgewood door repair",
-      "door installation ridgewood",
-      "historic doors ridgewood",
-      "commercial doors ridgewood",
-      "fire doors ridgewood",
-      "brownstone door repair ridgewood",
-      "entry doors ridgewood"
-    ]
-  },
-  "maspeth": {
-    "tagline": "Maspeth's trusted source for door supply, installation, and reliable repairs. We keep your entries secure.",
-    "landmarks": [
-      "Maspeth Federal Savings Bank",
-      "Maspeth High School",
-      "Frank Principe Park"
-    ],
-    "common_calls": [
-      "Residential front door replacement",
-      "Commercial storefront door repair",
-      "Emergency door lockout service"
-    ],
-    "neighborhood_notes": "Maspeth features a mix of residential homes and industrial businesses, leading to diverse door needs. Many older homes may require custom-sized doors or historical hardware matching. Commercial properties often need heavy-duty doors to withstand frequent use and ensure security.",
-    "keywords": [
-      "maspeth door repair",
-      "queens door installation",
-      "commercial doors maspeth",
-      "residential door maspeth",
-      "maspeth emergency door service",
-      "storefront door repair queens"
-    ]
-  },
-  "middle-village": {
-    "tagline": "Middle Village door experts: sales, precision installation, and swift, dependable repair services.",
-    "landmarks": [
-      "Juniper Valley Park",
-      "Our Lady of Hope Church",
-      "Metro Mall"
-    ],
-    "common_calls": [
-      "Patio door repair and replacement",
-      "Entry door hardware upgrade",
-      "Garage door spring repair"
-    ],
-    "neighborhood_notes": "Middle Village primarily consists of residential properties, including many attached and semi-detached homes. Door issues often involve wear and tear on older wooden doors or common problems with patio and garage doors. Security upgrades for residential entry doors are also a frequent request.",
-    "keywords": [
-      "middle village door repair",
-      "residential door middle village",
-      "patio door repair queens",
-      "garage door service middle village",
-      "entry door replacement middle village",
-      "door installation queens"
-    ]
-  },
-  "bayside": {
-    "tagline": "Bayside's premier door service: high-quality doors, expert installation, and efficient repairs.",
-    "landmarks": [
-      "Fort Totten Park",
-      "Bayside LIRR Station",
-      "Bay Terrace Shopping Center"
-    ],
-    "common_calls": [
-      "Luxury entry door installation",
-      "Sliding glass door repair",
-      "Commercial office door adjustment"
-    ],
-    "neighborhood_notes": "Bayside features a range of housing, from single-family homes to co-ops and apartments, often with a focus on aesthetics and security. Many properties seek high-end door solutions or require repairs for sliding glass doors leading to balconies or patios. Commercial establishments in shopping areas need reliable and presentable entry doors.",
-    "keywords": [
-      "bayside door installation",
-      "queens luxury doors",
-      "sliding door repair bayside",
-      "commercial door service queens",
-      "residential door repair bayside",
-      "bayside entry doors"
-    ]
-  },
-  "whitestone": {
-    "tagline": "Whitestone door solutions: sales, professional installation, and prompt, reliable door repairs.",
-    "landmarks": [
-      "Whitestone Bridge",
-      "Whitestone Shopping Center",
-      "Francis Lewis Park"
-    ],
-    "common_calls": [
-      "Storm door installation",
-      "Front door frame repair",
-      "Interior door replacement"
-    ],
-    "neighborhood_notes": "Whitestone is predominantly residential, with many single-family homes and some multi-family dwellings. Common door needs include storm door installations for weather protection and repairs to door frames damaged by age or use. Homeowners often seek to upgrade interior doors for improved insulation or aesthetics.",
-    "keywords": [
-      "whitestone door repair",
-      "storm door installation queens",
-      "residential door whitestone",
-      "door frame repair queens",
-      "interior door replacement whitestone",
-      "whitestone door service"
+      "constable hook commercial door",
+      "bayonne industrial door",
+      "rolling steel constable hook",
+      "loading dock repair bayonne",
+      "overhead door constable hook",
+      "fire door constable hook",
+      "commercial door contractor bayonne"
     ]
   }
 }

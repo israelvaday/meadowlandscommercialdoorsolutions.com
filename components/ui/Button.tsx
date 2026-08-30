@@ -7,13 +7,13 @@ type Size = "sm" | "md" | "lg";
 
 const variants: Record<Variant, string> = {
   primary:
-    "bg-brass-500 text-ink-950 hover:bg-brass-400 shadow-[0_8px_30px_-8px_rgba(184,134,43,0.5)]",
+    "bg-brass-400 text-ink-950 hover:bg-brass-300 shadow-signal",
   secondary:
     "bg-ink-800 text-ink-50 hover:bg-ink-700 border border-ink-700",
   ghost:
-    "bg-transparent text-ink-50 hover:bg-ink-800/60",
+    "bg-transparent text-ink-50 hover:bg-ink-800/60 border border-ink-700",
   danger:
-    "bg-danger text-white hover:bg-red-600 shadow-[0_8px_30px_-8px_rgba(225,29,42,0.6)]",
+    "bg-danger text-white hover:bg-red-600",
 };
 
 const sizes: Record<Size, string> = {
@@ -33,7 +33,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     <button
       ref={ref}
       className={cn(
-        "inline-flex items-center justify-center gap-2 rounded-2xl font-semibold tracking-tight",
+        "inline-flex items-center justify-center gap-2 rounded-lg font-semibold tracking-tight",
         "transition-all duration-200 active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none",
         variants[variant],
         sizes[size],
@@ -57,7 +57,7 @@ export function LinkButton({
     <a
       href={href}
       className={cn(
-        "inline-flex items-center justify-center gap-2 rounded-2xl font-semibold tracking-tight",
+        "inline-flex items-center justify-center gap-2 rounded-lg font-semibold tracking-tight",
         "transition-all duration-200 active:scale-[0.98]",
         variants[variant],
         sizes[size],

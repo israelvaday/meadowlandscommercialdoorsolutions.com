@@ -6,9 +6,9 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
-  title: "Door Services in Brooklyn & NYC",
+  title: "Commercial Door Services in Jersey City & North Jersey",
   description:
-    `${BIZ.name} offers residential and commercial installation, custom fabrication, hardware supply, structural repair, fire-rated doors, storefront systems, and emergency service.`,
+    `${BIZ.name} installs and repairs commercial overhead doors, rolling steel, docks, high-speed doors, fire-rated assemblies, hollow metal, operators, and storefronts.`,
   alternates: { canonical: `${BIZ.url}/services` },
 };
 
@@ -21,11 +21,11 @@ export default function ServicesPage() {
         <div className="relative mx-auto max-w-5xl px-4 text-center md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Services</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            Door services across <span className="text-brass-gradient">Brooklyn & NYC</span>.
+            Commercial door systems across <span className="text-brass-gradient">Jersey City &amp; the Meadowlands</span>.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            Explore ten service lines with supply, installation, repair, hardware, and code-compliance details for
-            homes, businesses, and multifamily buildings.
+            Ten commercial service lines — overhead, rolling steel, docks, high-speed, fire-rated, hollow metal,
+            operators, storefronts, security grilles, and emergency repair.
           </p>
         </div>
       </section>
@@ -39,17 +39,17 @@ export default function ServicesPage() {
                 shortName={s.shortName}
                 tagline={s.tagline}
                 Icon={s.icon}
-                photoSrc={`${base}/photos/service-hero-${s.slug}.png`}
+                photoSrc={`${base}/photos/service-hero-${s.slug}.webp`}
                 photoAlt={`${s.name} project inspiration`}
                 photoW={1600}
                 photoH={900}
-                city="Brooklyn, NY"
+                city="Jersey City, NJ"
                 priority={i < 3}
               />
           ))}
         </div>
       </section>
-      <LongFormFaq subject="NYC Door Services" kind="service" />
+      <LongFormFaq subject="Commercial Door Services" kind="service" />
       <FinalCTA />
     </>
   );

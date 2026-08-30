@@ -6,7 +6,7 @@ import { LogoMark } from "@/components/site/Logo";
 
 export const metadata: Metadata = {
   title: "Business & Insurance Information",
-  description: `Request current business and insurance information for ${BIZ.name} door work in Brooklyn & NYC.`,
+  description: `Request current business and insurance information for ${BIZ.name} commercial door work in ${BIZ.region}.`,
   alternates: { canonical: `${BIZ.url}/license` },
 };
 
@@ -32,7 +32,7 @@ export default function CredentialsPage() {
           <div className="overflow-hidden rounded-2xl border border-brass-500/30 bg-ink-900/50 p-6 text-center">
             <LogoMark className="mx-auto h-24 w-24 text-2xl" />
             <p className="mt-4 text-sm text-ink-300">
-              Need documentation for a property or commercial project? Call {BIZ.phone} or email {BIZ.email}.
+              Need documentation for a commercial project? Email {BIZ.email} or request a quote and we will send current business and insurance information.
             </p>
           </div>
         </div>

@@ -164,7 +164,7 @@ function boldify(text: string, keyBase: number): React.ReactNode {
   let m: RegExpExecArray | null;
   while ((m = re.exec(text)) !== null) {
     if (m.index > last) parts.push(text.slice(last, m.index));
-    parts.push(<strong key={`b-${keyBase}-${parts.length}`} className="text-white">{m[1]}</strong>);
+    parts.push(<strong key={`b-${keyBase}-${parts.length}`} className="text-ink-50">{m[1]}</strong>);
     last = re.lastIndex;
   }
   if (last < text.length) parts.push(text.slice(last));
@@ -221,7 +221,7 @@ export default async function BlogPostPage(
                   <Clock className="h-4 w-4" /> {post.readMinutes} min read
                 </span>
                 <span className="inline-flex items-center gap-1.5">
-                  <DoorOpen className="h-4 w-4 text-brass-400" /> NYC door guide
+                  <DoorOpen className="h-4 w-4 text-brass-400" /> Commercial door guide
                 </span>
               </div>
             </div>
@@ -239,11 +239,11 @@ export default async function BlogPostPage(
           {/* Inline CTA */}
           <div className="mt-12 rounded-3xl border border-brass-500/30 bg-gradient-to-br from-brass-500/10 to-ink-900/40 p-6 text-center md:p-8">
             <h3 className="font-display text-xl font-extrabold md:text-2xl">
-              Planning a door project in NYC?
+              Planning a commercial door project?
             </h3>
             <p className="mx-auto mt-2 max-w-xl text-sm text-ink-200 md:text-base">
-              Share the property, opening, door type, hardware needs, and timing with {BIZ.name} for a project-specific
-              follow-up across Brooklyn, Manhattan &amp; Queens.
+              Share the facility, opening, door type, operator needs, and timing with {BIZ.name} for a project-specific
+              follow-up across {BIZ.region}.
             </p>
             <div className="mt-5 flex justify-center">
               <ContactCTA size="lg" />
@@ -283,7 +283,7 @@ export default async function BlogPostPage(
         </section>
       )}
 
-      <LongFormFaq subject="NYC Door Services" kind="service" />
+      <LongFormFaq subject="Commercial Door Services" kind="service" />
 
       <FinalCTA />
     </>

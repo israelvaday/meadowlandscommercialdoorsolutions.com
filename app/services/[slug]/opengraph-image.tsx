@@ -17,23 +17,23 @@ export function generateStaticParams() {
 }
 
 const ICONS: Record<string, string> = {
-  "residential-door-installation": "🏠",
-  "commercial-door-installation": "🏢",
-  "custom-door-fabrication": "🪚",
-  "door-hardware-supply": "🔐",
-  "structural-door-repair": "🔧",
+  "commercial-overhead-doors": "🏭",
+  "rolling-steel-doors": "🏢",
+  "loading-dock-equipment": "🚚",
+  "high-speed-doors": "⚡",
   "fire-rated-doors": "🛡️",
-  "storefront-glass-doors": "🪟",
-  "emergency-door-repair": "🚨",
-  "door-frame-jamb-repair": "🚪",
-  "security-access-doors": "🔒",
+  "hollow-metal-doors": "🚪",
+  "automatic-operators": "⚙️",
+  "storefront-entrances": "🪟",
+  "security-grilles": "🔒",
+  "emergency-commercial-repair": "🚨",
 };
 
 export default async function ServiceOg({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const s = SERVICES.find((x) => x.slug === slug);
-  const headline = s?.name ?? "NYC door services";
-  const tagline = s?.tagline ?? "Door supply, installation, and repair across Brooklyn & NYC.";
+  const headline = s?.name ?? "Commercial door services";
+  const tagline = s?.tagline ?? "Commercial door systems across Jersey City and the Meadowlands.";
   const icon = (s && ICONS[s.slug]) ?? "🚪";
   const bullets = (s?.bullets ?? []).slice(0, 3);
 
@@ -48,8 +48,8 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
           justifyContent: "space-between",
           padding: "60px 72px",
           background:
-            "radial-gradient(1100px 600px at 85% -10%, rgba(201,162,74,0.28), transparent 60%)," +
-            "radial-gradient(900px 700px at -10% 110%, rgba(201,162,74,0.16), transparent 55%)," +
+            "radial-gradient(1100px 600px at 85% -10%, rgba(34,211,238,0.28), transparent 60%)," +
+            "radial-gradient(900px 700px at -10% 110%, rgba(34,211,238,0.16), transparent 55%)," +
             "linear-gradient(180deg, #0B0E12 0%, #0B0E12 100%)",
           color: "#F4F1EA",
           fontFamily: "system-ui, sans-serif",
@@ -63,7 +63,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
             left: 0,
             right: 0,
             height: 6,
-            background: "linear-gradient(90deg, #8A6A1F 0%, #C9A24A 35%, #E9D08A 55%, #C9A24A 70%, #8A6A1F 100%)",
+            background: "linear-gradient(90deg, #0E7490 0%, #22D3EE 35%, #67E8F9 55%, #22D3EE 70%, #0E7490 100%)",
             display: "flex",
           }}
         />
@@ -75,7 +75,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
                 width: 64,
                 height: 64,
                 borderRadius: 16,
-                background: "linear-gradient(135deg, #C9A24A 0%, #8A6A1F 100%)",
+                background: "linear-gradient(135deg, #22D3EE 0%, #0E7490 100%)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
@@ -88,8 +88,8 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
               <div style={{ fontSize: 26, fontWeight: 800, letterSpacing: -0.5, lineHeight: 1 }}>
                 {BIZ.name.toUpperCase()}
               </div>
-              <div style={{ fontSize: 15, color: "#C9A24A", marginTop: 4, letterSpacing: 2, fontWeight: 700 }}>
-                BROOKLYN · NYC · DOOR SERVICES
+              <div style={{ fontSize: 15, color: "#22D3EE", marginTop: 4, letterSpacing: 2, fontWeight: 700 }}>
+                JERSEY CITY · MEADOWLANDS
               </div>
             </div>
           </div>
@@ -100,9 +100,9 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
               gap: 10,
               padding: "10px 18px",
               borderRadius: 999,
-              border: "1px solid rgba(201,162,74,0.45)",
-              background: "rgba(201,162,74,0.10)",
-              color: "#E9D08A",
+              border: "1px solid rgba(34,211,238,0.45)",
+              background: "rgba(34,211,238,0.10)",
+              color: "#67E8F9",
               fontSize: 20,
               fontWeight: 700,
               letterSpacing: 1,
@@ -118,8 +118,8 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
               width: 180,
               height: 180,
               borderRadius: 36,
-              background: "linear-gradient(135deg, rgba(201,162,74,0.18), rgba(201,162,74,0.04))",
-              border: "2px solid rgba(201,162,74,0.45)",
+              background: "linear-gradient(135deg, rgba(34,211,238,0.18), rgba(34,211,238,0.04))",
+              border: "2px solid rgba(34,211,238,0.45)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -136,7 +136,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
                 fontWeight: 900,
                 lineHeight: 1.0,
                 letterSpacing: -1.5,
-                backgroundImage: "linear-gradient(135deg, #F4E3B1 0%, #C9A24A 55%, #8A6A1F 100%)",
+                backgroundImage: "linear-gradient(135deg, #A5F3FC 0%, #22D3EE 55%, #0E7490 100%)",
                 backgroundClip: "text",
                 color: "transparent",
                 display: "flex",
@@ -178,15 +178,15 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
               alignItems: "flex-end",
               padding: "14px 22px",
               borderRadius: 16,
-              background: "linear-gradient(135deg, rgba(201,162,74,0.22), rgba(201,162,74,0.06))",
-              border: "1px solid rgba(201,162,74,0.55)",
+              background: "linear-gradient(135deg, rgba(34,211,238,0.22), rgba(34,211,238,0.06))",
+              border: "1px solid rgba(34,211,238,0.55)",
             }}
           >
-            <div style={{ fontSize: 14, color: "#C9A24A", letterSpacing: 2, fontWeight: 700, display: "flex" }}>
-              REQUEST A QUOTE
+            <div style={{ fontSize: 14, color: "#22D3EE", letterSpacing: 2, fontWeight: 700, display: "flex" }}>
+              {BIZ.phone ? "CALL" : "FREE QUOTE"}
             </div>
-            <div style={{ fontSize: 36, color: "#F4E3B1", fontWeight: 900, letterSpacing: -0.5, display: "flex" }}>
-              {BIZ.phone}
+            <div style={{ fontSize: 22, color: "#A5F3FC", fontWeight: 900, letterSpacing: -0.5, display: "flex" }}>
+              {BIZ.phone || BIZ.url.replace(/^https?:\/\//, "")}
             </div>
           </div>
         </div>

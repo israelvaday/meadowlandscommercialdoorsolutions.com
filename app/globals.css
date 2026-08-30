@@ -6,45 +6,50 @@
   color-scheme: dark;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
-  background: #0B0E12;
-  color: #E5E7EA;
+  background: #030508;
+  color: #E2E8F0;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Aurora gradient backdrop for hero sections */
 .bg-aurora {
   background:
-    radial-gradient(60% 60% at 20% 10%, rgba(184,134,43,0.18) 0%, rgba(184,134,43,0) 60%),
-    radial-gradient(50% 50% at 85% 20%, rgba(217,174,74,0.12) 0%, rgba(217,174,74,0) 60%),
-    radial-gradient(70% 70% at 50% 100%, rgba(184,134,43,0.10) 0%, rgba(184,134,43,0) 60%),
-    #0B0E12;
+    radial-gradient(55% 55% at 12% 8%, rgba(34,211,238,0.16) 0%, rgba(34,211,238,0) 58%),
+    radial-gradient(45% 45% at 88% 18%, rgba(6,182,212,0.10) 0%, rgba(6,182,212,0) 60%),
+    radial-gradient(70% 70% at 50% 100%, rgba(34,211,238,0.08) 0%, rgba(34,211,238,0) 62%),
+    #030508;
 }
 
-/* Subtle dotted grid */
 .bg-grid {
   background-image:
-    radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
-  background-size: 24px 24px;
+    linear-gradient(rgba(34,211,238,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34,211,238,0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
 }
 
-/* Brass gradient text */
+.bg-cyber-grid {
+  background-image: radial-gradient(rgba(34,211,238,0.09) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
 .text-brass-gradient {
-  background: linear-gradient(135deg, #F2E3B8 0%, #D9AE4A 40%, #B8862B 70%, #75541B 100%);
+  background: linear-gradient(135deg, #ECFEFF 0%, #67E8F9 38%, #22D3EE 68%, #0891B2 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-/* Glassmorphism panels */
 .glass {
-  background: rgba(19, 23, 28, 0.55);
-  backdrop-filter: blur(14px) saturate(140%);
-  -webkit-backdrop-filter: blur(14px) saturate(140%);
-  border: 1px solid rgba(184, 134, 43, 0.18);
+  background: rgba(7, 11, 16, 0.78);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border-bottom: 1px solid rgba(34, 211, 238, 0.14);
 }
 
-/* Shimmer for CTAs */
 .shimmer {
   background-image: linear-gradient(
     110deg,
@@ -55,7 +60,41 @@ html, body {
   background-size: 200% 100%;
 }
 
-/* Reduce motion */
+.hud-frame {
+  position: relative;
+}
+.hud-frame::before,
+.hud-frame::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(34, 211, 238, 0.55);
+  pointer-events: none;
+}
+.hud-frame::before {
+  top: 8px;
+  left: 8px;
+  border-right: 0;
+  border-bottom: 0;
+}
+.hud-frame::after {
+  right: 8px;
+  bottom: 8px;
+  border-left: 0;
+  border-top: 0;
+}
+
+.scanlines {
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 2px,
+    rgba(3, 5, 8, 0.18) 3px
+  );
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.001ms !important;
@@ -64,16 +103,12 @@ html, body {
   }
 }
 
-/* Focus rings */
 *:focus-visible {
-  outline: 2px solid #D9AE4A;
+  outline: 2px solid #22D3EE;
   outline-offset: 2px;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
-/* CSS-only marquee (replaces framer-motion useAnimationFrame). The track
-   contains the photo set duplicated twice; translating by -50% loops
-   seamlessly. transform-only animation = composited, no main-thread cost. */
 @keyframes marquee-slide {
   from { transform: translate3d(0, 0, 0); }
   to   { transform: translate3d(-50%, 0, 0); }
@@ -88,4 +123,3 @@ html, body {
 @media (prefers-reduced-motion: reduce) {
   .marquee-track { animation: none; }
 }
-

@@ -6,7 +6,7 @@ import { BIZ } from "@/lib/business";
 
 export const metadata: Metadata = {
   title: "Customer Experience",
-  description: `Review the service commitments ${BIZ.name} uses to guide door projects across Brooklyn, Manhattan & Queens.`,
+  description: `Review the service commitments ${BIZ.name} uses to guide commercial door projects across ${BIZ.region}.`,
   alternates: { canonical: `${BIZ.url}/reviews` },
 };
 
@@ -27,7 +27,7 @@ export default function CustomerExperiencePage() {
         </div>
       </section>
       <CustomerExperience />
-      <LongFormFaq subject="NYC Door Services" kind="service" />
+      <LongFormFaq subject="Commercial Door Services" kind="service" />
       <FinalCTA />
     </>
   );

@@ -2,7 +2,7 @@
   {
     "id": "logo-master-on-navy",
     "src": "/logo.png",
-    "alt": "Hillman Door Supply and Door Repair navy and gold HD door logo",
+    "alt": "Meadowlands Commercial Door Solutions cyan industrial door logo",
     "category": "brand",
     "kind": "brand",
     "services": [
@@ -12,13 +12,13 @@
     "height": 1024,
     "ratio": 1,
     "orientation": "square",
-    "bytes": 667176,
+    "bytes": 549507,
     "source": "openrouter-generated"
   },
   {
     "id": "logo-icon-square",
     "src": "/logo-256.png",
-    "alt": "Hillman Door Supply and Door Repair HD logo icon",
+    "alt": "Meadowlands Commercial Door Solutions logo icon",
     "category": "brand",
     "kind": "brand",
     "services": [
@@ -28,13 +28,13 @@
     "height": 256,
     "ratio": 1,
     "orientation": "square",
-    "bytes": 52673,
+    "bytes": 45468,
     "source": "openrouter-generated"
   },
   {
     "id": "logo-large-square",
     "src": "/logo-512.png",
-    "alt": "Hillman Door Supply and Door Repair large HD logo",
+    "alt": "Meadowlands Commercial Door Solutions large logo",
     "category": "brand",
     "kind": "brand",
     "services": [
@@ -44,38 +44,38 @@
     "height": 512,
     "ratio": 1,
     "orientation": "square",
-    "bytes": 207098,
+    "bytes": 160518,
     "source": "openrouter-generated"
   },
   {
-    "id": "branding-hero-nyc",
-    "src": "/photos/branding-generated--hero-hillman-door-nyc.png",
-    "alt": "Hillman Door Supply and Door Repair professional door installation in Brooklyn",
+    "id": "branding-hero-meadowlands",
+    "src": "/photos/branding-generated--hero-meadowlands.webp",
+    "alt": "Meadowlands Commercial Door Solutions commercial overhead door installation in Jersey City",
     "category": "branding-generated",
     "kind": "hero",
     "services": [
-      "residential-door-installation",
-      "commercial-door-installation",
-      "custom-door-fabrication",
-      "door-hardware-supply",
-      "structural-door-repair",
+      "commercial-overhead-doors",
+      "rolling-steel-doors",
+      "loading-dock-equipment",
+      "high-speed-doors",
       "fire-rated-doors",
-      "storefront-glass-doors",
-      "emergency-door-repair",
-      "door-frame-jamb-repair",
-      "security-access-doors"
+      "hollow-metal-doors",
+      "automatic-operators",
+      "storefront-entrances",
+      "security-grilles",
+      "emergency-commercial-repair"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 974078,
+    "bytes": 139830,
     "source": "openrouter-generated"
   },
   {
-    "id": "branding-map-nyc",
-    "src": "/photos/branding-generated--nyc-service-map.png",
-    "alt": "Hillman Door Supply and Door Repair service area across Brooklyn, Manhattan & Queens, NY",
+    "id": "branding-map",
+    "src": "/photos/branding-generated--service-map.webp",
+    "alt": "Meadowlands Commercial Door Solutions service area across Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "branding-generated",
     "kind": "brand",
     "services": [
@@ -85,93 +85,77 @@
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 768130,
+    "bytes": 190986,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-residential-door-installation",
-    "src": "/photos/service-hero-residential-door-installation.png",
-    "alt": "Residential door installation by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
+    "id": "service-hero-commercial-overhead-doors",
+    "src": "/photos/service-hero-commercial-overhead-doors.webp",
+    "alt": "Commercial overhead doors by Meadowlands Commercial Door Solutions in Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "residential-door-installation"
+      "commercial-overhead-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 906382,
+    "bytes": 126870,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-commercial-door-installation",
-    "src": "/photos/service-hero-commercial-door-installation.png",
-    "alt": "Commercial door installation by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
+    "id": "service-hero-rolling-steel-doors",
+    "src": "/photos/service-hero-rolling-steel-doors.webp",
+    "alt": "Rolling steel doors by Meadowlands Commercial Door Solutions in Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "commercial-door-installation"
+      "rolling-steel-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 848167,
+    "bytes": 168708,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-custom-door-fabrication",
-    "src": "/photos/service-hero-custom-door-fabrication.png",
-    "alt": "Custom door fabrication by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
+    "id": "service-hero-loading-dock-equipment",
+    "src": "/photos/service-hero-loading-dock-equipment.webp",
+    "alt": "Loading dock doors and equipment by Meadowlands Commercial Door Solutions in Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "custom-door-fabrication"
+      "loading-dock-equipment"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 846321,
+    "bytes": 151944,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-door-hardware-supply",
-    "src": "/photos/service-hero-door-hardware-supply.png",
-    "alt": "Door hardware supply by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
+    "id": "service-hero-high-speed-doors",
+    "src": "/photos/service-hero-high-speed-doors.webp",
+    "alt": "High-speed doors by Meadowlands Commercial Door Solutions in Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "door-hardware-supply"
+      "high-speed-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 715139,
-    "source": "openrouter-generated"
-  },
-  {
-    "id": "service-hero-structural-door-repair",
-    "src": "/photos/service-hero-structural-door-repair.png",
-    "alt": "Structural door repair by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
-    "category": "service-hero",
-    "kind": "hero",
-    "services": [
-      "structural-door-repair"
-    ],
-    "width": 1600,
-    "height": 900,
-    "ratio": 1.778,
-    "orientation": "landscape",
-    "bytes": 811169,
+    "bytes": 127928,
     "source": "openrouter-generated"
   },
   {
     "id": "service-hero-fire-rated-doors",
-    "src": "/photos/service-hero-fire-rated-doors.png",
-    "alt": "Fire-rated doors by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
+    "src": "/photos/service-hero-fire-rated-doors.webp",
+    "alt": "Fire-rated commercial doors by Meadowlands Commercial Door Solutions in Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "service-hero",
     "kind": "hero",
     "services": [
@@ -181,142 +165,157 @@
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 859759,
+    "bytes": 93566,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-storefront-glass-doors",
-    "src": "/photos/service-hero-storefront-glass-doors.png",
-    "alt": "Storefront and glass doors by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
+    "id": "service-hero-hollow-metal-doors",
+    "src": "/photos/service-hero-hollow-metal-doors.webp",
+    "alt": "Hollow metal doors and frames by Meadowlands Commercial Door Solutions in Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "storefront-glass-doors"
+      "hollow-metal-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 865060,
+    "bytes": 80532,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-emergency-door-repair",
-    "src": "/photos/service-hero-emergency-door-repair.png",
-    "alt": "Emergency door repair by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
+    "id": "service-hero-automatic-operators",
+    "src": "/photos/service-hero-automatic-operators.webp",
+    "alt": "Automatic door operators by Meadowlands Commercial Door Solutions in Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "emergency-door-repair"
+      "automatic-operators"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 947131,
+    "bytes": 174708,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-door-frame-jamb-repair",
-    "src": "/photos/service-hero-door-frame-jamb-repair.png",
-    "alt": "Door frame and jamb repair by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
+    "id": "service-hero-storefront-entrances",
+    "src": "/photos/service-hero-storefront-entrances.webp",
+    "alt": "Storefront and aluminum entrances by Meadowlands Commercial Door Solutions in Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "door-frame-jamb-repair"
+      "storefront-entrances"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 1031544,
+    "bytes": 137608,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-security-access-doors",
-    "src": "/photos/service-hero-security-access-doors.png",
-    "alt": "Security and access doors by Hillman Door Supply and Door Repair in Brooklyn, Manhattan & Queens, NY",
+    "id": "service-hero-security-grilles",
+    "src": "/photos/service-hero-security-grilles.webp",
+    "alt": "Security grilles and access doors by Meadowlands Commercial Door Solutions in Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "security-access-doors"
+      "security-grilles"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 957828,
+    "bytes": 133320,
     "source": "openrouter-generated"
   },
   {
-    "id": "door-gallery--brooklyn-entry",
-    "src": "/photos/door-gallery--brooklyn-entry.png",
-    "alt": "Premium entry door installation on a Brooklyn townhouse — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
-    "category": "residential",
+    "id": "service-hero-emergency-commercial-repair",
+    "src": "/photos/service-hero-emergency-commercial-repair.webp",
+    "alt": "Emergency commercial door repair by Meadowlands Commercial Door Solutions in Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "emergency-commercial-repair"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 173672,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "door-gallery--overhead-warehouse",
+    "src": "/photos/door-gallery--overhead-warehouse.webp",
+    "alt": "Commercial overhead doors on a Jersey City warehouse — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "overhead",
     "kind": "work",
     "services": [
-      "residential-door-installation",
-      "custom-door-fabrication"
+      "commercial-overhead-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 839718,
+    "bytes": 142424,
     "source": "openrouter-generated"
   },
   {
-    "id": "door-gallery--commercial-corridor",
-    "src": "/photos/door-gallery--commercial-corridor.png",
-    "alt": "Commercial hollow metal doors in a NYC office corridor — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
-    "category": "commercial",
+    "id": "door-gallery--rolling-steel",
+    "src": "/photos/door-gallery--rolling-steel.webp",
+    "alt": "Rolling steel door on a North Jersey industrial opening — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "rolling",
     "kind": "work",
     "services": [
-      "commercial-door-installation"
+      "rolling-steel-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 714756,
+    "bytes": 205856,
     "source": "openrouter-generated"
   },
   {
-    "id": "door-gallery--custom-wood-door",
-    "src": "/photos/door-gallery--custom-wood-door.png",
-    "alt": "Custom solid wood panel door in a NYC residential entry — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
-    "category": "custom",
+    "id": "door-gallery--loading-dock",
+    "src": "/photos/door-gallery--loading-dock.webp",
+    "alt": "Loading dock door and trailer seal at a Meadowlands warehouse — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "dock",
     "kind": "work",
     "services": [
-      "custom-door-fabrication"
+      "loading-dock-equipment"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 870297,
+    "bytes": 187616,
     "source": "openrouter-generated"
   },
   {
-    "id": "door-gallery--storefront-glass",
-    "src": "/photos/door-gallery--storefront-glass.png",
-    "alt": "Aluminum storefront glass entrance doors on NYC retail — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
-    "category": "storefront",
+    "id": "door-gallery--high-speed",
+    "src": "/photos/door-gallery--high-speed.webp",
+    "alt": "High-speed industrial door in a logistics corridor — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "high-speed",
     "kind": "work",
     "services": [
-      "storefront-glass-doors"
+      "high-speed-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 864135,
+    "bytes": 129232,
     "source": "openrouter-generated"
   },
   {
-    "id": "door-gallery--fire-rated-hallway",
-    "src": "/photos/door-gallery--fire-rated-hallway.png",
-    "alt": "Fire-rated corridor doors in a NYC multifamily building — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "id": "door-gallery--fire-rated",
+    "src": "/photos/door-gallery--fire-rated.webp",
+    "alt": "Fire-rated corridor doors in a Jersey City commercial building — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "fire-rated",
     "kind": "work",
     "services": [
@@ -326,153 +325,152 @@
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 741348,
+    "bytes": 90080,
     "source": "openrouter-generated"
   },
   {
-    "id": "door-gallery--interior-slabs",
-    "src": "/photos/door-gallery--interior-slabs.png",
-    "alt": "Solid-core interior door installation in a NYC apartment — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
-    "category": "residential",
+    "id": "door-gallery--hollow-metal",
+    "src": "/photos/door-gallery--hollow-metal.webp",
+    "alt": "Hollow metal door with vision lite in a commercial corridor — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "hollow-metal",
     "kind": "work",
     "services": [
-      "residential-door-installation"
+      "hollow-metal-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 823081,
+    "bytes": 160652,
     "source": "openrouter-generated"
   },
   {
-    "id": "door-gallery--hardware-detail",
-    "src": "/photos/door-gallery--hardware-detail.png",
-    "alt": "Premium door hardware including lockset and closer — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
-    "category": "hardware",
+    "id": "door-gallery--operator",
+    "src": "/photos/door-gallery--operator.webp",
+    "alt": "Commercial jackshaft operator on a warehouse overhead door — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "operator",
     "kind": "work",
     "services": [
-      "door-hardware-supply"
+      "automatic-operators"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 801641,
+    "bytes": 145972,
     "source": "openrouter-generated"
   },
   {
-    "id": "door-gallery--jamb-repair",
-    "src": "/photos/door-gallery--jamb-repair.png",
-    "alt": "Door frame jamb repair on a pre-war NYC opening — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
-    "category": "repair",
+    "id": "door-gallery--storefront-jc",
+    "src": "/photos/door-gallery--storefront-jc.webp",
+    "alt": "Aluminum storefront entrance in downtown Jersey City — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "storefront",
     "kind": "work",
     "services": [
-      "door-frame-jamb-repair",
-      "structural-door-repair"
+      "storefront-entrances"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 1006465,
+    "bytes": 171048,
     "source": "openrouter-generated"
   },
   {
-    "id": "door-gallery--security-entry",
-    "src": "/photos/door-gallery--security-entry.png",
-    "alt": "Reinforced security entry door on a NYC building lobby — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "id": "door-gallery--security-grille",
+    "src": "/photos/door-gallery--security-grille.webp",
+    "alt": "Rolling security grille on a commercial storefront — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "security",
     "kind": "work",
     "services": [
-      "security-access-doors"
+      "security-grilles"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 970756,
+    "bytes": 144034,
     "source": "openrouter-generated"
   },
   {
-    "id": "door-gallery--warehouse-supply",
-    "src": "/photos/door-gallery--warehouse-supply.png",
-    "alt": "Organized door supply warehouse with slabs and hardware — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
-    "category": "supply",
-    "kind": "work",
-    "services": [
-      "door-hardware-supply"
-    ],
-    "width": 1600,
-    "height": 900,
-    "ratio": 1.778,
-    "orientation": "landscape",
-    "bytes": 1040123,
-    "source": "openrouter-generated"
-  },
-  {
-    "id": "door-gallery--double-entry",
-    "src": "/photos/door-gallery--double-entry.png",
-    "alt": "Double entry door installation on a Brooklyn commercial building — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
-    "category": "commercial",
-    "kind": "work",
-    "services": [
-      "commercial-door-installation"
-    ],
-    "width": 1600,
-    "height": 900,
-    "ratio": 1.778,
-    "orientation": "landscape",
-    "bytes": 921871,
-    "source": "openrouter-generated"
-  },
-  {
-    "id": "door-gallery--apartment-interior",
-    "src": "/photos/door-gallery--apartment-interior.png",
-    "alt": "Interior door replacement in a NYC apartment hallway — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
-    "category": "residential",
-    "kind": "work",
-    "services": [
-      "residential-door-installation"
-    ],
-    "width": 1600,
-    "height": 900,
-    "ratio": 1.778,
-    "orientation": "landscape",
-    "bytes": 755758,
-    "source": "openrouter-generated"
-  },
-  {
-    "id": "door-gallery--emergency-repair",
-    "src": "/photos/door-gallery--emergency-repair.png",
-    "alt": "Emergency door repair on a damaged NYC storefront — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
+    "id": "door-gallery--emergency",
+    "src": "/photos/door-gallery--emergency.webp",
+    "alt": "Emergency commercial door repair on a warehouse overhead door — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
     "category": "emergency",
     "kind": "work",
     "services": [
-      "emergency-door-repair"
+      "emergency-commercial-repair"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 989995,
+    "bytes": 221150,
     "source": "openrouter-generated"
   },
   {
-    "id": "door-gallery--historic-restoration",
-    "src": "/photos/door-gallery--historic-restoration.png",
-    "alt": "Historic door profile restoration on a Brooklyn brownstone — Hillman Door Supply and Door Repair, Brooklyn, Manhattan & Queens, NY",
-    "category": "custom",
+    "id": "door-gallery--port-warehouse",
+    "src": "/photos/door-gallery--port-warehouse.webp",
+    "alt": "Dock doors at a Port Newark-area warehouse — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "dock",
     "kind": "work",
     "services": [
-      "custom-door-fabrication",
-      "structural-door-repair"
+      "loading-dock-equipment",
+      "commercial-overhead-doors"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 911631,
+    "bytes": 134142,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "door-gallery--meadowlands-logistics",
+    "src": "/photos/door-gallery--meadowlands-logistics.webp",
+    "alt": "Meadowlands logistics warehouse overhead doors — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "overhead",
+    "kind": "work",
+    "services": [
+      "commercial-overhead-doors"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120214,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "door-gallery--jc-lobby",
+    "src": "/photos/door-gallery--jc-lobby.webp",
+    "alt": "Jersey City commercial lobby aluminum entrance doors — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "storefront",
+    "kind": "work",
+    "services": [
+      "storefront-entrances"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120546,
+    "source": "openrouter-generated"
+  },
+  {
+    "id": "door-gallery--dock-interior",
+    "src": "/photos/door-gallery--dock-interior.webp",
+    "alt": "Interior view of a commercial dock door — Meadowlands Commercial Door Solutions, Jersey City, Hudson County & the Meadowlands, NJ",
+    "category": "dock",
+    "kind": "work",
+    "services": [
+      "loading-dock-equipment"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 123252,
     "source": "openrouter-generated"
   }
 ]

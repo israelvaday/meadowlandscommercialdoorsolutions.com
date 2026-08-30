@@ -36,6 +36,16 @@ let movedApi = false;
 let result;
 
 try {
+  const prune = spawnSync(
+    process.execPath,
+    [join(ROOT, "scripts", "prune-stale-public-assets.mjs")],
+    { cwd: ROOT, stdio: "inherit" }
+  );
+  if (prune.error) throw prune.error;
+  if (prune.status !== 0) {
+    throw new Error(`prune-stale-public-assets exited with ${prune.status}`);
+  }
+
   if (existsSync(API_DIR)) {
     mkdirSync(STASH_ROOT, { recursive: true });
     renameSync(API_DIR, STASHED_API);
@@ -50,7 +60,10 @@ try {
       NEXT_PUBLIC_GH_PAGES: "1",
       NEXT_PUBLIC_SITE_URL:
         process.env.NEXT_PUBLIC_SITE_URL ||
-        "https://hillmandoorsupplyanddoorrepair.com",
+        "https://meadowlandscommercialdoorsolutions.com",
+      NEXT_PUBLIC_QUOTE_API_URL:
+        process.env.NEXT_PUBLIC_QUOTE_API_URL ||
+        "https://meadowlandscommercialdoorsolutions.com/api/quote",
     },
     stdio: "inherit",
     shell: false,

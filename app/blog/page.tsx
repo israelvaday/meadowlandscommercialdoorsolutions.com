@@ -10,7 +10,7 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 export const metadata: Metadata = {
   title: { absolute: `Door Guides — ${BIZ.name}` },
   description:
-    `Door guides from ${BIZ.name} covering installation, hardware, fire ratings, structural repair, and code compliance in Brooklyn & NYC.`,
+    `Commercial door guides from ${BIZ.name} covering overhead doors, rolling steel, docks, fire ratings, and operators in Jersey City and the Meadowlands.`,
   alternates: { canonical: `${BIZ.url}/blog` },
 };
 
@@ -30,7 +30,7 @@ export default function BlogIndex() {
         <div className="relative mx-auto max-w-4xl px-4 text-center md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">{BIZ.name} guides</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            <span className="text-brass-gradient">Door</span> guides for Brooklyn & NYC.
+            <span className="text-brass-gradient">Commercial door</span> guides for Jersey City.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
             Installation, hardware, fire ratings, structural repair, code compliance, and project planning.
@@ -124,7 +124,7 @@ export default function BlogIndex() {
         </div>
       </section>
 
-      <LongFormFaq subject="NYC Door Services" kind="service" />
+      <LongFormFaq subject="Commercial Door Services" kind="service" />
 
       <FinalCTA />
     </>

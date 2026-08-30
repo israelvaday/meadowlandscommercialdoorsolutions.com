@@ -7,12 +7,12 @@ export function AreaTeaser() {
     <section className="relative py-20">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <div className="mb-10 flex flex-col items-center text-center">
-          <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Service Areas</p>
+          <p className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-brass-400">Service Areas</p>
           <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-5xl">
-            Serving Brooklyn, Manhattan &amp; Queens.
+            Serving Jersey City, Hudson County &amp; the Meadowlands.
           </h2>
           <p className="mt-3 max-w-2xl text-ink-300">
-            Door supply, installation, and repair across {AREAS.length}+ NYC neighborhoods and communities.
+            Commercial door systems across {AREAS.length} locations near 333 Washington St.
           </p>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
@@ -35,7 +35,7 @@ export function AreaTeaser() {
         <div className="mt-8">
           <Link
             href="/service-areas"
-            className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-brass-500/10 px-5 py-2.5 text-sm font-semibold text-brass-300 transition-all hover:bg-brass-500/20"
+            className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-brass-500/10 px-5 py-2.5 font-mono text-xs font-semibold uppercase tracking-wider text-brass-300 transition-all hover:bg-brass-500/20"
           >
             Explore all {AREAS.length} service areas <ArrowRight className="h-4 w-4" />
           </Link>

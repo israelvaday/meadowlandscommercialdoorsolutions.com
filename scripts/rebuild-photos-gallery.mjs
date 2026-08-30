@@ -1,5 +1,5 @@
 /**
- * Rebuild content/photos.json from the current door asset set only.
+ * Rebuild content/photos.json from the Meadowlands commercial door asset set.
  */
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -7,107 +7,37 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUTPUT = join(ROOT, "content/photos.json");
-const BUSINESS_NAME = "Hillman Door Supply and Door Repair";
-const REGION = "Brooklyn, Manhattan & Queens, NY";
+const BUSINESS_NAME = "Meadowlands Commercial Door Solutions";
+const REGION = "Jersey City, Hudson County & the Meadowlands, NJ";
 
 const SERVICES = [
-  { slug: "residential-door-installation", label: "Residential door installation" },
-  { slug: "commercial-door-installation", label: "Commercial door installation" },
-  { slug: "custom-door-fabrication", label: "Custom door fabrication" },
-  { slug: "door-hardware-supply", label: "Door hardware supply" },
-  { slug: "structural-door-repair", label: "Structural door repair" },
-  { slug: "fire-rated-doors", label: "Fire-rated doors" },
-  { slug: "storefront-glass-doors", label: "Storefront and glass doors" },
-  { slug: "emergency-door-repair", label: "Emergency door repair" },
-  { slug: "door-frame-jamb-repair", label: "Door frame and jamb repair" },
-  { slug: "security-access-doors", label: "Security and access doors" },
+  { slug: "commercial-overhead-doors", label: "Commercial overhead doors" },
+  { slug: "rolling-steel-doors", label: "Rolling steel doors" },
+  { slug: "loading-dock-equipment", label: "Loading dock doors and equipment" },
+  { slug: "high-speed-doors", label: "High-speed doors" },
+  { slug: "fire-rated-doors", label: "Fire-rated commercial doors" },
+  { slug: "hollow-metal-doors", label: "Hollow metal doors and frames" },
+  { slug: "automatic-operators", label: "Automatic door operators" },
+  { slug: "storefront-entrances", label: "Storefront and aluminum entrances" },
+  { slug: "security-grilles", label: "Security grilles and access doors" },
+  { slug: "emergency-commercial-repair", label: "Emergency commercial door repair" },
 ];
 
 const GALLERY = [
-  {
-    file: "door-gallery--brooklyn-entry.png",
-    category: "residential",
-    services: ["residential-door-installation", "custom-door-fabrication"],
-    alt: "Premium entry door installation on a Brooklyn townhouse",
-  },
-  {
-    file: "door-gallery--commercial-corridor.png",
-    category: "commercial",
-    services: ["commercial-door-installation"],
-    alt: "Commercial hollow metal doors in a NYC office corridor",
-  },
-  {
-    file: "door-gallery--custom-wood-door.png",
-    category: "custom",
-    services: ["custom-door-fabrication"],
-    alt: "Custom solid wood panel door in a NYC residential entry",
-  },
-  {
-    file: "door-gallery--storefront-glass.png",
-    category: "storefront",
-    services: ["storefront-glass-doors"],
-    alt: "Aluminum storefront glass entrance doors on NYC retail",
-  },
-  {
-    file: "door-gallery--fire-rated-hallway.png",
-    category: "fire-rated",
-    services: ["fire-rated-doors"],
-    alt: "Fire-rated corridor doors in a NYC multifamily building",
-  },
-  {
-    file: "door-gallery--interior-slabs.png",
-    category: "residential",
-    services: ["residential-door-installation"],
-    alt: "Solid-core interior door installation in a NYC apartment",
-  },
-  {
-    file: "door-gallery--hardware-detail.png",
-    category: "hardware",
-    services: ["door-hardware-supply"],
-    alt: "Premium door hardware including lockset and closer",
-  },
-  {
-    file: "door-gallery--jamb-repair.png",
-    category: "repair",
-    services: ["door-frame-jamb-repair", "structural-door-repair"],
-    alt: "Door frame jamb repair on a pre-war NYC opening",
-  },
-  {
-    file: "door-gallery--security-entry.png",
-    category: "security",
-    services: ["security-access-doors"],
-    alt: "Reinforced security entry door on a NYC building lobby",
-  },
-  {
-    file: "door-gallery--warehouse-supply.png",
-    category: "supply",
-    services: ["door-hardware-supply"],
-    alt: "Organized door supply warehouse with slabs and hardware",
-  },
-  {
-    file: "door-gallery--double-entry.png",
-    category: "commercial",
-    services: ["commercial-door-installation"],
-    alt: "Double entry door installation on a Brooklyn commercial building",
-  },
-  {
-    file: "door-gallery--apartment-interior.png",
-    category: "residential",
-    services: ["residential-door-installation"],
-    alt: "Interior door replacement in a NYC apartment hallway",
-  },
-  {
-    file: "door-gallery--emergency-repair.png",
-    category: "emergency",
-    services: ["emergency-door-repair"],
-    alt: "Emergency door repair on a damaged NYC storefront",
-  },
-  {
-    file: "door-gallery--historic-restoration.png",
-    category: "custom",
-    services: ["custom-door-fabrication", "structural-door-repair"],
-    alt: "Historic door profile restoration on a Brooklyn brownstone",
-  },
+  { file: "door-gallery--overhead-warehouse.webp", category: "overhead", services: ["commercial-overhead-doors"], alt: "Commercial overhead doors on a Jersey City warehouse" },
+  { file: "door-gallery--rolling-steel.webp", category: "rolling", services: ["rolling-steel-doors"], alt: "Rolling steel door on a North Jersey industrial opening" },
+  { file: "door-gallery--loading-dock.webp", category: "dock", services: ["loading-dock-equipment"], alt: "Loading dock door and trailer seal at a Meadowlands warehouse" },
+  { file: "door-gallery--high-speed.webp", category: "high-speed", services: ["high-speed-doors"], alt: "High-speed industrial door in a logistics corridor" },
+  { file: "door-gallery--fire-rated.webp", category: "fire-rated", services: ["fire-rated-doors"], alt: "Fire-rated corridor doors in a Jersey City commercial building" },
+  { file: "door-gallery--hollow-metal.webp", category: "hollow-metal", services: ["hollow-metal-doors"], alt: "Hollow metal door with vision lite in a commercial corridor" },
+  { file: "door-gallery--operator.webp", category: "operator", services: ["automatic-operators"], alt: "Commercial jackshaft operator on a warehouse overhead door" },
+  { file: "door-gallery--storefront-jc.webp", category: "storefront", services: ["storefront-entrances"], alt: "Aluminum storefront entrance in downtown Jersey City" },
+  { file: "door-gallery--security-grille.webp", category: "security", services: ["security-grilles"], alt: "Rolling security grille on a commercial storefront" },
+  { file: "door-gallery--emergency.webp", category: "emergency", services: ["emergency-commercial-repair"], alt: "Emergency commercial door repair on a warehouse overhead door" },
+  { file: "door-gallery--port-warehouse.webp", category: "dock", services: ["loading-dock-equipment", "commercial-overhead-doors"], alt: "Dock doors at a Port Newark-area warehouse" },
+  { file: "door-gallery--meadowlands-logistics.webp", category: "overhead", services: ["commercial-overhead-doors"], alt: "Meadowlands logistics warehouse overhead doors" },
+  { file: "door-gallery--jc-lobby.webp", category: "storefront", services: ["storefront-entrances"], alt: "Jersey City commercial lobby aluminum entrance doors" },
+  { file: "door-gallery--dock-interior.webp", category: "dock", services: ["loading-dock-equipment"], alt: "Interior view of a commercial dock door" },
 ];
 
 function diskPath(src) {
@@ -120,11 +50,7 @@ function imageMeta(src) {
   let width = 1600;
   let height = 900;
 
-  if (
-    buffer.length >= 24 &&
-    buffer[0] === 0x89 &&
-    buffer.toString("ascii", 1, 4) === "PNG"
-  ) {
+  if (buffer.length >= 24 && buffer[0] === 0x89 && buffer.toString("ascii", 1, 4) === "PNG") {
     width = buffer.readUInt32BE(16);
     height = buffer.readUInt32BE(20);
   }
@@ -152,7 +78,7 @@ const expectedAssets = [
   {
     id: "logo-master-on-navy",
     src: "/logo.png",
-    alt: `${BUSINESS_NAME} navy and gold HD door logo`,
+    alt: `${BUSINESS_NAME} cyan industrial door logo`,
     category: "brand",
     kind: "brand",
     services: ["brand"],
@@ -160,7 +86,7 @@ const expectedAssets = [
   {
     id: "logo-icon-square",
     src: "/logo-256.png",
-    alt: `${BUSINESS_NAME} HD logo icon`,
+    alt: `${BUSINESS_NAME} logo icon`,
     category: "brand",
     kind: "brand",
     services: ["brand"],
@@ -168,22 +94,22 @@ const expectedAssets = [
   {
     id: "logo-large-square",
     src: "/logo-512.png",
-    alt: `${BUSINESS_NAME} large HD logo`,
+    alt: `${BUSINESS_NAME} large logo`,
     category: "brand",
     kind: "brand",
     services: ["brand"],
   },
   {
-    id: "branding-hero-nyc",
-    src: "/photos/branding-generated--hero-hillman-door-nyc.png",
-    alt: `${BUSINESS_NAME} professional door installation in Brooklyn`,
+    id: "branding-hero-meadowlands",
+    src: "/photos/branding-generated--hero-meadowlands.webp",
+    alt: `${BUSINESS_NAME} commercial overhead door installation in Jersey City`,
     category: "branding-generated",
     kind: "hero",
     services: SERVICES.map(({ slug }) => slug),
   },
   {
-    id: "branding-map-nyc",
-    src: "/photos/branding-generated--nyc-service-map.png",
+    id: "branding-map",
+    src: "/photos/branding-generated--service-map.webp",
     alt: `${BUSINESS_NAME} service area across ${REGION}`,
     category: "branding-generated",
     kind: "brand",
@@ -191,14 +117,14 @@ const expectedAssets = [
   },
   ...SERVICES.map(({ slug, label }) => ({
     id: `service-hero-${slug}`,
-    src: `/photos/service-hero-${slug}.png`,
+    src: `/photos/service-hero-${slug}.webp`,
     alt: `${label} by ${BUSINESS_NAME} in ${REGION}`,
     category: "service-hero",
     kind: "hero",
     services: [slug],
   })),
   ...GALLERY.map(({ file, category, services, alt }) => ({
-    id: file.replace(/\.png$/i, ""),
+    id: file.replace(/\.(webp|png)$/i, ""),
     src: `/photos/${file}`,
     alt: `${alt} — ${BUSINESS_NAME}, ${REGION}`,
     category,
@@ -209,4 +135,4 @@ const expectedAssets = [
 
 const photos = expectedAssets.map(catalogAsset).filter(Boolean);
 writeFileSync(OUTPUT, `${JSON.stringify(photos, null, 2)}\n`);
-console.log(`Wrote ${photos.length}/${expectedAssets.length} door assets to content/photos.json`);
+console.log(`Wrote ${photos.length}/${expectedAssets.length} commercial door assets to content/photos.json`);

@@ -26,10 +26,10 @@ const COMMITMENTS = [
 
 export function CustomerExperience() {
   return (
-    <section className="relative border-t border-ink-800 py-20">
+    <section className="relative border-t border-ink-800 bg-ink-950 py-20">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Customer experience</p>
+          <p className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-brass-400">Customer experience</p>
           <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-5xl">
             What you can expect from {BIZ.name}.
           </h2>

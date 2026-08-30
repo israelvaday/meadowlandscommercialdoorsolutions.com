@@ -32,7 +32,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const s = SERVICES.find((x) => x.slug === slug);
   if (!s) return notFound();
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-  const heroSrc = `${base}/photos/service-hero-${s.slug}.png`;
+  const heroSrc = `${base}/photos/service-hero-${s.slug}.webp`;
   const Icon = s.icon;
 
   return (
@@ -51,13 +51,13 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           <div className="flex flex-wrap items-center gap-2">
             <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-ink-950/70 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brass-300 backdrop-blur">
               <LogoMark className="h-4 w-4" />
-              {BIZ.name} · NYC door services
+              {BIZ.name} · commercial doors
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300 backdrop-blur">
               <Clock className="h-3.5 w-3.5" /> Mon–Sat service
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-950/60 px-3 py-1.5 text-xs font-semibold text-ink-200 backdrop-blur">
-              <MapPin className="h-3.5 w-3.5 text-brass-400" /> Brooklyn, Manhattan &amp; Queens
+              <MapPin className="h-3.5 w-3.5 text-brass-400" /> {BIZ.regionShort}
             </span>
           </div>
           <div className="mt-5 flex items-center gap-3">
@@ -146,10 +146,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <div>
                 <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Service area</p>
                 <h2 className="mt-2 font-display text-2xl font-bold md:text-3xl">
-                  {s.shortName} service across NYC
+                  {s.shortName} service across {BIZ.regionShort}
                 </h2>
                 <p className="mt-2 max-w-2xl text-ink-300">
-                  Door service across Brooklyn, Manhattan &amp; Queens during posted business hours.
+                  Commercial door service across {BIZ.region} during posted business hours.
                 </p>
               </div>
               <Link href="/service-areas" className="hidden text-sm font-semibold text-brass-400 hover:text-brass-300 md:inline-flex">
@@ -162,7 +162,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               lat={BIZ.geo.lat}
               lng={BIZ.geo.lng}
               zoom={BIZ.metroMap.zoom}
-              title={`${s.shortName} — Brooklyn, Manhattan & Queens, NY`}
+              title={`${s.shortName} — ${BIZ.region}`}
               height={420}
             />
           </Reveal>
@@ -171,16 +171,16 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
       <section className="border-t border-ink-800 py-16">
         <div className="mx-auto max-w-3xl space-y-5 px-4 text-sm text-ink-200 md:px-6 md:text-base">
-          <h2 className="font-display text-2xl font-bold text-white md:text-3xl">
-            More about {s.shortName.toLowerCase()} in NYC
+          <h2 className="font-display text-2xl font-bold text-ink-50 md:text-3xl">
+            More about {s.shortName.toLowerCase()} in {BIZ.regionShort}
           </h2>
           <p>
-            {s.description} For each {s.shortName.toLowerCase()} request, {BIZ.name} considers the opening condition,
-            building type, hardware requirements, code compliance, access, and cleanup before finalizing scope.
+            {s.description} For each {s.shortName.toLowerCase()} request, {BIZ.name} considers the opening,
+            cycle count, operator, safety devices, and facility access before finalizing scope.
           </p>
           <p>
-            We serve Brooklyn, Manhattan &amp; Queens for {s.shortName.toLowerCase()} — Park Slope, Williamsburg, DUMBO,
-            Midtown, Long Island City, Astoria, and every neighborhood in our{" "}
+            We serve {BIZ.region} for {s.shortName.toLowerCase()} — Downtown Jersey City, Journal Square, Hoboken,
+            Secaucus, East Rutherford, Newark, and every location on our{" "}
             <a href="/service-areas" className="text-brass-300 underline-offset-2 hover:underline">coverage map</a>.
             Project dates are discussed after we understand the scope and current schedule.
           </p>
@@ -202,7 +202,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         <div className="mx-auto max-w-3xl px-4 md:px-6">
           <Reveal>
             <h2 className="font-display text-3xl font-extrabold md:text-4xl">
-              Planning a {s.shortName.toLowerCase()} project?
+              Need {s.name.toLowerCase()}?
             </h2>
             <p className="mt-3 text-ink-200">Tell {BIZ.name} about the opening and door type you have in mind.</p>
             <div className="mt-6 flex justify-center">

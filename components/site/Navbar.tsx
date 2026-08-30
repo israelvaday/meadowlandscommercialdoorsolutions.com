@@ -1,43 +1,42 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X, Instagram } from "lucide-react";
-import { BIZ } from "@/lib/business";
+import { Menu, X } from "lucide-react";
 import { Logo } from "./Logo";
 import { HoursBadge } from "./HoursBadge";
 import { ContactCTA } from "./ContactCTA";
 import { cn } from "@/lib/cn";
 
 const NAV = [
-  { href: "/services",       label: "Services" },
-  { href: "/service-areas",  label: "Service Areas" },
-  { href: "/gallery",        label: "Gallery" },
-  { href: "/blog",           label: "Blog" },
-  { href: "/faq",            label: "FAQ" },
-  { href: "/reviews",        label: "Experience" },
-  { href: "/about",          label: "About" },
-  { href: "/contact",        label: "Contact" },
+  { href: "/services", label: "Services" },
+  { href: "/service-areas", label: "Areas" },
+  { href: "/gallery", label: "Gallery" },
+  { href: "/blog", label: "Blog" },
+  { href: "/faq", label: "FAQ" },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <header className="sticky top-0 z-50 border-b border-ink-800/80 glass">
-      <div className="relative mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 md:px-6">
-        <Link
-          href="/"
-          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:static md:translate-x-0 md:translate-y-0"
-        >
+    <header className="sticky top-0 z-50 glass">
+      <div className="border-b border-brass-500/20 bg-ink-950/80">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-1.5 font-mono text-[10px] font-semibold uppercase tracking-[0.18em] text-brass-300/80 md:px-6">
+          <span>333 Washington St · Jersey City</span>
+          <span className="hidden sm:inline">Mon–Fri 0700–1800 · Sat 0800–1400</span>
+        </div>
+      </div>
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 md:px-6">
+        <Link href="/" className="shrink-0">
           <Logo size="md" />
         </Link>
-        {/* spacer to balance the menu button on mobile so the logo stays visually centered */}
-        <span aria-hidden className="h-10 w-10 md:hidden" />
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav className="hidden items-center gap-0.5 lg:flex">
           {NAV.map((n) => (
             <Link
               key={n.href}
               href={n.href}
-              className="rounded-lg px-3 py-2 text-sm text-ink-200 transition-colors hover:bg-ink-800/60 hover:text-white"
+              className="rounded-md px-3 py-2 font-mono text-xs font-semibold uppercase tracking-wider text-ink-200 transition-colors hover:bg-brass-500/10 hover:text-brass-200"
             >
               {n.label}
             </Link>
@@ -45,30 +44,19 @@ export function Navbar() {
         </nav>
         <div className="hidden items-center gap-3 md:flex">
           <HoursBadge />
-          {BIZ.social.instagram && (
-            <a
-              href={BIZ.social.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram"
-              className="grid h-9 w-9 place-items-center rounded-full border border-brass-500/40 bg-brass-500/10 text-brass-300 transition hover:scale-105 hover:border-brass-400 hover:text-brass-200"
-            >
-              <Instagram className="h-4 w-4" />
-            </a>
-          )}
-          <ContactCTA size="sm" showLabels={false} className="gap-2" />
+          <ContactCTA size="sm" showLabels className="gap-2" />
         </div>
         <button
           aria-label="Open menu"
           onClick={() => setOpen((o) => !o)}
-          className="grid h-10 w-10 place-items-center rounded-xl border border-ink-800 lg:hidden"
+          className="grid h-11 w-11 place-items-center rounded-md border border-brass-500/30 lg:hidden"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </div>
       <div
         className={cn(
-          "lg:hidden overflow-hidden border-t border-ink-800 transition-all duration-300",
+          "overflow-hidden border-t border-ink-800 transition-all duration-300 lg:hidden",
           open ? "max-h-[32rem]" : "max-h-0"
         )}
       >
@@ -78,24 +66,13 @@ export function Navbar() {
               key={n.href}
               href={n.href}
               onClick={() => setOpen(false)}
-              className="rounded-lg px-3 py-3 text-base text-ink-200 hover:bg-ink-800/60 hover:text-white"
+              className="rounded-md px-3 py-3 font-mono text-sm font-semibold uppercase tracking-wider text-ink-200 hover:bg-brass-500/10 hover:text-brass-200"
             >
               {n.label}
             </Link>
           ))}
-          <div className="mt-3 flex items-center gap-2">
+          <div className="mt-3">
             <HoursBadge />
-            {BIZ.social.instagram && (
-              <a
-                href={BIZ.social.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-brass-500/10 px-3 py-1.5 text-xs font-semibold text-brass-300"
-              >
-                <Instagram className="h-3.5 w-3.5" /> Instagram
-              </a>
-            )}
           </div>
           <div className="mt-3">
             <ContactCTA size="md" />

@@ -1,17 +1,17 @@
 import { BIZ } from "./business";
 
 /**
- * Compute open/closed state in America/Detroit regardless of the user's tz.
+ * Compute open/closed state in America/New_York regardless of the user's tz.
  */
 export type HoursStatus = {
   isOpen: boolean;
   todayLabel: string;
-  message: string; // e.g. "Open now until 12:00 AM" or "Closed — opens Sun 6:00 AM"
+  message: string; // e.g. "Open now until 6:00 PM" or "Closed — opens Mon 7:00 AM"
 };
 
-function laParts(): { day: number; hours: number; minutes: number } {
+function nycParts(): { day: number; hours: number; minutes: number } {
   const fmt = new Intl.DateTimeFormat("en-US", {
-    timeZone: "America/Detroit",
+    timeZone: "America/New_York",
     weekday: "short",
     hour: "2-digit",
     minute: "2-digit",
@@ -41,7 +41,7 @@ function fmtTime(hhmm: string): string {
 }
 
 export function getHoursStatus(): HoursStatus {
-  const { day, hours, minutes } = laParts();
+  const { day, hours, minutes } = nycParts();
   const now = hours * 60 + minutes;
   const today = BIZ.hours[day];
   const todayLabel = today.label;

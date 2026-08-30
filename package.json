@@ -1,12 +1,14 @@
 {
-  "name": "hillman-door-supply-nyc",
+  "name": "meadowlands-commercial-door-solutions",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "build:pages": "node scripts/build-github-pages.mjs",
-    "deploy:pages": "npx gh-pages -d out --dotfiles -m \"Deploy GitHub Pages\"",
+    "optimize:images": "node scripts/optimize-public-images.mjs",
+    "deploy:pages": "node scripts/deploy-github-pages-git.mjs",
+    "deploy:quote-worker": "node scripts/deploy-quote-worker.mjs",
     "build:server": "next build",
     "start": "next start",
     "lint": "next lint",

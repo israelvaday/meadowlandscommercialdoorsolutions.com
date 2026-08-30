@@ -10,10 +10,10 @@ import { loadEnvLocal } from "./openrouter-lib.mjs";
 
 loadEnvLocal();
 
-const DOMAIN = "hillmandoorsupplyanddoorrepair.com";
+const DOMAIN = "meadowlandscommercialdoorsolutions.com";
 const INFO_ADDRESS = `info@${DOMAIN}`;
 const QUOTES_ADDRESS = `quotes@${DOMAIN}`;
-const FORWARD_TO = ["israelvaday97@gmail.com", "oren.siyonov@gmail.com"];
+const FORWARD_TO = ["bar.izhaki@gmail.com"];
 const GITHUB_OWNER = process.env.GITHUB_PAGES_OWNER || "israelvaday";
 const PAGES_TARGET = `${GITHUB_OWNER}.github.io`;
 let ZONE_ID = process.env.CLOUDFLARE_ZONE_ID || "";
@@ -145,7 +145,7 @@ async function createDnsRecord(type, name, content) {
       content,
       ttl: 1,
       proxied: PROXY_WEB,
-      comment: "Hillman Door Supply GitHub Pages",
+      comment: "Meadowlands Commercial Door Solutions GitHub Pages",
     }),
   });
 }

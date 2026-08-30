@@ -6,7 +6,7 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
   title: `Free Quote`,
-  description: `Request a door quote from ${BIZ.name}. Choose a service and property type, describe the project, and optionally upload photos or documents.`,
+  description: `Request a door quote from ${BIZ.name}. Choose a service and property type, describe the project, and submit your contact details.`,
   alternates: { canonical: "/quote" },
 };
 
@@ -38,36 +38,37 @@ export default function QuotePage() {
       <section className="border-t border-ink-800 py-16">
         <div className="mx-auto max-w-3xl space-y-6 px-4 text-sm text-ink-200 md:px-6">
           <div>
-            <h2 className="font-display text-2xl font-bold text-white md:text-3xl">How the quote works</h2>
+            <h2 className="font-display text-2xl font-bold text-ink-50 md:text-3xl">How the quote works</h2>
             <p className="mt-3">
-              The picture-driven wizard collects the basic information needed to understand a NYC door request. There is
+              The picture-driven wizard collects the basic information needed to understand a commercial door request. There is
               no account to create and no obligation to proceed.
             </p>
             <p className="mt-3">
-              You can attach wide photos and close-ups of the door, frame, hardware, damage, or plans. Photos can
-              clarify condition and scope, though some projects still need an on-site review.
+              Describe the opening, door type, hardware, damage, and access notes in the details step. Some projects
+              still need an on-site review before final pricing.
             </p>
           </div>
 
           <div>
-            <h2 className="font-display text-2xl font-bold text-white md:text-3xl">What we quote</h2>
+            <h2 className="font-display text-2xl font-bold text-ink-50 md:text-3xl">What we quote</h2>
             <p className="mt-3">
-              Choose residential installation, commercial installation, custom fabrication, hardware supply, structural
-              repair, fire-rated doors, storefront systems, emergency repair, frame and jamb repair, or security doors.
+              Choose commercial overhead doors, rolling steel, loading-dock equipment, high-speed doors, fire-rated
+              assemblies, hollow metal, automatic operators, storefront entrances, security grilles, or emergency
+              commercial repair.
             </p>
           </div>
 
           <div>
-            <h2 className="font-display text-2xl font-bold text-white md:text-3xl">Pricing & expectations</h2>
+            <h2 className="font-display text-2xl font-bold text-ink-50 md:text-3xl">Pricing & expectations</h2>
             <p className="mt-3">
               A useful estimate identifies door type, hardware, framing adjustments, code requirements, exclusions, and
-              timing. If scope changes, confirm the added work and price in writing. You can also text project photos
-              to {BIZ.phone}.
+              timing. If scope changes, confirm the added work and price in writing. Email project photos to{" "}
+              {BIZ.email} or attach them in the quote form.
             </p>
           </div>
         </div>
       </section>
-      <LongFormFaq subject="NYC Door Services" kind="service" />
+      <LongFormFaq subject="Commercial Door Services" kind="service" />
     </>
   );
 }

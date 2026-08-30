@@ -13,12 +13,12 @@ import { Reveal } from "@/components/site/Reveal";
 import { LazyParallax, LazyFloatOnScroll } from "@/components/site/LazyScrollFx";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BuyersGuide } from "@/components/site/BuyersGuide";
-import { PaintingGlossary } from "@/components/site/PaintingGlossary";
+import { DoorGlossary } from "@/components/site/DoorGlossary";
 
 export const metadata: Metadata = {
-  title: "Door Supply, Installation & Repair — Brooklyn & NYC",
+  title: "Commercial Door Systems — Jersey City & the Meadowlands",
   description:
-    `${BIZ.name} provides residential and commercial door supply, installation, structural repair, fire-rated doors, hardware, and emergency service across Brooklyn, Manhattan & Queens. Request a free estimate.`,
+    `${BIZ.name} installs and repairs commercial overhead doors, rolling steel, loading docks, high-speed doors, fire-rated assemblies, and storefronts from ${BIZ.address.full}.`,
   alternates: { canonical: "/" },
 };
 
@@ -26,7 +26,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <section className="border-y border-ink-800 bg-ink-950/60 py-12 md:py-16">
+      <section className="border-y border-ink-800 bg-ink-950 py-12 md:py-16">
         <div className="mx-auto max-w-7xl px-4 md:px-6">
           <Reveal variant="zoom">
             <LazyFloatOnScroll>
@@ -45,9 +45,9 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 md:px-6">
           <Reveal variant="bounce">
             <div className="mb-6">
-              <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Coverage</p>
+              <p className="font-mono text-sm font-semibold uppercase tracking-wider text-brass-400">Coverage</p>
               <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-4xl">
-                Brooklyn, Manhattan &amp; Queens — service coverage map.
+                {BIZ.region} — dispatch map.
               </h2>
             </div>
           </Reveal>
@@ -57,7 +57,7 @@ export default function HomePage() {
                 lat={BIZ.metroMap.lat}
                 lng={BIZ.metroMap.lng}
                 zoom={BIZ.metroMap.zoom}
-                title="Brooklyn, Manhattan & Queens, NY"
+                title={BIZ.region}
                 height={420}
               />
             </Reveal>
@@ -67,9 +67,9 @@ export default function HomePage() {
       <Reveal variant="bounce">
         <CustomerExperience />
       </Reveal>
-      <LongFormFaq subject="NYC Door Services" kind="service" />
+      <LongFormFaq subject="Commercial Door Systems" kind="service" />
       <BuyersGuide />
-      <PaintingGlossary />
+      <DoorGlossary />
       <Reveal variant="zoom">
         <FinalCTA />
       </Reveal>

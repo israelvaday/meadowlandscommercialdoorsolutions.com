@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CalendarDays, MapPin, Phone } from "lucide-react";
+import { CalendarDays, Mail, MapPin, Phone } from "lucide-react";
 import { BIZ } from "@/lib/business";
 
 export function AreaAvailabilityChecker({
@@ -15,18 +15,18 @@ export function AreaAvailabilityChecker({
         className="pointer-events-none absolute inset-0 opacity-[0.07]"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(201,162,74,.6) 1px, transparent 1px), linear-gradient(90deg, rgba(201,162,74,.6) 1px, transparent 1px)",
+            "linear-gradient(rgba(34,211,238,.35) 1px, transparent 1px), linear-gradient(90deg, rgba(34,211,238,.35) 1px, transparent 1px)",
           backgroundSize: "28px 28px",
         }}
       />
       <div className="relative inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-brass-500/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-brass-300">
-        <MapPin className="h-3 w-3" /> {areaName}, NY
+        <MapPin className="h-3 w-3" /> {areaName}
       </div>
       <h2 className="relative mt-4 font-display text-2xl font-extrabold tracking-tight md:text-3xl">
         Check project availability in {areaName}
       </h2>
       <p className="relative mt-2 text-sm leading-relaxed text-ink-300 md:text-base">
-        {BIZ.name} serves {areaName} as part of our Brooklyn, Manhattan &amp; Queens coverage area. Dates depend on
+        {BIZ.name} serves {areaName} as part of our Jersey City, Hudson County, and Meadowlands coverage. Dates depend on
         project scope, hardware lead times, building access, and the current schedule, so an instant checker cannot
         promise availability or arrival times.
       </p>
@@ -46,12 +46,21 @@ export function AreaAvailabilityChecker({
         >
           Request a quote
         </Link>
-        <a
-          href={BIZ.phoneHref}
-          className="inline-flex items-center gap-2 rounded-full border border-brass-500/50 px-5 py-2.5 text-sm font-bold text-brass-300 transition hover:bg-brass-500/10"
-        >
-          <Phone className="h-4 w-4" /> Call {BIZ.phone}
-        </a>
+        {BIZ.phone ? (
+          <a
+            href={BIZ.phoneHref}
+            className="inline-flex items-center gap-2 rounded-full border border-brass-500/50 px-5 py-2.5 text-sm font-bold text-brass-300 transition hover:bg-brass-500/10"
+          >
+            <Phone className="h-4 w-4" /> Call {BIZ.phone}
+          </a>
+        ) : (
+          <a
+            href={BIZ.emailHref}
+            className="inline-flex items-center gap-2 rounded-full border border-brass-500/50 px-5 py-2.5 text-sm font-bold text-brass-300 transition hover:bg-brass-500/10"
+          >
+            <Mail className="h-4 w-4" /> Email
+          </a>
+        )}
       </div>
     </aside>
   );

@@ -10,7 +10,7 @@ export function localBusinessJsonLd() {
     name: BIZ.name,
     image: `${BIZ.url}/opengraph-image.png`,
     logo: `${BIZ.url}/logo.png`,
-    telephone: BIZ.phoneE164,
+    telephone: BIZ.phoneE164 || undefined,
     email: BIZ.email,
     url: BIZ.url,
     priceRange: "$$",
@@ -43,7 +43,7 @@ export function localBusinessJsonLd() {
     hasCredential: {
       "@type": "EducationalOccupationalCredential",
       credentialCategory: "Insurance documentation",
-      name: "Insured door supply and installation business",
+      name: "Insured commercial door contractor",
     },
     sameAs: Object.values(BIZ.social).filter(Boolean),
   };
@@ -58,7 +58,7 @@ export function serviceJsonLd(slug: string) {
     serviceType: s.name,
     description: s.description,
     provider: { "@id": `${BIZ.url}/#business` },
-    areaServed: { "@type": "AdministrativeArea", name: "Brooklyn, Manhattan & Queens, NY" },
+    areaServed: { "@type": "AdministrativeArea", name: BIZ.region },
     url: `${BIZ.url}/services/${s.slug}`,
   };
 }

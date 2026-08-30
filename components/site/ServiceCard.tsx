@@ -2,9 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { ComponentType, SVGProps } from "react";
 import { MapPin, ArrowUpRight } from "lucide-react";
-import { LogoMark } from "@/components/site/Logo";
 import { cn } from "@/lib/cn";
-import { BIZ } from "@/lib/business";
 
 export type ServiceCardProps = {
   slug: string;
@@ -26,9 +24,8 @@ export function ServiceCard({
   return (
     <Link
       href={`/services/${slug}`}
-      className="group relative block overflow-hidden rounded-3xl border border-ink-800 bg-ink-900/60 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.8)] transition-all hover:-translate-y-1 hover:border-brass-500/60"
+      className="group block overflow-hidden rounded-2xl border border-ink-800 bg-ink-900/60 transition-all hover:-translate-y-1 hover:border-brass-500/50 hover:shadow-signal"
     >
-      {/* Photo */}
       <div className="relative aspect-[16/10] overflow-hidden">
         <Image
           src={photoSrc}
@@ -39,43 +36,24 @@ export function ServiceCard({
           priority={priority}
           className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
-        {/* Bottom gradient for legibility */}
-        <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/40 to-transparent" />
-
-        {/* Logo watermark, top-left */}
-        <div className="absolute left-3 top-3 flex items-center gap-2 rounded-xl border border-brass-500/40 bg-ink-950/70 px-2.5 py-1.5 backdrop-blur">
-          <LogoMark className="h-5 w-5" />
-          <span className="text-[10px] font-bold uppercase tracking-wider text-brass-300">
-            {BIZ.name}
-          </span>
-        </div>
-
-        {/* Map / location pill, top-right */}
+        <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/20 to-transparent" />
         {city && (
-          <div className="absolute right-3 top-3 inline-flex items-center gap-1 rounded-full border border-ink-700/60 bg-ink-950/70 px-2.5 py-1 backdrop-blur">
-            <MapPin className="h-3 w-3 text-brass-400" />
-            <span className="text-[10px] font-semibold text-ink-100">{city}</span>
+          <div className="absolute right-3 top-3 inline-flex items-center gap-1 rounded-full border border-brass-500/30 bg-ink-950/80 px-2.5 py-1 font-mono text-[10px] font-semibold uppercase tracking-wider text-brass-200 backdrop-blur">
+            <MapPin className="h-3 w-3" />
+            {city}
           </div>
         )}
-
-        {/* Title overlay, bottom */}
-        <div className="absolute inset-x-0 bottom-0 p-5">
-          <div className="flex items-center gap-2">
-            <Icon className={cn("h-5 w-5 text-brass-400")} />
-            <span className="text-[11px] font-bold uppercase tracking-[0.18em] text-brass-300">
-              {shortName}
-            </span>
-          </div>
-          <h3 className="mt-1.5 font-display text-2xl font-extrabold leading-tight text-white">
-            {name}
-          </h3>
-        </div>
       </div>
-
-      {/* Footer */}
-      <div className="flex items-center justify-between gap-3 p-5">
-        <p className="text-sm text-ink-300">{tagline}</p>
-        <ArrowUpRight className="h-5 w-5 shrink-0 text-ink-500 transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brass-400" />
+      <div className="p-5">
+        <div className="flex items-center gap-2 text-brass-300">
+          <Icon className={cn("h-4 w-4")} />
+          <span className="font-mono text-[11px] font-bold uppercase tracking-[0.16em]">{shortName}</span>
+        </div>
+        <h3 className="mt-2 font-display text-xl font-extrabold leading-tight text-white">{name}</h3>
+        <p className="mt-2 text-sm leading-relaxed text-ink-300">{tagline}</p>
+        <span className="mt-4 inline-flex items-center gap-1 font-mono text-xs font-bold uppercase tracking-wider text-brass-300">
+          Open spec <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+        </span>
       </div>
     </Link>
   );

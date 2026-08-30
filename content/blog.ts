@@ -1,5 +1,5 @@
-// Original door guidance written for NYC property owners.
-// Bodies use a small markdown-like format: headings, list items, and paragraphs.
+import generated from "./blog.json";
+import { BIZ } from "@/lib/business";
 
 export type BlogPost = {
   slug: string;
@@ -16,240 +16,206 @@ export type BlogPost = {
   body: string;
 };
 
-export const BLOG_POSTS: BlogPost[] = [
+const FALLBACK: BlogPost[] = [
   {
-    slug: "choosing-entry-door-brooklyn-brownstone",
-    title: "How to Choose an Entry Door for a Brooklyn Brownstone",
-    metaTitle: "Entry Door Guide for Brooklyn Brownstones",
+    slug: "commercial-overhead-doors-jersey-city-warehouses",
+    title: "Commercial Overhead Doors for Jersey City Warehouses",
+    metaTitle: "Jersey City Commercial Overhead Door Guide",
     excerpt:
-      "Historic profiles, security needs, and NYC weather all influence the right entry door for a Brooklyn townhouse or brownstone.",
-    category: "Residential",
-    readMinutes: 6,
-    date: "2026-01-16",
-    heroImage: "/blog/choosing-entry-door-brooklyn-brownstone-hero.png",
-    heroAlt: "Premium solid wood entry door installed on a Brooklyn brownstone",
-    secondaryImage: "/blog/choosing-entry-door-brooklyn-brownstone-secondary.png",
-    secondaryAlt: "Door technician measuring a historic Brooklyn entry opening",
-    body: `
-Brooklyn brownstones and townhouses present a unique combination of historic architecture, settled frames, and modern security expectations. The right entry door must fit an often-non-standard opening, complement original casings, and withstand NYC humidity, heat, and winter weather.
-
-## Start with the opening, not the catalog photo
-
-Pre-war buildings frequently have openings that differ from modern standard sizes. Measure jamb width, height, depth, swing, and the condition of the header and sill before selecting a slab. A door that fits a catalog dimension but not your frame will bind, leak, or fail to latch within a season.
-
-Check whether the existing frame can be preserved. Rot, termite damage, or repeated settling may require jamb repair or replacement before a new slab is hung.
-
-## Match the architectural profile
-
-Historic Brooklyn entries often feature panel profiles, transoms, and sidelites that define the facade. When replacing a door, consider whether a standard slab will look out of place against original casings and stonework.
-
-Custom fabrication or profile-matched doors cost more upfront but preserve curb appeal and property value — especially on blocks where architectural consistency matters.
-
-## Prioritize security and hardware
-
-NYC entry doors benefit from solid-core or metal-clad construction, quality deadbolts, reinforced strikes, and hinges with long screws into the framing. Multi-point lock systems add security without compromising the historic appearance when specified correctly.
-
-Hardware weight affects hinge selection and closer requirements. Specify hinges and locksets matched to door weight and daily use.
-
-## Plan for weather sealing
-
-Brooklyn entries face driving rain, summer heat, and winter cold. Weatherstripping, thresholds, and proper sill pans prevent drafts and water intrusion. A beautiful door that does not seal will cost more in energy and damage over time.
-
-Hillman Door Supply and Door Repair helps Brooklyn homeowners select, fabricate, and install entry doors with accurate measurement and structural assessment. Call or text (718) 638-4271 for a written estimate from our Flatbush Ave headquarters.
-`,
-  },
-  {
-    slug: "fire-rated-doors-nyc-multifamily",
-    title: "Fire-Rated Doors in NYC Multifamily Buildings: What Owners Need to Know",
-    metaTitle: "Fire-Rated Door Requirements NYC Multifamily",
-    excerpt:
-      "UL labels, self-closing hardware, and corridor assemblies — the essentials for compliant multifamily door replacement in NYC.",
+      "Insulation, wind load, and operator choice decide whether a Jersey City warehouse door lasts through Hudson River weather and daily dock traffic.",
     category: "Commercial",
     readMinutes: 7,
-    date: "2026-02-12",
-    heroImage: "/blog/fire-rated-doors-nyc-multifamily-hero.png",
-    heroAlt: "Fire-rated corridor door with UL label installed in a NYC apartment building",
-    secondaryImage: "/blog/fire-rated-doors-nyc-multifamily-secondary.png",
-    secondaryAlt: "Self-closing hardware on a fire-rated door assembly",
+    date: "2026-02-03",
+    heroImage: "/blog/commercial-overhead-doors-jersey-city-warehouses-hero.webp",
+    heroAlt: "Insulated commercial overhead doors on a Jersey City warehouse",
+    secondaryImage: "/blog/commercial-overhead-doors-jersey-city-warehouses-secondary.webp",
+    secondaryAlt: "Technician inspecting overhead door tracks in a warehouse bay",
     body: `
-Multifamily and mixed-use buildings across Brooklyn, Manhattan, and Queens must maintain fire-rated door assemblies in corridors, stairwells, and other code-required locations. Replacing a fire door is not the same as swapping a residential interior slab — the assembly, label, and hardware must work together.
+Jersey City warehouses, last-mile buildings, and shop bays take a beating from salt air, wind off the Hudson, and constant truck cycles. A commercial overhead sectional door is not a residential garage door with a bigger spring — the track, insulation, and operator have to match the opening.
 
-## Understand the label
+## Start with the opening and the traffic
 
-Fire-rated doors carry UL or WH labels that specify the rating (e.g., 90-minute, 60-minute) and whether the door is for use in a frame of matching rating. Installing a labeled door in a non-rated frame — or removing the label during installation — can void compliance.
+Measure width, height, headroom, and sideroom before you pick a panel. High-cycle docks near Newport or Port Newark need heavier tracks and springs than a once-a-day shop door in Greenville.
 
-Always verify the existing rating before ordering a replacement. Your superintendent, architect, or expeditor can help confirm what the opening requires.
+## Insulation and weather seals matter here
 
-## Self-closing hardware is part of the assembly
+Hudson County winters and summer heat make R-value and perimeter seals part of the energy bill. A door that looks fine but leaks at the jamb costs more in HVAC than it saved on the bid.
 
-Fire-rated doors must self-close and latch reliably. This means appropriate closers, spring hinges, or automatic operators depending on the opening type and ADA requirements. A fire door that stays propped open fails its purpose regardless of the slab quality.
+## Specify the operator with the door
 
-## Smoke seals and gasketing
+Jackshaft or trolley, photo eyes, and a sensing edge belong in the same scope. An undersized motor on an insulated door is a service call waiting to happen.
 
-Many NYC corridor doors require smoke-seal components or intumescent gasketing. These materials are part of the listed assembly and should not be omitted or substituted without verification.
+## Plan downtime by bay
 
-## Documentation matters
+Occupied facilities should keep one opening live. We phase commercial overhead installs from ${BIZ.address.full} so product keeps moving.
 
-Property managers should retain invoices, label photos, and installation records. DOB and FDNY inspections may require proof that listed assemblies were installed correctly.
-
-Hillman Door Supply and Door Repair supplies and installs fire-rated door assemblies across NYC with label verification and hardware coordination. Contact us at (718) 638-4271 for multifamily door scopes.
+${BIZ.name} writes commercial overhead door scopes for Jersey City, Hudson County, and the Meadowlands. Request a quote with opening sizes and photos.
 `,
   },
   {
-    slug: "storefront-door-repair-nyc-retail",
-    title: "Storefront Door Repair for NYC Retail: Common Failures and Fixes",
-    metaTitle: "NYC Storefront Door Repair Guide",
+    slug: "rolling-steel-vs-sectional-meadowlands",
+    title: "Rolling Steel vs. Sectional Doors in the Meadowlands",
+    metaTitle: "Rolling Steel or Sectional Door Meadowlands",
     excerpt:
-      "Floor closers, panic hardware, and weather seals — what causes NYC storefront doors to fail and how to fix them properly.",
+      "Choose rolling steel for security and tight headroom, or sectional overhead doors for insulation and serviceability, on Meadowlands industrial openings.",
+    category: "Planning",
+    readMinutes: 7,
+    date: "2026-02-18",
+    heroImage: "/blog/rolling-steel-vs-sectional-meadowlands-hero.webp",
+    heroAlt: "Rolling steel and sectional doors in a Meadowlands warehouse",
+    secondaryImage: "/blog/rolling-steel-vs-sectional-meadowlands-secondary.webp",
+    secondaryAlt: "Detail of rolling steel slats and a sectional door panel",
+    body: `
+Carlstadt, Moonachie, Teterboro, and East Rutherford buildings mix both door types on the same truck court. The right choice depends on headroom, security, insulation, and how often the opening cycles.
+
+## When rolling steel wins
+
+Low headroom, exterior security, and abuse-prone service doors favor a steel curtain. Rolling doors take hits that would dent a sectional panel and still close.
+
+## When sectional overhead doors win
+
+Insulated docks, auto shops, and conditioned warehouses usually want sectional doors. They seal better, service in panels, and pair cleanly with modern operators.
+
+## Do not mix the hardware
+
+A rolling-door barrel and a sectional torsion system are not interchangeable. The written scope should name curtain or panel, guides or tracks, and the motor type.
+
+## Meadowlands wind and salt
+
+Industrial parks west of the Turnpike see wind and grit. Guides, bottom bars, and weather seals should be specified for that exposure, not a generic catalog page.
+
+${BIZ.name} compares rolling steel and sectional options for Meadowlands and Hudson County facilities from ${BIZ.address.full}.
+`,
+  },
+  {
+    slug: "fire-rated-doors-hudson-county",
+    title: "Fire-Rated Commercial Doors in Hudson County Buildings",
+    metaTitle: "Hudson County Fire-Rated Door Assemblies",
+    excerpt:
+      "Labeled doors, frames, and closers have to travel together. Here is how Jersey City and Hudson County commercial buildings should replace fire doors.",
+    category: "Commercial",
+    readMinutes: 8,
+    date: "2026-03-02",
+    heroImage: "/blog/fire-rated-doors-hudson-county-hero.webp",
+    heroAlt: "Fire-rated corridor doors in a Hudson County commercial building",
+    secondaryImage: "/blog/fire-rated-doors-hudson-county-secondary.webp",
+    secondaryAlt: "Fire door closer and labeled frame assembly",
+    body: `
+Mixed-use towers in downtown Jersey City, Hoboken offices, and Newark warehouses all use labeled fire-door assemblies. Swapping a slab without the matching frame and hardware is how inspections fail.
+
+## The label is the product
+
+A UL or WH label states the rating and the assembly it belongs to. Paint over it, grind it, or hang a rated door in an unlabeled frame and the opening is no longer a listed assembly.
+
+## Closers and latches are not optional
+
+Fire doors must self-close and latch. Hold-opens, if used, must release on alarm. A wedge under a stair door is a life-safety failure, not a convenience.
+
+## Document the closeout
+
+Property managers should keep label photos, hardware lists, and invoices. Hudson County inspectors ask for that package more often than owners expect.
+
+${BIZ.name} supplies and installs fire-rated commercial door assemblies from ${BIZ.address.full}. Request a labeled-assembly scope, not a generic door swap.
+`,
+  },
+  {
+    slug: "high-speed-doors-logistics",
+    title: "High-Speed Doors for Meadowlands Logistics",
+    metaTitle: "High-Speed Industrial Doors Meadowlands NJ",
+    excerpt:
+      "Fast-cycle doors protect temperature, dust, and traffic in Meadowlands logistics, food, and parking facilities when sensors and controls are specified correctly.",
     category: "Commercial",
     readMinutes: 6,
-    date: "2026-03-05",
-    heroImage: "/blog/storefront-door-repair-nyc-retail-hero.png",
-    heroAlt: "Aluminum storefront entrance door on a NYC retail shop",
-    secondaryImage: "/blog/storefront-door-repair-nyc-retail-secondary.png",
-    secondaryAlt: "Technician adjusting floor closer on a commercial glass entrance door",
+    date: "2026-03-16",
+    heroImage: "/blog/high-speed-doors-logistics-hero.webp",
+    heroAlt: "High-speed door in a Meadowlands logistics facility",
+    secondaryImage: "/blog/high-speed-doors-logistics-secondary.webp",
+    secondaryAlt: "Safety sensors beside a high-performance industrial door",
     body: `
-Ground-floor retail and restaurant spaces across NYC depend on aluminum and glass storefront doors that handle thousands of cycles per month. When a storefront door drags, won't latch, or slams shut, the cause is usually hardware wear — not necessarily the glass or frame.
+High-speed fabric and rubber doors earn their keep when forklifts, pickers, and trucks hit the same opening all day. A slow sectional door in that location becomes a bottleneck and an energy leak.
 
-## Floor closers and pivot alignment
+## Match cycle rating to the aisle
 
-Many NYC storefront entrances use floor-mounted closers or bottom pivots. These components wear over time, especially on heavily trafficked doors. Misalignment causes dragging, uneven gaps, and latch failures.
+Interior process doors cycle far more than exterior docks. Specify a curtain and motor that can take that count, plus a soft-reset design if a forklift clips the panel.
 
-Adjustment may restore operation temporarily, but worn closers and pivots often need replacement. After-hours service minimizes disruption to business hours.
+## Sensors before speed
 
-## Panic hardware and exit devices
+Loops, photo eyes, and pull cords keep people and product safe. Speed without a tested safety package is the wrong upgrade.
 
-Doors equipped with panic bars must latch securely while releasing freely during egress. Worn latches, bent strikes, or misaligned rods cause both security and code concerns. Never disable exit hardware to solve a latching problem — repair or replace the component.
+## Cold storage and parking
 
-## Weather seals and sweeps
+Meadowlands food facilities and Jersey City parking structures are the two most common high-speed applications we see. Each needs a different curtain, control, and weather package.
 
-Worn bottom sweeps and perimeter gaskets allow water, drafts, and street noise into the space. Replacing seals is a cost-effective improvement that extends hardware life by reducing debris in tracks and closers.
-
-## When replacement makes sense
-
-If the frame is bent, the door is delaminating, or repeated repairs fail within months, a new entrance assembly may cost less over time than ongoing emergency fixes.
-
-Hillman Door Supply and Door Repair provides storefront door repair and replacement across Brooklyn, Manhattan, and Queens. Call (718) 638-4271 for same-day emergency service when available.
+${BIZ.name} specifies high-speed doors for logistics and parking openings across ${BIZ.region}.
 `,
   },
   {
-    slug: "interior-door-replacement-nyc-apartment",
-    title: "Interior Door Replacement in NYC Apartments: Scope and Timing",
-    metaTitle: "NYC Apartment Interior Door Replacement",
+    slug: "storefront-repair-downtown-jersey-city",
+    title: "Storefront Door Repair in Downtown Jersey City",
+    metaTitle: "Jersey City Storefront Door Repair",
     excerpt:
-      " Hollow-core upgrades, noise reduction, and building coordination for apartment interior door projects in NYC.",
-    category: "Residential",
-    readMinutes: 5,
-    date: "2026-03-22",
-    heroImage: "/blog/interior-door-replacement-nyc-apartment-hero.png",
-    heroAlt: "New interior door installed in a renovated NYC apartment",
-    secondaryImage: "/blog/interior-door-replacement-nyc-apartment-secondary.png",
-    secondaryAlt: "Stack of pre-hung interior doors ready for apartment installation",
-    body: `
-Renovating an NYC apartment often includes replacing dated hollow-core doors with solid-core or fire-rated slabs. Whether you are updating one bedroom door or standardizing an entire unit, scope and timing depend on frame condition, building rules, and hardware compatibility.
-
-## Assess the frame first
-
-Apartment doors in pre-war and post-war buildings frequently have settled jambs, non-standard heights, or damaged strikes. Hanging a new slab on a compromised frame repeats the same binding and latching problems.
-
-Include frame repair, shimming, and strike alignment in the scope when the opening needs it.
-
-## Consider sound and fire requirements
-
-Bedroom and corridor doors in some buildings require minimum fire ratings or sound ratings. Check building alteration agreements and co-op or condo rules before ordering materials.
-
-Solid-core doors improve privacy and reduce noise transfer between rooms — a meaningful upgrade in open-layout renovations.
-
-## Coordinate with building staff
-
-Many NYC buildings require insurance certificates, work-hour restrictions, and elevator reservations. Plan the installation schedule with your super or management company to avoid delays.
-
-## Batch replacements save time
-
-If multiple doors in a unit need replacement, measuring and installing them in one visit reduces labor cost and disruption compared to one-off service calls.
-
-Hillman Door Supply and Door Repair installs interior doors across Brooklyn, Manhattan, and Queens. Request a unit-wide measurement at (718) 638-4271.
-`,
-  },
-  {
-    slug: "door-hardware-guide-nyc-buildings",
-    title: "Door Hardware Guide for NYC Buildings: Locks, Closers, and Hinges",
-    metaTitle: "NYC Door Hardware Selection Guide",
-    excerpt:
-      "How to specify locksets, closers, hinges, and panic hardware for residential and commercial doors in NYC.",
-    category: "Hardware",
-    readMinutes: 7,
-    date: "2026-04-10",
-    heroImage: "/blog/door-hardware-guide-nyc-buildings-hero.png",
-    heroAlt: "Commercial-grade door hardware including lockset and closer on a NYC office door",
-    secondaryImage: "/blog/door-hardware-guide-nyc-buildings-secondary.png",
-    secondaryAlt: "Assortment of hinges and locksets for door hardware upgrade",
-    body: `
-Door hardware determines how a door feels every day — and whether it meets code. NYC buildings mix residential locksets, commercial closers, panic hardware, and access-control components. Specifying the wrong hardware leads to premature failure, ADA issues, or security gaps.
-
-## Match hardware to door weight and traffic
-
-Heavy solid-core and fire-rated doors require hinges rated for the weight and frequency of use. Continuous hinges, heavy-duty ball bearings, or pivot systems may be necessary for high-traffic commercial openings.
-
-Lightweight hardware on a heavy door causes sagging, misalignment, and repeated latch failures.
-
-## Closers and ADA clearance
-
-Door closers control closing speed and latch timing. ADA requirements specify maximum opening force and closing time for accessible routes. Closers must be adjusted correctly — an improperly adjusted closer is a common source of tenant complaints and inspection failures.
-
-## Locksets and access control prep
-
-Modern NYC lobbies and commercial suites often need electric strikes, mag locks, or prep for keypads and intercoms. Planning access-control prep during door installation avoids costly retrofitting later.
-
-## Panic hardware for egress doors
-
-Exit doors in commercial occupancies require listed panic hardware that releases under pressure while maintaining security from the outside. Never substitute residential locksets on required egress openings.
-
-Hillman Door Supply and Door Repair supplies and installs commercial and residential door hardware across NYC. Call (718) 638-4271 for hardware upgrades matched to your openings.
-`,
-  },
-  {
-    slug: "structural-door-repair-vs-replacement",
-    title: "Structural Door Repair vs. Replacement: When to Fix the Frame",
-    metaTitle: "Door Frame Repair vs Replacement NYC",
-    excerpt:
-      "Sagging jambs, split stiles, and misaligned strikes — how to decide between structural repair and full door replacement.",
+      "Floor closers, pivots, and panic hardware fail first on Grove Street and Exchange Place storefronts. Here is how to repair them without shutting the shop.",
     category: "Repair",
     readMinutes: 6,
-    date: "2026-04-28",
-    heroImage: "/blog/structural-door-repair-vs-replacement-hero.png",
-    heroAlt: "Technician repairing a damaged door jamb in a NYC building",
-    secondaryImage: "/blog/structural-door-repair-vs-replacement-secondary.png",
-    secondaryAlt: "Before and after of a realigned door frame and hardware",
+    date: "2026-03-28",
+    heroImage: "/blog/storefront-repair-downtown-jersey-city-hero.webp",
+    heroAlt: "Aluminum glass storefront in downtown Jersey City",
+    secondaryImage: "/blog/storefront-repair-downtown-jersey-city-secondary.webp",
+    secondaryAlt: "Technician adjusting a commercial floor closer",
     body: `
-Not every sticking door needs a new slab. Many NYC buildings — especially pre-war masonry structures — develop frame movement, rot, and hardware wear that mimic door failure. Structural assessment before ordering a replacement saves money and preserves original materials when possible.
+Downtown Jersey City storefronts on Washington, Grove, and the waterfront run thousands of cycles a week. When the door drags or will not latch, the glass is rarely the first failure — the closer, pivot, or panic device is.
 
-## Signs the frame is the problem
+## Floor closers wear out in salt air
 
-- The door binds at the top or bottom but the slab looks straight
-- Visible gaps change seasonally as the building settles
-- Hinge screws pull out or hinges sit proud of the jamb
-- The strike no longer aligns despite hinge adjustment
-- Rot, swelling, or impact damage is visible on the jamb
+Hudson River weather and sidewalk grit chew through closer oil and spindles. Adjustment buys time; replacement restores a consistent swing.
 
-If multiple symptoms point to the frame, replacing the slab alone will not solve the problem.
+## Keep egress hardware honest
 
-## When repair is the durable path
+Never zip-tie a panic bar to “fix” a latch. Repair the rod, strike, or device so the door locks from the street and opens under pressure from inside.
 
-Localized rot, split casings, and misaligned strikes can often be repaired with jamb splices, epoxy consolidation, reinforced hinges, and new strike plates. Historic profiles can be preserved when damage is caught early.
+## After-hours work for retail
 
-## When replacement is necessary
+Most entrance replacements and closer swaps can be scheduled after close so the store stays open.
 
-Severe header failure, widespread rot, or frames that are out of square beyond shimming tolerance usually require jamb replacement or a pre-hung assembly. Fire-rated openings must be replaced with listed assemblies — repairs must not compromise the label.
+${BIZ.name} repairs aluminum and glass entrances from ${BIZ.address.full}, a few blocks from Grove Street PATH.
+`,
+  },
+  {
+    slug: "commercial-door-operator-maintenance",
+    title: "Commercial Door Operator Maintenance That Prevents Downtime",
+    metaTitle: "Commercial Door Operator Maintenance NJ",
+    excerpt:
+      "A warehouse door is only as reliable as its operator. Preventive service on motors, limits, and safety devices keeps Jersey City and Meadowlands openings online.",
+    category: "Hardware",
+    readMinutes: 6,
+    date: "2026-04-09",
+    heroImage: "/blog/commercial-door-operator-maintenance-hero.webp",
+    heroAlt: "Commercial door operator on a warehouse rolling door",
+    secondaryImage: "/blog/commercial-door-operator-maintenance-secondary.webp",
+    secondaryAlt: "Maintenance tools beside an industrial door operator",
+    body: `
+Most “door emergencies” we see in Hudson County start as ignored operator noise: a chain skip, a limit that drifted, a photo eye coated in dust. A short maintenance visit is cheaper than a bay that will not open for the morning trucks.
 
-## Emergency stabilization first
+## Limits and safety devices first
 
-Break-in damage and forced-entry failures need immediate security restoration. Temporary reinforcement and lock replacement protect the property while permanent frame repair is scheduled.
+If the door does not reverse on an obstruction, stop using it and call for service. Photo eyes and edges are not optional accessories.
 
-Hillman Door Supply and Door Repair provides structural door repair and frame rebuilds across Brooklyn, Manhattan, and Queens from 281 Flatbush Ave. Call (718) 638-4271 for assessment and a written scope.
+## Springs and cables are part of the operator story
+
+An operator fighting a broken spring will burn out. Inspect the balance of the door before blaming the motor.
+
+## Build a route for multi-door sites
+
+Meadowlands warehouses with a dozen docks should be on a written route — not a panic call for each opening.
+
+${BIZ.name} services commercial operators from ${BIZ.address.full}. Send the door count and photos for a maintenance plan.
 `,
   },
 ];
+
+const generatedPosts = (generated as BlogPost[]).filter((post) => post?.slug && post?.body);
+
+export const BLOG_POSTS: BlogPost[] = generatedPosts.length >= 6 ? generatedPosts : FALLBACK;
 
 export const BLOG_BY_SLUG: Record<string, BlogPost> = Object.fromEntries(
   BLOG_POSTS.map((post) => [post.slug, post])

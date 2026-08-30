@@ -13,14 +13,14 @@ export function Footer() {
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
           <Logo size="md" />
           <p className="mt-4 max-w-xs text-sm text-ink-300">
-            Door supply, installation, and structural repair for residential and commercial properties across
-            Brooklyn, Manhattan &amp; Queens — from our shop at {BIZ.address.street}.
+            Commercial overhead, rolling steel, dock, and storefront door systems across {BIZ.region} — from
+            {` ${BIZ.address.full}`}.
           </p>
           <div className="mt-3 flex flex-wrap justify-center gap-2 md:justify-start">
-            <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/30 bg-brass-500/10 px-3 py-1.5 text-xs font-semibold text-brass-300">
+            <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/30 bg-brass-500/10 px-3 py-1.5 font-mono text-[10px] font-semibold uppercase tracking-wider text-brass-300">
               <DoorOpen className="h-3.5 w-3.5" /> Written scopes
             </span>
-            <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300">
+            <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 font-mono text-[10px] font-semibold uppercase tracking-wider text-emerald-300">
               <Clock className="h-3.5 w-3.5" /> Mon–Sat service
             </span>
           </div>
@@ -88,7 +88,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-8 max-w-7xl px-4 text-center text-xs text-ink-300 md:mt-10 md:px-6 md:text-left">
-        © {new Date().getFullYear()} {BIZ.name}. All rights reserved. Serving Brooklyn, Manhattan &amp; Queens, New York.
+        © {new Date().getFullYear()} {BIZ.name}. All rights reserved. Serving {BIZ.region}.
       </div>
     </footer>
   );

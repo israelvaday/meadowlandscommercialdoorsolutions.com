@@ -22,6 +22,14 @@ export const AREAS_BY_SLUG: Record<string, Area> = Object.fromEntries(
 
 export const CITIES = AREAS.filter((a) => a.kind === "city");
 
+export function areaState(area: Area): "NJ" | "NY" {
+  return area.parent === "nyc" ? "NY" : "NJ";
+}
+
+export function areaPlace(area: Area): string {
+  return `${area.name}, ${areaState(area)}`;
+}
+
 function haversine(a: Area, b: Area): number {
   const R = 6371;
   const toRad = (d: number) => (d * Math.PI) / 180;

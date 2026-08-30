@@ -1,9 +1,9 @@
 "use client";
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { Search, MapPin, Crosshair, Loader2, AlertTriangle, CheckCircle2, Phone } from "lucide-react";
+import { Search, MapPin, Crosshair, Loader2, AlertTriangle, CheckCircle2, Mail, Phone } from "lucide-react";
 import type { Area } from "@/lib/areas";
-import { BIZ } from "@/lib/business";
+import { BIZ, hasPhone } from "@/lib/business";
 
 const METRO_BOUNDS = BIZ.metroBounds;
 
@@ -97,7 +97,7 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
           </button>
         </div>
         <p className="mt-2 text-center text-[11px] uppercase tracking-wider text-ink-500">
-          Optional location check · confirms whether you appear inside our NYC service area
+          Optional location check · confirms whether you appear inside our North Jersey service area
         </p>
       </div>
 
@@ -115,15 +115,21 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
       {loc.phase === "out_of_area" && (
         <div className="mx-auto mt-6 max-w-2xl rounded-2xl border border-amber-500/30 bg-amber-500/5 p-4 text-sm">
           <div className="flex items-center gap-2 font-bold text-amber-300">
-            <AlertTriangle className="h-4 w-4" /> Outside our NYC service zone
+            <AlertTriangle className="h-4 w-4" /> Outside our North Jersey service zone
           </div>
           <p className="mt-1 text-xs text-ink-300">
-            Your position appears outside our standard bounds. The check is approximate; call with the project address
+            Your position appears outside our standard bounds. The check is approximate; send the project address
             if you would like us to confirm coverage.
           </p>
-          <a href={BIZ.phoneHref} className="mt-3 inline-flex items-center gap-2 font-semibold text-brass-300">
-            <Phone className="h-4 w-4" /> Call {BIZ.phone}
-          </a>
+          {hasPhone ? (
+            <a href={BIZ.phoneHref} className="mt-3 inline-flex items-center gap-2 font-semibold text-brass-300">
+              <Phone className="h-4 w-4" /> Call {BIZ.phone}
+            </a>
+          ) : (
+            <a href={BIZ.emailHref} className="mt-3 inline-flex items-center gap-2 font-semibold text-brass-300">
+              <Mail className="h-4 w-4" /> Email {BIZ.email}
+            </a>
+          )}
         </div>
       )}
 
@@ -131,7 +137,7 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
         <div className="mx-auto mt-6 max-w-3xl rounded-2xl border border-emerald-500/30 bg-emerald-500/5 p-5">
           <div className="flex flex-wrap items-center gap-2 text-sm font-bold text-emerald-300">
             <CheckCircle2 className="h-4 w-4" />
-            You appear to be inside our Brooklyn, Manhattan &amp; Queens service area
+            You appear to be inside our North Jersey and NYC waterfront service area
           </div>
           <p className="mt-2 text-sm text-ink-300">
             Request a quote with your project address so we can confirm coverage and discuss scheduling.
@@ -140,9 +146,15 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
             <Link href="/quote" className="rounded-full bg-brass-500 px-4 py-2 text-sm font-bold text-ink-950">
               Request a quote
             </Link>
-            <a href={BIZ.phoneHref} className="inline-flex items-center gap-2 rounded-full border border-brass-500/50 px-4 py-2 text-sm font-bold text-brass-300">
-              <Phone className="h-4 w-4" /> Call {BIZ.phone}
-            </a>
+            {hasPhone ? (
+              <a href={BIZ.phoneHref} className="inline-flex items-center gap-2 rounded-full border border-brass-500/50 px-4 py-2 text-sm font-bold text-brass-300">
+                <Phone className="h-4 w-4" /> Call {BIZ.phone}
+              </a>
+            ) : (
+              <a href={BIZ.emailHref} className="inline-flex items-center gap-2 rounded-full border border-brass-500/50 px-4 py-2 text-sm font-bold text-brass-300">
+                <Mail className="h-4 w-4" /> Email
+              </a>
+            )}
           </div>
         </div>
       )}

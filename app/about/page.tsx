@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { ClipboardCheck, Clock, DoorOpen, MapPin, Package, Phone, Sparkles } from "lucide-react";
+import { ClipboardCheck, Clock, DoorOpen, Mail, MapPin, Package, Phone, Sparkles } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { FinalCTA } from "@/components/sections/FinalCTA";
@@ -8,7 +8,7 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
   title: `About ${BIZ.name}`,
-  description: `Learn how ${BIZ.name} approaches door supply, installation, structural repair, and hardware service across Brooklyn, Manhattan & Queens.`,
+  description: `Learn how ${BIZ.name} approaches commercial overhead, rolling steel, dock, and storefront door work from ${BIZ.address.full}.`,
   alternates: { canonical: `${BIZ.url}/about` },
 };
 
@@ -42,12 +42,12 @@ const APPROACH = [
 export default function AboutPage() {
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const inspiration = [
-    { slug: "residential-door-installation", label: "Residential door project inspiration" },
-    { slug: "commercial-door-installation", label: "Commercial door project inspiration" },
-    { slug: "custom-door-fabrication", label: "Custom door fabrication inspiration" },
+    { slug: "commercial-overhead-doors", label: "Commercial overhead door inspiration" },
+    { slug: "loading-dock-equipment", label: "Loading dock door inspiration" },
+    { slug: "storefront-entrances", label: "Storefront entrance inspiration" },
   ].map((item) => ({
     ...item,
-    src: `${base}/photos/service-hero-${item.slug}.png`,
+    src: `${base}/photos/service-hero-${item.slug}.webp`,
   }));
 
   return (
@@ -55,8 +55,8 @@ export default function AboutPage() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src={`${base}/photos/branding-generated--hero-hillman-door-nyc.png`}
-            alt="Door supply and installation project inspiration for a NYC property"
+            src={`${base}${BIZ.heroPhoto}`}
+            alt="Commercial overhead door project inspiration in Jersey City"
             fill
             sizes="100vw"
             className="object-cover"
@@ -70,8 +70,8 @@ export default function AboutPage() {
             Doors planned around <span className="text-brass-gradient">your opening</span>.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            We serve Brooklyn, Manhattan &amp; Queens with residential and commercial installation, custom fabrication,
-            hardware supply, structural repair, fire-rated doors, storefront systems, and emergency service.
+            We serve {BIZ.region} with commercial overhead doors, rolling steel, loading docks, high-speed doors,
+            fire-rated assemblies, hollow metal, operators, storefronts, and emergency commercial repair.
           </p>
           <div className="mt-7">
             <ContactCTA size="lg" />
@@ -96,7 +96,7 @@ export default function AboutPage() {
               <article key={label} className="rounded-2xl border border-ink-800 bg-ink-900/50 p-5">
                 <Icon className="h-5 w-5 text-brass-400" />
                 <div className="mt-3 text-sm text-ink-400">{label}</div>
-                <h3 className="font-display font-bold text-white">{value}</h3>
+                <h3 className="font-display font-bold text-ink-50">{value}</h3>
                 <p className="mt-2 text-sm text-ink-300">{body}</p>
               </article>
             ))}
@@ -141,9 +141,15 @@ export default function AboutPage() {
               Reach us during posted business hours or send a quote request whenever it is convenient.
             </p>
             <div className="mt-5 flex flex-wrap items-center justify-center gap-3 text-sm">
-              <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-900/70 px-3 py-1.5">
-                <Phone className="h-4 w-4 text-brass-400" /> {BIZ.phone}
-              </span>
+              {BIZ.phone ? (
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-900/70 px-3 py-1.5">
+                  <Phone className="h-4 w-4 text-brass-400" /> {BIZ.phone}
+                </span>
+              ) : (
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-900/70 px-3 py-1.5">
+                  <Mail className="h-4 w-4 text-brass-400" /> {BIZ.email}
+                </span>
+              )}
               <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-900/70 px-3 py-1.5">
                 <MapPin className="h-4 w-4 text-brass-400" /> {BIZ.address.full}
               </span>
@@ -158,7 +164,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <LongFormFaq subject="NYC Door Services" kind="service" />
+      <LongFormFaq subject="Commercial Door Services" kind="service" />
       <FinalCTA />
     </>
   );

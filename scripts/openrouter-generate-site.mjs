@@ -1,17 +1,18 @@
 /**
- * Generate Hillman Door Supply image assets and local door-service insights.
+ * Generate Meadowlands Commercial Door Solutions copy, area insights, and photos.
  *
  * Usage:
- *   node scripts/openrouter-generate-site.mjs --test [--force]
+ *   node scripts/openrouter-generate-site.mjs --copy [--force]
+ *   node scripts/openrouter-generate-site.mjs --areas [--force]
  *   node scripts/openrouter-generate-site.mjs --images-blog [--force]
  *   node scripts/openrouter-generate-site.mjs --images-gallery [--force]
  *   node scripts/openrouter-generate-site.mjs --images-brand [--force]
  *   node scripts/openrouter-generate-site.mjs --images-quote [--force]
- *   node scripts/openrouter-generate-site.mjs --areas [--force]
+ *   node scripts/openrouter-generate-site.mjs --test [--force]
  *   node scripts/openrouter-generate-site.mjs --all [--force]
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, join } from "node:path";
+import { dirname, join, extname } from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import {
@@ -23,179 +24,126 @@ import {
 } from "./openrouter-lib.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
-const BUSINESS_NAME = "Hillman Door Supply and Door Repair";
-const PHONE = "(718) 638-4271";
+const BUSINESS_NAME = "Meadowlands Commercial Door Solutions";
+const HQ = "333 Washington St, Jersey City, NJ 07302";
+const REGION = "Jersey City, Hudson County, the Meadowlands, and the NYC waterfront";
 const PHOTO_STYLE =
-  "Photorealistic professional door installation photographed on a full-frame camera, authentic NYC Brooklyn property, realistic materials and hardware, natural New York light, balanced editorial composition";
+  "Photorealistic commercial-industrial photography, Jersey City and North Jersey warehouse or storefront setting, authentic steel, concrete, and aluminum, cool daylight, no people faces in sharp close-up, editorial composition";
 const NO_TEXT =
   "No visible words, letters, labels, signs, logos, watermarks, captions, UI, or artificial CGI styling";
 
 const SERVICE_HEROES = [
   {
-    slug: "residential-door-installation",
+    slug: "commercial-overhead-doors",
     prompt:
-      "Professional door installer fitting a premium solid wood entry door in a Brooklyn brownstone, precise hinge alignment and clean job site",
+      "Commercial insulated sectional overhead door installed in a modern Jersey City warehouse bay, clean tracks and operator, daylight through high windows",
   },
   {
-    slug: "commercial-door-installation",
+    slug: "rolling-steel-doors",
     prompt:
-      "Professional crew installing a commercial hollow metal door in a modern NYC office corridor, organized tools and level frame",
+      "Heavy-duty rolling steel door partially open on a North Jersey industrial loading opening, galvanized slats and steel guides",
   },
   {
-    slug: "custom-door-fabrication",
+    slug: "loading-dock-equipment",
     prompt:
-      "Craftsman finishing a custom panel entry door in a workshop, rich wood grain and precision mortise hardware prep",
+      "Commercial loading dock with dock door, trailer seal, and concrete well at a Meadowlands warehouse, professional industrial lighting",
   },
   {
-    slug: "door-hardware-supply",
+    slug: "high-speed-doors",
     prompt:
-      "Close professional detail of commercial-grade lockset, hinges, and door closer arranged beside an installed NYC office door",
-  },
-  {
-    slug: "structural-door-repair",
-    prompt:
-      "Professional technician rebuilding a damaged door jamb in a pre-war NYC apartment, shims and level visible",
+      "High-speed fabric door installed in a logistics corridor, motion-blur suggestion of fast cycle, clean industrial interior",
   },
   {
     slug: "fire-rated-doors",
     prompt:
-      "UL-labeled fire-rated corridor door installed in a NYC apartment building hallway with self-closing hardware",
+      "Labeled fire-rated hollow metal corridor doors with closers in a Jersey City mixed-use commercial building hallway",
   },
   {
-    slug: "storefront-glass-doors",
+    slug: "hollow-metal-doors",
     prompt:
-      "Aluminum and glass storefront entrance door on a NYC retail shop, clean floor closer and polished hardware",
+      "Commercial hollow metal door and painted steel frame in a modern office-industrial corridor, vision lite and closer",
   },
   {
-    slug: "emergency-door-repair",
+    slug: "automatic-operators",
     prompt:
-      "Emergency door technician securing a damaged entry door after break-in on a Brooklyn building, professional tools",
+      "Close professional detail of a commercial jackshaft door operator mounted above a warehouse overhead door",
   },
   {
-    slug: "door-frame-jamb-repair",
+    slug: "storefront-entrances",
     prompt:
-      "Professional carpenter replacing a rotted door jamb in a NYC masonry opening, new casing and square frame",
+      "Aluminum and glass commercial storefront entrance on a downtown Jersey City street, polished hardware and floor closer",
   },
   {
-    slug: "security-access-doors",
+    slug: "security-grilles",
     prompt:
-      "Reinforced security entry door with multi-point lock installed on a NYC multifamily lobby entrance",
+      "Open rolling security grille on a commercial retail opening, steel lattice and side guides, urban storefront interior",
+  },
+  {
+    slug: "emergency-commercial-repair",
+    prompt:
+      "Commercial door technician tools beside a damaged warehouse overhead door off its track, organized emergency repair scene",
   },
 ];
 
 const BLOG_IMAGES = [
   {
-    slug: "choosing-entry-door-brooklyn-brownstone",
-    hero: "Premium solid wood entry door on a classic Brooklyn brownstone facade, warm natural light",
-    secondary: "Door technician measuring a historic Brooklyn entry opening with professional tools",
+    slug: "commercial-overhead-doors-jersey-city-warehouses",
+    hero: "Wide view of insulated commercial overhead doors on a Jersey City warehouse facade at golden hour",
+    secondary: "Technician inspecting overhead door tracks and torsion springs in a warehouse bay",
   },
   {
-    slug: "fire-rated-doors-nyc-multifamily",
-    hero: "Fire-rated corridor door with visible UL label in a NYC apartment building hallway",
-    secondary: "Self-closing door closer hardware on a fire-rated door assembly",
+    slug: "rolling-steel-vs-sectional-meadowlands",
+    hero: "Side-by-side industrial scene of a rolling steel door and a sectional overhead door in a Meadowlands warehouse",
+    secondary: "Close detail of rolling steel slats and a sectional door panel joint",
   },
   {
-    slug: "storefront-door-repair-nyc-retail",
-    hero: "Aluminum and glass storefront entrance door on a NYC retail shop at street level",
-    secondary: "Technician adjusting floor closer on a commercial glass entrance door",
+    slug: "fire-rated-doors-hudson-county",
+    hero: "Fire-rated corridor doors with closers in a Hudson County mixed-use commercial building",
+    secondary: "Close view of a fire door closer and labeled frame assembly",
   },
   {
-    slug: "interior-door-replacement-nyc-apartment",
-    hero: "New solid-core interior door installed in a renovated NYC apartment with clean white trim",
-    secondary: "Stack of pre-hung interior doors ready for apartment installation in Brooklyn",
+    slug: "high-speed-doors-logistics",
+    hero: "High-speed interior door in a Meadowlands logistics facility with pallet racking beyond",
+    secondary: "Safety sensors and control box beside a high-performance industrial door",
   },
   {
-    slug: "door-hardware-guide-nyc-buildings",
-    hero: "Commercial-grade lockset and door closer installed on a modern NYC office door",
-    secondary: "Assortment of heavy-duty hinges and locksets for door hardware upgrade",
+    slug: "storefront-repair-downtown-jersey-city",
+    hero: "Aluminum glass storefront entrance on a downtown Jersey City sidewalk",
+    secondary: "Technician adjusting a commercial floor closer on a glass entrance door",
   },
   {
-    slug: "structural-door-repair-vs-replacement",
-    hero: "Technician repairing a damaged door jamb and strike plate in a NYC building",
-    secondary: "Realigned door frame with fresh hardware and smooth door swing",
+    slug: "commercial-door-operator-maintenance",
+    hero: "Commercial door operator motor and chain on a warehouse rolling door",
+    secondary: "Preventive maintenance tools arranged beside an industrial door operator",
   },
 ];
 
 const GALLERY_IMAGES = [
-  {
-    file: "door-gallery--brooklyn-entry.png",
-    prompt: "Premium entry door installation on a Brooklyn townhouse with brass hardware and clean casing",
-  },
-  {
-    file: "door-gallery--commercial-corridor.png",
-    prompt: "Commercial hollow metal doors installed in a bright NYC office corridor",
-  },
-  {
-    file: "door-gallery--custom-wood-door.png",
-    prompt: "Custom solid wood panel door with rich stain finish in a NYC residential entry",
-  },
-  {
-    file: "door-gallery--storefront-glass.png",
-    prompt: "Aluminum storefront glass entrance doors on a NYC ground-floor retail space",
-  },
-  {
-    file: "door-gallery--fire-rated-hallway.png",
-    prompt: "Fire-rated apartment corridor doors with closers in a NYC multifamily building",
-  },
-  {
-    file: "door-gallery--interior-slabs.png",
-    prompt: "Professional installation of white solid-core interior doors in a renovated NYC apartment",
-  },
-  {
-    file: "door-gallery--hardware-detail.png",
-    prompt: "Close detail of premium door hardware including lockset, hinges, and closer on installed door",
-  },
-  {
-    file: "door-gallery--jamb-repair.png",
-    prompt: "Door frame jamb repair in progress on a pre-war NYC masonry opening",
-  },
-  {
-    file: "door-gallery--security-entry.png",
-    prompt: "Reinforced security entry door with multi-point lock on a NYC building lobby",
-  },
-  {
-    file: "door-gallery--warehouse-supply.png",
-    prompt: "Organized door supply warehouse with stacked door slabs and hardware racks, professional lighting",
-  },
-  {
-    file: "door-gallery--double-entry.png",
-    prompt: "Double entry door installation on a Brooklyn commercial building with ADA hardware",
-  },
-  {
-    file: "door-gallery--apartment-interior.png",
-    prompt: "Interior door replacement in a NYC apartment hallway with multiple new pre-hung doors",
-  },
-  {
-    file: "door-gallery--emergency-repair.png",
-    prompt: "Emergency door repair technician securing a damaged storefront door in NYC after hours",
-  },
-  {
-    file: "door-gallery--historic-restoration.png",
-    prompt: "Historic door profile restoration on a Brooklyn brownstone with matching original casing",
-  },
+  { file: "door-gallery--overhead-warehouse.webp", prompt: "Insulated commercial overhead sectional doors across a Jersey City warehouse dock face" },
+  { file: "door-gallery--rolling-steel.webp", prompt: "Rolling steel door fully installed on a North Jersey industrial opening" },
+  { file: "door-gallery--loading-dock.webp", prompt: "Loading dock door with trailer seal and bumper at a Meadowlands warehouse" },
+  { file: "door-gallery--high-speed.webp", prompt: "High-speed fabric door in a clean logistics corridor" },
+  { file: "door-gallery--fire-rated.webp", prompt: "Fire-rated commercial corridor doors in a Jersey City office building" },
+  { file: "door-gallery--hollow-metal.webp", prompt: "Hollow metal door with vision lite in a commercial plant corridor" },
+  { file: "door-gallery--operator.webp", prompt: "Commercial jackshaft operator mounted above an overhead warehouse door" },
+  { file: "door-gallery--storefront-jc.webp", prompt: "Aluminum storefront glass entrance on a downtown Jersey City retail space" },
+  { file: "door-gallery--security-grille.webp", prompt: "Rolling security grille protecting a commercial storefront opening" },
+  { file: "door-gallery--emergency.webp", prompt: "Emergency commercial door repair on a damaged warehouse overhead door" },
+  { file: "door-gallery--port-warehouse.webp", prompt: "Row of dock doors at a Port Newark-area warehouse at dusk" },
+  { file: "door-gallery--meadowlands-logistics.webp", prompt: "Meadowlands logistics warehouse with commercial overhead doors and truck court" },
+  { file: "door-gallery--jc-lobby.webp", prompt: "Modern Jersey City commercial lobby with aluminum entrance doors" },
+  { file: "door-gallery--dock-interior.webp", prompt: "Interior view of a commercial dock door from inside a warehouse" },
 ];
 
 const QUOTE_IMAGES = [
   ...SERVICE_HEROES.map(({ slug, prompt }) => ({
-    file: `${slug}.png`,
+    file: `${slug}.webp`,
     prompt: `Square website selection image, ${prompt}`,
   })),
-  {
-    file: "property-home.png",
-    prompt: "Square view of a premium residential entry door installation on a Brooklyn home",
-  },
-  {
-    file: "property-business.png",
-    prompt: "Square view of commercial door installation in a NYC office or retail space",
-  },
-  {
-    file: "property-multifamily.png",
-    prompt: "Square view of fire-rated corridor door replacement in a NYC apartment building",
-  },
-  {
-    file: "property-other.png",
-    prompt: "Square view of custom door fabrication and installation in a unique NYC opening",
-  },
+  { file: "property-warehouse.webp", prompt: "Square view of a North Jersey warehouse with commercial overhead dock doors" },
+  { file: "property-retail.webp", prompt: "Square view of a Jersey City retail storefront aluminum entrance" },
+  { file: "property-office.webp", prompt: "Square view of a commercial office corridor with hollow metal doors" },
+  { file: "property-other.webp", prompt: "Square view of an industrial plant door and rolling steel opening" },
 ];
 
 const BRAND_IMAGES = [
@@ -203,32 +151,33 @@ const BRAND_IMAGES = [
     path: "public/logo.png",
     logo: true,
     aspectRatio: "1:1",
+    keepPng: true,
     prompt:
-      "Professional navy and warm gold vector logo for Hillman Door Supply, centered stylized door panel with subtle HD monogram, premium geometric mark for NYC door company, strong contrast, plain background, no extra words, no watermark",
+      "Professional vector logo mark for Meadowlands Commercial Door Solutions, geometric rolling door and steel frame monogram MCDS, electric cyan #22D3EE on deep void black #030508, premium industrial-tech emblem, no extra words, no watermark, square",
   },
   {
-    path: "public/photos/branding-generated--hero-hillman-door-nyc.png",
+    path: "public/photos/branding-generated--hero-meadowlands.webp",
     aspectRatio: "16:9",
     prompt:
-      "Wide cinematic website hero of a professional door installer fitting a premium entry door in a Brooklyn brownstone, organized job site, open composition for page overlay",
+      "Wide cinematic website hero of a commercial overhead door installation at a modern Jersey City warehouse, organized job site, open composition for typography overlay",
   },
   {
-    path: "public/photos/branding-generated--nyc-service-map.png",
+    path: "public/photos/branding-generated--service-map.webp",
     aspectRatio: "16:9",
     prompt:
-      "Photorealistic tabletop service-area map visual showing Brooklyn Manhattan and Queens through unlabeled navy and gold location markers, door hardware samples nearby",
+      "Photorealistic tabletop map of Jersey City, Hudson County, and the Meadowlands with unlabeled cyan location markers and commercial door hardware samples nearby",
   },
   {
-    path: "public/about/about-hero.png",
+    path: "public/about/about-hero.webp",
     aspectRatio: "16:9",
     prompt:
-      "Wide editorial portrait of professional door installation team at work inside a bright Brooklyn property with door slabs and tools",
+      "Wide editorial photo of a commercial door crew working at a Jersey City warehouse dock, tools and door sections visible, no readable logos",
   },
   {
-    path: "public/about/about-workshop.png",
+    path: "public/about/about-workshop.webp",
     aspectRatio: "16:9",
     prompt:
-      "Professional door supply workshop with organized door slabs, hardware racks, and installation tools in a clean Brooklyn warehouse",
+      "Industrial commercial door shop with rolling steel slats, operators, and hardware racks in a clean North Jersey warehouse",
   },
 ];
 
@@ -239,11 +188,20 @@ function absolutePath(relativePath) {
 function writeBuffer(outPath, buffer) {
   mkdirSync(dirname(outPath), { recursive: true });
   writeFileSync(outPath, buffer);
-  console.log("Wrote", outPath.replace(ROOT, ""));
+  console.log("Wrote", outPath.replace(ROOT, "").replaceAll("\\", "/"));
 }
 
 function doorPrompt(prompt) {
-  return `${prompt}. Brand context: ${BUSINESS_NAME}, headquartered at 281 Flatbush Ave Brooklyn NY, serving NYC. ${PHOTO_STYLE}. ${NO_TEXT}.`;
+  return `${prompt}. Brand context: ${BUSINESS_NAME}, headquartered at ${HQ}, serving ${REGION}. ${PHOTO_STYLE}. ${NO_TEXT}.`;
+}
+
+async function toWebp(inputPath, outputPath) {
+  const { default: sharp } = await import("sharp");
+  await sharp(inputPath)
+    .rotate()
+    .resize({ width: 1600, withoutEnlargement: true })
+    .webp({ quality: 80, effort: 5 })
+    .toFile(outputPath);
 }
 
 async function generateAsset(key, imageModel, job, force) {
@@ -254,13 +212,32 @@ async function generateAsset(key, imageModel, job, force) {
   }
 
   const prompt = job.logo ? job.prompt : doorPrompt(job.prompt);
+  const wantsWebp = extname(job.path).toLowerCase() === ".webp";
   const buffer = await generateImage(key, prompt, {
     model: imageModel,
     aspect_ratio: job.aspectRatio ?? "16:9",
     resolution: job.resolution ?? "1K",
     quality: job.quality ?? "high",
+    output_format: job.keepPng || !wantsWebp ? "png" : "png",
   });
-  writeBuffer(outPath, buffer);
+
+  if (job.keepPng || !wantsWebp) {
+    writeBuffer(outPath, buffer);
+    return true;
+  }
+
+  const tmpPng = `${outPath}.tmp.png`;
+  writeBuffer(tmpPng, buffer);
+  try {
+    await toWebp(tmpPng, outPath);
+    const { rmSync } = await import("node:fs");
+    rmSync(tmpPng, { force: true });
+    console.log("Converted", job.path);
+  } catch (error) {
+    const { renameSync } = await import("node:fs");
+    renameSync(tmpPng, outPath.replace(/\.webp$/i, ".png"));
+    console.warn("WebP convert failed, kept PNG:", error instanceof Error ? error.message : error);
+  }
   return true;
 }
 
@@ -277,8 +254,8 @@ async function runAssetJobs(key, imageModel, jobs, force) {
 
 async function generateBlogImages(key, imageModel, force) {
   const jobs = BLOG_IMAGES.flatMap(({ slug, hero, secondary }) => [
-    { path: `public/blog/${slug}-hero.png`, prompt: hero, aspectRatio: "16:9" },
-    { path: `public/blog/${slug}-secondary.png`, prompt: secondary, aspectRatio: "16:9" },
+    { path: `public/blog/${slug}-hero.webp`, prompt: hero, aspectRatio: "16:9" },
+    { path: `public/blog/${slug}-secondary.webp`, prompt: secondary, aspectRatio: "16:9" },
   ]);
   await runAssetJobs(key, imageModel, jobs, force);
 }
@@ -304,34 +281,27 @@ async function generateQuoteImages(key, imageModel, force) {
 async function refreshLogoCopies(force) {
   const logoPath = absolutePath("public/logo.png");
   if (!existsSync(logoPath)) return;
-
-  const logo = readFileSync(logoPath);
   let sharp;
   try {
     ({ default: sharp } = await import("sharp"));
   } catch {
-    console.warn("Image resizer unavailable; logo copies will retain source dimensions");
+    console.warn("Image resizer unavailable; logo copies skipped");
+    return;
   }
-
   for (const size of [256, 512]) {
     const file = `logo-${size}.png`;
     const outPath = absolutePath(`public/${file}`);
     if (existsSync(outPath) && !force) continue;
-    if (sharp) {
-      await sharp(logoPath).resize(size, size, { fit: "contain" }).png().toFile(outPath);
-      console.log("Wrote", outPath.replace(ROOT, ""));
-    } else {
-      writeBuffer(outPath, logo);
-    }
+    await sharp(logoPath).resize(size, size, { fit: "contain" }).png().toFile(outPath);
+    console.log("Wrote", outPath.replace(ROOT, "").replaceAll("\\", "/"));
   }
 }
 
 async function generateBrandImages(key, imageModel, force) {
   await runAssetJobs(key, imageModel, BRAND_IMAGES, force);
   await refreshLogoCopies(force);
-
   const serviceJobs = SERVICE_HEROES.map(({ slug, prompt }) => ({
-    path: `public/photos/service-hero-${slug}.png`,
+    path: `public/photos/service-hero-${slug}.webp`,
     prompt: `Wide service-page hero, ${prompt}`,
     aspectRatio: "16:9",
   }));
@@ -344,8 +314,8 @@ async function generateTestImage(key, imageModel, force) {
     imageModel,
     [
       {
-        path: "public/photos/openrouter-test.png",
-        prompt: "Close professional detail of premium door hardware being installed on a solid wood door",
+        path: "public/photos/openrouter-test.webp",
+        prompt: "Close professional detail of a commercial overhead door operator and torsion spring",
         aspectRatio: "1:1",
       },
     ],
@@ -376,7 +346,7 @@ function normalizeAreaInsight(area, candidate, previous) {
   const exactName = area.name;
   const combined = `${tagline} ${neighborhoodNotes}`.toLocaleLowerCase();
   if (exactName && !combined.includes(exactName.toLocaleLowerCase())) {
-    neighborhoodNotes = `${exactName} door projects benefit from measurement suited to the property's age, frame condition, and code requirements. ${neighborhoodNotes}`.trim();
+    neighborhoodNotes = `${exactName} commercial door work is scoped around opening size, cycle count, and security. ${neighborhoodNotes}`.trim();
   }
 
   return {
@@ -404,16 +374,23 @@ async function refreshAreaInsights(key, chatModel, force) {
     console.log("Started area insights from a clean output");
   }
 
-  const system = `Write original local SEO data for ${BUSINESS_NAME}, a door supply, installation, and repair business headquartered at 281 Flatbush Ave Brooklyn NY serving Brooklyn, Manhattan, and Queens. Return only a JSON object keyed by the supplied slug. Each value must contain: tagline (14 words maximum), landmarks (exactly the supplied landmarks in the same order; only generate three accurate landmarks when none are supplied), common_calls (three concise door service requests), neighborhood_notes (two or three useful sentences about local building types, door conditions, hardware, or code requirements), and keywords (six or seven lowercase local door search phrases). Keep every supplied place name exact. Do not claim ratings, awards, or licensing. Discuss doors only.`;
+  const system = `Write original local SEO data for ${BUSINESS_NAME}, a commercial door contractor headquartered at ${HQ} serving ${REGION}. The trade is commercial: overhead sectional doors, rolling steel, loading docks, high-speed doors, fire-rated assemblies, hollow metal, operators, storefronts, security grilles, and emergency commercial repair. Do not write residential brownstone or interior closet-door copy. Return only a JSON object keyed by the supplied slug. Each value must contain: tagline (14 words maximum), landmarks (exactly the supplied landmarks in the same order; only generate three accurate landmarks when none are supplied), common_calls (three concise commercial door service requests), neighborhood_notes (two or three useful sentences about local building types, docks, wind, security, or code), and keywords (six or seven lowercase local commercial door search phrases). Keep every supplied place name exact. Do not claim ratings, awards, licensing, or 24/7 service.`;
   const batchSize = 8;
 
   for (let index = 0; index < areas.length; index += batchSize) {
     const batch = areas.slice(index, index + batchSize);
-    const request = batch.map((area) => ({
+    const pending = batch.filter((area) => force || !output[area.slug]?.neighborhood_notes);
+    if (!pending.length) {
+      console.log(`Area batch ${Math.floor(index / batchSize) + 1} already complete`);
+      continue;
+    }
+
+    const request = pending.map((area) => ({
       slug: area.slug,
       name: area.name,
       city: area.city,
       kind: area.kind,
+      parent: area.parent,
       landmarks: stringList(previous[area.slug]?.landmarks),
     }));
 
@@ -423,11 +400,11 @@ async function refreshAreaInsights(key, chatModel, force) {
         key,
         chatModel,
         system,
-        `Create door service insights for this exact JSON input:\n${JSON.stringify(request, null, 2)}`,
-        0.55
+        `Create unique commercial door service insights for this exact JSON input:\n${JSON.stringify(request, null, 2)}`,
+        0.7
       );
 
-      for (const area of batch) {
+      for (const area of pending) {
         const candidate = generated?.[area.slug];
         if (!candidate || typeof candidate !== "object") {
           console.error(`Missing generated insight for ${area.slug}`);
@@ -449,9 +426,79 @@ async function refreshAreaInsights(key, chatModel, force) {
   console.log(`Area insights: ${Object.keys(output).length}/${areas.length}`);
 }
 
+async function generateSiteCopy(key, chatModel, force) {
+  const servicesPath = absolutePath("content/services-copy.json");
+  const blogPath = absolutePath("content/blog.json");
+  const faqPath = absolutePath("content/faq.json");
+  const siteCopyPath = absolutePath("content/site-copy.json");
+
+  if (!force && existsSync(blogPath) && readJson(blogPath, []).length >= 6) {
+    console.log("Copy already present; pass --force to regenerate");
+    return;
+  }
+
+  const services = [
+    "commercial-overhead-doors",
+    "rolling-steel-doors",
+    "loading-dock-equipment",
+    "high-speed-doors",
+    "fire-rated-doors",
+    "hollow-metal-doors",
+    "automatic-operators",
+    "storefront-entrances",
+    "security-grilles",
+    "emergency-commercial-repair",
+  ];
+
+  console.log("Generating service copy");
+  const serviceCopy = await chatJson(
+    key,
+    chatModel,
+    `You write original commercial-door SEO copy for ${BUSINESS_NAME} at ${HQ}. Trade focus: commercial overhead, rolling steel, docks, high-speed, fire-rated, hollow metal, operators, storefronts, security grilles, emergency repair. Serving ${REGION}. Return JSON object keyed by slug. Each value: name, shortName, tagline (max 22 words), description (90-130 words, unique, keyword-rich, no claims of awards or 24/7), bullets (5 short strings), keywords (5 lowercase phrases). Mention Jersey City or Meadowlands or Hudson County naturally. No brownstone residential copy.`,
+    `Slugs: ${JSON.stringify(services)}`,
+    0.75
+  );
+  writeFileSync(servicesPath, `${JSON.stringify(serviceCopy, null, 2)}\n`);
+  console.log("Wrote services-copy.json");
+
+  console.log("Generating blog posts");
+  const blog = await chatJson(
+    key,
+    chatModel,
+    `Write original commercial door articles for ${BUSINESS_NAME} at ${HQ}. Return JSON { "posts": [ ... ] } with exactly 6 posts. Each post: slug (use these exact slugs), title, metaTitle, excerpt, category (one of Commercial, Hardware, Repair, Planning), readMinutes (number 6-9), date (2026-02-01 through 2026-03-12), heroImage, heroAlt, secondaryImage, secondaryAlt, body (markdown with 4-6 ## headings, 600-900 words, keyword-rich, unique, no awards, no 24/7 claims, mention ${HQ} once at the end with a quote CTA). Image paths must be /blog/{slug}-hero.webp and /blog/{slug}-secondary.webp.`,
+    `Slugs and topics:\n${BLOG_IMAGES.map((b) => b.slug).join("\n")}`,
+    0.8
+  );
+  const posts = Array.isArray(blog.posts) ? blog.posts : Array.isArray(blog) ? blog : [];
+  writeFileSync(blogPath, `${JSON.stringify(posts, null, 2)}\n`);
+  console.log(`Wrote blog.json (${posts.length} posts)`);
+
+  console.log("Generating FAQ");
+  const faq = await chatJson(
+    key,
+    chatModel,
+    `Write commercial door FAQs for ${BUSINESS_NAME} at ${HQ} serving ${REGION}. Return JSON { "heroAlt": string, "sections": [ { "id", "title", "emoji", "description", "items": [ { "q", "a" } ] } ] } with 4 sections (pricing, process, commercial, service-area) and 4 items each. Unique, keyword-rich, no awards, no 24/7. heroAlt describes a Jersey City warehouse overhead door photo.`,
+    "Create the FAQ object now.",
+    0.7
+  );
+  writeFileSync(faqPath, `${JSON.stringify(faq, null, 2)}\n`);
+  console.log("Wrote faq.json");
+
+  console.log("Generating site copy");
+  const siteCopy = await chatJson(
+    key,
+    chatModel,
+    `Write homepage/about/contact/glossary/buyers-guide copy for ${BUSINESS_NAME} at ${HQ}. Return JSON with keys: heroEyebrow, heroTitleHtml (may include a <span class="text-brass-gradient"> phrase), heroBody, heroChips (6 short service chips), aboutLead, contactLead, glossaryTitle, glossaryIntro, glossary (array of {term, definition} length 8, commercial door terms), buyersTitle, buyersIntro, buyers (array of 6 {title, body}). Unique, keyword-rich, commercial-only, no awards.`,
+    "Create the site-copy object now.",
+    0.7
+  );
+  writeFileSync(siteCopyPath, `${JSON.stringify(siteCopy, null, 2)}\n`);
+  console.log("Wrote site-copy.json");
+}
+
 function printUsage() {
   console.log(
-    "Pass --test, --images-blog, --images-gallery, --images-brand, --images-quote, --areas, or --all. Add --force to replace existing output."
+    "Pass --copy, --areas, --test, --images-blog, --images-gallery, --images-brand, --images-quote, or --all. Add --force to replace existing output."
   );
 }
 
@@ -459,6 +506,7 @@ async function main() {
   const args = process.argv.slice(2);
   const validFlags = new Set([
     "--test",
+    "--copy",
     "--images-blog",
     "--images-gallery",
     "--images-brand",
@@ -488,9 +536,12 @@ async function main() {
   const all = args.includes("--all");
   const chatModel = process.env.OPENROUTER_CHAT_MODEL || "google/gemini-2.5-flash";
   const imageModel =
-    process.env.OPENROUTER_IMAGE_MODEL || "google/gemini-2.5-flash-image-preview";
+    process.env.OPENROUTER_IMAGE_MODEL || "google/gemini-3-pro-image-preview";
   let productionImagesChanged = false;
 
+  if (all || args.includes("--copy")) {
+    await generateSiteCopy(key, chatModel, force);
+  }
   if (args.includes("--test")) {
     await generateTestImage(key, imageModel, force);
   }
@@ -515,7 +566,7 @@ async function main() {
   }
 
   if (productionImagesChanged) {
-    console.log("Rebuilding door photo catalog");
+    console.log("Rebuilding commercial door photo catalog");
     execFileSync(process.execPath, [absolutePath("scripts/rebuild-photos-gallery.mjs")], {
       cwd: ROOT,
       stdio: "inherit",

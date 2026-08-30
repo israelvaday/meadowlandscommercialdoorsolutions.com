@@ -14,7 +14,7 @@ function CollapsibleQ({ q, children }: { q: string; children: ReactNode }) {
         aria-expanded={open}
         className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left transition hover:bg-ink-900/60 md:px-6"
       >
-        <span className="font-display text-base font-bold text-white md:text-lg">{q}</span>
+        <span className="font-display text-base font-bold text-ink-50 md:text-lg">{q}</span>
         <ChevronDown
           className={`h-5 w-5 shrink-0 text-brass-400 transition-transform ${open ? "rotate-180" : ""}`}
         />
@@ -33,16 +33,16 @@ function CollapsibleQ({ q, children }: { q: string; children: ReactNode }) {
 }
 
 export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" | "service" }) {
-  const place = kind === "area" ? subject : "Brooklyn, Manhattan & Queens";
+  const place = kind === "area" ? subject : BIZ.region;
   const topic =
-    kind === "area" ? `door work in ${subject}` : `${subject.toLowerCase()} across NYC`;
+    kind === "area" ? `commercial door work in ${subject}` : `${subject.toLowerCase()} across ${BIZ.regionShort}`;
 
   return (
     <section className="border-t border-ink-800 py-16">
       <div className="mx-auto max-w-3xl space-y-4 px-4 md:px-6">
         <header className="mb-6">
           <p className="text-xs font-semibold uppercase tracking-wider text-brass-400">In depth</p>
-          <h2 className="mt-2 font-display text-2xl font-bold text-white md:text-3xl">
+          <h2 className="mt-2 font-display text-2xl font-bold text-ink-50 md:text-3xl">
             Questions about {topic}
           </h2>
           <p className="mt-3 text-sm text-ink-200 md:text-base">
@@ -60,9 +60,9 @@ export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" |
 
         <CollapsibleQ q="When is a fire-rated door required?">
           <p>
-            Multifamily, commercial, and mixed-use buildings in NYC often require UL-listed fire door assemblies in
-            corridors, stairwells, and certain tenant separations. The written scope should identify the required label,
-            self-closing hardware, and smoke-seal components.
+            Hudson County mixed-use towers, Newark warehouses, and Jersey City commercial floors often require
+            UL-listed fire door assemblies in corridors, stairs, and occupancy separations. The written scope should
+            identify the required label, self-closing hardware, and smoke-seal components.
           </p>
         </CollapsibleQ>
 
@@ -84,17 +84,17 @@ export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" |
 
         <CollapsibleQ q="How should I measure for a new door?">
           <p>
-            Accurate on-site measurement accounts for jamb width, header height, floor clearance, swing direction, and
-            existing casing. Pre-war and masonry buildings often need field verification before ordering a slab or
-            custom fabrication.
+            Accurate on-site measurement accounts for opening width, height, headroom, sideroom, and operator
+            clearance. Warehouse docks and storefronts often need field verification before ordering a curtain, panel,
+            or entrance pair.
           </p>
         </CollapsibleQ>
 
-        <CollapsibleQ q="How do NYC building conditions affect door work?">
+        <CollapsibleQ q="How do Hudson County conditions affect commercial doors?">
           <p>
-            Settlement, humidity swings, masonry movement, and high-traffic use can affect how doors hang and latch.
-            A responsible scope accounts for the building type — brownstone, loft, multifamily, or storefront — instead
-            of assuming a standard rough opening.
+            Hudson River wind, salt air, dock traffic, and high-rise stack effect affect how commercial doors cycle
+            and seal. A responsible scope accounts for the building type — warehouse, storefront, office, or plant —
+            instead of assuming a catalog opening.
           </p>
         </CollapsibleQ>
 
@@ -102,7 +102,7 @@ export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" |
           <p>
             The closeout plan should cover removal of old doors and debris, hardware testing, latch alignment, and a
             walkthrough against the written scope. Any agreed adjustments should be documented before the project is
-            considered complete. Call {BIZ.phone} to discuss your project in {place}.
+            considered complete. Request a quote to discuss your project in {place}.
           </p>
         </CollapsibleQ>
       </div>
