@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /thank-you
+
+Host: https://meadowlandscommercialdoorsolutions.com
+Sitemap: https://meadowlandscommercialdoorsolutions.com/sitemap.xml
